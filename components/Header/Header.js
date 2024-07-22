@@ -14,6 +14,15 @@ const Header = () => {
   const [dropdownResources, setDropdownResources] = useState(false)
   const [dropdownDomainAreas, setDropdownDomainAreas] = useState(false)
 
+  const closeAllDropdowns = () => {
+    setDropdownAbout(false)
+    setDropdownSol(false)
+    setDropdownSocialBusiness(false)
+    setDropdownCollab(false)
+    setDropdownResources(false)
+    setDropdownDomainAreas(false)
+  }
+
   const toggleDropdown = (dropdownSetter) => {
     dropdownSetter((prev) => !prev)
   }
@@ -136,6 +145,7 @@ const Header = () => {
                 <ul
                   className="py-2 text-sm text-gray-700 dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton"
+                  onClick={closeAllDropdowns}
                 >
                   <li>
                     <Link
@@ -206,6 +216,7 @@ const Header = () => {
                 <ul
                   className="py-2 text-sm text-gray-700 dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton"
+                  onClick={closeAllDropdowns}
                 >
                   <li>
                     <Link
@@ -260,6 +271,7 @@ const Header = () => {
                 <ul
                   className="py-2 text-sm text-gray-700 dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton"
+                  onClick={closeAllDropdowns}
                 >
                   <li>
                     <Link
@@ -392,6 +404,7 @@ const Header = () => {
                 <ul
                   className="py-2 text-sm text-gray-700 dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton"
+                  onClick={closeAllDropdowns}
                 >
                   <li>
                     <Link
@@ -446,6 +459,7 @@ const Header = () => {
                 <ul
                   className="py-2 text-sm text-gray-700 dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton"
+                  onClick={closeAllDropdowns}
                 >
                   <li>
                     <Link
