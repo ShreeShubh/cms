@@ -7,7 +7,7 @@ const Tab = () => {
   const [isActive, setIsActive] = useState(1)
 
   return (
-    <div className="bg-[#E8E8E8]">
+    <div className="bg-[#D7EEE8]">
       <ul className="max-w-screen-xl mx-auto flex items-center">
         {livelihoodTabs.map((item) => {
           return (
@@ -15,7 +15,7 @@ const Tab = () => {
               <button
                 className={`py-3 px-6 text-lg ${
                   isActive === item.id
-                    ? 'bg-cms-secondary-gray text-cms-primary-gray border-b-2 border-cms-primary-gray'
+                    ? 'bg-[#98D5C5] text-cms-primary-gray border-b-2 border-cms-primary-green'
                     : ''
                 }`}
                 onClick={() => setIsActive(item.id)}

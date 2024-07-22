@@ -349,3 +349,180 @@ export const ethosData = [
     desc: 'Small producers, on their own, find it difficult to access and thrive in the marketplace, given the scale, quality, investment, skills, and expertise required. Therefore, a business service organisation partnership with entities like Vrutti and Fuzhio is critical for their betterment.',
   },
 ]
+
+export const ourAppData = [
+  {
+    id: 1,
+    iconUrl: '/domainAreas/livelihood/icon.png',
+    desc: 'Ensuring small producers receive reasonable prices for the risk and effort they put into the value chain.',
+  },
+  {
+    id: 2,
+    iconUrl: '/domainAreas/livelihood/icon.png',
+    desc: 'Maximising the proportion of the consumer pie and reaching small producers',
+  },
+  {
+    id: 3,
+    iconUrl: '/domainAreas/livelihood/icon.png',
+    desc: 'Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur.',
+  },
+  {
+    id: 4,
+    iconUrl: '/domainAreas/livelihood/icon.png',
+    desc: 'Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur.',
+  },
+  {
+    id: 5,
+    iconUrl: '/domainAreas/livelihood/icon.png',
+    desc: 'Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur.',
+  },
+]
+
+export const weWorkData = [
+  {
+    id: 1,
+    desc: 'By building capacities for various actors (internal and external) based on market opportunities and institutional architecture.',
+  },
+  {
+    id: 2,
+    desc: 'By facilitating appropriate financial services throughout the value chain—incubation, production, processing, marketing, and so on.',
+  },
+  {
+    id: 3,
+    desc: 'By forging business partnerships and orchestrating a range of solutions.',
+  },
+  {
+    id: 4,
+    desc: 'By providing technical support—value chain studies, landscape studies, feasibility studies, business planning, hand-holding and mentoring support, institutional diagnosis and assessments, quality assurance systems, technology products, etc.',
+  },
+]
+
+export const weWorkImpactData = [
+  {
+    id: 1,
+    imageUrl: '/domainAreas/livelihood/weWork/image01.png',
+    title: 'Vrutti,',
+    color: '#00AE8E',
+    desc: 'which has a strong grassroot presence and domain expertise, works on the mobilisation and institutionalisation (institutions and clusters) of small producers in order to build their collective agency and supply chain readiness.',
+  },
+  {
+    id: 2,
+    imageUrl: '/domainAreas/livelihood/weWork/image02.png',
+    title: 'Fuzhio,',
+    color: '#6E170C',
+    desc: 'specialises in marketing, bringing market opportunities to entrepreneurs, and developing a market-ready supply chain.',
+  },
+  {
+    id: 3,
+    imageUrl: '/domainAreas/livelihood/weWork/image03.png',
+    title: 'The GREEN Foundation,',
+    color: '#00AE8E',
+    desc: 'has a strong expertise in biodiversity and conservation, works to promote sustainable, climate-friendly practices.',
+  },
+]
+
+export const weWorkInitiativesData = [
+  {
+    id: 1,
+    imageUrl: '/domainAreas/livelihood/weWork/initiatives/image01.png',
+    desc: 'Working with Vrutti, the 3-Fold model aims at building wealth, resilience, and responsibility for smallholder farmers by working end-to-end on five major value chains. This model delivers six key services, customised and bundled, to the farmers. This programme has been working in six states with over 70,000 small and marginal farmers through 29 Farmer Producer Organisations (FPOs).',
+  },
+  {
+    id: 2,
+    imageUrl: '/domainAreas/livelihood/weWork/initiatives/image02.png',
+    desc: 'Walmart Vriddhi Supplier Development Program – Working with Walmart, the Walmart Vriddhi program works with 50,000 Micro, Small and Medium Enterprises (MSMEs) in India to expand their domestic capabilities and participate in the global economy. It offers on-demand learning and personalised mentoring for MSMEs, as well as onboarding and incubation support on Flipkart and Walmart Marketplaces.',
+  },
+  {
+    id: 3,
+    imageUrl: '/domainAreas/livelihood/weWork/initiatives/image03.png',
+    desc: 'Working with SEWA Bharat, we are providing mentoring support for strengthening Bihar’s only women-led Karnabhoomi Farmer Producer Company, set up in 2018 by 750 women shareholders across two districts: Munger and Bhagalpur.',
+  },
+]
+
+export const catalystGroupData = [
+  {
+    id: 1,
+    no: '01.',
+    title: 'People focus and reach:',
+    desc: 'With decades of experience working with vulnerable communities, we have a deep understanding of the socio-economic canvas of vulnerable communities. We believe in working for and with vulnerable communities. Our collaborative approach ensures that climate solutions are co-created with the people they directly impact, making our efforts more effective and sustainable. We work through communities and institutions, enabling collective agencies to navigate the complex climate ecosystem and empowering their role in shaping climate solutions. We directly reach 2 million vulnerable people and another 20 million through our partners across India.',
+  },
+  {
+    id: 2,
+    no: '02.',
+    title: 'Multi-Sectoral Integration:',
+    desc: 'We go beyond a siloed approach by integrating our Climate Practice closely with Health, ESG and Livelihood practice areas. This holistic approach recognises that climate, health, and livelihoods are interconnected, and addressing one area often positively impacts the others. Our approach ensures a fair and equitable shift to sustainable practices, safeguarding community well-being.',
+  },
+  {
+    id: 3,
+    no: '03.',
+    title: 'Innovation:',
+    desc: 'We design innovative, people-focused climate solutions that address the specific needs of vulnerable communities. Our ability to adapt and create tailored solutions is a key strength. We actively promote solutions worldwide, accelerating the adoption of sustainability practices. We have already built innovative tools and approaches to solve climate issues - in plastics, in environmental surveillance, and in regen agriculture; all amenable to scale. And ready to co-create new solutions.',
+  },
+  {
+    id: 4,
+    no: '04.',
+    title:
+      'Range of assets we have built, which can be used for climate response',
+    desc: 'Our network of partners (Private sector, NGOs, Government, academic, technology companies), our established community focused tools (Know Your Resilience), established approaches (Health and climate planning), our coalitions and networks (Community Action Collab, Green Health Alliance, etc) are all assets we will be able to leverage.',
+  },
+]
+
+export const howDoWeWorkData = [
+  {
+    id: 1,
+    no: '01.',
+    title: 'Thought:',
+    desc: 'We design innovative, people-focused climate-smart solutions and innovations to address the unique challenges faced by vulnerable communities.',
+  },
+  {
+    id: 2,
+    no: '02.',
+    title: 'Action:',
+    desc: 'We provide solutions, technical assistance, network building, and resource mobilization to put our climate solutions into action.',
+  },
+  {
+    id: 3,
+    no: '03.',
+    title: 'Transformation:',
+    desc: 'Our goal is to create climate-resilient pathways, achieve Net Zero by working closely with a range of stakeholders in the ecosystem to improve policies and practices.',
+  },
+]
+
+export const keyDomainData = [
+  {
+    id: 1,
+    imageUrl: '/domainAreas/health/keyDomain/image01.png',
+    title: 'Comprehensive Primary Health',
+    desc: 'The domain is based on the core understanding that unless we address how the health system is experienced, a life of well-being may remain a distant dream for the marginalised. Sector shaping work through Invest4Wellness (i4We), a system innovation in primary healthcare and Comprehensive Primary Health Care (CPHC) Alliance to help propel the agenda of strengthening primary health care.',
+  },
+  {
+    id: 2,
+    imageUrl: '/domainAreas/health/keyDomain/image02.png',
+    title: 'Early Diagnosis',
+    desc: 'The domain focuses on detecting and monitoring symptoms, health concerns, and disease trends as early as possible using point-of-care devices and building capacities of the communities to have control of their own health. Sector shaping work through self-testing initiatives, screening & testing, and integrated disease surveillance for community health',
+  },
+  {
+    id: 3,
+    imageUrl: '/domainAreas/health/keyDomain/image03.png',
+    title: 'Technology & Digital Health',
+    desc: 'Through this domain, we focus on using and providing the appropriate technology solutions to enable vulnerable groups to achieve health and well-being. Sector shaping work through Call4Svasth, telecare for the vulnerable, using point-of-care diagnostics in our community health interventions, and DICEFlow for our primary healthcare work',
+  },
+  {
+    id: 4,
+    imageUrl: '/domainAreas/health/keyDomain/image04.png',
+    title: 'SRHR & Maternal Health',
+    desc: 'Our initiatives under this domain empower adolescent girls, women, and sexual minorities to protect their health and rights. Sector shaping work through SHE Platform to Scale-up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 and membership at Asia Pacific Alliance for SRHR',
+  },
+  {
+    id: 5,
+    imageUrl: '/domainAreas/health/keyDomain/image05.png',
+    title: 'One Health + Planetary Health',
+    desc: 'The ‘One Health’ approach requires the coordination of human, animal, & environmental health partners for successful public health interventions. We can no longer ignore the impact of climate change on human health & we need to make all health programs more climate responsive. Sector shaping work through Precision Health Platform, surveillance using environmental tools and Green Health Alliance',
+  },
+  {
+    id: 6,
+    imageUrl: '/domainAreas/health/keyDomain/rectangle.svg',
+    title: 'Global Health Security & Pandemic Response',
+    desc: 'The domain focus on building system and finances that are located and secured towards improving global health security - particularly preparedness. Sector shaping work early warning systems for COVID surveillance and COVID response and Global Vaccine Initiative',
+  },
+]

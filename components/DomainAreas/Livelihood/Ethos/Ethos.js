@@ -5,7 +5,7 @@ import React from 'react'
 const Ethos = () => {
   return (
     <div className="flex mt-10 me-16">
-      <div className="bg-cms-primary text-white ps-16 pe-10 py-10 w-[400px]">
+      <div className="bg-cms-primary text-white ps-16 pe-10 py-10 w-[707px]">
         <h1 className="text-3xl font-semibold mb-6">Our Ethos</h1>
         <p className="text-lg">
           Strengthening small producers and their livelihoods at a national
