@@ -5,9 +5,9 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <div className="mb-10">
+      <div className="mb-12">
         <Image
-          src="/banner/banner01.png"
+          src="/domainAreas/banner.png"
           width={1366}
           height={340}
           className="w-full"

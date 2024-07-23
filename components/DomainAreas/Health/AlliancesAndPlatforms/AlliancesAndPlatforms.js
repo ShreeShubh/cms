@@ -1,0 +1,105 @@
+import { alliancesAndPlatformsData, keyInitiativesData } from '@/utils/data'
+import Image from 'next/image'
+import React from 'react'
+
+const AlliancesAndPlatforms = () => {
+  return (
+    <div className="flex me-16">
+      <div className="bg-cms-primary text-white">
+        <div className="w-[400px]">
+          <h1 className="text-3xl font-semibold mb-6 ps-16 pe-10 py-10">
+            Alliances and <br /> Platforms
+          </h1>
+        </div>
+      </div>
+      <div className="">
+        <div className="flex flex-col items-start justify-center h-full py-5 gap-7 ps-20 pe-16">
+          <h3 className="text-2xl text-[#1A1A1A]">
+            Creating impact, orchestrating results, and shaping the sector of
+            primary health care, environmental health, and climate change
+            through our platforms and multi-partner alliances
+          </h3>
+
+          <ul className="flex flex-wrap gap-5 w-10/12">
+            <li>
+              <Image
+                src="/domainAreas/health/alliances/image01.png"
+                width={180}
+                height={90}
+                alt=""
+              />
+            </li>
+            <li>
+              <Image
+                src="/domainAreas/health/alliances/image02.png"
+                width={180}
+                height={90}
+                alt=""
+              />
+            </li>
+            <li>
+              <Image
+                src="/domainAreas/health/alliances/image03.png"
+                width={180}
+                height={90}
+                alt=""
+              />
+            </li>
+            <li>
+              <Image
+                src="/domainAreas/health/alliances/image04.png"
+                width={180}
+                height={90}
+                alt=""
+              />
+            </li>
+            <li>
+              <Image
+                src="/domainAreas/health/alliances/image05.png"
+                width={180}
+                height={90}
+                alt=""
+              />
+            </li>
+          </ul>
+
+          <div className="space-y-2">
+            <p className="text-lg text-[#404040]">
+              The practice area has representation under some of the most <br />
+              prestigious boards and panels:
+            </p>
+
+            <ul className="grid grid-cols-2 gap-2 w-10/12">
+              {alliancesAndPlatformsData.map((item) => {
+                return (
+                  <li key={item.id} className="bg-cms-secondary p-3 w-[352px]">
+                    <p className="text-lg text-[#1A1A1A]">{item.title}</p>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+
+          <p className="text-lg text-[#404040]">
+            PIVOTING TOWARDS CLIMATE-RESPONSIVE HEALTHY DAYS
+          </p>
+
+          <div>
+            <p className="text-cms-primary text-lg font-semibold">
+              #100MillionHealthyDays
+            </p>
+            <p className="text-lg text-[#404040]">
+              Building stronger evidence on measuring healthy days.
+            </p>
+          </div>
+
+          <button className="px-8 py-4 bg-cms-primary text-white">
+            contactus@catalysts.org
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default AlliancesAndPlatforms

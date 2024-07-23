@@ -1,4 +1,7 @@
+import AlliancesAndPlatforms from '@/components/DomainAreas/Health/AlliancesAndPlatforms/AlliancesAndPlatforms'
 import KeyDomain from '@/components/DomainAreas/Health/KeyDomain/KeyDomain'
+import KeyInitiatives from '@/components/DomainAreas/Health/KeyInitiatives/KeyInitiatives'
+import KeyInitiatives02 from '@/components/DomainAreas/Health/KeyInitiatives/KeyInitiatives02/KeyInitiatives02'
 import Tab from '@/components/DomainAreas/Livelihood/Tab/Tab'
 import Overview from '@/components/DomainAreas/Overview/Overview'
 import Image from 'next/image'
@@ -13,7 +16,7 @@ const page = () => {
         <div className="max-w-screen-xl mx-auto flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">
             <Image
-              src="/domainAreas/climate/logo.png"
+              src="/domainAreas/health/logo.png"
               height={256}
               width={170}
               alt="logo"
@@ -26,6 +29,11 @@ const page = () => {
       <Tab />
       <Overview desc={overviewDesc} />
       <KeyDomain />
+      <KeyInitiatives />
+      <div className="bg-cms-secondary-green">
+        <KeyInitiatives02 />
+      </div>
+      <AlliancesAndPlatforms />
     </>
   )
 }
