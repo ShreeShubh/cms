@@ -1,15 +1,50 @@
-import Tab from '@/components/DomainAreas/Livelihood/Tab/Tab'
-import Overview from '@/components/DomainAreas/Overview/Overview'
-import WorkforceWellbeing from '@/components/DomainAreas/WorkforceWellbeing/WorkforceWellbeing'
-import Image from 'next/image'
-import React from 'react'
+import Overview from "@/components/DomainAreas/Overview/Overview"
+import WorkforceWellbeing from "@/components/DomainAreas/WorkforceWellbeing/WorkforceWellbeing"
+import Header from "@/components/Header/Header"
+import Tab from "@/components/Tab/Tab"
+import Image from "next/image"
+import React from "react"
+
+export const tabs = [
+  {
+    id: 1,
+    tab: "Overview",
+    link: "overview",
+  },
+  {
+    id: 2,
+    tab: "Our Beliefs",
+    link: "ourBeliefs",
+  },
+  {
+    id: 3,
+    tab: "Our Approaches",
+    link: "ourApproaches",
+  },
+  {
+    id: 4,
+    tab: "How Do We Work?",
+    link: "howDoWeWork",
+  },
+  {
+    id: 5,
+    tab: "Investing for Impact",
+    link: "investingForImpact",
+  },
+  {
+    id: 6,
+    tab: "Related Resources",
+    link: "relatedResources",
+  },
+]
 
 const page = () => {
   const overviewDesc =
-    'Our Wellbeing for Workforce practise strives to make wellbeing a reality for the first mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of Workers, their families and communities.'
+    "Our Wellbeing for Workforce practise strives to make wellbeing a reality for the first mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of Workers, their families and communities."
   return (
     <>
-      <div className="bg-[url('/domainAreas/climate/banner.png')] bg-cover h-[600px]">
+      <div className="bg-[url('/domainAreas/workforce/banner.png')] h-[640px] bg-center bg-cover pt-5 pb-14">
+        <Header />
         <div className="max-w-screen-xl mx-auto flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">
             <Image
@@ -23,7 +58,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab />
+      <Tab tabs={tabs} />
       <Overview desc={overviewDesc} />
       <WorkforceWellbeing />
     </>

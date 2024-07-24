@@ -263,39 +263,6 @@ export const domainAreasData = [
   },
 ]
 
-export const livelihoodTabs = [
-  {
-    id: 1,
-    tab: "Overview",
-    link: "overview",
-  },
-  {
-    id: 2,
-    tab: "Our Beliefs",
-    link: "ourBeliefs",
-  },
-  {
-    id: 3,
-    tab: "Our Approaches",
-    link: "ourApproaches",
-  },
-  {
-    id: 4,
-    tab: "How Do We Work?",
-    link: "howDoWeWork",
-  },
-  {
-    id: 5,
-    tab: "Investing for Impact",
-    link: "investingForImpact",
-  },
-  {
-    id: 6,
-    tab: "Related Resources",
-    link: "relatedResources",
-  },
-]
-
 export const investmentData = [
   {
     id: 1,
@@ -654,17 +621,33 @@ export const socialBusinessesData = [
     id: 1,
     imageUrl: "/socialBusinesses/image01.png",
     logoUrl: "/socialBusinesses/logo01.png",
-    title: "",
-    desc: "The Farmers’ Producer Companies (FPCs) play a pivotal role in aggregating shareholder demand and products. However, the FPCs face significant challenges, such as poor quality of produce, unplanned growth of producer institutions, limited access to enterprise financing and inadequate support through agencies.",
-    path: "/domain-areas/livelihood",
+    title: "Catalyst Livelihood Ventures",
+    desc: "Catalyst Livelihood Ventures CLV Farm is an agri-marketing initiative that works with smallholder farmers to improve produce quality and procure their commodities, facilitated by the FPC. CLV sells these commodities to large buyers and brands at a premium generated through value-added activities, ensuring the farmers receive fair compensation for their risk and effort while generating adequate profits for CMS.",
+    path: "/social-businesses/catalyst-livelihood-ventures",
   },
   {
     id: 2,
     imageUrl: "/socialBusinesses/image02.png",
     logoUrl: "/socialBusinesses/logo02.png",
-    title: "",
+    title: "G1",
     desc: "Business Catalyst partners with MSMEs to help them expand and enhance their operations. By tackling specific challenges and offering customized solutions, we aim to empower these businesses to reach their full potential. Through individual consultations, we tailor our support to meet the unique needs of each MSME. Our services range from capacity building to technical support, all designed to boost profitability and overcome growth barriers. Learn more about how Business Catalyst can transform your business.",
-    path: "/domain-areas/health",
+    path: "/social-businesses/g1",
+  },
+  {
+    id: 3,
+    imageUrl: "/socialBusinesses/image03.png",
+    logoUrl: "/socialBusinesses/logo02.png",
+    title: "Business Catalyst",
+    desc: "We aim to help businesses, particularly MSMEs, achieve growth and profitability by increasing turnover and creating a sustainable expansion strategy. Our approach includes reducing costs through minimised credit expenses, leveraging government schemes, and risk mitigation; improving supply chains by enhancing processes and making strategic investments in materials and production; and supporting steady income and secure livelihoods by focusing on workforce wellbeing. These efforts are designed to foster not only business growth but also a stable financial future for the communities we serve.",
+    path: "/social-businesses/business-catalyst",
+  },
+  {
+    id: 4,
+    imageUrl: "/socialBusinesses/image04.png",
+    logoUrl: "/socialBusinesses/logo02.png",
+    title: "Shoonya",
+    desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The program focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns, and an enhanced brand image, further boosted by gamification and promotional strategies.",
+    path: "/social-businesses/shoonya",
   },
 ]
 
@@ -673,7 +656,7 @@ export const solutionsData = [
     id: 1,
     logoUrl: "/home/logo/logo01.png",
     title: "Solutions",
-    desc: "We co-solve with change agents by forging partnerships to blend expertise and experience, providing expert guidance and strategic insights.",
+    desc: "Dummy Text For many, the dream of financial security is hindered by low credit scores, a lack of essential documents, and high interest rates. These challenges often seem insurmountable, trapping families in a vicious cycle of vulnerability and hardship.",
   },
   {
     id: 2,
@@ -758,5 +741,125 @@ export const homePartnersData = [
   {
     id: 12,
     imageUrl: "/aboutUs/partners/image12.png",
+  },
+]
+
+export const impactData = [
+  {
+    id: 1,
+    imageUrl: "/home/impact/image01.png",
+    title: "Funded",
+    count: "500+",
+    desc: "Social Development Organisations",
+  },
+  {
+    id: 2,
+    imageUrl: "/home/impact/image02.png",
+    title: "",
+    count: "25",
+    desc: "Countries Reached",
+  },
+  {
+    id: 3,
+    imageUrl: "/home/impact/image03.png",
+    title: "",
+    count: "500+",
+    desc: "Leaders Mentored",
+  },
+  {
+    id: 4,
+    imageUrl: "/home/impact/image04.png",
+    title: "",
+    count: "200+",
+    desc: "Institutions Incubated and Transformed",
+  },
+  {
+    id: 5,
+    imageUrl: "/home/impact/image05.png",
+    title: "",
+    count: "13",
+    desc: "SDGs Served",
+  },
+]
+
+export const catalystData = [
+  {
+    id: 1,
+    iconUrl: "/socialBusinesses/catalyst/icon01.svg",
+    desc: "Double the net income of the small and marginal farmers in five years through cost reductions in cultivation, consolidated sourcing of seeds and bio inputs, driving efficiencies of scale and value creation through processed products.",
+  },
+  {
+    id: 2,
+    iconUrl: "/socialBusinesses/catalyst/icon01.svg",
+    desc: "Increase the number of small and marginal farmers transacting through the FPCs from 25 % to 65 % over 5-6 years.",
+  },
+  {
+    id: 3,
+    iconUrl: "/socialBusinesses/catalyst/icon01.svg",
+    desc: "Increase the share of the consumer pie reaching the small farmers.",
+  },
+]
+
+export const collaborativeInitiativesData = [
+  {
+    id: 1,
+    imageUrl: "/collaborativeInitiatives/image01.png",
+    logoUrl: "",
+    title: "Community Action Collab",
+    desc: "Community Action Collab incubated by the Catalyst Group, aims to create a world that is resilient to survive and thrive during humanitarian crises. Our mission focuses on synergising resource access and allocating efforts in an adaptive and urgent manner, augmenting collaboration and connections within a vast network at multiple levels, and accelerating transformative impact to meet the evolving needs of vulnerable communities. We partner with organisations that share our belief in the resilience of communities, recognising that such communities can better prepare, adapt, and strengthen in response to pressures, ultimately enhancing their environment, social, and economic health and wellbeing.",
+    path: "/social-businesses/catalyst-livelihood-ventures",
+  },
+  {
+    id: 2,
+    imageUrl: "/collaborativeInitiatives/image02.png",
+    logoUrl: "",
+    title: "Catalysing Social Impact (CSI)",
+    desc: "Catalysing Social Impact (CSI) is a dynamic forum hosted by the Catalyst Group, uniting thinkers, doers, and investors dedicated to fostering social change through strategic initiatives. Originating in 2019 in Bengaluru with the Solutions Circle approach, CSI evolved during the COVID-19 pandemic into the #COVIDActionCollab, focusing on pandemic response from 2020-2022. This collaboration transitioned in 2022 into the #CommunityActionCollab, emphasising pandemic preparedness and resilience. In 2024, CSI reconvenes on August 1-2 in New Delhi to outline a progressive agenda for India’s centenary of independence in 2047, under the theme “Viksit Bharat @2047.”",
+    path: "/social-businesses/g1",
+  },
+]
+
+export const scaleAcceleratorsData = [
+  {
+    id: 1,
+    imageUrl: "/scaleAccelerators/image01.png",
+    logoUrl: "",
+    title: "Design for Success",
+    desc: "The Design 4 Success (D4S) team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programs, networks, and theories of change to address complex challenges.",
+    path: "/scale-accelerators/design-for-success",
+  },
+  {
+    id: 2,
+    imageUrl: "/scaleAccelerators/image02.png",
+    logoUrl: "",
+    title: "Evidence for Change",
+    desc: "In Evidence for Change, we specialise in facilitating theories of change, alternate analysis, results frameworks, and tools, building evidence through pluralistic methodologies, participatory learning, and action, and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
+    path: "/scale-accelerators/evidence-for-change",
+  },
+  {
+    id: 3,
+    imageUrl: "/scaleAccelerators/image03.png",
+    logoUrl: "",
+    title: "Implement for Scale",
+    desc: "In today’s fast-paced and competitive business landscape, innovation and new ideas are constantly being generated. When it comes to implementing innovative ideas and interventions, achieving desirable outcomes can be a daunting task. However, simply coming up with a groundbreaking concept is not enough to ensure success. The true measure of an innovation lies in its implementation and its ability to deliver tangible results. Unfortunately, many well-designed projects fail when implemented at scale.",
+    path: "/scale-accelerators/implement-for-scale",
+  },
+]
+
+export const notableProjectsData = [
+  {
+    id: 1,
+    iconUrl: "/scaleAccelerators/designForSuccess/icon01.png",
+    desc: "VaxNow - designed as an initiative under the #COVIDActionCollab using our proprietary Impact Canvas Approach, this initiative ultimately helped facilitate over 14 million COVID vaccinations to vulnerable communities",
+  },
+  {
+    id: 2,
+    iconUrl: "/scaleAccelerators/designForSuccess/icon02.svg",
+    desc: "Creation of National Drug Control Master Plan (NDCMP) 2021-2025 for the Government of Nigeria and UNODC, involving 37 Ministries and Departments",
+  },
+  {
+    id: 3,
+    iconUrl: "/scaleAccelerators/designForSuccess/icon03.svg",
+    desc: "Design of India’s HIV Programme for Global Fund – Rounds 7,8,9 and10",
   },
 ]

@@ -1,23 +1,19 @@
-import Mission from '@/components/AboutUs/Mission/Mission'
-import Tab from '@/components/AboutUs/Tab/Tab'
-import Investment from '@/components/AboutUs/Vision/Investment/Investment'
-import Values from '@/components/AboutUs/Vision/Values/Values'
-import Vision from '@/components/AboutUs/Vision/Vision'
-import Image from 'next/image'
-import React from 'react'
+import Mission from "@/components/AboutUs/Mission/Mission"
+import Tab from "@/components/AboutUs/Tab/Tab"
+import Investment from "@/components/AboutUs/Vision/Investment/Investment"
+import Values from "@/components/AboutUs/Vision/Values/Values"
+import Vision from "@/components/AboutUs/Vision/Vision"
+import Header from "@/components/Header/Header"
+import Image from "next/image"
+import React from "react"
 
 const page = () => {
   const desc =
-    'A future where holistic and well-orchestrated partnerships and investments create an impact that is transformational, driving sustainable and scalable equity.'
+    "A future where holistic and well-orchestrated partnerships and investments create an impact that is transformational, driving sustainable and scalable equity."
   return (
     <>
-      <div className="mb-5">
-        <Image
-          src="/banner/banner01.png"
-          width={1366}
-          height={340}
-          className="w-full"
-        />
+      <div className="bg-[url('/banner/banner01.png')] h-[720px] w-full bg-cover bg-center py-5">
+        <Header />
       </div>
 
       {/* <div className="text-center flex flex-col items-center gap-3 mb-10">

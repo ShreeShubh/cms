@@ -1,20 +1,16 @@
-import Incubatees from '@/components/AboutUs/Incubatees/Incubatees'
-import Tab from '@/components/AboutUs/Tab/Tab'
-import Image from 'next/image'
-import React from 'react'
+import Incubatees from "@/components/AboutUs/Incubatees/Incubatees"
+import Tab from "@/components/AboutUs/Tab/Tab"
+import Header from "@/components/Header/Header"
+import Image from "next/image"
+import React from "react"
 
 const page = () => {
   const desc =
-    'Some of our incubated ideas have become full-fledged organisations, which operate as our sister organisations, but have grown to be significant development players in their own right.'
+    "Some of our incubated ideas have become full-fledged organisations, which operate as our sister organisations, but have grown to be significant development players in their own right."
   return (
     <>
-      <div className="mb-5">
-        <Image
-          src="/banner/banner01.png"
-          width={1366}
-          height={340}
-          className="w-full"
-        />
+      <div className="bg-[url('/banner/banner03.png')] h-[480px] w-full bg-center bg-cover py-5">
+        <Header />
       </div>
 
       {/* <div className="text-center flex flex-col items-center gap-3 mb-10">

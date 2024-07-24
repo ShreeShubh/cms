@@ -1,7 +1,7 @@
-import { domainAreasData, socialBusinessesData } from '@/utils/data'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import { domainAreasData, socialBusinessesData } from "@/utils/data"
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
 
 const SocialBusinesses = () => {
   return (
@@ -11,23 +11,23 @@ const SocialBusinesses = () => {
           <li key={item.id}>
             <div
               className={`flex justify-between items-center w-11/12 ${
-                item.id % 2 === 0 ? 'ms-auto' : ''
+                item.id % 2 === 0 ? "ms-auto" : ""
               }`}
             >
-              <div className={`${item.id % 2 === 0 ? 'order-1' : ''}`}>
-                <div className="relative">
+              <div className={`${item.id % 2 === 0 ? "order-1" : ""}`}>
+                <div className="">
                   <Image src={item.imageUrl} height={400} width={600} alt="" />
-                  <div
+                  {/* <div
                     className={`absolute ${
                       item.id % 2 === 0 ? '-left-16' : '-right-16'
                     } top-1/2 bottom-1/2 flex justify-center items-center shadow bg-white`}
                   >
                     <Image src={item.logoUrl} width={125} height={30} alt="" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="flex flex-col items-start gap-5 w-[500px]">
-                <h2 className="text-3xl text-cms-primary-black font-semibold">
+                <h2 className="text-3xl text-cms-primary font-semibold">
                   {item.title}
                 </h2>
                 <p className="text-lg text-[#646464]">{item.desc}</p>

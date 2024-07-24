@@ -1,20 +1,16 @@
-import Tab from '@/components/AboutUs/Tab/Tab'
-import Team from '@/components/AboutUs/Team/Team'
-import Image from 'next/image'
-import React from 'react'
+import Tab from "@/components/AboutUs/Tab/Tab"
+import Team from "@/components/AboutUs/Team/Team"
+import Header from "@/components/Header/Header"
+import Image from "next/image"
+import React from "react"
 
 const page = () => {
   const desc =
-    'Our team consists of dedicated mentors, impact specialists, and business experts. Meet the dedicated team at CMS, blending deep industry knowledge with a relentless pursuit of positive social change.'
+    "Our team consists of dedicated mentors, impact specialists, and business experts. Meet the dedicated team at CMS, blending deep industry knowledge with a relentless pursuit of positive social change."
   return (
     <>
-      <div className="mb-5">
-        <Image
-          src="/banner/banner01.png"
-          width={1366}
-          height={340}
-          className="w-full"
-        />
+      <div className="bg-[url('/banner/banner02.png')] h-[480px] w-full bg-center bg-cover py-5">
+        <Header />
       </div>
 
       {/* <div className="text-center flex flex-col items-center gap-3 mb-10">

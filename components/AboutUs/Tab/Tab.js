@@ -1,15 +1,15 @@
-'use client'
+"use client"
 
-import { tabs } from '@/utils/data'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { tabs } from "@/utils/data"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 const Tab = ({ heading, desc }) => {
   const pathname = usePathname()
 
   return (
     <>
-      <div className="text-center mb-5">
+      <div className="text-center mt-10 mb-5">
         <p className="text-cms-secondary-black text-lg">About Us</p>
       </div>
       <ul className="max-w-screen-xl mx-auto w-full flex justify-center items-center gap-5 mb-10 text-cms-secondary-black text-lg">
@@ -21,8 +21,8 @@ const Tab = ({ heading, desc }) => {
                 <button
                   className={`py-3 px-6 ${
                     isActive
-                      ? 'bg-cms-primary-green text-white'
-                      : 'bg-cms-secondary-green text-[#404040]'
+                      ? "bg-cms-primary-green text-white"
+                      : "bg-cms-secondary-green text-[#404040]"
                   }`}
                 >
                   {item.tab}

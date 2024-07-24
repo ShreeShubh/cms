@@ -1,17 +1,41 @@
-import DomainAreas from '@/components/DomainAreas/DomainAreas'
-import Image from 'next/image'
-import React from 'react'
+import DomainAreas from "@/components/DomainAreas/DomainAreas"
+import Header from "@/components/Header/Header"
+import Tab from "@/components/Tab/Tab"
+import Image from "next/image"
+import React from "react"
+
+export const tabs = [
+  {
+    id: 1,
+    tab: "Livelihood",
+    link: "livelihood",
+  },
+  {
+    id: 2,
+    tab: "Health",
+    link: "health",
+  },
+  {
+    id: 3,
+    tab: "Climate Change",
+    link: "climateChange",
+  },
+  {
+    id: 4,
+    tab: "Workforce Wellbeing",
+    link: "workforceWellbeing",
+  },
+]
 
 const page = () => {
   return (
     <>
-      <div className="mb-12">
-        <Image
-          src="/domainAreas/banner.png"
-          width={1366}
-          height={340}
-          className="w-full"
-        />
+      <div className="bg-[url('/domainAreas/banner.png')] h-[480px] w-full bg-center bg-cover py-5">
+        <Header />
+      </div>
+
+      <div className="mb-20">
+        <Tab tabs={tabs} />
       </div>
 
       <div className="text-center mb-5">

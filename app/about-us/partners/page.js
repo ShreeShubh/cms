@@ -1,20 +1,16 @@
-import Partners from '@/components/AboutUs/Partners/Partners'
-import Tab from '@/components/AboutUs/Tab/Tab'
-import Image from 'next/image'
-import React from 'react'
+import Partners from "@/components/AboutUs/Partners/Partners"
+import Tab from "@/components/AboutUs/Tab/Tab"
+import Header from "@/components/Header/Header"
+import Image from "next/image"
+import React from "react"
 
 const page = () => {
   const desc =
-    'Over the last two decades, we have worked with a range of stakeholders, like CSOs, banks, corporate foundations, academic institutions, funding agencies, community organisations, multilateral and bilateral agencies, networks, governments, and non-profits.'
+    "Over the last two decades, we have worked with a range of stakeholders, like CSOs, banks, corporate foundations, academic institutions, funding agencies, community organisations, multilateral and bilateral agencies, networks, governments, and non-profits."
   return (
     <>
-      <div className="mb-5">
-        <Image
-          src="/banner/banner01.png"
-          width={1366}
-          height={340}
-          className="w-full"
-        />
+      <div className="bg-[url('/banner/banner04.png')] h-[480px] w-full bg-center bg-cover py-5">
+        <Header />
       </div>
 
       {/* <div className="text-center flex flex-col items-center gap-3 mb-10">
