@@ -748,6 +748,74 @@ export const homePartnersData = [
     id: 12,
     imageUrl: "/aboutUs/partners/image12.png",
   },
+  {
+    id: 13,
+    imageUrl: "/aboutUs/partners/image13.png",
+  },
+  {
+    id: 14,
+    imageUrl: "/aboutUs/partners/image14.png",
+  },
+  {
+    id: 15,
+    imageUrl: "/aboutUs/partners/image15.png",
+  },
+  {
+    id: 16,
+    imageUrl: "/aboutUs/partners/image16.png",
+  },
+  {
+    id: 17,
+    imageUrl: "/aboutUs/partners/image17.png",
+  },
+  {
+    id: 18,
+    imageUrl: "/aboutUs/partners/image18.png",
+  },
+  {
+    id: 19,
+    imageUrl: "/aboutUs/partners/image19.png",
+  },
+  {
+    id: 20,
+    imageUrl: "/aboutUs/partners/image20.png",
+  },
+  {
+    id: 21,
+    imageUrl: "/aboutUs/partners/image21.png",
+  },
+  {
+    id: 22,
+    imageUrl: "/aboutUs/partners/image22.png",
+  },
+  {
+    id: 23,
+    imageUrl: "/aboutUs/partners/image23.png",
+  },
+  {
+    id: 24,
+    imageUrl: "/aboutUs/partners/image24.png",
+  },
+  {
+    id: 25,
+    imageUrl: "/aboutUs/partners/image25.png",
+  },
+  {
+    id: 26,
+    imageUrl: "/aboutUs/partners/image26.png",
+  },
+  {
+    id: 27,
+    imageUrl: "/aboutUs/partners/image27.png",
+  },
+  {
+    id: 28,
+    imageUrl: "/aboutUs/partners/image28.png",
+  },
+  {
+    id: 29,
+    imageUrl: "/aboutUs/partners/image29.png",
+  },
 ]
 
 export const impactData = [
@@ -833,6 +901,7 @@ export const scaleAcceleratorsData = [
     title: "Design for Success",
     desc: "The Design 4 Success (D4S) team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programs, networks, and theories of change to address complex challenges.",
     path: "/scale-accelerators/design-for-success",
+    link: "designForSuccess",
   },
   {
     id: 2,
@@ -841,6 +910,7 @@ export const scaleAcceleratorsData = [
     title: "Evidence for Change",
     desc: "In Evidence for Change, we specialise in facilitating theories of change, alternate analysis, results frameworks, and tools, building evidence through pluralistic methodologies, participatory learning, and action, and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
     path: "/scale-accelerators/evidence-for-change",
+    link: "evidenceForChange",
   },
   {
     id: 3,
@@ -849,6 +919,7 @@ export const scaleAcceleratorsData = [
     title: "Implement for Scale",
     desc: "In today’s fast-paced and competitive business landscape, innovation and new ideas are constantly being generated. When it comes to implementing innovative ideas and interventions, achieving desirable outcomes can be a daunting task. However, simply coming up with a groundbreaking concept is not enough to ensure success. The true measure of an innovation lies in its implementation and its ability to deliver tangible results. Unfortunately, many well-designed projects fail when implemented at scale.",
     path: "/scale-accelerators/implement-for-scale",
+    link: "implementForScale",
   },
 ]
 
@@ -1035,5 +1106,87 @@ export const faqData = [
     content4: "Local chapter’s prize money are as follows",
     content5: "Rs 1 lakh for the winner.",
     content6: "Rs 50 thousand for the runner-up.",
+  },
+]
+
+export const insightsTabs = [
+  {
+    id: "Blog",
+    tab: "Blogs",
+  },
+  {
+    id: "E4C Blog",
+    tab: "E4C Blogs",
+  },
+  {
+    id: "News",
+    tab: "News",
+  },
+]
+
+export const insightsData = [
+  {
+    id: 1,
+    imageUrl: "/insights/blogs/image01.png",
+    category: "Blog",
+    title:
+      "OUR APPROACH TO MONITORING ECONOMIC RESILIENCE IN VULNERABLE COMMUNITIES: AN INTERESTING SCORECARD SYSTEM",
+    desc: "In the face of a natural calamity, health crisis, or loss of employment, some communities are",
+  },
+  {
+    id: 2,
+    imageUrl: "/insights/blogs/image02.png",
+    category: "Blog",
+    title:
+      "KURNOOL GROUNDNUT VENTURE: STORY OF SUCCESSFUL GROUNDNUT SALES BY KURNOOL FARMER PRODUCER COMPANY",
+    desc: "Breakthrough’s Early Marriage Campaign, implemented in three districts of the Indian…",
+  },
+  {
+    id: 3,
+    imageUrl: "/insights/blogs/image03.png",
+    category: "Blog",
+    title:
+      "WHAT BUILDS AN EFFECTIVE INFORMATION EXCHANGE AND COMMUNICATION SYSTEM FOR DISASTER RESPONSE",
+    desc: "Calling information a “life-saving resource”, the World Disasters Report, 2005 noted…",
+  },
+  {
+    id: 4,
+    imageUrl: "/insights/blogs/image04.png",
+    category: "Blog",
+    title:
+      "RESOURCEFUL PRODUCER COMPANIES ADDRESS FARMERS’ LOCKDOWN CHALLENGES",
+    desc: "As members struggled to buy farm inputs and sell produce, their FPCs, with special permission, arranged",
+  },
+  {
+    id: 5,
+    imageUrl: "/insights/blogs/image05.png",
+    category: "Blog",
+    title:
+      "BASTAR FRESH: THE MAKING OF A WILD CUSTARD APPLE BRAND BY THE TRIBAL WOMEN OF CHHATTISGARH",
+    desc: "Bastar is a richly forested landscape, with undulating hills, water streams and is a predominantly tribal",
+  },
+  {
+    id: 6,
+    imageUrl: "/insights/blogs/image06.png",
+    category: "Blog",
+    title:
+      "FOSTERING STEADY GROWTH OF AN FPO THROUGH A 3-FOLD MODEL OF TECHNICAL, FINANCIAL AND MARKET LINKAGE",
+    desc: "Vrutti’s innovative Business Acceleration Unit (BAU) has played a crucial role in providing Chitravathi FPC",
+  },
+  {
+    id: 7,
+    imageUrl: "/insights/blogs/image06.png",
+    category: "E4C Blog",
+    title:
+      "FOSTERING STEADY GROWTH OF AN FPO THROUGH A 3-FOLD MODEL OF TECHNICAL, FINANCIAL AND MARKET LINKAGE",
+    desc: "Vrutti’s innovative Business Acceleration Unit (BAU) has played a crucial role in providing Chitravathi FPC",
+  },
+  {
+    id: 8,
+    imageUrl: "/insights/blogs/image05.png",
+    category: "News",
+    title:
+      "BASTAR FRESH: THE MAKING OF A WILD CUSTARD APPLE BRAND BY THE TRIBAL WOMEN OF CHHATTISGARH",
+    desc: "Bastar is a richly forested landscape, with undulating hills, water streams and is a predominantly tribal",
   },
 ]

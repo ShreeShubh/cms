@@ -11,7 +11,7 @@ const ScaleAccelerators = () => {
     <ul className="flex flex-col gap-16 my-14">
       {scaleAcceleratorsData.map((item) => {
         return (
-          <li key={item.id}>
+          <li key={item.id} id={item.link}>
             <div
               className={`flex justify-between items-center w-11/12 ${
                 item.id % 2 === 0 ? "ms-auto" : ""

@@ -8,17 +8,17 @@ export const tabs = [
   {
     id: 1,
     tab: "Design for Success",
-    link: "",
+    link: "designForSuccess",
   },
   {
     id: 2,
     tab: "Evidence for Change",
-    link: "",
+    link: "evidenceForChange",
   },
   {
     id: 3,
     tab: "Implement for Scale",
-    link: "",
+    link: "implementForScale",
   },
 ]
 
