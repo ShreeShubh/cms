@@ -6,6 +6,7 @@ import Image from "next/image"
 import React from "react"
 import Tab from "@/components/Tab/Tab"
 import Header from "@/components/Header/Header"
+import RelatedResources from "@/components/RelatedResources/RelatedResources"
 
 export const tabs = [
   {
@@ -45,9 +46,11 @@ const page = () => {
     "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient and responsible small producers at a national scale through inclusive entrepreneurship. Our approach to build wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers."
   return (
     <>
-      <div className="bg-[url('/domainAreas/livelihood/banner.png')] h-[640px] bg-cover bg-center pt-5 pb-14">
-        <Header />
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+      <div className="bg-[url('/domainAreas/livelihood/banner.png')] h-[640px] bg-cover bg-center pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="ps-24 flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">
             <Image
               src="/domainAreas/livelihood/logo.png"
@@ -64,7 +67,7 @@ const page = () => {
       <Ethos />
       <OurApproaches />
       <WeWork />
-      <div className="w-full">
+      <div className="w-full mb-10">
         <Image
           src="/domainAreas/livelihood/banner02.png"
           width={1366}
@@ -73,6 +76,8 @@ const page = () => {
           className="w-full"
         />
       </div>
+
+      <RelatedResources />
     </>
   )
 }

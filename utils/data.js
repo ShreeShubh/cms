@@ -953,3 +953,29 @@ export const elementsData = [
     desc: "Ultimately, the success of implementation is measured by the results achieved. Implementation efforts should focus on delivering tangible outcomes that align with the original goals and objectives. Regular monitoring and reporting enable organizations to track progress and make data-driven decisions to enhance implementation effectiveness. This feedback loop allows for continuous improvement and ensures that the intervention remains relevant and aligned with the evolving needs of the target audience.",
   },
 ]
+
+export const relatedResourcesData = [
+  {
+    id: 1,
+    imageUrl: "/relatedResources/image01.png",
+    tag: "Blog",
+    title:
+      "RESOURCEFUL PRODUCER COMPANIES ADDRESS FARMERS’ LOCKDOWN CHALLENGES",
+    desc: "As members struggled to buy farm inputs and sell produce, their FPCs, with special permission, arranged",
+  },
+  {
+    id: 2,
+    imageUrl: "/relatedResources/image02.png",
+    tag: "Blog",
+    title:
+      "BASTAR FRESH: THE MAKING OF A WILD CUSTARD APPLE BRAND BY THE TRIBAL WOMEN OF CHHATTISGARH",
+    desc: "Bastar is a richly forested landscape, with undulating hills, water streams and is a predominantly tribal",
+  },
+  {
+    id: 3,
+    imageUrl: "/relatedResources/image03.png",
+    tag: "Blog",
+    title: "THE IMPORTANCE OF FIT-FOR-PURPOSE RESEARCH DESIGN",
+    desc: "The principle that policies should be designed using the best available evidence is one that…",
+  },
+]

@@ -1,6 +1,7 @@
 import Overview from "@/components/DomainAreas/Overview/Overview"
 import WorkforceWellbeing from "@/components/DomainAreas/WorkforceWellbeing/WorkforceWellbeing"
 import Header from "@/components/Header/Header"
+import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
 import React from "react"
@@ -43,9 +44,11 @@ const page = () => {
     "Our Wellbeing for Workforce practise strives to make wellbeing a reality for the first mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of Workers, their families and communities."
   return (
     <>
-      <div className="bg-[url('/domainAreas/workforce/banner.png')] h-[640px] bg-center bg-cover pt-5 pb-14">
-        <Header />
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+      <div className="bg-[url('/domainAreas/workforce/banner.png')] h-[640px] bg-center bg-cover pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="ps-24 flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">
             <Image
               src="/domainAreas/workforce/logo.png"
@@ -61,6 +64,7 @@ const page = () => {
       <Tab tabs={tabs} />
       <Overview desc={overviewDesc} />
       <WorkforceWellbeing />
+      <RelatedResources />
     </>
   )
 }

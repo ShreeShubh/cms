@@ -5,6 +5,7 @@ import KeyInitiatives02 from "@/components/DomainAreas/Health/KeyInitiatives/Key
 
 import Overview from "@/components/DomainAreas/Overview/Overview"
 import Header from "@/components/Header/Header"
+import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
 import React from "react"
@@ -47,9 +48,11 @@ const page = () => {
     "We have 25 years of experience as a global social impact consulting firm and use 360-degree approach that improves the well-being of vulnerable communities. CMS and its sister organisation, Swasti, a global south public health agency, partners with communities at the last mile to help them realise their potential through health and well-being. We work towards achieving Universal Health Care and Global Health Security through a Climate x Health centric approach and ensure our programs are climate-responsive."
   return (
     <>
-      <div className="bg-[url('/domainAreas/health/banner.png')] h-[640px] bg-center bg-cover pt-5 pb-14">
-        <Header />
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+      <div className="bg-[url('/domainAreas/health/banner.png')] h-[640px] bg-center bg-cover pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="ps-24 flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">
             <Image
               src="/domainAreas/health/logo.png"
@@ -70,6 +73,7 @@ const page = () => {
         <KeyInitiatives02 />
       </div>
       <AlliancesAndPlatforms />
+      <RelatedResources />
     </>
   )
 }

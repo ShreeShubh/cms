@@ -1,6 +1,6 @@
-import { focusAreaData } from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
+import { focusAreaData } from "@/utils/data"
+import Image from "next/image"
+import React from "react"
 
 const FocusArea = () => {
   return (
@@ -19,15 +19,14 @@ const FocusArea = () => {
             return (
               <li key={item.id}>
                 <div className="flex flex-col items-center gap-3 w-[320px] h-full">
-                  <div className="h-[295px]">
-                    <Image
-                      src={item.imageUrl}
-                      width={220}
-                      height={220}
-                      alt={item.title}
-                      className="flex-shrink-0"
-                    />
-                  </div>
+                  <Image
+                    src={item.imageUrl}
+                    width={220}
+                    height={220}
+                    alt={item.title}
+                    className="flex-shrink-0"
+                  />
+
                   <div className="flex flex-col items-center flex-grow w-full">
                     <h5 className="text-2xl text-cms-primary font-semibold">
                       {item.title}

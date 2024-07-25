@@ -7,6 +7,7 @@ import ThreeSectors03 from "@/components/DomainAreas/ClimateChange/ThreeSectors0
 
 import Overview from "@/components/DomainAreas/Overview/Overview"
 import Header from "@/components/Header/Header"
+import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
 import React from "react"
@@ -63,9 +64,11 @@ const page = () => {
         </div>
       </div> */}
 
-      <div className="bg-[url('/domainAreas/climate/banner.png')] h-[640px] bg-center bg-cover pt-5 pb-14">
-        <Header />
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+      <div className="bg-[url('/domainAreas/climate/banner.png')] h-[640px] bg-center bg-cover pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="ps-24 flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">
             <Image
               src="/domainAreas/climate/logo.png"
@@ -100,6 +103,7 @@ const page = () => {
         <ThreeSectors02 />
         <ThreeSectors03 />
       </div>
+      <RelatedResources />
     </>
   )
 }
