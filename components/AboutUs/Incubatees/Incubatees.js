@@ -1,6 +1,6 @@
-import { incubateesData } from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
+import { incubateesData } from "@/utils/data"
+import Image from "next/image"
+import React from "react"
 
 const Incubatees = () => {
   return (
@@ -18,7 +18,7 @@ const Incubatees = () => {
           return (
             <li key={item.id}>
               <div className="flex justify-between items-center">
-                <div className={`${item.id % 2 === 0 ? 'order-1' : ''}`}>
+                <div className={`${item.id % 2 === 0 ? "order-1" : ""}`}>
                   <div className="relative">
                     <Image
                       src={item.imageUrl}
@@ -28,7 +28,7 @@ const Incubatees = () => {
                     />
                     <div
                       className={`absolute ${
-                        item.id % 2 === 0 ? '-left-20' : '-right-20'
+                        item.id % 2 === 0 ? "-left-20" : "-right-20"
                       } top-1/4 h-40 w-40 flex justify-center items-center shadow bg-white`}
                     >
                       <Image

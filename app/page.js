@@ -30,6 +30,11 @@ export default function Home() {
           />
         </div> */}
         <Header />
+        <div className="max-w-screen-xl mx-auto mt-48">
+          <h1 className="text-5xl font-semibold text-white ">
+            Scaling Impact for a <br /> Sustainable Future
+          </h1>
+        </div>
       </div>
       {/* <CurrentPath /> */}
 

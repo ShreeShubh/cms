@@ -14,6 +14,12 @@ const page = () => {
     <>
       <div className="bg-[url('/banner/banner01.png')] h-[720px] w-full bg-cover bg-center py-5">
         <Header />
+        <div className="max-w-screen-xl mx-auto mt-48">
+          <h1 className="text-5xl font-semibold text-white ">
+            We create an impact <br /> that is transformational, driving <br />{" "}
+            sustainable and scalable equity.
+          </h1>
+        </div>
       </div>
 
       {/* <div className="text-center flex flex-col items-center gap-3 mb-10">

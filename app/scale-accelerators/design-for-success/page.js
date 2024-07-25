@@ -26,8 +26,13 @@ export const tabs = [
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/scaleAccelerators/designForSuccess/banner.png')] h-[640px] bg-cover bg-center pt-5 pb-14">
+      <div className="bg-[url('/scaleAccelerators/designForSuccess/banner.png')] bg-cover bg-center pt-5">
         <Header />
+        <div className="max-w-screen-xl mx-auto mt-32 mb-16">
+          <h1 className="text-4xl font-semibold text-white ">
+            Design for Success
+          </h1>
+        </div>
         <div className="max-w-screen-xl mx-auto flex items-end h-full">
           <div className="flex justify-center items-center">
             <Image

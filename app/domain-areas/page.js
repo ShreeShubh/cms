@@ -32,6 +32,9 @@ const page = () => {
     <>
       <div className="bg-[url('/domainAreas/banner.png')] h-[480px] w-full bg-center bg-cover py-5">
         <Header />
+        <div className="max-w-screen-xl mx-auto mt-32">
+          <h1 className="text-5xl font-semibold text-white ">Domain Areas</h1>
+        </div>
       </div>
 
       <div className="mb-20">

@@ -22,6 +22,11 @@ const page = () => {
     <>
       <div className="bg-[url('/socialBusinesses/catalyst/banner.png')] h-[640px] bg-center bg-cover py-5">
         <Header />
+        <div className="max-w-screen-xl mx-auto mt-48">
+          <h1 className="text-5xl font-semibold text-white ">
+            Catalyst Livelihood Ventures
+          </h1>
+        </div>
       </div>
 
       <Tab tabs={tabs} />

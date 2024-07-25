@@ -11,6 +11,9 @@ const page = () => {
     <>
       <div className="bg-[url('/banner/banner03.png')] h-[480px] w-full bg-center bg-cover py-5">
         <Header />
+        <div className="max-w-screen-xl mx-auto mt-32">
+          <h1 className="text-5xl font-semibold text-white ">Incubatees</h1>
+        </div>
       </div>
 
       {/* <div className="text-center flex flex-col items-center gap-3 mb-10">

@@ -863,3 +863,93 @@ export const notableProjectsData = [
     desc: "Design of India’s HIV Programme for Global Fund – Rounds 7,8,9 and10",
   },
 ]
+
+export const partneredWithExpertsData = [
+  {
+    id: 1,
+    title: "Stanford University",
+  },
+  {
+    id: 2,
+    title: "International Initiative for Impact Evaluation (3ie)",
+  },
+  {
+    id: 3,
+    title: "Statistics for Sustainable Development (Stats 4SD)",
+  },
+  {
+    id: 4,
+    title: "Institute of Rural Management",
+  },
+  {
+    id: 5,
+    title: "Krea University",
+  },
+  {
+    id: 6,
+    title: "Tufts University",
+  },
+  {
+    id: 7,
+    title: "University of Reading",
+  },
+  {
+    id: 8,
+    title: "University of Oregon",
+  },
+  {
+    id: 9,
+    title: "Indian Statistical Institute, etc.",
+  },
+]
+
+export const workIncludeData = [
+  {
+    id: 1,
+    iconUrl: "/scaleAccelerators/evidenceForChange/icon01.png",
+    desc: "Impact evaluation using experimental design for Breakthrough’s innovative programme utilising mass and community media to address the issue of Early Marriage across three districts in Bihar and Jharkhand",
+  },
+  {
+    id: 2,
+    iconUrl: "/scaleAccelerators/evidenceForChange/icon02.png",
+    desc: "Literature review of interventions facilitating smallholder farmers’ access to the market in India using the hierarchy of study design. The study aimed to understand the current scenario and also to provide insights into the sustainability of the producer organisations as institutions",
+  },
+  {
+    id: 3,
+    iconUrl: "/scaleAccelerators/evidenceForChange/icon03.png",
+    desc: "Formative research to understand the effect of seasonality and agriculture on the nutrition of pregnant and lactating women and children under five and household coping mechanisms in four districts in Madhya Pradesh",
+  },
+]
+
+export const elementsData = [
+  {
+    id: 1,
+    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    title: "1. Intervention Design",
+    desc: "Effective implementation starts with a well-designed intervention. This involves understanding the target audience, assessing their needs, and tailoring the intervention to address those needs effectively. This also includes ensuring the intervention aligns with the broader goals and objectives of the organization or system in which it will be implemented. Proper planning and preparation lay the foundation for successful execution.",
+  },
+  {
+    id: 2,
+    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    title: "2. Implementation Arrangements",
+    desc: "The success of implementation heavily depends on the arrangements made for its execution. This includes creating blueprints and action plans that clearly outline the steps to be taken. It also involves building teams and capacities through training and certification. Guided mentoring plays a crucial role in supporting the execution of the intervention. Additionally, establishing enabling cultures and systems that facilitate and repeat processes are essential for sustainable implementation.",
+  },
+  {
+    id: 3,
+    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    title: "3. Alignment at Local and Macro Levels",
+    desc: "Great execution requires alignment at both the local and macro levels. Aligning finances and resources ensures that the necessary support is available throughout the implementation process. Promoting evidence-based learning empowers those executing the innovation and provides valuable insights with which they can make informed decisions and drive the implementation forward. Technology, such as generative AI, can further enhance efficiency and quality by simplifying and automating processes.",
+  },
+  {
+    id: 4,
+    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    title: "4. Excellence in Execution",
+    desc: "Execution excellence encompasses aspects such as reach, fidelity, intensity, resource effectiveness, and repeatability. These factors contribute to the overall success of implementation and ensure that the desired results are achieved. Monitoring and evaluating progress at regular intervals help identify gaps and make necessary adjustments. Furthermore, repeatability is crucial to replicate successful implementations and sustain the intervention over time.",
+  },
+  {
+    id: 5,
+    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    title: "5. Results",
+    desc: "Ultimately, the success of implementation is measured by the results achieved. Implementation efforts should focus on delivering tangible outcomes that align with the original goals and objectives. Regular monitoring and reporting enable organizations to track progress and make data-driven decisions to enhance implementation effectiveness. This feedback loop allows for continuous improvement and ensures that the intervention remains relevant and aligned with the evolving needs of the target audience.",
+  },
+]
