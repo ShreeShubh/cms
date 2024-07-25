@@ -7,6 +7,7 @@ import React from "react"
 import Tab from "@/components/Tab/Tab"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
+import InvestingForImpact from "@/components/DomainAreas/Livelihood/InvestingForImpact/InvestingForImpact"
 
 export const tabs = [
   {
@@ -67,7 +68,8 @@ const page = () => {
       <Ethos />
       <OurApproaches />
       <WeWork />
-      <div className="w-full mb-10">
+
+      <div className="w-full">
         <Image
           src="/domainAreas/livelihood/banner02.png"
           width={1366}
@@ -75,6 +77,30 @@ const page = () => {
           alt="banner"
           className="w-full"
         />
+      </div>
+
+      <InvestingForImpact />
+
+      <div className="max-w-screen-xl mx-auto my-16">
+        <div className="flex flex-col gap-6">
+          <p className="text-[#404040] text-lg w-10/12">
+            We work towards the holistic development of small producers and to
+            pave the way to a brighter future. All of our work is geared towards
+            achieving the UN SDGs, specifically Goals 1, 2, 5, 10, 11, and 17.
+          </p>
+          <Image
+            src="/domainAreas/livelihood/sdg.png"
+            width={720}
+            height={122}
+            alt=""
+          />
+          <p className="text-[#404040] text-lg">
+            To learn more about the work we do, contact us at:
+          </p>
+          <button className="bg-cms-primary px-6 py-3 text-white self-start">
+            contactus@catalysts.org
+          </button>
+        </div>
       </div>
 
       <RelatedResources />

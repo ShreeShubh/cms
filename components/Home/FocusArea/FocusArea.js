@@ -1,5 +1,6 @@
 import { focusAreaData } from "@/utils/data"
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const FocusArea = () => {
@@ -19,13 +20,24 @@ const FocusArea = () => {
             return (
               <li key={item.id}>
                 <div className="flex flex-col items-center gap-3 w-[320px] h-full">
-                  <Image
-                    src={item.imageUrl}
-                    width={220}
-                    height={220}
-                    alt={item.title}
-                    className="flex-shrink-0"
-                  />
+                  <div className="relative group">
+                    <Image
+                      src={item.imageUrl}
+                      width={220}
+                      height={220}
+                      alt={item.title}
+                      className="flex-shrink-0"
+                    />
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <Image
+                        src={item.hoverUrl}
+                        width={220}
+                        height={220}
+                        alt={item.title}
+                        className="flex-shrink-0"
+                      />
+                    </div>
+                  </div>
 
                   <div className="flex flex-col items-center flex-grow w-full">
                     <h5 className="text-2xl text-cms-primary font-semibold">
@@ -35,9 +47,11 @@ const FocusArea = () => {
                       {item.desc}
                     </p>
                   </div>
-                  <button className="px-4 py-2 bg-cms-primary text-white">
-                    Know more
-                  </button>
+                  <Link href={item.link}>
+                    <button className="px-4 py-2 bg-cms-primary text-white">
+                      Know more
+                    </button>
+                  </Link>
                 </div>
               </li>
             )

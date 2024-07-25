@@ -676,20 +676,26 @@ export const focusAreaData = [
   {
     id: 1,
     imageUrl: "/home/focusArea/image01.png",
+    hoverUrl: "/home/focusArea/hover01.svg",
     title: "Health",
     desc: "Strengthening health and community systems.",
+    link: "/domain-areas/health",
   },
   {
     id: 2,
     imageUrl: "/home/focusArea/image02.png",
+    hoverUrl: "/home/focusArea/hover02.png",
     title: "Climate",
     desc: "Creating a world powered by resilient communities and carbon neutral systems.",
+    link: "/domain-areas/climate",
   },
   {
     id: 3,
     imageUrl: "/home/focusArea/image03.png",
+    hoverUrl: "/home/focusArea/hover03.svg",
     title: "Livelihood",
     desc: "Supporting enterprises with evidence-based solutions.",
+    link: "/domain-areas/livelihood",
   },
 ]
 
@@ -977,5 +983,57 @@ export const relatedResourcesData = [
     tag: "Blog",
     title: "THE IMPORTANCE OF FIT-FOR-PURPOSE RESEARCH DESIGN",
     desc: "The principle that policies should be designed using the best available evidence is one that…",
+  },
+]
+
+export const faqData = [
+  {
+    id: 1,
+    title: "What is GSEA?",
+    content1:
+      "The Global Student Entrepreneur Awards (GSEA) is the premier global competition for students who own and operate a business while attending college or university. Nominees compete against their peers from around the world in a series of local and/or national competitions in hopes to qualify for the GSEA Global Finals.",
+    content2: "",
+    content3: "",
+    content4: "",
+    content5: "",
+    content6: "",
+  },
+  {
+    id: 2,
+    title:
+      "Aside from the prize money, how does winning GSEA benefit student entrepreneurs?",
+    content1: "Access to successful entrepreneurs, feedback, mentorship.",
+    content2:
+      "Refined elevator pitches – Going head to head with other business owners and answering tough questions about their business to our judges helps competitors improve their pitch skills and enhance their ability to communicate the value proposition of their business.",
+    content3:
+      "Expanded networks – Competitors will meet other student entrepreneurs from around the world, as well as Entrepreneurs’ Organization (EO) members and our honoured guests.",
+    content4:
+      "Media Exposure. Competitors will receive local and national media attention for themselves and their business.",
+    content5: "",
+    content6: "",
+  },
+  {
+    id: 3,
+    title: "Why does GSEA Exist?",
+    content1:
+      "EO GSEA supports student entrepreneurs who require much-needed mentorship, recognition and connections to take their businesses to the next level of success.",
+    content2: "",
+    content3: "",
+    content4: "",
+    content5: "",
+    content6: "",
+  },
+  {
+    id: 4,
+    title: "What are the prizes for GSEA at the global level?",
+    content1:
+      "Prizes are generally a combination of cash and business services and will vary by location.",
+    content2:
+      "At the Global Finals, students will compete for a prize package of US$25,000 in cash with a total prize value of over $40,000, which will include a travel/lodging expense paid trip to compete in the Global Finals. Second place will receive prizes worth US$10,000 and third place will receive prizes worth US$5,000.",
+    content3:
+      "Additional awards are given at the Global Finals for Social Impact, Innovation, and Lessons from the Edge.",
+    content4: "Local chapter’s prize money are as follows",
+    content5: "Rs 1 lakh for the winner.",
+    content6: "Rs 50 thousand for the runner-up.",
   },
 ]

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 const EmpoweringChange = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full ps-28 mb-12">
+    <div className="max-w-screen-xl mx-auto w-full mb-12">
       <div className="bg-[url('/home/empoweringChange/banner.png')] bg-cover w-full h-[520px] flex items-center">
         <div className="px-16 space-y-4">
           <h1 className="text-white text-5xl font-semibold">

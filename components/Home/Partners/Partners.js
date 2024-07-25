@@ -8,7 +8,7 @@ const Partners = () => {
       <h2 className="text-cms-primary text-5xl">Partners</h2>
       <div className="border-b border-cms-primary-green w-8" />
       <div className="flex justify-center mt-5">
-        <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-3">
+        <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-5">
           {homePartnersData.map((item) => {
             return (
               <li key={item.id}>
