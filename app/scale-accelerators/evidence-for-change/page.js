@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header"
+import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import PartneredWithExperts from "@/components/ScaleAccelerators/EvidenceForChange/PartneredWithExperts/PartneredWithExperts"
 import Tab from "@/components/Tab/Tab"
 import { notableProjectsData, workIncludeData } from "@/utils/data"
@@ -120,14 +121,14 @@ const page = () => {
       </div>
 
       <div className="bg-cms-primary">
-        <div className="max-w-screen-xl mx-auto px-20 flex flex-col gap-5 items-center py-10">
+        <div className="max-w-screen-xl mx-auto px-5 md:px-20 flex flex-col gap-5 items-center py-10">
           <div className="flex flex-col items-center gap-4">
-            <h3 className="text-white text-3xl font-semibold">
+            <h3 className="text-white text-2xl md:text-3xl font-semibold text-center">
               Other examples of our work include
             </h3>
-            <div className="border-b border-white w-20" />
+            <div className="border-b border-white w-16 md:w-20" />
           </div>
-          <ul className="flex flex-col gap-5 text-white w-10/12">
+          <ul className="flex flex-col gap-5 text-white w-full md:w-10/12">
             {workIncludeData.map((item) => {
               return (
                 <li
@@ -138,17 +139,19 @@ const page = () => {
                       : ""
                   } pb-4`}
                 >
-                  <div className="flex items-center gap-5">
+                  <div className="flex flex-col md:flex-row items-center gap-5">
                     <Image
                       src={item.iconUrl}
                       width={100}
                       height={100}
                       alt=""
-                      className={`${item.id % 2 === 0 ? "order-2" : "order-1"}`}
+                      className={`${
+                        item.id % 2 === 0 ? "md:order-2" : "md:order-1"
+                      }`}
                     />
                     <p
-                      className={`text-lg ${
-                        item.id % 2 === 0 ? "order-1" : "order-2"
+                      className={`text-lg text-center md:text-left ${
+                        item.id % 2 === 0 ? "md:order-1" : "md:order-2"
                       }`}
                     >
                       {item.desc}
@@ -160,6 +163,8 @@ const page = () => {
           </ul>
         </div>
       </div>
+
+      <RelatedResources />
     </>
   )
 }

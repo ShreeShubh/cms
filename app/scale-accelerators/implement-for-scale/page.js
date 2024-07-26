@@ -94,14 +94,14 @@ const page = () => {
 
       <RapidFramework />
 
-      <div className="bg-[#00AE8E] mt-5 md:mb-5">
+      <div className="bg-[#00AE8E] mt-5 mb-16">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-20 flex flex-col gap-5 items-center py-10">
           <div className="flex flex-col items-center gap-4">
-            <h3 className="text-white text-3xl font-semibold">
+            <h3 className="text-white text-2xl md:text-3xl font-semibold text-center">
               Elements of Successful Implementation
             </h3>
-            <div className="border-b border-cms-primary w-20" />
-            <p className="text-lg text-white text-center w-full sm:w-10/12">
+            <div className="border-b border-cms-primary w-16 md:w-20" />
+            <p className="text-base md:text-lg text-white text-center w-full sm:w-10/12">
               Successful implementation requires a comprehensive approach that
               addresses various aspects of the process. The following elements
               play a crucial role in achieving desired results:
@@ -119,20 +119,26 @@ const page = () => {
                   } pb-4`}
                 >
                   <div className="flex flex-col sm:flex-row items-center gap-5">
-                    <div className="flex-shrink-0">
-                      <Image
-                        src={item.iconUrl}
-                        width={100}
-                        height={100}
-                        alt=""
-                        className="w-24 h-24"
-                      />
-                    </div>
-                    <div className="space-y-2 text-center sm:text-left">
-                      <h3 className="text-xl sm:text-2xl font-semibold">
+                    <Image
+                      src={item.iconUrl}
+                      width={100}
+                      height={100}
+                      alt=""
+                      className={`w-24 h-24 ${
+                        item.id % 2 === 0 ? "sm:order-2" : "sm:order-1"
+                      }`}
+                    />
+                    <div
+                      className={`${
+                        item.id % 2 === 0 ? "sm:order-1" : "sm:order-2"
+                      } space-y-2 text-center sm:text-left`}
+                    >
+                      <h3 className="text-lg md:text-xl sm:text-2xl font-semibold">
                         {item.title}
                       </h3>
-                      <p className="text-base sm:text-lg">{item.desc}</p>
+                      <p className="text-sm md:text-base sm:text-lg">
+                        {item.desc}
+                      </p>
                     </div>
                   </div>
                 </li>

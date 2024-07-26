@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header"
+import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import ScaleAccelerators from "@/components/ScaleAccelerators/ScaleAccelerators"
 import Tab from "@/components/Tab/Tab"
 import { notableProjectsData } from "@/utils/data"
@@ -80,9 +81,11 @@ const page = () => {
                       : ""
                   } pb-4`}
                 >
-                  <div className="flex items-center gap-5">
+                  <div className="flex flex-col md:flex-row items-center gap-5">
                     <Image src={item.iconUrl} width={168} height={74} alt="" />
-                    <p className="text-base md:text-lg">{item.desc}</p>
+                    <p className="text-base md:text-lg text-center md:text-left">
+                      {item.desc}
+                    </p>
                   </div>
                 </li>
               )
@@ -110,6 +113,8 @@ const page = () => {
           </p>
         </div>
       </div>
+
+      <RelatedResources />
     </>
   )
 }

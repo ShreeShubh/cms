@@ -15,10 +15,10 @@ const ImplementForScale = () => {
           />
         </div>
         <div className="w-full lg:w-[536px] flex flex-col gap-4 text-white lg:me-36 mt-8 lg:mt-0">
-          <h3 className="text-2xl font-semibold">
+          <h3 className="text-xl sm:text-2xl font-semibold">
             Why Worry About Implementation?
           </h3>
-          <p className="text-lg">
+          <p className="text-base sm:text-lg">
             It is a common misconception to assume that the effectiveness of an
             innovation guarantees its uptake into routine usage. Countless
             examples exist where highly effective programs yield poor results
@@ -31,7 +31,7 @@ const ImplementForScale = () => {
             effectiveness of an innovation is not enough; it needs to be
             effectively implemented to achieve the desired outcomes.
           </p>
-          <p className="text-lg">
+          <p className="text-base sm:text-lg">
             The success of implementation and innovation uptake depends largely
             on contextual factors rather than just the effectiveness of the
             innovation itself. Understanding these factors is crucial for
@@ -41,10 +41,10 @@ const ImplementForScale = () => {
       </div>
 
       <div className="max-w-screen-xl mx-auto text-white space-y-3 px-4 sm:px-6 lg:px-8">
-        <h3 className="text-2xl font-semibold">
+        <h3 className="text-xl sm:text-2xl font-semibold">
           What is the Cost of Implementation Failure?
         </h3>
-        <p className="text-lg">
+        <p className="text-base sm:text-lg">
           Implementation failure has both direct and indirect costs. It is not
           just about the money spent on the project, but also about the time and
           effort that goes into implementation. According to a study by the
@@ -58,7 +58,7 @@ const ImplementForScale = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 ps-24 mt-8 lg:mt-0">
+      <div className="flex flex-col lg:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 ps-4 sm:ps-6 lg:ps-24 mt-8 lg:mt-0">
         <div className="w-full lg:w-auto order-2 lg:order-1 mt-8 lg:mt-0">
           <Image
             src="/scaleAccelerators/implementForScale/image02.png"
@@ -69,10 +69,10 @@ const ImplementForScale = () => {
           />
         </div>
         <div className="w-full lg:w-[600px] flex flex-col gap-4 text-white order-1 lg:order-2">
-          <h3 className="text-2xl font-semibold">
+          <h3 className="text-xl sm:text-2xl font-semibold">
             Factors Affecting Successful Implementations
           </h3>
-          <p className="text-lg">
+          <p className="text-base sm:text-lg">
             Implementation is not just about the innovation itself, but also
             about the arrangements and environment surrounding it. Even if an
             intervention is effective in a controlled setting, its success in
@@ -80,11 +80,11 @@ const ImplementForScale = () => {
             into play. These factors include the external environment, teams and
             capacities, and the culture and systems in place.
           </p>
-          <p className="text-lg">
+          <p className="text-base sm:text-lg">
             To ensure successful implementation for results, we need to address
             these factors effectively.
           </p>
-          <p className="text-lg">
+          <p className="text-base sm:text-lg">
             So, what can be done to ensure successful implementation for
             results? One key aspect is intervention design. The innovation or
             intervention needs to be designed in a way that takes into account
