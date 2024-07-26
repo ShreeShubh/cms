@@ -881,7 +881,7 @@ export const collaborativeInitiativesData = [
     logoUrl: "",
     title: "Community Action Collab",
     desc: "Community Action Collab incubated by the Catalyst Group, aims to create a world that is resilient to survive and thrive during humanitarian crises. Our mission focuses on synergising resource access and allocating efforts in an adaptive and urgent manner, augmenting collaboration and connections within a vast network at multiple levels, and accelerating transformative impact to meet the evolving needs of vulnerable communities. We partner with organisations that share our belief in the resilience of communities, recognising that such communities can better prepare, adapt, and strengthen in response to pressures, ultimately enhancing their environment, social, and economic health and wellbeing.",
-    path: "/social-businesses/catalyst-livelihood-ventures",
+    path: "https://communityactioncollab.org/",
   },
   {
     id: 2,
@@ -889,7 +889,7 @@ export const collaborativeInitiativesData = [
     logoUrl: "",
     title: "Catalysing Social Impact (CSI)",
     desc: "Catalysing Social Impact (CSI) is a dynamic forum hosted by the Catalyst Group, uniting thinkers, doers, and investors dedicated to fostering social change through strategic initiatives. Originating in 2019 in Bengaluru with the Solutions Circle approach, CSI evolved during the COVID-19 pandemic into the #COVIDActionCollab, focusing on pandemic response from 2020-2022. This collaboration transitioned in 2022 into the #CommunityActionCollab, emphasising pandemic preparedness and resilience. In 2024, CSI reconvenes on August 1-2 in New Delhi to outline a progressive agenda for India’s centenary of independence in 2047, under the theme “Viksit Bharat @2047.”",
-    path: "/social-businesses/g1",
+    path: "https://catalysingsocialimpact.in/",
   },
 ]
 

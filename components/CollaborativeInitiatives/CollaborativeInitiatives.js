@@ -35,7 +35,7 @@ const CollaborativeInitiatives = () => {
                   {item.title}
                 </h2>
                 <p className="text-lg text-[#646464]">{item.desc}</p>
-                <Link href={item.path}>
+                <Link href={item.path} target="_blank">
                   <button className="border bg-cms-primary text-white text-lg rounded px-6 py-2">
                     Know more
                   </button>

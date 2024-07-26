@@ -1,5 +1,6 @@
 import { linkedInIcon, twitter } from "@/utils/icon"
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const Footer = () => {
@@ -16,63 +17,131 @@ const Footer = () => {
             <ul className="text-[#CBCBCB]">
               <h5 className="text-white">About Us</h5>
               <div className="border-b border-[#98D5C5] w-28 sm:w-52 my-3" />
-              <li>Vision</li>
-              <li>Our Team</li>
-              <li>Our Incubatees</li>
-              <li>Our Partners</li>
-              <li>Careers</li>
+              <Link href="/about-us/vision" className="hover:underline">
+                <li>Vision</li>
+              </Link>
+              <Link href="/about-us/team" className="hover:underline">
+                <li>Our Team</li>
+              </Link>
+              <Link href="/about-us/incubatees" className="hover:underline">
+                <li>Our Incubatees</li>
+              </Link>
+              <Link href="/about-us/partners" className="hover:underline">
+                <li>Our Partners</li>
+              </Link>
+              <Link href="/careers" className="hover:underline">
+                <li>Careers</li>
+              </Link>
             </ul>
 
             <ul className="text-[#CBCBCB]">
               <h5 className="text-white">Scale Accelerators</h5>
-
               <div className="border-b border-[#98D5C5] w-28 sm:w-52 my-3" />
-              <li>Evidence for Change</li>
-              <li>Design for Success</li>
-              <li>Implement for Scale</li>
+              <Link
+                href="/scale-accelerators/design-for-success"
+                className="hover:underline"
+              >
+                <li>Design for Success</li>
+              </Link>
+              <Link
+                href="/scale-accelerators/evidence-for-change"
+                className="hover:underline"
+              >
+                <li>Evidence for Change</li>
+              </Link>
+              <Link
+                href="/scale-accelerators/implement-for-scale"
+                className="hover:underline"
+              >
+                <li>Implement for Scale</li>
+              </Link>
             </ul>
 
             <ul className="text-[#CBCBCB]">
               <h5 className="text-white">Domain Areas</h5>
               <div className="border-b border-[#98D5C5] w-28 sm:w-52 my-3" />
-
-              <li>Livelihood</li>
-              <li>Health</li>
-              <li>Climate Change</li>
-              <li>Wellbeing For Workforce</li>
+              <Link href="/domain-areas/livelihood" className="hover:underline">
+                <li>Livelihood</li>
+              </Link>
+              <Link href="/domain-areas/health" className="hover:underline">
+                <li>Health</li>
+              </Link>
+              <Link
+                href="/domain-areas/climate-change"
+                className="hover:underline"
+              >
+                <li>Climate Change</li>
+              </Link>
+              <Link
+                href="/domain-areas/workforce-wellbeing"
+                className="hover:underline"
+              >
+                <li>Wellbeing For Workforce</li>
+              </Link>
             </ul>
 
             <ul className="text-[#CBCBCB]">
               <h5 className="text-white">Social Businesses</h5>
               <div className="border-b border-[#98D5C5] w-28 sm:w-52 my-3" />
-              <li>
-                Catalyst Livelihood <br /> Venture
-              </li>
-              <li>
-                Business Catalyst <br /> Shoonya
-              </li>
+              <Link
+                href="/social-businesses/catalyst-livelihood-ventures"
+                className="hover:underline"
+              >
+                <li>
+                  Catalyst Livelihood <br /> Venture
+                </li>
+              </Link>
+              <Link href="/" className="hover:underline">
+                <li>Business Catalyst</li>
+              </Link>
+              <Link href="/" className="hover:underline">
+                <li>Shoonya</li>
+              </Link>
             </ul>
 
             <ul className="text-[#CBCBCB]">
               <h5 className="text-white">Collaborative Initiatives</h5>
               <div className="border-b border-[#98D5C5] w-28 sm:w-52 my-3" />
-
-              <li>Community Action Collab</li>
-              <li>Catalysing Social Impact</li>
+              <Link
+                href="https://communityactioncollab.org/"
+                target="_blank"
+                className="hover:underline"
+              >
+                <li>Community Action Collab</li>
+              </Link>
+              <Link
+                href="https://catalysingsocialimpact.in/"
+                target="_blank"
+                className="hover:underline"
+              >
+                <li>Catalysing Social Impact</li>
+              </Link>
             </ul>
           </div>
           <div className="border-y flex justify-between border-[#C6C6C6] py-4">
             <ul className="flex gap-5">
-              <li>Contact Us</li>
-              <li>Insights</li>
-              <li>Privacy Policy</li>
-              <li>Sitemap</li>
+              <Link href="/contact-us" className="hover:underline">
+                <li>Contact Us</li>
+              </Link>
+              <Link href="/insights" className="hover:underline">
+                <li>Insights</li>
+              </Link>
+              <Link href="#" className="hover:underline">
+                <li>Privacy Policy</li>
+              </Link>
+              <Link href="#" className="hover:underline">
+                <li>Sitemap</li>
+              </Link>
             </ul>
 
             <ul className="flex items-center gap-5">
               <li>Follow Us:</li>
-              <li className="text-2xl">{linkedInIcon}</li>
-              <li className="text-2xl">{twitter}</li>
+              <Link href="/https://in.linkedin.com/" target="_blank">
+                <li className="text-2xl">{linkedInIcon}</li>
+              </Link>
+              <Link href="https://x.com/?lang=en" target="_blank">
+                <li className="text-2xl">{twitter}</li>
+              </Link>
             </ul>
           </div>
 
