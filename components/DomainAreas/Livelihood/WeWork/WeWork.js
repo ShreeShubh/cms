@@ -3,21 +3,21 @@ import {
   weWorkData,
   weWorkImpactData,
   weWorkInitiativesData,
-} from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
+} from "@/utils/data"
+import Image from "next/image"
+import React from "react"
 
 const WeWork = () => {
   return (
-    <div className="flex me-16">
-      <div className="bg-cms-primary text-white ps-16 pe-10 py-10 w-[69%]">
-        <h1 className="text-3xl font-semibold mb-6">
-          How Do <br /> We Work?
+    <div className="flex flex-col lg:flex-row lg:me-16">
+      <div className="bg-cms-primary text-white p-6 lg:ps-16 lg:pe-10 lg:py-10 lg:w-[69%]">
+        <h1 className="text-2xl lg:text-3xl font-semibold mb-4 lg:mb-6">
+          How Do <br className="hidden md:block" /> We Work?
         </h1>
       </div>
-      <div className="">
+      <div className="w-full lg:w-auto">
         <div className="border-b">
-          <ul className="flex flex-col list-disc justify-center h-full py-7 gap-5 ps-20 pe-16">
+          <ul className="flex flex-col list-disc justify-center h-full py-5 gap-3 sm:gap-5 px-4 sm:py-7 sm:ps-10 sm:pe-8 lg:ps-20 lg:pe-16">
             {weWorkData.map((item) => {
               return (
                 <li key={item.id}>
@@ -25,28 +25,32 @@ const WeWork = () => {
                 </li>
               )
             })}
-            <h3 className="text-2xl text-[#1A1A1A]">
-              To address the various levers of impact, we work with a <br />{' '}
+            <h3 className="text-lg lg:text-2xl text-[#1A1A1A] mt-4">
+              To address the various levers of impact, we work with a{" "}
+              <br className="hidden lg:block" />
               number of organisations like:
             </h3>
-            <ul className="flex gap-3">
+            <ul className="flex flex-wrap gap-3 mt-4">
               {weWorkImpactData.map((item) => {
                 return (
-                  <li key={item.id} className="flex flex-col gap-3 w-[230px]">
+                  <li
+                    key={item.id}
+                    className="flex flex-col gap-3 w-full sm:w-[230px]"
+                  >
                     <Image
                       src={item.imageUrl}
                       width={230}
                       height={140}
                       alt=""
-                      className="w-full"
+                      className="w-full h-auto"
                     />
-                    <p className="text-lg text-[#646464]">
+                    <p className="text-sm sm:text-lg text-[#646464]">
                       <span
                         className="font-semibold"
                         style={{ color: item.color }}
                       >
                         {item.title}
-                      </span>{' '}
+                      </span>{" "}
                       {item.desc}
                     </p>
                   </li>
@@ -57,11 +61,11 @@ const WeWork = () => {
         </div>
 
         <div className="border-b">
-          <div className="flex flex-col justify-center h-full pt-5 gap-5 ps-20 pe-16">
-            <h3 className="text-2xl text-[#1A1A1A]">
+          <div className="flex flex-col justify-center h-full pt-5 gap-3 sm:gap-5 sm:ps-10 sm:pe-8 lg:ps-20 lg:pe-16">
+            <h3 className="text-lg lg:text-2xl text-[#1A1A1A] px-2 md:px-0">
               We implemented a number of important initiatives, including:
             </h3>
-            <ul className="bg-cms-secondary-green flex flex-col gap-5 p-5">
+            <ul className="bg-cms-secondary-green flex flex-col gap-3 sm:gap-5 p-4 sm:p-5">
               {weWorkInitiativesData.map((item) => {
                 return (
                   <li key={item.id}>

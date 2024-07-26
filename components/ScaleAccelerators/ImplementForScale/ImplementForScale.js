@@ -4,16 +4,17 @@ import React from "react"
 const ImplementForScale = () => {
   return (
     <div className="bg-cms-primary py-12 space-y-10 mb-16">
-      <div className="flex justify-between items-center">
-        <div>
+      <div className="flex flex-col lg:flex-row justify-between items-center px-4 sm:px-6 lg:px-8">
+        <div className="w-full lg:w-auto">
           <Image
             src="/scaleAccelerators/implementForScale/image01.png"
             width={584}
             height={437}
             alt=""
+            className="w-full max-w-lg"
           />
         </div>
-        <div className="w-[536px] flex flex-col gap-4 text-white me-36">
+        <div className="w-full lg:w-[536px] flex flex-col gap-4 text-white lg:me-36 mt-8 lg:mt-0">
           <h3 className="text-2xl font-semibold">
             Why Worry About Implementation?
           </h3>
@@ -39,7 +40,7 @@ const ImplementForScale = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-xl mx-auto text-white space-y-3">
+      <div className="max-w-screen-xl mx-auto text-white space-y-3 px-4 sm:px-6 lg:px-8">
         <h3 className="text-2xl font-semibold">
           What is the Cost of Implementation Failure?
         </h3>
@@ -57,16 +58,17 @@ const ImplementForScale = () => {
         </p>
       </div>
 
-      <div className="flex justify-between items-center ps-24">
-        <div className="order-1">
+      <div className="flex flex-col lg:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 ps-24 mt-8 lg:mt-0">
+        <div className="w-full lg:w-auto order-2 lg:order-1 mt-8 lg:mt-0">
           <Image
             src="/scaleAccelerators/implementForScale/image02.png"
             width={584}
             height={437}
             alt=""
+            className="w-full max-w-lg"
           />
         </div>
-        <div className="w-[600px] flex flex-col gap-4 text-white">
+        <div className="w-full lg:w-[600px] flex flex-col gap-4 text-white order-1 lg:order-2">
           <h3 className="text-2xl font-semibold">
             Factors Affecting Successful Implementations
           </h3>

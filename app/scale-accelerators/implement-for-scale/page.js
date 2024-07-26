@@ -38,14 +38,16 @@ export const tabs = [
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/scaleAccelerators/implementForScale/banner.png')] bg-cover bg-center pt-5">
-        <Header />
-        <div className="max-w-screen-xl mx-auto mt-32 mb-16">
-          <h1 className="text-4xl font-semibold text-white ">
+      <div className="bg-[url('/scaleAccelerators/implementForScale/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="md:ps-24 flex justify-center md:justify-start mt-14 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white">
             Implement for Scale
           </h1>
         </div>
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+        <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
           <div className="flex justify-center items-center">
             <Image
               src="/scaleAccelerators/implementForScale/logo.png"
@@ -60,14 +62,14 @@ const page = () => {
       <Tab tabs={tabs} />
 
       <div className="flex flex-col items-center space-y-3 mt-14">
-        <h2 className="text-3xl font-semibold text-cms-primary">
+        <h2 className="text-3xl font-semibold text-center text-cms-primary">
           Unlocking the Power of Effective Execution
         </h2>
         <div className="border-b-2 border-cms-primary-green w-20" />
       </div>
 
-      <div className="max-w-screen-xl mx-auto mt-14 mb-8">
-        <div className="space-y-4 text-cms-primary-black text-lg w-4/5">
+      <div className="max-w-screen-xl mx-auto mt-14 mb-8 px-4 sm:px-6 lg:px-8">
+        <div className="space-y-4 text-cms-primary-black text-lg w-full lg:w-4/5 mx-auto">
           <p className="font-semibold">Introduction</p>
           <p>
             In today’s fast-paced and competitive business landscape, innovation
@@ -92,20 +94,20 @@ const page = () => {
 
       <RapidFramework />
 
-      <div className="bg-[#00AE8E] mt-5 mb-16">
-        <div className="max-w-screen-xl mx-auto px-20 flex flex-col gap-5 items-center py-10">
+      <div className="bg-[#00AE8E] mt-5 md:mb-5">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-20 flex flex-col gap-5 items-center py-10">
           <div className="flex flex-col items-center gap-4">
             <h3 className="text-white text-3xl font-semibold">
               Elements of Successful Implementation
             </h3>
             <div className="border-b border-cms-primary w-20" />
-            <p className="text-lg text-white text-center w-10/12">
+            <p className="text-lg text-white text-center w-full sm:w-10/12">
               Successful implementation requires a comprehensive approach that
               addresses various aspects of the process. The following elements
               play a crucial role in achieving desired results:
             </p>
           </div>
-          <ul className="flex flex-col gap-5 text-white w-10/12 mt-5">
+          <ul className="flex flex-col gap-5 text-white w-full sm:w-10/12 mt-5">
             {elementsData.map((item) => {
               return (
                 <li
@@ -116,21 +118,21 @@ const page = () => {
                       : ""
                   } pb-4`}
                 >
-                  <div className="flex items-center gap-5">
-                    <Image
-                      src={item.iconUrl}
-                      width={100}
-                      height={100}
-                      alt=""
-                      className={`${item.id % 2 === 0 ? "order-2" : "order-1"}`}
-                    />
-                    <div
-                      className={`${
-                        item.id % 2 === 0 ? "order-1" : "order-2"
-                      } space-y-2`}
-                    >
-                      <h3 className="text-2xl font-semibold">{item.title}</h3>
-                      <p className="text-lg">{item.desc}</p>
+                  <div className="flex flex-col sm:flex-row items-center gap-5">
+                    <div className="flex-shrink-0">
+                      <Image
+                        src={item.iconUrl}
+                        width={100}
+                        height={100}
+                        alt=""
+                        className="w-24 h-24"
+                      />
+                    </div>
+                    <div className="space-y-2 text-center sm:text-left">
+                      <h3 className="text-xl sm:text-2xl font-semibold">
+                        {item.title}
+                      </h3>
+                      <p className="text-base sm:text-lg">{item.desc}</p>
                     </div>
                   </div>
                 </li>

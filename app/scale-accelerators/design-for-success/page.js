@@ -26,14 +26,16 @@ export const tabs = [
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/scaleAccelerators/designForSuccess/banner.png')] bg-cover bg-center pt-5">
-        <Header />
-        <div className="max-w-screen-xl mx-auto mt-32 mb-16">
-          <h1 className="text-4xl font-semibold text-white ">
+      <div className="bg-[url('/scaleAccelerators/designForSuccess/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="md:ps-24 flex justify-center md:justify-start mt-14 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white">
             Design for Success
           </h1>
         </div>
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+        <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
           <div className="flex justify-center items-center">
             <Image
               src="/scaleAccelerators/logo.png"
@@ -47,9 +49,9 @@ const page = () => {
 
       <Tab tabs={tabs} />
 
-      <div className="max-w-screen-xl mx-auto my-16">
+      <div className="max-w-screen-xl mx-auto my-5 md:my-16 px-5">
         <div className="mb-5">
-          <h2 className="text-cms-primary-black text-lg w-4/5">
+          <h2 className="text-cms-primary-black text-lg md:text-xl w-full md:w-4/5">
             The Design 4 Success (D4S) team at Catalyst Management Services
             specialises in human-centric design, seamlessly blending agile
             methods with strategic planning to create impactful solutions for
@@ -60,27 +62,27 @@ const page = () => {
       </div>
 
       <div className="bg-cms-primary">
-        <div className="max-w-screen-xl mx-auto px-20 flex flex-col gap-5 items-center py-10">
+        <div className="max-w-screen-xl mx-auto px-5 md:px-20 flex flex-col gap-5 items-center py-10">
           <div className="flex flex-col items-center gap-4">
-            <h3 className="text-white text-3xl font-semibold">
+            <h3 className="text-white text-2xl md:text-3xl font-semibold text-center">
               Following are the CLV objectives
             </h3>
-            <div className="border-b border-cms-primary-green w-20" />
+            <div className="border-b border-cms-primary-green w-16 md:w-20" />
           </div>
-          <ul className="flex flex-col gap-5 text-white w-10/12">
-            {notableProjectsData.map((item) => {
+          <ul className="flex flex-col gap-5 text-white w-full md:w-10/12">
+            {notableProjectsData.map((item, index) => {
               return (
                 <li
                   key={item.id}
                   className={`${
-                    notableProjectsData.length !== item.id
+                    notableProjectsData.length !== index + 1
                       ? "border-b border-dashed"
                       : ""
                   } pb-4`}
                 >
                   <div className="flex items-center gap-5">
                     <Image src={item.iconUrl} width={168} height={74} alt="" />
-                    <p className="text-lg">{item.desc}</p>
+                    <p className="text-base md:text-lg">{item.desc}</p>
                   </div>
                 </li>
               )
@@ -89,18 +91,18 @@ const page = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-xl mx-auto my-16">
+      <div className="max-w-screen-xl mx-auto my-5 md:my-16 px-5">
         <div className="mb-5 space-y-5">
-          <p className="text-cms-primary-black text-lg">
+          <p className="text-cms-primary-black text-base md:text-lg">
             Driven by our commitment to innovation, every initiative undergoes
             continuous learning and refinement. We collaborate closely with
             partners and communities, co-creating purpose-driven solutions that
             empower and transform. We aim to shape a future where innovation
-            catalyses enduring impact, ensuring each project contributes
+            catalyzes enduring impact, ensuring each project contributes
             meaningfully to positive change.
           </p>
 
-          <p className="text-cms-primary-black text-lg">
+          <p className="text-cms-primary-black text-base md:text-lg">
             Connect with us to transform your ideas into a tailored roadmap for
             impactful change, develop prototypes for real-world testing, or
             design strategic shifts to enhance the impact of your programs. Your

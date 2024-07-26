@@ -1,6 +1,6 @@
-import { partnersData } from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
+import { partnersData } from "@/utils/data"
+import Image from "next/image"
+import React from "react"
 
 const Partners = () => {
   return (
@@ -16,27 +16,27 @@ const Partners = () => {
         <hr className="border-cms-secondary-gray mt-5" />
       </div> */}
 
-      <div className="flex mb-10">
-        <ul className="flex flex-col w-1/4 bg-cms-primary ps-10 pe-5">
+      <div className="flex flex-col lg:flex-row mb-10">
+        <ul className="flex flex-col w-full lg:w-1/4 bg-cms-primary ps-5 sm:ps-10 pe-5">
           {partnersData.map((item) => {
             return (
               <li
                 key={item.id}
-                className="text-2xl text-white border-b-2 border-cms-secondary-gray h-52 flex items-center"
+                className="text-lg sm:text-2xl text-white border-b-2 border-cms-secondary-gray h-28 sm:h-52 flex items-center"
               >
                 {item.organisation}
               </li>
             )
           })}
         </ul>
-        <ul className="flex flex-col px-5 w-4/6">
+        <ul className="flex flex-col w-full lg:w-4/6 px-5 mt-5 lg:mt-0">
           {partnersData.map((item) => {
             return (
               <li
                 key={item.id}
-                className="border-b-2 flex items-center border-cms-secondary-gray h-52"
+                className="border-b-2 flex items-center border-cms-secondary-gray h-28 sm:h-52"
               >
-                <ul className="grid grid-cols-6 gap-5">
+                <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3 sm:gap-5">
                   {item.partners.map((logo, index) => {
                     return (
                       <li key={index} className="">

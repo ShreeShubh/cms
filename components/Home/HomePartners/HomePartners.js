@@ -4,7 +4,7 @@ import { useState } from "react"
 import { homePartnersData } from "@/utils/data"
 import Image from "next/image"
 
-const Partners = () => {
+const HomePartners = () => {
   const [visibleCount, setVisibleCount] = useState(12)
 
   const loadMore = () => {
@@ -13,14 +13,21 @@ const Partners = () => {
 
   return (
     <div className="flex flex-col items-center gap-4 py-16">
-      <h2 className="text-cms-primary text-5xl">Partners</h2>
+      <h2 className="text-cms-primary text-3xl sm:text-4xl md:text-5xl">
+        Partners
+      </h2>
       <div className="border-b border-cms-primary-green w-8" />
       <div className="flex justify-center mt-5">
-        <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-5">
+        <ul className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
           {homePartnersData.slice(0, visibleCount).map((item) => (
             <li key={item.id}>
               <div>
-                <Image src={item.imageUrl} width={150} height={60} alt="" />
+                <Image
+                  src={item.imageUrl}
+                  width={150}
+                  height={60}
+                  alt={item.title}
+                />
               </div>
             </li>
           ))}
@@ -38,4 +45,4 @@ const Partners = () => {
   )
 }
 
-export default Partners
+export default HomePartners

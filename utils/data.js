@@ -26,19 +26,19 @@ export const missionData = [
     id: 1,
     iconUrl: "/aboutUs/vision/icon01.png",
     title: "Impacting",
-    desc: "vulnerable communities by aligning with <br /> the 8 UN SDGs by 2030.",
+    desc: "vulnerable communities by aligning with the 8 UN SDGs by 2030.",
   },
   {
     id: 2,
     iconUrl: "/aboutUs/vision/icon02.png",
     title: "Improving",
-    desc: "100 million lives by enabling development partners to <br /> enhance their impact through integrated and scalable <br /> solutions and investments.",
+    desc: "100 million lives by enabling development partners to enhance their impact through integrated and scalable solutions and investments.",
   },
   {
     id: 3,
     iconUrl: "/aboutUs/vision/icon03.png",
     title: "Investing",
-    desc: "in partnerships and social impact externally, and in people, process and <br /> performance internally",
+    desc: "in partnerships and social impact externally, and in people, process and performance internally",
   },
 ]
 
@@ -232,6 +232,7 @@ export const domainAreasData = [
   {
     id: 1,
     imageUrl: "/domainAreas/image01.png",
+    mobImageUrl: "/domainAreas/mImage01.png",
     logoUrl: "/domainAreas/logo01.png",
     title: "Livelihood",
     desc: "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient and responsible small producers at a national scale through inclusive entrepreneurship. Our approach to build wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers.",
@@ -240,6 +241,7 @@ export const domainAreasData = [
   {
     id: 2,
     imageUrl: "/domainAreas/image02.png",
+    mobImageUrl: "/domainAreas/mImage02.png",
     logoUrl: "/domainAreas/logo02.png",
     title: "Health",
     desc: "We have 25 years of experience as a global social impact consulting firm and use 360-degree approach that improves the well-being of vulnerable communities. CMS and its sister organisation, Swasti, a global south public health agency, partners with communities at the last mile to help them realise their potential through health and well-being. We work to achieve Universal Health Care and Global Health Security.",
@@ -248,6 +250,7 @@ export const domainAreasData = [
   {
     id: 3,
     imageUrl: "/domainAreas/image03.png",
+    mobImageUrl: "/domainAreas/mImage03.png",
     logoUrl: "/domainAreas/logo03.png",
     title: "Climate Change",
     desc: "The Climate Practice at the Catalyst Group believes in a vision to build “A thriving world powered by resilient communities and carbon neutral systems”. Given the imperative to address systemic gaps in climate ecosystems and promote people-centric models at scale, the Catalyst Group intends to build on our expertise and relationships with vulnerable groups to strengthen climate action.",
@@ -256,6 +259,7 @@ export const domainAreasData = [
   {
     id: 4,
     imageUrl: "/domainAreas/image04.png",
+    mobImageUrl: "/domainAreas/mImage03.png",
     logoUrl: "/domainAreas/logo04.png",
     title: "Workforce Wellbeing",
     desc: "Our Wellbeing for Workforce practise strives to make wellbeing a reality for the first mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of Workers, their families and communities.",
@@ -1001,31 +1005,31 @@ export const workIncludeData = [
 export const elementsData = [
   {
     id: 1,
-    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    iconUrl: "/scaleAccelerators/implementForScale/element/icon01.png",
     title: "1. Intervention Design",
     desc: "Effective implementation starts with a well-designed intervention. This involves understanding the target audience, assessing their needs, and tailoring the intervention to address those needs effectively. This also includes ensuring the intervention aligns with the broader goals and objectives of the organization or system in which it will be implemented. Proper planning and preparation lay the foundation for successful execution.",
   },
   {
     id: 2,
-    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    iconUrl: "/scaleAccelerators/implementForScale/element/icon02.png",
     title: "2. Implementation Arrangements",
     desc: "The success of implementation heavily depends on the arrangements made for its execution. This includes creating blueprints and action plans that clearly outline the steps to be taken. It also involves building teams and capacities through training and certification. Guided mentoring plays a crucial role in supporting the execution of the intervention. Additionally, establishing enabling cultures and systems that facilitate and repeat processes are essential for sustainable implementation.",
   },
   {
     id: 3,
-    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    iconUrl: "/scaleAccelerators/implementForScale/element/icon03.png",
     title: "3. Alignment at Local and Macro Levels",
     desc: "Great execution requires alignment at both the local and macro levels. Aligning finances and resources ensures that the necessary support is available throughout the implementation process. Promoting evidence-based learning empowers those executing the innovation and provides valuable insights with which they can make informed decisions and drive the implementation forward. Technology, such as generative AI, can further enhance efficiency and quality by simplifying and automating processes.",
   },
   {
     id: 4,
-    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    iconUrl: "/scaleAccelerators/implementForScale/element/icon04.png",
     title: "4. Excellence in Execution",
     desc: "Execution excellence encompasses aspects such as reach, fidelity, intensity, resource effectiveness, and repeatability. These factors contribute to the overall success of implementation and ensure that the desired results are achieved. Monitoring and evaluating progress at regular intervals help identify gaps and make necessary adjustments. Furthermore, repeatability is crucial to replicate successful implementations and sustain the intervention over time.",
   },
   {
     id: 5,
-    iconUrl: "/scaleAccelerators/implementForScale/elements/icon01.png",
+    iconUrl: "/scaleAccelerators/implementForScale/element/icon05.png",
     title: "5. Results",
     desc: "Ultimately, the success of implementation is measured by the results achieved. Implementation efforts should focus on delivering tangible outcomes that align with the original goals and objectives. Regular monitoring and reporting enable organizations to track progress and make data-driven decisions to enhance implementation effectiveness. This feedback loop allows for continuous improvement and ensures that the intervention remains relevant and aligned with the evolving needs of the target audience.",
   },

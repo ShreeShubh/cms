@@ -1,6 +1,7 @@
 import Partners from "@/components/AboutUs/Partners/Partners"
 import Tab from "@/components/AboutUs/Tab/Tab"
 import Header from "@/components/Header/Header"
+import HomePartners from "@/components/Home/HomePartners/HomePartners"
 import Image from "next/image"
 import React from "react"
 
@@ -9,10 +10,12 @@ const page = () => {
     "Over the last two decades, we have worked with a range of stakeholders, like CSOs, banks, corporate foundations, academic institutions, funding agencies, community organisations, multilateral and bilateral agencies, networks, governments, and non-profits."
   return (
     <>
-      <div className="bg-[url('/banner/banner04.png')] h-[480px] w-full bg-center bg-cover py-5">
+      <div className="bg-[url('/banner/banner04.png')] h-[420px] md:h-[480px] w-full bg-center bg-cover py-5">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-32">
-          <h1 className="text-5xl font-semibold text-white ">Partners</h1>
+        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
+            Partners
+          </h1>
         </div>
       </div>
 
@@ -26,8 +29,12 @@ const page = () => {
 
       <Tab heading="Partners" desc={desc} />
 
-      <div>
+      <div className="hidden md:block">
         <Partners />
+      </div>
+
+      <div className="block md:hidden">
+        <HomePartners />
       </div>
     </>
   )

@@ -47,12 +47,12 @@ const page = () => {
     "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient and responsible small producers at a national scale through inclusive entrepreneurship. Our approach to build wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers."
   return (
     <>
-      <div className="bg-[url('/domainAreas/livelihood/banner.png')] h-[640px] bg-cover bg-center pt-5 flex flex-col">
+      <div className="bg-[url('/domainAreas/livelihood/banner.png')] h-[420px] md:h-[640px] bg-cover bg-center pt-5 flex flex-col">
         <div className="w-full">
           <Header />
         </div>
-        <div className="ps-24 flex items-end h-full">
-          <div className="flex justify-center items-center h-44 w-64 bg-white">
+        <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
+          <div className="flex justify-center items-center h-40 w-44  md:h-44 md:w-64 bg-white">
             <Image
               src="/domainAreas/livelihood/logo.png"
               height={142}
@@ -81,9 +81,9 @@ const page = () => {
 
       <InvestingForImpact />
 
-      <div className="max-w-screen-xl mx-auto my-16">
-        <div className="flex flex-col gap-6">
-          <p className="text-[#404040] text-lg w-10/12">
+      <div className="max-w-screen-xl mx-auto my-5 md:my-16">
+        <div className="flex flex-col gap-6 px-4">
+          <p className="text-[#404040] text-lg w-full md:w-10/12">
             We work towards the holistic development of small producers and to
             pave the way to a brighter future. All of our work is geared towards
             achieving the UN SDGs, specifically Goals 1, 2, 5, 10, 11, and 17.

@@ -20,10 +20,10 @@ const tabs = [
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/socialBusinesses/catalyst/banner.png')] h-[640px] bg-center bg-cover py-5">
+      <div className="bg-[url('/socialBusinesses/catalyst/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover py-5">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-48">
-          <h1 className="text-5xl font-semibold text-white ">
+        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
             Catalyst Livelihood Ventures
           </h1>
         </div>
@@ -31,7 +31,7 @@ const page = () => {
 
       <Tab tabs={tabs} />
 
-      <div className="max-w-screen-xl mx-auto px-5 my-16">
+      <div className="max-w-screen-xl mx-auto px-5 my-10 md:my-16">
         <p className="text-lg text-[#1A1A1A]">
           The Farmers’ Producer Companies (FPCs) play a pivotal role in
           aggregating shareholder demand and products. However, the FPCs face
@@ -49,8 +49,8 @@ const page = () => {
         </p>
       </div>
 
-      <div className="flex w-full gap-3">
-        <div className="w-full">
+      <div className="flex flex-col lg:flex-row w-full gap-3">
+        <div className="w-full lg:w-1/2">
           <Image
             src="/socialBusinesses/catalyst/image01.png"
             width={675}
@@ -59,7 +59,8 @@ const page = () => {
             className="w-full"
           />
         </div>
-        <div className="bg-cms-primary text-white text-lg flex items-center px-16 w-full">
+
+        <div className="bg-cms-primary text-white text-lg flex items-center px-4 lg:px-16 py-4 lg:py-8 w-full lg:w-1/2">
           <p>
             Catalyst Livelihood Ventures CLV Farm is an agri-marketing
             initiative that works with smallholder farmers to improve produce
@@ -72,43 +73,44 @@ const page = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-xl mx-auto px-20 flex flex-col gap-5 items-center py-16">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-8 lg:px-20 flex flex-col gap-5 items-center py-8 lg:py-16">
         <div className="flex flex-col items-center gap-4">
-          <h3 className="text-cms-primary text-3xl font-semibold">
+          <h3 className="text-cms-primary text-xl sm:text-2xl md:text-3xl font-semibold text-center">
             Following are the CLV objectives
           </h3>
-          <div className="border-b border-cms-primary-green w-20" />
+          <div className="border-b border-cms-primary-green w-16 sm:w-20" />
         </div>
-        <ul className="flex flex-col gap-5">
-          {catalystData.map((item) => {
-            return (
-              <li
-                key={item.id}
-                className={`${
-                  catalystData.length !== item.id
-                    ? "border-b border-dashed"
-                    : ""
-                } pb-4`}
-              >
-                <div className="flex items-center gap-5">
-                  <Image src={item.iconUrl} width={92} height={92} alt="" />
-                  <p className="text-lg">{item.desc}</p>
-                </div>
-              </li>
-            )
-          })}
+        <ul className="flex flex-col gap-5 w-full">
+          {catalystData.map((item) => (
+            <li
+              key={item.id}
+              className={`flex items-center gap-5 ${
+                catalystData.length !== item.id ? "border-b border-dashed" : ""
+              } pb-4`}
+            >
+              <div className="flex-shrink-0">
+                <Image
+                  src={item.iconUrl}
+                  width={92}
+                  height={92}
+                  alt={item.desc}
+                />
+              </div>
+              <p className="text-base sm:text-lg">{item.desc}</p>
+            </li>
+          ))}
         </ul>
       </div>
 
-      <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-10 px-10 mb-16">
-        <p className="text-center w-3/4 text-lg">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-10 px-4 sm:px-8 lg:px-10 mb-16">
+        <p className="text-center w-full sm:w-3/4 text-base sm:text-lg lg:text-xl">
           CLV offers a comprehensive package of services, including market
-          channel access, capital availability and capacity building for FPCs.
+          channel access, capital availability, and capacity building for FPCs.
           The goal is to enable FPCs to handle higher business volumes and
           progress through the value chain, resulting in higher premiums for
           their produce.
         </p>
-        <button className="px-7 py-3 bg-cms-primary text-white">
+        <button className="px-6 py-3 bg-cms-primary text-white text-base sm:text-lg">
           Partner with us
         </button>
       </div>

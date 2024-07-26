@@ -5,21 +5,24 @@ import React from "react"
 
 const FocusArea = () => {
   return (
-    <div className="bg-[url('/home/focusArea/focusAreaBg.png')] bg-cover bg-center w-full h-[800px]">
-      <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-4 py-10">
-        <h3 className="text-5xl text-cms-primary">Focus Areas</h3>
+    <div className="bg-[url('/home/focusArea/focusAreaBg.png')] bg-cover bg-center w-full h-auto md:h-[800px] py-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-4">
+        <h3 className="text-3xl sm:text-4xl md:text-5xl text-cms-primary">
+          Focus Areas
+        </h3>
         <div className="border-b border-cms-primary-green w-8" />
-        <p className="text-center text-lg text-[#1A1A1A]">
+        <p className="text-center text-base sm:text-lg text-[#1A1A1A] px-4 sm:px-0">
           We are dedicated to making a meaningful impact on the world by
-          applying our expertise across <br /> critical domains: Health,
-          Wellbeing for the Workforce, Climate, and Livelihood.
+          applying our expertise across <br className="hidden sm:block" />{" "}
+          critical domains: Health, Wellbeing for the Workforce, Climate, and
+          Livelihood.
         </p>
 
-        <ul className="flex justify-center gap-5 mt-10">
+        <ul className="flex flex-col sm:flex-row justify-center gap-5 mt-10">
           {focusAreaData.map((item) => {
             return (
               <li key={item.id}>
-                <div className="flex flex-col items-center gap-3 w-[320px] h-full">
+                <div className="flex flex-col items-center gap-3 w-full sm:w-[320px] h-full">
                   <div className="relative group">
                     <Image
                       src={item.imageUrl}
@@ -40,10 +43,10 @@ const FocusArea = () => {
                   </div>
 
                   <div className="flex flex-col items-center flex-grow w-full">
-                    <h5 className="text-2xl text-cms-primary font-semibold">
+                    <h5 className="text-xl sm:text-2xl text-cms-primary font-semibold text-center">
                       {item.title}
                     </h5>
-                    <p className="text-lg text-[#171717] text-center">
+                    <p className="text-base sm:text-lg text-[#171717] text-center">
                       {item.desc}
                     </p>
                   </div>

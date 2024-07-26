@@ -50,15 +50,17 @@ const page = () => {
 
   return (
     <>
-      <div className="bg-[url('/insights/banner.png')] h-[480px] bg-cover bg-center pt-5 pb-14">
+      <div className="bg-[url('/insights/banner.png')] h-[420px] md:h-[480px] bg-cover bg-center pt-5 pb-14">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-32">
-          <h1 className="text-5xl font-semibold text-white ">Insights</h1>
+        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
+            Insights
+          </h1>
         </div>
       </div>
       <div className="bg-cms-secondary-green">
-        <div className="py-7 flex flex-col justify-center max-w-screen-xl mx-auto">
-          <ul className="flex gap-3 mb-16">
+        <div className="py-7 flex flex-col justify-center max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ul className="flex flex-wrap gap-3 mb-8 sm:mb-16">
             {insightsTabs.map((item) => {
               return (
                 <li key={item.id}>
@@ -67,7 +69,7 @@ const page = () => {
                       activeTab === item.id
                         ? "bg-cms-primary text-white"
                         : "bg-white text-[#1A1A1A]"
-                    } w-[120px] py-2 border border-cms-primary`}
+                    } w-[100px] sm:w-[120px] py-2 border border-cms-primary`}
                     onClick={() => setActiveTab(item.id)}
                   >
                     {item.tab}
@@ -77,20 +79,20 @@ const page = () => {
             })}
           </ul>
 
-          <ul className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             {insightsData.map((item) => {
               return (
                 <li key={item.id} className="h-full">
-                  <div className="w-[400px] flex flex-col gap-3 bg-white h-full">
+                  <div className="w-full sm:w-auto flex flex-col gap-3 bg-white h-full">
                     <Image
                       src={item.imageUrl}
                       width={450}
                       height={260}
                       alt=""
-                      className="flex-shrink-0 w-[450px] h-[260px]"
+                      className="flex-shrink-0 w-full sm:w-[450px] h-[260px]"
                     />
 
-                    <p className="ps-2">{item.category}</p>
+                    <p className="px-2">{item.category}</p>
                     <hr className="border-t border-gray-200" />
 
                     <div className="p-2 space-y-3 flex-grow flex flex-col">

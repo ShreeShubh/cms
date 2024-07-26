@@ -3,49 +3,34 @@ import Header from "@/components/Header/Header"
 import EmpoweringChange from "@/components/Home/EmpoweringChange/EmpoweringChange"
 import FocusArea from "@/components/Home/FocusArea/FocusArea"
 import Impact from "@/components/Home/Impact/Impact"
-import Partners from "@/components/Home/Partners/Partners"
 import Solutions from "@/components/Home/Solutions/Solutions"
-import { searchIcon } from "@/utils/icon"
-import Image from "next/image"
+import HomePartners from "@/components/Home/HomePartners/HomePartners"
 
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('/home/banner.png')] h-[720px] bg-center bg-cover py-5">
-        {/* <Image
-          src="/socialBusinesses/banner.png"
-          width={1366}
-          height={340}
-          className="w-full"
-        /> */}
-        {/* <div className="search-container relative me-1 w-12 h-12 bg-white border-4 border-white rounded-full p-1 transform transition-all duration-1000 ease-in-out hover:w-[200px] cursor-pointer group">
-          <span className="search-icon absolute top-0 right-0 w-10 h-10 text-cms-primary flex items-center justify-center rounded-full text-2xl transition-all duration-1000 ease-in-out group-hover:bg-purple-700 group-hover:text-white">
-            {searchIcon}
-          </span>
-          <input
-            type="text"
-            id="search-navbar"
-            className="search-input border absolute top-0 left-0 w-full h-10 text-sm text-gray-900 rounded-full p-0 pl-5 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white hidden"
-            placeholder="Search..."
-          />
-        </div> */}
+      <div className="bg-[url('/home/banner.png')] h-[420px] md:[720px] bg-center bg-cover py-2 md:py-5 sm:h-[500px] md:h-[600px] lg:h-[720px]">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-48">
-          <h1 className="text-5xl font-semibold text-white ">
-            Scaling Impact for a <br /> Sustainable Future
+        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
+            Scaling Impact for a <br className="hidden sm:block" /> Sustainable
+            Future
           </h1>
         </div>
       </div>
+
       {/* <CurrentPath /> */}
 
-      <div className="py-12">
-        <div className="text-center mb-5">
-          <h2 className="text-cms-primary-black text-xl">
+      <div className="py-5 md:py-12">
+        <div className="text-center md:mb-5 px-2 sm:px-4 md:px-6 lg:px-8">
+          <h2 className="text-cms-primary-black text-base sm:text-lg md:text-xl">
             We are a social investment catalyst that partners with change agents
-            to solve <br /> complex societal problems, leveraging our 30 years
-            of experience and resources. <br /> We are committed to transforming
-            social enterprises and impactful initiatives <br /> aligned with
-            Sustainable Development Goals.
+            to solve <br className="hidden sm:block" /> complex societal
+            problems, leveraging our 30 years of experience and resources.{" "}
+            <br className="hidden sm:block" /> We are committed to transforming
+            social enterprises and impactful initiatives{" "}
+            <br className="hidden sm:block" /> aligned with Sustainable
+            Development Goals.
           </h2>
         </div>
       </div>
@@ -54,7 +39,7 @@ export default function Home() {
       <Solutions />
       <Impact />
       <FocusArea />
-      <Partners />
+      <HomePartners />
     </>
   )
 }

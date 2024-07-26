@@ -64,12 +64,12 @@ const page = () => {
         </div>
       </div> */}
 
-      <div className="bg-[url('/domainAreas/climate/banner.png')] h-[640px] bg-center bg-cover pt-5 flex flex-col">
+      <div className="bg-[url('/domainAreas/climate/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
         <div className="w-full">
           <Header />
         </div>
-        <div className="ps-24 flex items-end h-full">
-          <div className="flex justify-center items-center h-44 w-64 bg-white">
+        <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
+          <div className="flex justify-center items-center h-40 w-44  md:h-44 md:w-64 bg-white">
             <Image
               src="/domainAreas/climate/logo.png"
               height={256}
@@ -95,9 +95,8 @@ const page = () => {
         />
       </div>
       <HowDoWeWork />
-      <div className="max-w-screen-xl mx-auto">
-        <ThreeSectors01 />
-      </div>
+
+      <ThreeSectors01 />
 
       <div className="bg-cms-secondary-green">
         <ThreeSectors02 />

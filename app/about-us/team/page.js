@@ -9,10 +9,12 @@ const page = () => {
     "Our team consists of dedicated mentors, impact specialists, and business experts. Meet the dedicated team at CMS, blending deep industry knowledge with a relentless pursuit of positive social change."
   return (
     <>
-      <div className="bg-[url('/banner/banner02.png')] h-[480px] w-full bg-center bg-cover py-5">
+      <div className="bg-[url('/banner/banner02.png')] h-[420px] md:h-[480px] w-full bg-center bg-cover py-5">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-32">
-          <h1 className="text-5xl font-semibold text-white ">Our Team</h1>
+        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
+            Our Team
+          </h1>
         </div>
       </div>
 

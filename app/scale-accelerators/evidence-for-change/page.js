@@ -31,14 +31,16 @@ export const tabs = [
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/scaleAccelerators/evidenceForChange/banner.png')] bg-cover bg-center pt-5">
-        <Header />
-        <div className="max-w-screen-xl mx-auto mt-32 mb-16">
-          <h1 className="text-4xl font-semibold text-white ">
+      <div className="bg-[url('/scaleAccelerators/evidenceForChange/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
+        <div className="w-full">
+          <Header />
+        </div>
+        <div className="md:ps-24 flex justify-center md:justify-start mt-14 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white">
             Evidence for Change
           </h1>
         </div>
-        <div className="max-w-screen-xl mx-auto flex items-end h-full">
+        <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
           <div className="flex justify-center items-center">
             <Image
               src="/scaleAccelerators/evidenceForChange/logo.png"
@@ -52,25 +54,25 @@ const page = () => {
 
       <Tab tabs={tabs} />
 
-      <div className="max-w-screen-xl mx-auto mt-14 mb-8">
-        <div className="space-y-4 text-cms-primary-black text-lg w-4/5">
-          <p className="">
-            In Evidence for Change, we specialise in facilitating theories of
+      <div className="max-w-screen-xl mx-auto mt-5 md:mt-14 mb-8 px-5">
+        <div className="space-y-4 text-cms-primary-black text-base md:text-lg w-full md:w-4/5">
+          <p>
+            In Evidence for Change, we specialize in facilitating theories of
             change, alternate analysis, results frameworks, and tools, building
             evidence through pluralistic methodologies, participatory learning,
             and action, and establishing efficient monitoring, evaluation, and
             learning systems through a multidisciplinary approach.
           </p>
           <p>
-            We specialise in designing and conducting research and evaluation in
+            We specialize in designing and conducting research and evaluation in
             multiple domains, with a variety of partners through a collaborative
             process.
           </p>
           <p>
             We deliver quality impact evaluations through rigorous experimental,
-            quasi-experimental, mixed-method and qualitative methods, nationally
-            and internationally. Our focus areas include conducting impact
-            assessments, programme evaluations, summative and performance
+            quasi-experimental, mixed-method, and qualitative methods,
+            nationally and internationally. Our focus areas include conducting
+            impact assessments, programme evaluations, summative and performance
             evaluations, action research, exploratory and formative assessments,
             literature reviews, sectoral studies, and organisational
             assessments, amongst others.
@@ -80,39 +82,39 @@ const page = () => {
 
       <PartneredWithExperts />
 
-      <div className="max-w-screen-xl mx-auto text-lg text-[#1A1A1A] mb-8">
+      <div className="max-w-screen-xl mx-auto text-lg text-[#1A1A1A] mb-8 px-5">
         <p>
           We have carried out over 100 project/programme evaluations and
           organisational assessments, using methods and approaches that help
-          communities and programme staff to reflect, assess, learn and apply
+          communities and programme staff to reflect, assess, learn, and apply
           strategies. The team has strong experience in using evidence to
           contribute to shaping public and organisational policies and improving
           programme strategies.
         </p>
       </div>
 
-      <div className="max-w-screen-xl mx-auto w-full flex justify-between items-center mb-16">
-        <div>
+      <div className="max-w-screen-xl mx-auto w-full flex flex-col md:flex-row justify-between items-center mb-16 px-5">
+        <div className="flex-shrink-0 mb-5 md:mb-0">
           <Image
             src="/scaleAccelerators/evidenceForChange/image01.png"
             width={444}
             height={320}
-            alt=""
+            alt="Evaluation Image"
+            className="w-full h-auto"
           />
         </div>
 
-        <div className="w-[500px] text-lg text-[#1A1A1A] me-16">
+        <div className="w-full md:w-[500px] text-lg text-[#1A1A1A] md:ms-16">
           <p>
             Recently, the team (CMS and 3ie) working with the Government,
             concluded the evaluation of the National Rural Livelihood Project’s
-            (NRLP) programme working on women empowerment and decision-making
+            (NRLP) programme focusing on women empowerment and decision-making
             within the household through access to credit. We studied the impact
-            of the programme and institutional support that SHG provides to
-            women with the aim of providing a sustainable livelihood and
-            financial inclusion. We measured the decision-making capacity of
-            women based on the responses recorded to 26 questions that covered a
-            variety of scenarios within households, such as food, children,
-            education, assets and finance.
+            of the programme and the institutional support that SHG provides to
+            women, aiming to provide sustainable livelihood and financial
+            inclusion. We measured the decision-making capacity of women based
+            on responses recorded to 26 questions covering various household
+            scenarios, such as food, children, education, assets, and finance.
           </p>
         </div>
       </div>

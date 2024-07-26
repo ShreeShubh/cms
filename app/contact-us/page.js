@@ -27,32 +27,41 @@ const page = () => {
   }
   return (
     <>
-      <div className="bg-[url('/contactUs/banner.png')] h-[480px] bg-cover bg-center pt-5 pb-14">
+      <div className="bg-[url('/contactUs/banner.png')] h-[420px] md:h-[480px] bg-cover bg-center pt-5 pb-14">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-32">
-          <h1 className="text-5xl font-semibold text-white ">Contact Us</h1>
+        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
+            Contact Us
+          </h1>
         </div>
       </div>
 
-      <div className="flex w-full h-[700px]">
-        <div className="bg-cms-primary w-1/2 flex flex-col text-white py-24 px-20">
-          <h3 className="text-2xl font-semibold">Head Office</h3>
-          <p className="text-lg">Catalyst Management Services Pvt. Ltd.,</p>
+      <div className="flex flex-col lg:flex-row w-full h-auto lg:h-[700px]">
+        <div className="bg-cms-primary w-full lg:w-1/2 flex flex-col text-white py-12 lg:py-24 px-6 lg:px-20">
+          <h3 className="text-xl lg:text-2xl font-semibold">Head Office</h3>
+          <p className="text-base lg:text-lg mt-4">
+            Catalyst Management Services Pvt. Ltd.,
+          </p>
 
-          <p className="text-lg mt-16">
+          <p className="text-base lg:text-lg mt-8">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been th
           </p>
-          <p className="text-lg mt-5">Email: contactus@catalysts.org</p>
-          <p className="text-lg">Phone: 0123456789</p>
+          <p className="text-base lg:text-lg mt-5">
+            Email: contactus@catalysts.org
+          </p>
+          <p className="text-base lg:text-lg">Phone: 0123456789</p>
         </div>
 
-        <div className="bg-cms-secondary-green w-1/2 flex flex-col text-white py-24 px-20">
-          <h3 className="text-2xl font-semibold text-cms-primary">
+        <div className="bg-cms-secondary-green w-full lg:w-1/2 flex flex-col text-white py-12 lg:py-24 px-6 lg:px-20">
+          <h3 className="text-xl lg:text-2xl font-semibold text-cms-primary">
             Or leave us a message <br /> and we’ll get in touch with you.
           </h3>
 
-          <form onSubmit={handleSubmit} className="w-full max-w-lg mt-10">
+          <form
+            onSubmit={handleSubmit}
+            className="w-full max-w-lg mt-8 lg:mt-10"
+          >
             <div className="mb-4">
               <input
                 type="text"
@@ -91,16 +100,16 @@ const page = () => {
                 onChange={handleChange}
                 className="mr-2 mt-2"
               />
-              <label className="text-lg text-[#404040]">
+              <label className="text-base lg:text-lg text-[#404040]">
                 I consent to having this website store my submitted information
                 so they can respond to my inquiry.
                 <br />
-                See our privacy policy to learn more how we use data.
+                See our privacy policy to learn more about how we use data.
               </label>
             </div>
             <button
               type="submit"
-              className="px-10 py-2 border border-[#646464] text-[#404040] rounded "
+              className="px-6 lg:px-10 py-2 lg:py-3 border border-[#646464] text-[#404040] rounded"
             >
               Send
             </button>

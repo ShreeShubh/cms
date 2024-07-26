@@ -3,8 +3,8 @@ import React from "react"
 
 const RapidFramework = () => {
   return (
-    <div className="flex flex-col items-center gap-5 mb-8 w-3/4 max-w-screen-xl mx-auto">
-      <h2 className="text-3xl font-semibold text-cms-primary">
+    <div className="flex flex-col items-center gap-5 mb-8 w-full md:w-3/4 max-w-screen-xl mx-auto px-4">
+      <h2 className="text-3xl font-semibold text-cms-primary text-center">
         The RAPID Framework
       </h2>
       <div className="border-b-2 border-cms-primary-green w-20" />
@@ -20,8 +20,8 @@ const RapidFramework = () => {
         src="/scaleAccelerators/implementForScale/rapidFramework/image01.png"
         width={904}
         height={488}
-        alt=""
-        className="mt-5"
+        alt="RAPID Framework"
+        className="mt-5 w-full h-auto"
       />
     </div>
   )

@@ -1,18 +1,18 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
 
 const WorkforceWellbeing = () => {
   return (
-    <div className="flex me-16">
-      <div className="bg-cms-primary text-white">
-        <div className="w-[400px]">
-          <h1 className="text-3xl font-semibold mb-6 ps-16 pe-10 py-10">
-            Need Heading <br /> Here
+    <div className="flex flex-col lg:flex-row md:me-16">
+      <div className="bg-cms-primary text-white w-full lg:w-auto">
+        <div className="w-full lg:w-[400px]">
+          <h1 className="text-3xl font-semibold mb-6 ps-4 lg:ps-16 pe-4 lg:pe-10 py-10">
+            Need Heading <br className="hidden md:block" /> Here
           </h1>
         </div>
       </div>
-      <div className="">
-        <div className="flex flex-col items-start justify-center py-5 gap-7 ps-20 pe-16">
+      <div className="w-full">
+        <div className="flex flex-col items-start justify-center py-5 gap-7 ps-4 lg:ps-20 pe-4 lg:pe-16">
           <p className="text-lg text-[#404040]">
             Over the last 14 years, we have partnered with over 30 organisations
             and built our presence in over 351 factories across 14 states in

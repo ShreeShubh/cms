@@ -3,10 +3,12 @@ import React from "react"
 
 const OurOffers = () => {
   return (
-    <div className="flex flex-col items-center gap-5 mb-8 w-3/4 max-w-screen-xl mx-auto">
-      <h2 className="text-3xl font-semibold text-cms-primary">Our Offers</h2>
-      <div className="border-b-2 border-cms-primary-green w-20" />
-      <p className="text-lg text-center">
+    <div className="flex flex-col items-center gap-5 mt-10 mb-8 w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-3xl font-semibold text-cms-primary text-center">
+        Our Offers
+      </h2>
+      <div className="border-b-2 border-cms-primary-green w-20 mx-auto" />
+      <p className="text-lg text-center mt-4">
         To support organizations in achieving successful implementation, we
         offer a range of services and tools. These include proof of concepts to
         test and validate innovative ideas, capacity building programs to equip
@@ -18,12 +20,12 @@ const OurOffers = () => {
         implementation efforts.
       </p>
 
-      <div className="bg-[#ECDFF2] rounded-2xl flex flex-col gap-3 items-center p-10 my-5">
-        <h2 className="text-3xl font-semibold text-cms-primary">
+      <div className="bg-[#ECDFF2] rounded-2xl flex flex-col gap-3 items-center p-6 sm:p-10 my-5">
+        <h2 className="text-3xl font-semibold text-cms-primary text-center">
           Stages of Intervention
         </h2>
-        <div className="border-b-2 border-cms-primary-green w-20" />
-        <p className="text-lg text-center w-3/4 mt-3">
+        <div className="border-b-2 border-cms-primary-green w-20 mx-auto" />
+        <p className="text-lg text-center w-full sm:w-3/4 mt-3">
           We can support organizations at various stages based on the
           requirements of the implementing organization. It starts with
           comprehensive planning, followed by piloting the intervention to gauge
@@ -38,13 +40,14 @@ const OurOffers = () => {
           width={558}
           height={472}
           alt=""
-          className="mt-5"
+          className="w-full max-w-md mt-5"
         />
       </div>
 
-      <h2 className="text-3xl font-semibold text-[#1A1A1A]">Conclusion</h2>
-      {/* <div className="border-b-2 border-cms-primary-green w-20" /> */}
-      <p className="text-lg text-center text-[#1A1A1A]">
+      <h2 className="text-3xl font-semibold text-[#1A1A1A] text-center">
+        Conclusion
+      </h2>
+      <p className="text-lg text-center text-[#1A1A1A] mt-4">
         Implementing innovative ideas and interventions for sustainable impact
         at scale is a complex endeavor. However, by following a comprehensive
         framework like RAPID, organizations can increase their chances of

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 const ThreeSectors01 = () => {
   return (
-    <div className="flex flex-col gap-7 py-10">
+    <div className="flex flex-col gap-7 py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div>
         <h1 className="text-cms-primary text-3xl font-semibold">
           Three Sectors
@@ -13,12 +13,12 @@ const ThreeSectors01 = () => {
       </div>
 
       <div className="flex flex-col gap-5">
-        <div className="flex gap-3 text-cms-primary text-2xl">
+        <div className="flex flex-col sm:flex-row gap-3 text-cms-primary text-2xl">
           <p>01.</p>
           <p>Agriculture & Food Systems:</p>
         </div>
         <p className="text-lg text-[#404040]">
-          <span className="text-cms-primary-green">Challenges: </span>{' '}
+          <span className="text-cms-primary-green">Challenges: </span>{" "}
           Agricultural systems are on the front lines of climate change, both
           creating and affected by climate change - contributing significantly
           to water usage and livestock carbon emission. With increased weather
@@ -41,7 +41,7 @@ const ThreeSectors01 = () => {
         <p className="text-lg text-cms-primary">For example,</p>
 
         <p className="text-lg text-[#404040]">
-          our work through the{' '}
+          our work through the{" "}
           <span className="text-cms-primary-green">GREEN Foundation </span> that
           works at the intersection of food, energy and health systems using
           regenerative models that integrate agricultural practices, sustainable
