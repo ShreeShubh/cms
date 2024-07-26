@@ -9,7 +9,7 @@ import HomePartners from "@/components/Home/HomePartners/HomePartners"
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('/home/banner.png')] h-[420px] md:[720px] bg-center bg-cover py-2 md:py-5 sm:h-[500px] md:h-[600px] lg:h-[720px]">
+      <div className="bg-[url('/home/banner.png')] h-[420px] md:[720px] bg-center bg-cover md:py-5 sm:h-[500px] md:h-[600px] lg:h-[720px]">
         <Header />
         <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
