@@ -635,7 +635,7 @@ export const socialBusinessesData = [
     logoUrl: "/socialBusinesses/logo02.png",
     title: "G1",
     desc: "Business Catalyst partners with MSMEs to help them expand and enhance their operations. By tackling specific challenges and offering customized solutions, we aim to empower these businesses to reach their full potential. Through individual consultations, we tailor our support to meet the unique needs of each MSME. Our services range from capacity building to technical support, all designed to boost profitability and overcome growth barriers. Learn more about how Business Catalyst can transform your business.",
-    path: "/social-businesses/g1",
+    path: "/g1",
   },
   {
     id: 3,
@@ -643,7 +643,7 @@ export const socialBusinessesData = [
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Business Catalyst",
     desc: "We aim to help businesses, particularly MSMEs, achieve growth and profitability by increasing turnover and creating a sustainable expansion strategy. Our approach includes reducing costs through minimised credit expenses, leveraging government schemes, and risk mitigation; improving supply chains by enhancing processes and making strategic investments in materials and production; and supporting steady income and secure livelihoods by focusing on workforce wellbeing. These efforts are designed to foster not only business growth but also a stable financial future for the communities we serve.",
-    path: "/social-businesses/business-catalyst",
+    path: "/business-catalyst",
   },
   {
     id: 4,
@@ -651,7 +651,7 @@ export const socialBusinessesData = [
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Shoonya",
     desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The program focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns, and an enhanced brand image, further boosted by gamification and promotional strategies.",
-    path: "/social-businesses/shoonya",
+    path: "/shoonya",
   },
 ]
 
@@ -1192,5 +1192,497 @@ export const insightsData = [
     title:
       "BASTAR FRESH: THE MAKING OF A WILD CUSTARD APPLE BRAND BY THE TRIBAL WOMEN OF CHHATTISGARH",
     desc: "Bastar is a richly forested landscape, with undulating hills, water streams and is a predominantly tribal",
+  },
+]
+
+export const businesses = [
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market.svg",
+    title: "Increased Turnover",
+    desc: "Partnering with MSMEs – to help them expand their business in a sustainable way.",
+    action: "flip-left",
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/recycle.svg",
+    title: "Cost Reduction",
+    desc: "Minimising credit costs, leveraging government schemes, and mitigating risks.",
+    action: "flip-left",
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/chain.svg",
+    title: "Supply Chain Improvements",
+    desc: "Improving processes, using cost-effective materials & investing strategically in product and production enhancements.",
+    action: "flip-left",
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/systems.svg",
+    title: "Support System",
+    desc: "Partnering with MSMEs – to help them expand their business in a sustainable way.",
+    action: "flip-left",
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/money.svg",
+    title: "Steady Income & Secure Livelihoods",
+    desc: "Ensuring a stable and secure financial future through focus on workforce wellbeing.",
+    action: "flip-left",
+  },
+]
+
+export const growthServices = [
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/makerting.svg",
+    title: "Marketing",
+    desc: "Onboarding support to small and large businesses on major B2B and B2C e-commerce platforms to amplify profits.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/e-commerce.svg",
+        serviceDesc: "E-Commerce Onboarding",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/speakers.svg",
+        serviceDesc: "Digital Marketing",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/legalService.svg",
+    title: "Legal Services",
+    desc: "Onboarding support to small and large businesses on major B2B and B2C e-commerce platforms to amplify profits.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/compliance.svg",
+        serviceDesc: "ROC Compliance and Filings",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/incorporation.svg",
+        serviceDesc: "Registrations and Incorporation",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/trademark.svg",
+        serviceDesc: "Trademark and Copyright",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/financing.svg",
+    title: "Financing Services",
+    desc: "Easy access to unsecured term loans for small and large businesses.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Credit-Linkage.svg",
+        serviceDesc: "Credit Linkage",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Insurance.svg",
+        serviceDesc: "Insurance",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Government-Schemes.svg",
+        serviceDesc: "Government Schemes",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/manufacturing.svg",
+    title: "Manufacturing Excellence Services",
+    desc: "Provides services that will increase your factory’s manufacturing capability.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Government-Schemes.svg",
+        serviceDesc: "Factory Capacity and Capability Audit (FCCA)",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Total-Production-Management.svg",
+        serviceDesc: "Total Production Management (TPM)",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Total+Quality+Management.svg",
+        serviceDesc: "Total Quality Management (TQM)",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Lean+System.svg",
+        serviceDesc: "Lean System",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/management.svg",
+    title: "HR Management Services",
+    desc: "Implement easy human resources practices to manage your workforce.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Government-Schemes.svg",
+        serviceDesc: "Recruitment",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Performance+Management.svg",
+        serviceDesc: "Performance Management",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Payroll+Management.svg",
+        serviceDesc: "Payroll Management",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Employee+Engagement.svg",
+        serviceDesc: "Employee Engagement",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/expert.svg",
+    title: "Expert Advisory",
+    desc: "Provides one-on-one personalised mentoring on core business areas.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Operations+Management.svg",
+        serviceDesc: "Operations Management",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/speakers.svg",
+        serviceDesc: "Marketing & Sales",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Business+Strategy.svg",
+        serviceDesc: "Business Strategy",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/digitalServices.svg",
+    title: "Digital Services",
+    desc: "Provides automation software to help increase productivity and reduce the cost of doing business.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Production.svg",
+        serviceDesc: "Production",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Government-Schemes.svg",
+        serviceDesc: "HR and Finance",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Sales.svg",
+        serviceDesc: "Sales",
+      },
+    ],
+  },
+  {
+    icons:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/esgServices.svg",
+    title: "ESG Services",
+    desc: "Supports organisations to ensure easy transition to and adoption of ESG services.",
+    services: [
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Assessment+%26+Audits.svg",
+        serviceDesc: "Assessment & Audits",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Offsetting+%26+Reporting.svg",
+        serviceDesc: "Offsetting & Reporting",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Government-Schemes.svg",
+        serviceDesc: "Certificate Readiness",
+      },
+      {
+        icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/Workforce+Wellbeing.svg",
+        serviceDesc: "Workforce Wellbeing",
+      },
+    ],
+  },
+
+  // Add more headlines and their respective services as needed
+]
+
+export const experience = [
+  { count: "50000", title: "MSMEs" },
+  { count: "5000", title: "Women-Owned Businesses" },
+  { count: "500", title: "Factories" },
+  { count: "100", title: "Producer Companies" },
+  { count: "50", title: "Exporters" },
+]
+
+export const brands = [
+  {
+    banner:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market-header.png",
+    partners: [
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market-partners/gapinc-logo.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market-partners/big-basket.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market-partners/walmart.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market-partners/flipkart-logo.png",
+      },
+
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/market-partners/Swiggy_logo.svg_.png",
+      },
+    ],
+  },
+  {
+    banner:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/Header2.png",
+    partners: [
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/University_of_Houston_Logo.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/redefine-logo.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/BDO_logo.svg_.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/Mask-Group-19.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/business-for-social-responsibility-bsr-logo-vector.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/Inditex.svg.png",
+      },
+    ],
+  },
+  {
+    banner:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/Heding-3.png",
+    partners: [
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/Ever-Sorce.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/Canara-bank.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/indifi.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/indusind-bank.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/logo-sidbi.png",
+      },
+      {
+        icons:
+          "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/supply-chain/financing/Rang_De-logo.png",
+      },
+    ],
+  },
+]
+
+export const stories = [
+  {
+    story: `“Catalysts helped me define my business mission and vision. In today’s business environment, it is an excellent platform for those who are driven to be business leaders. It has been designed to address the challenges faced by manufacturers throughout India.”`,
+    image:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/hina.png",
+    name: "Hina Dora",
+    designation: "Owner, Masaledaani Dehradun, Uttarakhand",
+  },
+  {
+    story: `“Catalysts helped us in targeting clients across India and improving our supply chain at a new location. We’ve also begun listing our products on numerous B2B channels with the help of the knowledge gained through webinars. We’ve started using a variety of social media activities to promote our website online.”`,
+    image:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/mohini.png",
+    name: "Mohini Bhardwaj",
+    designation:
+      "Marketing Manager, Twin Tech India Pvt. Ltd. - Noida, Uttar Pradesh",
+  },
+  {
+    story: `“As part of our effort to be a digital future-ready company, we are moving away from traditional business practices and exploring online platforms and opportunities to boost sales. Catalysts enabled us to gain structured knowledge and a new perspective for growth.Implementing the lessons we learned from the program, we started exploring digital marketing and advertising on Flipkart and Amazon. We are now aiming to get over 1,000 orders per day from the Flipkart channel.”`,
+    image:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/santosh.png",
+    name: "Santosh Jagannath Kamble",
+    designation:
+      "Managing Director, Bizcraft Solutions Private Limited - Mumbai, Maharashtra",
+  },
+]
+
+export const globalImpact = [
+  {
+    title: "Factory Workers",
+    count: "400000",
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/Global-Impact/Factory-Workers.svg",
+  },
+  {
+    title: "Small and Growing Businesses",
+    count: "40000",
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/Global-Impact/Small+and+Growing+Businesses.svg",
+  },
+  {
+    title: "Women-Owned Businesses",
+    count: "5000",
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/Global-Impact/Women-Owned+Businesses.svg",
+  },
+  {
+    title: "Factories",
+    count: "750",
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/Global-Impact/Factories.svg",
+  },
+  {
+    title: "Producer Companies",
+    count: "100",
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/Global-Impact/Producer+Companies.svg",
+  },
+  {
+    title: "Exporters",
+    count: "30",
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/Global-Impact/Exporters.svg",
+  },
+]
+
+export const sectors = [
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/1.png",
+    title: "National and International Brands/Companies",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/2.png",
+    title: "Value Chain Players- MSMEs",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/3.png",
+    title: "Industry Associations",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/4.png",
+    title: "Industry Coalitions",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/5.png",
+    title: "Service/Solution providers",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/6.png",
+    title: "Government stakeholders",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/7.png",
+    title: "Academic institutions",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/8.png",
+    title: "Civil society and Other Industry leaders",
+  },
+]
+
+export const goneCommunity = [
+  {
+    imagUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/g1-image/community-1.png",
+
+    title: "Female Workforce",
+  },
+  {
+    imagUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/g1-image/community-2.png",
+    title: "Fisher People",
+  },
+  {
+    imagUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/g1-image/community-3.png",
+
+    title: "Farmers",
+  },
+  {
+    imagUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/g1-image/community-4.png",
+
+    title: "Informal Workers",
+  },
+]
+
+export const shoonyaServices = [
+  {
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/carousel/carbon_icon.png",
+    title: "Net Zero Consulting",
+    desc: "We guide factories and MSMEs in achieving environmental compliance, enhancing their understanding of market needs, and preparing them for global markets.",
+  },
+  {
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/carousel/energy_icon.png",
+    title: "Environmental Certification Readiness",
+    desc: "We facilitate increased business prospects, global readiness, and more through process efficiencies and certifications such as ISO, SA8000, EPR, GRS, SEDEX, and more.",
+  },
+  {
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/carousel/env_icon.png",
+    title: "Carbon and Plastics Offsetting",
+    desc: "Our services cover plastic waste management, water recycling, and Carbon Scoping Audits, complemented by extensive tree plantation and growth initiatives for carbon offsetting.",
+  },
+  {
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/carousel/esg_icon.png",
+    title: "Energy Efficiency Audits",
+    desc: "We identify energy-related cost centers, implement cost-saving measures, and enhance factory productivity in the medium to long term.",
+  },
+  {
+    icon: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/carousel/net_zero_icon.png",
+    title: "ESG and Sustainability Management Reporting",
+    desc: "We provide both core and comprehensive Aspect Reporting tailored to the unique needs of Brands, MSMEs & Factories.",
+  },
+]
+
+export const esgTeam = [
+  {
+    name: "Amit Gupta",
+    designation: "Director, Evidence for Change",
+    profile:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/esg-team/Amit-Gupta.png",
+  },
+  {
+    name: "Priyamvada Tiwari",
+    designation: "Associate Director, Platform & Policy",
+    profile:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/esg-team/Priyamvada-Tiwari.png",
+  },
+  {
+    name: "Shaonli Chakraborty",
+    designation: "Director, Upfront",
+    profile:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/esg-team/Shaonli-Chakraborty.png",
+  },
+  {
+    name: "Vishrut Shivkumar",
+    designation: "Business Lead, Shoonya Net Zero Catalyst",
+    profile:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/esg-team/Vishrut-Shivkumar.png",
   },
 ]
