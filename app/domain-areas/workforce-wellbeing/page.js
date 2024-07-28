@@ -14,26 +14,11 @@ export const tabs = [
   },
   {
     id: 2,
-    tab: "Our Beliefs",
-    link: "ourBeliefs",
+    tab: "Our Presence",
+    link: "ourPresence",
   },
   {
     id: 3,
-    tab: "Our Approaches",
-    link: "ourApproaches",
-  },
-  {
-    id: 4,
-    tab: "How Do We Work?",
-    link: "howDoWeWork",
-  },
-  {
-    id: 5,
-    tab: "Investing for Impact",
-    link: "investingForImpact",
-  },
-  {
-    id: 6,
     tab: "Related Resources",
     link: "relatedResources",
   },
@@ -41,7 +26,7 @@ export const tabs = [
 
 const page = () => {
   const overviewDesc =
-    "Our Wellbeing for Workforce practise strives to make wellbeing a reality for the first mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of Workers, their families and communities."
+    "Our Wellbeing for Workforce practice strives to make wellbeing a reality for first-mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of the Workforce, their families, and communities."
   return (
     <>
       <div className="bg-[url('/domainAreas/workforce/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">

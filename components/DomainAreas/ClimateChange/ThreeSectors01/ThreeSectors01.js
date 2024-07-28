@@ -20,12 +20,12 @@ const ThreeSectors01 = () => {
         <p className="text-lg text-[#404040]">
           <span className="text-cms-primary-green">Challenges: </span>{" "}
           Agricultural systems are on the front lines of climate change, both
-          creating and affected by climate change - contributing significantly
-          to water usage and livestock carbon emission. With increased weather
-          variability, shifting growing seasons, and changing precipitation
-          patterns the small and marginal farmers are disproportionately
-          affected. They are the backbone of a country’s agriculture and climate
-          change endangers both food security and livelihoods.
+          creating and affected by it, contributing significantly to water usage
+          and livestock carbon emissions. With increased weather variability,
+          shifting growing seasons, and changing precipitation patterns, small
+          and marginal farmers are disproportionately affected. They are the
+          backbone of a country’s agriculture, and climate change endangers both
+          food security and livelihoods.
         </p>
 
         <p className="text-lg text-[#404040]">
@@ -35,19 +35,18 @@ const ThreeSectors01 = () => {
           support the creation of resilient food supply chains and value-added
           processes to reduce post-harvest losses. The practices that are
           promoted are planned in such a way that there is biodiversity
-          conservation and resource regeneration
+          conservation and resource regeneration.
         </p>
 
-        <p className="text-lg text-cms-primary">For example,</p>
+        {/* <p className="text-lg text-cms-primary">For example,</p> */}
 
         <p className="text-lg text-[#404040]">
-          our work through the{" "}
-          <span className="text-cms-primary-green">GREEN Foundation </span> that
-          works at the intersection of food, energy and health systems using
-          regenerative models that integrate agricultural practices, sustainable
-          land use and rural communities and focuses on promoting regenerative
-          agriculture practices by small holder farmers - through a combination
-          of inputs, practices, financing and market demand.
+          For example, our work through the GREEN Foundation, which works at the
+          intersection of food, energy, and health systems using regenerative
+          models that integrate agricultural practices, sustainable land use,
+          and rural communities, focuses on promoting regenerative agriculture
+          practices by small-holder farmers through a combination of inputs,
+          practices, financing, and market demand.
         </p>
 
         <p className="text-lg text-[#404040]">

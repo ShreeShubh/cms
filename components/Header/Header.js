@@ -37,7 +37,7 @@ const Header = () => {
               Contact Us
             </Link>
           </li>
-          <div className="search-container relative me-1 w-10 h-10 rounded-full p-1 transform transition-all duration-1000 ease-in-out hover:w-[200px] cursor-pointer group">
+          {/* <div className="search-container relative me-1 w-10 h-10 rounded-full p-1 transform transition-all duration-1000 ease-in-out hover:w-[200px] cursor-pointer group">
             <span className="search-icon absolute top-0 right-0 w-10 h-10 text-white flex items-center justify-center rounded-full text-2xl transition-all duration-1000 ease-in-out group-hover:bg-purple-700 group-hover:text-white">
               {searchIcon}
             </span>
@@ -47,7 +47,7 @@ const Header = () => {
               className="search-input border absolute top-0 left-0 w-full h-10 text-sm text-gray-900 rounded-full p-0 pl-5 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white hidden"
               placeholder="Search..."
             />
-          </div>
+          </div> */}
         </ul>
       </div>
       <nav className="max-w-screen-xl mx-auto border-y border-gray-400 dark:bg-gray-900 dark:border-gray-700">

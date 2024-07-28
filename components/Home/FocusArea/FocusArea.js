@@ -14,8 +14,8 @@ const FocusArea = () => {
         <p className="text-center text-base sm:text-lg text-[#1A1A1A] px-4 sm:px-0">
           We are dedicated to making a meaningful impact on the world by
           applying our expertise across <br className="hidden sm:block" />{" "}
-          critical domains: Health, Wellbeing for the Workforce, Climate, and
-          Livelihood.
+          critical domains: Health, Wellbeing for the Workforce, Climate,
+          Livelihood, and ESG.
         </p>
 
         <ul className="flex flex-col sm:flex-row justify-center gap-5 mt-10">

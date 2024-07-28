@@ -44,23 +44,23 @@ const page = () => {
           </p>
 
           <p className="text-base lg:text-lg mt-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been th
+            Catalyst Management Services Pvt. Ltd., #25, 4th Floor, AECS Layout,
+            RMV 2nd Stage, Ashwathnagar, Bangalore – 560 094
           </p>
-          <p className="text-base lg:text-lg mt-5">
+          {/* <p className="text-base lg:text-lg mt-5">
             Email: contactus@catalysts.org
           </p>
-          <p className="text-base lg:text-lg">Phone: 0123456789</p>
+          <p className="text-base lg:text-lg">Phone: 0123456789</p> */}
         </div>
 
         <div className="bg-cms-secondary-green w-full lg:w-1/2 flex flex-col text-white py-12 lg:py-24 px-6 lg:px-20">
           <h3 className="text-xl lg:text-2xl font-semibold text-cms-primary">
-            Or leave us a message <br /> and we’ll get in touch with you.
+            Leave us a message <br /> and we’ll get in touch with you
           </h3>
 
           <form
             onSubmit={handleSubmit}
-            className="w-full max-w-lg mt-8 lg:mt-10"
+            className="w-full max-w-lg mt-8 lg:mt-10 text-black"
           >
             <div className="mb-4">
               <input
@@ -102,7 +102,7 @@ const page = () => {
               />
               <label className="text-base lg:text-lg text-[#404040]">
                 I consent to having this website store my submitted information
-                so they can respond to my inquiry.
+                so they can respond to my enquiry.
                 <br />
                 See our privacy policy to learn more about how we use data.
               </label>

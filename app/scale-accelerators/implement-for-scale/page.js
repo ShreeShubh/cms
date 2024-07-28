@@ -11,27 +11,27 @@ export const tabs = [
   {
     id: 1,
     tab: "Introduction",
-    link: "",
+    link: "introduction",
   },
   {
     id: 2,
     tab: "Why Worry About Implementation?",
-    link: "",
+    link: "WhyWorry",
   },
   {
     id: 3,
     tab: "RAPID Framework",
-    link: "",
+    link: "rapidFramework",
   },
   {
     id: 4,
     tab: "Elements of Successful Implementation",
-    link: "",
+    link: "elementsOfSuccessful",
   },
   {
     id: 5,
-    tab: "Our Offerss",
-    link: "",
+    tab: "Our Offers",
+    link: "ourOffers",
   },
 ]
 
@@ -79,10 +79,10 @@ const page = () => {
             groundbreaking concept is not enough to ensure success. The true
             measure of an innovation lies in its implementation and its ability
             to deliver tangible results. Unfortunately, many well-designed
-            projects fail when implemented at scale. This begs the question: why
+            projects fail when implemented at scale. This begs the question: Why
             does such a gap exist between what we know and what we actually do?
             The answer lies in the complex nature of implementation and the
-            contextual factors that influence it.In this article, we will
+            contextual factors that influence it. In this article, we will
             explore the reasons behind implementation failures, the costs
             associated with such failures, and the key factors that contribute
             to successful implementation.
@@ -104,7 +104,7 @@ const page = () => {
             <p className="text-base md:text-lg text-white text-center w-full sm:w-10/12">
               Successful implementation requires a comprehensive approach that
               addresses various aspects of the process. The following elements
-              play a crucial role in achieving desired results:
+              play a crucial role in achieving the desired results:
             </p>
           </div>
           <ul className="flex flex-col gap-5 text-white w-full sm:w-10/12 mt-5">

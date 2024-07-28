@@ -41,9 +41,10 @@ const page = () => {
       <div className="">
         <div className="text-center mb-5">
           <h2 className="text-cms-primary-black text-2xl">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum <br /> has been the industry’s standard dummy
-            text
+            Collaborate with change agents to drive impactful, scalable, and
+            sustainable development. <br /> We address complex issues with
+            integrated solutions, fostering partnerships that enhance social
+            equity and growth.
           </h2>
         </div>
 

@@ -26,19 +26,19 @@ export const missionData = [
     id: 1,
     iconUrl: "/aboutUs/vision/icon01.png",
     title: "Impacting",
-    desc: "vulnerable communities by aligning with the 8 UN SDGs by 2030.",
+    desc: "vulnerable communities by aligning with eight UN SDGs by 2030",
   },
   {
     id: 2,
     iconUrl: "/aboutUs/vision/icon02.png",
     title: "Improving",
-    desc: "100 million lives by enabling development partners to enhance their impact through integrated and scalable solutions and investments.",
+    desc: "100 million lives by enabling development partners to enhance their impact through integrated and scalable solutions and investments",
   },
   {
     id: 3,
     iconUrl: "/aboutUs/vision/icon03.png",
     title: "Investing",
-    desc: "in partnerships and social impact externally, and in people, process and performance internally",
+    desc: "in partnerships and social impact externally and in people, processes, and performance internally",
   },
 ]
 
@@ -146,32 +146,35 @@ export const incubateesData = [
     id: 1,
     imageUrl: "/aboutUs/incubatees/image01.png",
     logoUrl: "/aboutUs/incubatees/logo01.png",
-    title: "SWASTI",
-    desc: "Swasti – The Health Catalyst – is a health resource centre, which achieves public health outcomes for the marginalised through the delivery of end-to-end solutions as well as short and long term support and facilitation, combining research and practice. The organisation has supported governments, donors and development partners to design solutions in public health.",
-    websiteUrl: "https://www.google.com/",
+    titleColor: "#EB0A6E",
+    title: "Swasti",
+    desc: "is a health resource centre that achieves public health outcomes for the marginalised through end-to-end solutions as well as short and long-term support and facilitation, combining research and practice. The organisation has supported governments, donors, and development partners to design solutions for public health.",
+    websiteUrl: "https://swasti.org",
   },
   {
     id: 2,
     imageUrl: "/aboutUs/incubatees/image02.png",
     logoUrl: "/aboutUs/incubatees/logo02.png",
-    title: "VRUTTI",
-    desc: "Vrutti is a Livelihood Impact Partner which enhances people’s well-being through knowledge, innovation and transformative actions, and brings about solutions at a scale that eliminate inequities and create wealth for marginalised communities. The social organisation works through result-based planning tools, performance measurement metrics, impact and value for money assessments, and using technology as an augmenter.",
-    websiteUrl: "https://www.google.com/",
+    titleColor: "#045642",
+    title: "Vrutti",
+    desc: "is a Livelihood Impact Partner that enhances people’s well-being through knowledge, innovation, and transformative actions and brings about solutions at a scale that eliminates inequities and creates wealth for marginalised communities. The social organisation works through result-based planning tools, performance measurement metrics, impact and value for money assessments, and using technology as an augmenter.",
+    websiteUrl: "https://vruttiimpactcatalysts.org/",
   },
   {
     id: 3,
     imageUrl: "/aboutUs/incubatees/image03.png",
     logoUrl: "/aboutUs/incubatees/logo03.png",
-    title: "FUZHIO",
-    desc: "Fuzhio promotes Impact Products directly to customers on behalf of small farmers and vulnerable groups, and allows them to maximise yields and provide customers with safe, responsible products.",
-    websiteUrl: "https://www.google.com/",
+    titleColor: "#6F190D",
+    title: "Fuzhio",
+    desc: "promotes impact products directly to customers on behalf of small farmers and vulnerable groups, and allows them to maximise yields and provide customers with safe, responsible products.",
+    websiteUrl: "https://fuzhio.org",
   },
 ]
 
 export const partnersData = [
   {
     id: 1,
-    organisation: "Government",
+    organisation: "Government Initiatives",
     partners: ["/aboutUs/partners/image01.png"],
   },
   {
@@ -220,7 +223,7 @@ export const partnersData = [
   },
   {
     id: 5,
-    organisation: "UN Organisation",
+    organisation: "UN Organisations",
     partners: [
       "/aboutUs/partners/image28.png",
       "/aboutUs/partners/image29.png",
@@ -235,8 +238,9 @@ export const domainAreasData = [
     mobImageUrl: "/domainAreas/mImage01.png",
     logoUrl: "/domainAreas/logo01.png",
     title: "Livelihood",
-    desc: "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient and responsible small producers at a national scale through inclusive entrepreneurship. Our approach to build wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers.",
+    desc: "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries, and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient, and responsible small producers on a national scale through inclusive entrepreneurship. Our approach to building wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers.",
     path: "/domain-areas/livelihood",
+    link: "livelihood",
   },
   {
     id: 2,
@@ -244,8 +248,9 @@ export const domainAreasData = [
     mobImageUrl: "/domainAreas/mImage02.png",
     logoUrl: "/domainAreas/logo02.png",
     title: "Health",
-    desc: "We have 25 years of experience as a global social impact consulting firm and use 360-degree approach that improves the well-being of vulnerable communities. CMS and its sister organisation, Swasti, a global south public health agency, partners with communities at the last mile to help them realise their potential through health and well-being. We work to achieve Universal Health Care and Global Health Security.",
+    desc: "We have 25 years of experience as a global social impact consulting firm and use a 360-degree approach that improves the well-being of vulnerable communities. Along with our sister organisation, Swasti, a global south public health agency, we partner with communities at the last mile to help them realise their potential through health and well-being. We work to achieve Universal Health Care and Global Health Security.",
     path: "/domain-areas/health",
+    link: "health",
   },
   {
     id: 3,
@@ -253,17 +258,29 @@ export const domainAreasData = [
     mobImageUrl: "/domainAreas/mImage03.png",
     logoUrl: "/domainAreas/logo03.png",
     title: "Climate Change",
-    desc: "The Climate Practice at the Catalyst Group believes in a vision to build “A thriving world powered by resilient communities and carbon neutral systems”. Given the imperative to address systemic gaps in climate ecosystems and promote people-centric models at scale, the Catalyst Group intends to build on our expertise and relationships with vulnerable groups to strengthen climate action.",
+    desc: "The Climate Practice at the Catalyst Group believes in a vision to build ‘a thriving world powered by resilient communities and carbon-neutral systems.’ Given the imperative to address systemic gaps in climate ecosystems and promote people-centric models at scale, the Catalyst Group intends to build on our expertise and relationships with vulnerable groups to strengthen climate action.",
     path: "/domain-areas/climate-change",
+    link: "climateChange",
   },
   {
     id: 4,
     imageUrl: "/domainAreas/image04.png",
-    mobImageUrl: "/domainAreas/mImage03.png",
+    mobImageUrl: "/domainAreas/mImage04.png",
     logoUrl: "/domainAreas/logo04.png",
-    title: "Workforce Wellbeing",
-    desc: "Our Wellbeing for Workforce practise strives to make wellbeing a reality for the first mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of Workers, their families and communities.",
+    title: "Wellbeing for Workforce",
+    desc: "Our Wellbeing for Workforce practice strives to make wellbeing a reality for first-mile workers and reach 100 million workers by 2030. We are committed to the wellbeing of workers, their families, and communities.",
     path: "/domain-areas/workforce-wellbeing",
+    link: "workforceWellbeing",
+  },
+  {
+    id: 5,
+    imageUrl: "/domainAreas/image05.png",
+    mobImageUrl: "/domainAreas/mImage05.png",
+    logoUrl: "/domainAreas/logo04.png",
+    title: "ESG",
+    desc: "In a world where the impacts of our actions resonate far beyond immediate boundaries, the need for comprehensive sustainability practices becomes crucial. At ESG-One, we understand that it’s no longer sufficient for organisations to focus solely on direct controls within their operations. True sustainability requires a holistic approach, extending responsible business practices throughout the entire value chain. This can be achieved by implementing changes in policy and practice that focus on people, the planet, and sustainable outcomes.",
+    path: "/esg",
+    link: "esg",
   },
 ]
 
@@ -292,22 +309,22 @@ export const valuesData = [
   {
     id: 1,
     iconUrl: "/aboutUs/vision/values/icon01.png",
-    desc: "An unconditional and uncompromising sense of compassion.",
+    desc: "An unconditional and uncompromising sense of compassion",
   },
   {
     id: 1,
     iconUrl: "/aboutUs/vision/values/icon02.png",
-    desc: "Striving for excellence in approach and impact.",
+    desc: "Striving for excellence in approach and impact",
   },
   {
     id: 1,
     iconUrl: "/aboutUs/vision/values/icon03.png",
-    desc: "Driven by intellect and imagination.",
+    desc: "Driven by intellect and imagination",
   },
   {
     id: 1,
     iconUrl: "/aboutUs/vision/values/icon04.png",
-    desc: "Committed to sustained collaborations and delivering solutions.",
+    desc: "Committed to sustained collaborations and delivering solutions",
   },
 ]
 
@@ -315,7 +332,7 @@ export const ethosData = [
   {
     id: 1,
     iconUrl: "/domainAreas/livelihood/icon01.svg",
-    desc: "We believe that market-driven and market-led supply chain development is beneficial for small producers given the volume and value of operations rather than production-based work.",
+    desc: "We believe that market-driven and market-led supply chain development is beneficial for small producers given the volume and value of operations rather than production-based work",
   },
   {
     id: 2,
@@ -325,7 +342,7 @@ export const ethosData = [
   {
     id: 3,
     iconUrl: "/domainAreas/livelihood/icon03.svg",
-    desc: "Small producers, on their own, find it difficult to access and thrive in the marketplace, given the scale, quality, investment, skills, and expertise required. Therefore, a business service organisation partnership with entities like Vrutti and Fuzhio is critical for their betterment.",
+    desc: "Small producers, on their own, find it difficult to access and thrive in the marketplace, given the scale, quality, investment, skills, and expertise required. Therefore, a business service organisation partnership with entities like Vrutti and Fuzhio is critical for their betterment",
   },
 ]
 
@@ -333,7 +350,7 @@ export const ourAppData = [
   {
     id: 1,
     iconUrl: "/domainAreas/livelihood/icon.png",
-    desc: "Ensuring small producers receive reasonable prices for the risk and effort they put into the value chain.",
+    desc: "Ensuring small producers receive reasonable prices for the risk and effort they put into the value chain",
   },
   {
     id: 2,
@@ -343,17 +360,17 @@ export const ourAppData = [
   {
     id: 3,
     iconUrl: "/domainAreas/livelihood/icon.png",
-    desc: "Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur.",
+    desc: "Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur",
   },
   {
     id: 4,
     iconUrl: "/domainAreas/livelihood/icon.png",
-    desc: "Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur.",
+    desc: "Working through collectives or clusters to bring power—collective agency—to deal with the ecosystem",
   },
   {
     id: 5,
     iconUrl: "/domainAreas/livelihood/icon.png",
-    desc: "Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur.",
+    desc: "Working with established market players and engaging with them as supply chain partners through co-investment is an effective way",
   },
 ]
 
@@ -435,14 +452,14 @@ export const catalystGroupData = [
     id: 3,
     no: "03.",
     title: "Innovation:",
-    desc: "We design innovative, people-focused climate solutions that address the specific needs of vulnerable communities. Our ability to adapt and create tailored solutions is a key strength. We actively promote solutions worldwide, accelerating the adoption of sustainability practices. We have already built innovative tools and approaches to solve climate issues - in plastics, in environmental surveillance, and in regen agriculture; all amenable to scale. And ready to co-create new solutions.",
+    desc: "We design innovative, people-focused climate solutions that address the specific needs of vulnerable communities. Our ability to adapt and create tailored solutions is a key strength. We actively promote solutions worldwide, accelerating the adoption of sustainability practices. We have already built innovative tools and approaches to solve climate issues—in plastics, in environmental surveillance, and in regen agriculture—all amenable to scale. And ready to co-create new solutions.",
   },
   {
     id: 4,
     no: "04.",
     title:
       "Range of assets we have built, which can be used for climate response",
-    desc: "Our network of partners (Private sector, NGOs, Government, academic, technology companies), our established community focused tools (Know Your Resilience), established approaches (Health and climate planning), our coalitions and networks (Community Action Collab, Green Health Alliance, etc) are all assets we will be able to leverage.",
+    desc: "Our network of partners (Private sector, NGOs, Government, academic, and technology companies), our established community-focused tools (Know Your Resilience), established approaches (health and climate planning), and our coalitions and networks (Community Action Collab, Green Health Alliance, etc.) are all assets we will be able to leverage.",
   },
 ]
 
@@ -457,13 +474,13 @@ export const howDoWeWorkData = [
     id: 2,
     no: "02.",
     title: "Action:",
-    desc: "We provide solutions, technical assistance, network building, and resource mobilization to put our climate solutions into action.",
+    desc: "We provide solutions, technical assistance, network building, and resource mobilisation to put our climate solutions into action.",
   },
   {
     id: 3,
     no: "03.",
     title: "Transformation:",
-    desc: "Our goal is to create climate-resilient pathways, achieve Net Zero by working closely with a range of stakeholders in the ecosystem to improve policies and practices.",
+    desc: "Our goal is to create climate-resilient pathways and achieve Net Zero by working closely with a range of stakeholders in the ecosystem to improve policies and practices.",
   },
 ]
 
@@ -472,37 +489,37 @@ export const keyDomainData = [
     id: 1,
     imageUrl: "/domainAreas/health/keyDomain/image01.png",
     title: "Comprehensive Primary Health",
-    desc: "The domain is based on the core understanding that unless we address how the health system is experienced, a life of well-being may remain a distant dream for the marginalised. Sector shaping work through Invest4Wellness (i4We), a system innovation in primary healthcare and Comprehensive Primary Health Care (CPHC) Alliance to help propel the agenda of strengthening primary health care.",
+    desc: "The domain is based on the core understanding that, unless we address how the health system is experienced, a life of well-being may remain a distant dream for the marginalised. Sector-shaping work through Invest4Wellness (i4We), a system innovation in primary healthcare, and the Comprehensive Primary Health Care (CPHC) Alliance to help propel the agenda of strengthening primary health care.",
   },
   {
     id: 2,
     imageUrl: "/domainAreas/health/keyDomain/image02.png",
     title: "Early Diagnosis",
-    desc: "The domain focuses on detecting and monitoring symptoms, health concerns, and disease trends as early as possible using point-of-care devices and building capacities of the communities to have control of their own health. Sector shaping work through self-testing initiatives, screening & testing, and integrated disease surveillance for community health",
+    desc: "The domain focuses on detecting and monitoring symptoms, health concerns, and disease trends as early as possible using point-of-care devices and building the capacities of the communities to take control of their own health. Sector-shaping work through self-testing initiatives, screening and testing, and integrated disease surveillance for community health.",
   },
   {
     id: 3,
     imageUrl: "/domainAreas/health/keyDomain/image03.png",
     title: "Technology & Digital Health",
-    desc: "Through this domain, we focus on using and providing the appropriate technology solutions to enable vulnerable groups to achieve health and well-being. Sector shaping work through Call4Svasth, telecare for the vulnerable, using point-of-care diagnostics in our community health interventions, and DICEFlow for our primary healthcare work",
+    desc: "Through this domain, we focus on using and providing the appropriate technology solutions to enable vulnerable groups to achieve health and well-being. Sector-shaping work through Call4Svasth, telecare for the vulnerable, using point-of-care diagnostics in our community health interventions, and DICEFlow for our primary healthcare work.",
   },
   {
     id: 4,
     imageUrl: "/domainAreas/health/keyDomain/image04.png",
     title: "SRHR & Maternal Health",
-    desc: "Our initiatives under this domain empower adolescent girls, women, and sexual minorities to protect their health and rights. Sector shaping work through SHE Platform to Scale-up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 and membership at Asia Pacific Alliance for SRHR",
+    desc: "Our initiatives under this domain empower adolescent girls, women, and sexual minorities to protect their health and rights. Sector-shaping work through the SHE Platform to scale up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 and membership in the Asia-Pacific Alliance for SRHR.",
   },
   {
     id: 5,
     imageUrl: "/domainAreas/health/keyDomain/image05.png",
     title: "One Health + Planetary Health",
-    desc: "The ‘One Health’ approach requires the coordination of human, animal, & environmental health partners for successful public health interventions. We can no longer ignore the impact of climate change on human health & we need to make all health programs more climate responsive. Sector shaping work through Precision Health Platform, surveillance using environmental tools and Green Health Alliance",
+    desc: "The ‘One Health’ approach requires the coordination of human, animal, and environmental health partners for successful public health interventions. We can no longer ignore the impact of climate change on human health, and we need to make all health programmes more climate-responsive. Sector-shaping work through the Precision Health Platform, surveillance using environmental tools, and the Green Health Alliance.",
   },
   {
     id: 6,
-    imageUrl: "/domainAreas/health/keyDomain/rectangle.svg",
+    imageUrl: "/domainAreas/health/keyDomain/image06.png",
     title: "Global Health Security & Pandemic Response",
-    desc: "The domain focus on building system and finances that are located and secured towards improving global health security - particularly preparedness. Sector shaping work early warning systems for COVID surveillance and COVID response and Global Vaccine Initiative",
+    desc: "The domain focuses on building systems and finances that are located and secured towards improving global health security, particularly preparedness. Sector-shaping work early warning systems for COVID surveillance, COVID response, and the Global Vaccine Initiative.",
   },
 ]
 
@@ -511,8 +528,8 @@ export const keyInitiativesData = [
     id: 1,
     no: "01.",
     title:
-      "Multistakeholder health initiative with the aim to transform the City of Bhopal into a “Healthy City” based on WHO’s long-running Healthy Cities framework concentrating on the Social Determinants of Health in five pillars of Healthy Water, Healthy Food, Healthy Sanitation, Healthy Environment, and Individual and Family Health with support from National Health Mission, Government of Madhya Pradesh and HSTP",
-    desc: "The initiative has been successful with support from National Health Mission, Government of Madhya Pradesh and HSTP",
+      "Multistakeholder health initiative with the aim to transform the City of Bhopal into a “Healthy City” based on WHO’s long-running Healthy Cities framework concentrating on the Social Determinants of Health in the five pillars of Healthy Water, Healthy Food, Healthy Sanitation, Healthy Environment, and Individual and Family Health with support from the National Health Mission, the Government of Madhya Pradesh, and HSTP.",
+    desc: "",
     imageUrl: "/domainAreas/health/keyInitiatives/image01.png",
   },
   {
@@ -531,56 +548,56 @@ export const keyInitiatives02Data = [
     logoUrl: "/domainAreas/health/keyInitiatives/logo01.png",
     no: "03.",
     title:
-      "National QI Coordinating Agency & Technology Agency for Manyata 4.0 with the aim to scale up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 with support from MSD for Mothers",
+      "National QI Coordinating Agency and Technology Agency for Manyata 4.0, with the aim of scaling up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 with support from MSD for Mothers.",
   },
   {
     id: 2,
     logoUrl: "/domainAreas/health/keyInitiatives/logo02.png",
     no: "04.",
     title:
-      "Building resilience among workers and businesses of factories against Covid-19 and future crises with the aim to protect the lives and livelihoods of over 40,000 workers from 14 RMG factories of Amazon Supply Chains located in Dhaka, Gazipur, Chittagong, Mymensingh, and Comilla districts of Bangladesh with support from Amazon",
+      "Building resilience among workers and businesses of factories against COVID-19 and future crises with the aim of protecting the lives and livelihoods of over 40,000 workers from 14 RMG factories of Amazon Supply Chains located in Dhaka, Gazipur, Chittagong, Mymensingh, and Comilla districts of Bangladesh with support from Amazon.",
   },
   {
     id: 3,
     logoUrl: "/domainAreas/health/keyInitiatives/logo03.png",
     no: "05.",
     title:
-      "Launching India’s first city-wide environmental surveillance system in 5 cities with the aim to develop a comprehensive yet decentralized environmental surveillance system coupled with geospatial intelligence and intelligence gathering through community participation in 25 cities with support from Skoll Foundation",
+      "Launching India’s first city-wide environmental surveillance system in 5 cities with the aim of developing a comprehensive yet decentralised environmental surveillance system coupled with geospatial intelligence and intelligence gathering through community participation in 25 cities with support from the Skoll Foundation.",
   },
   {
     id: 4,
     logoUrl: "/domainAreas/health/keyInitiatives/logo04.png",
     no: "06.",
     title:
-      "Facilitating the Learning for Impact (L4I) knowledge collaborative by USAID India Health Office provides insights and evidence to maximise the impact of USAID health investments in India",
+      "Facilitating the Learning for Impact (L4I) knowledge collaborative by the USAID India Health Office provides insights and evidence to maximise the impact of USAID health investments in India.",
   },
   {
     id: 5,
     logoUrl: "/domainAreas/health/keyInitiatives/logo05.png",
     no: "07.",
     title:
-      "Conducting a process evaluation of India’s first health-focused ‘development impact bond’ (DIB) to generate insights on the prospective role of performance-based financing mechanisms in global health programming",
+      "Conducting a process evaluation of India’s first health-focused ‘development impact bond’ (DIB) to generate insights on the prospective role of performance-based financing mechanisms in global health programming.",
   },
   {
     id: 6,
     logoUrl: "/domainAreas/health/keyInitiatives/logo06.png",
     no: "08.",
     title:
-      "Designing the National Drug Control Master Plan (NDCMP) II for the Government of Nigeria to combat the challenges of addiction and trafficking and providing monitoring and evaluation support to relevant government agencies",
+      "Designing the National Drug Control Master Plan (NDCMP) II for the Government of Nigeria to combat the challenges of addiction and trafficking and providing monitoring and evaluation support to relevant government agencies.",
   },
   {
     id: 7,
     logoUrl: "/domainAreas/health/keyInitiatives/logo07.png",
     no: "09.",
     title:
-      "Conducting an evaluation of the World Health Organisation’s Regional Office for South East Asia’s (WHO SEARO) Collaborating Centers to assess the effectiveness of the partnership and identify influencing factors",
+      "Conducting an evaluation of the World Health Organisation’s Regional Office for South East Asia’s (WHO SEARO) Collaborating Centres to assess the effectiveness of the partnership and identify influencing factors.",
   },
   {
     id: 8,
     logoUrl: "/domainAreas/health/keyInitiatives/logo08.png",
     no: "10.",
     title:
-      "Together with Swasti, raising over one billion USD from the Global Fund for AIDS, TB and Malaria",
+      "Together with Swasti, they raised over one billion USD from the Global Fund for AIDS, TB, and Malaria.",
   },
 ]
 
@@ -628,14 +645,16 @@ export const socialBusinessesData = [
     title: "Catalyst Livelihood Ventures",
     desc: "Catalyst Livelihood Ventures CLV Farm is an agri-marketing initiative that works with smallholder farmers to improve produce quality and procure their commodities, facilitated by the FPC. CLV sells these commodities to large buyers and brands at a premium generated through value-added activities, ensuring the farmers receive fair compensation for their risk and effort while generating adequate profits for CMS.",
     path: "/social-businesses/catalyst-livelihood-ventures",
+    link: "catalystLivelihoodVentures",
   },
   {
     id: 2,
     imageUrl: "/socialBusinesses/image02.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "G1",
-    desc: "Business Catalyst partners with MSMEs to help them expand and enhance their operations. By tackling specific challenges and offering customized solutions, we aim to empower these businesses to reach their full potential. Through individual consultations, we tailor our support to meet the unique needs of each MSME. Our services range from capacity building to technical support, all designed to boost profitability and overcome growth barriers. Learn more about how Business Catalyst can transform your business.",
+    desc: "For many, the dream of financial security is hindered by low credit scores, a lack of essential documents, and high interest rates. Through G1 you can help every vulnerable Indian join the path to progress. By lending a portion of your surplus income to families in need, you not only provide them with a lifeline but also receive your contribution back in a year. Together we can break these barriers to financial resilience, one family at a time.",
     path: "/g1",
+    link: "g1",
   },
   {
     id: 3,
@@ -644,14 +663,25 @@ export const socialBusinessesData = [
     title: "Business Catalyst",
     desc: "We aim to help businesses, particularly MSMEs, achieve growth and profitability by increasing turnover and creating a sustainable expansion strategy. Our approach includes reducing costs through minimised credit expenses, leveraging government schemes, and risk mitigation; improving supply chains by enhancing processes and making strategic investments in materials and production; and supporting steady income and secure livelihoods by focusing on workforce wellbeing. These efforts are designed to foster not only business growth but also a stable financial future for the communities we serve.",
     path: "/business-catalyst",
+    link: "businessCatalyst",
   },
   {
     id: 4,
     imageUrl: "/socialBusinesses/image04.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Shoonya",
-    desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The program focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns, and an enhanced brand image, further boosted by gamification and promotional strategies.",
+    desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The programme focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns and an enhanced brand image, further boosted by gamification and promotional strategies.",
     path: "/shoonya",
+    link: "shoonya",
+  },
+  {
+    id: 5,
+    imageUrl: "/socialBusinesses/image05.png",
+    logoUrl: "/socialBusinesses/logo02.png",
+    title: "SHIP",
+    desc: "SHIP is an integrated solution that enables healthcare facilities to access non-clinical services like financing, aggregated procurement, equipment & facility maintenance, technology solutions, medical waste management, and legal and advisory services, which leads to efficient cost management and clinical outcomes, ultimately enhancing the quality of healthcare.",
+    path: "/ship",
+    link: "ship",
   },
 ]
 
@@ -660,7 +690,7 @@ export const solutionsData = [
     id: 1,
     logoUrl: "/home/logo/logo01.png",
     title: "Solutions",
-    desc: "Dummy Text For many, the dream of financial security is hindered by low credit scores, a lack of essential documents, and high interest rates. These challenges often seem insurmountable, trapping families in a vicious cycle of vulnerability and hardship.",
+    desc: "We co-solve with change agents by forging partnerships to blend expertise and experience, providing expert guidance and strategic insights.",
   },
   {
     id: 2,
@@ -682,7 +712,7 @@ export const focusAreaData = [
     imageUrl: "/home/focusArea/image01.png",
     hoverUrl: "/home/focusArea/hover01.svg",
     title: "Health",
-    desc: "Strengthening health and community systems.",
+    desc: "Strengthening health and community systems",
     link: "/domain-areas/health",
   },
   {
@@ -690,7 +720,7 @@ export const focusAreaData = [
     imageUrl: "/home/focusArea/image02.png",
     hoverUrl: "/home/focusArea/hover02.png",
     title: "Climate",
-    desc: "Creating a world powered by resilient communities and carbon neutral systems.",
+    desc: "Creating a world powered by resilient communities and carbon neutral systems",
     link: "/domain-areas/climate",
   },
   {
@@ -698,8 +728,24 @@ export const focusAreaData = [
     imageUrl: "/home/focusArea/image03.png",
     hoverUrl: "/home/focusArea/hover03.svg",
     title: "Livelihood",
-    desc: "Supporting enterprises with evidence-based solutions.",
+    desc: "Supporting enterprises with evidence-based solutions",
     link: "/domain-areas/livelihood",
+  },
+  {
+    id: 4,
+    imageUrl: "/home/focusArea/image04.png",
+    hoverUrl: "/home/focusArea/hover04.png",
+    title: "Wellbeing for Workforces",
+    desc: "Making wellbeing a reality for workforces",
+    link: "/domain-areas/workforce-wellbeing",
+  },
+  {
+    id: 5,
+    imageUrl: "/home/focusArea/image05.png",
+    hoverUrl: "/home/focusArea/hover05.png",
+    title: "ESG",
+    desc: "Catalysing net positive value chains for a sustainable tomorrow",
+    link: "/esg",
   },
 ]
 
@@ -826,9 +872,9 @@ export const impactData = [
   {
     id: 1,
     imageUrl: "/home/impact/image01.png",
-    title: "Funded",
+    title: "",
     count: "500+",
-    desc: "Social Development Organisations",
+    desc: "Social Development Organisations Funded",
   },
   {
     id: 2,
@@ -864,17 +910,17 @@ export const catalystData = [
   {
     id: 1,
     iconUrl: "/socialBusinesses/catalyst/icon01.svg",
-    desc: "Double the net income of the small and marginal farmers in five years through cost reductions in cultivation, consolidated sourcing of seeds and bio inputs, driving efficiencies of scale and value creation through processed products.",
+    desc: "Double the net income of small and marginal farmers in five years through cost reductions in cultivation, consolidated sourcing of seeds and bio inputs, and driving efficiencies of scale and value creation through processed products",
   },
   {
     id: 2,
-    iconUrl: "/socialBusinesses/catalyst/icon01.svg",
-    desc: "Increase the number of small and marginal farmers transacting through the FPCs from 25 % to 65 % over 5-6 years.",
+    iconUrl: "/socialBusinesses/catalyst/icon02.svg",
+    desc: "Increase the number of small and marginal farmers transacting through the FPCs from 25% to 65% over 5–6 years",
   },
   {
     id: 3,
-    iconUrl: "/socialBusinesses/catalyst/icon01.svg",
-    desc: "Increase the share of the consumer pie reaching the small farmers.",
+    iconUrl: "/socialBusinesses/catalyst/icon03.svg",
+    desc: "Increase the share of the consumer pie reaching small farmers",
   },
 ]
 
@@ -884,16 +930,18 @@ export const collaborativeInitiativesData = [
     imageUrl: "/collaborativeInitiatives/image01.png",
     logoUrl: "",
     title: "Community Action Collab",
-    desc: "Community Action Collab incubated by the Catalyst Group, aims to create a world that is resilient to survive and thrive during humanitarian crises. Our mission focuses on synergising resource access and allocating efforts in an adaptive and urgent manner, augmenting collaboration and connections within a vast network at multiple levels, and accelerating transformative impact to meet the evolving needs of vulnerable communities. We partner with organisations that share our belief in the resilience of communities, recognising that such communities can better prepare, adapt, and strengthen in response to pressures, ultimately enhancing their environment, social, and economic health and wellbeing.",
+    desc: "The Community Action Collab incubated by the Catalyst Group, aims to create a world that is resilient enough to survive and thrive during humanitarian crises. Our mission focuses on synergising resource access and allocating efforts in an adaptive and urgent manner, augmenting collaboration and connections within a vast network at multiple levels, and accelerating transformative impact to meet the evolving needs of vulnerable communities. We partner with organisations that share our belief in the resilience of communities, recognising that such communities can better prepare, adapt, and strengthen in response to pressures, ultimately enhancing their environment, social, and economic health and wellbeing.",
     path: "https://communityactioncollab.org/",
+    link: "communityActionCollab",
   },
   {
     id: 2,
     imageUrl: "/collaborativeInitiatives/image02.png",
     logoUrl: "",
     title: "Catalysing Social Impact (CSI)",
-    desc: "Catalysing Social Impact (CSI) is a dynamic forum hosted by the Catalyst Group, uniting thinkers, doers, and investors dedicated to fostering social change through strategic initiatives. Originating in 2019 in Bengaluru with the Solutions Circle approach, CSI evolved during the COVID-19 pandemic into the #COVIDActionCollab, focusing on pandemic response from 2020-2022. This collaboration transitioned in 2022 into the #CommunityActionCollab, emphasising pandemic preparedness and resilience. In 2024, CSI reconvenes on August 1-2 in New Delhi to outline a progressive agenda for India’s centenary of independence in 2047, under the theme “Viksit Bharat @2047.”",
+    desc: "Catalysing Social Impact (CSI) is a dynamic forum hosted by the Catalyst Group, uniting thinkers, doers, and investors dedicated to fostering social change through strategic initiatives. Originating in 2019 in Bengaluru with the Solutions Circle approach, CSI evolved during the COVID-19 pandemic into the #COVIDActionCollab, focusing on pandemic response from 2020–2022. This collaboration transitioned in 2022 into the #CommunityActionCollab, emphasising pandemic preparedness and resilience. In 2024, CSI reconvenes on August 1-2 in New Delhi to outline a progressive agenda for India’s centenary of independence in 2047, under the theme ‘Viksit Bharat @ 2047.’",
     path: "https://catalysingsocialimpact.in/",
+    link: "catalysingSocialImpact",
   },
 ]
 
@@ -903,7 +951,7 @@ export const scaleAcceleratorsData = [
     imageUrl: "/scaleAccelerators/image01.png",
     logoUrl: "",
     title: "Design for Success",
-    desc: "The Design 4 Success (D4S) team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programs, networks, and theories of change to address complex challenges.",
+    desc: "The Design for Success team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programmes, networks, and theories of change to address complex challenges.",
     path: "/scale-accelerators/design-for-success",
     link: "designForSuccess",
   },
@@ -912,7 +960,7 @@ export const scaleAcceleratorsData = [
     imageUrl: "/scaleAccelerators/image02.png",
     logoUrl: "",
     title: "Evidence for Change",
-    desc: "In Evidence for Change, we specialise in facilitating theories of change, alternate analysis, results frameworks, and tools, building evidence through pluralistic methodologies, participatory learning, and action, and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
+    desc: "Evidence for Change specialises in facilitating theories of change, alternate analysis, results frameworks, and tools; building evidence through pluralistic methodologies, participatory learning, and action; and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
     path: "/scale-accelerators/evidence-for-change",
     link: "evidenceForChange",
   },
@@ -921,7 +969,7 @@ export const scaleAcceleratorsData = [
     imageUrl: "/scaleAccelerators/image03.png",
     logoUrl: "",
     title: "Implement for Scale",
-    desc: "In today’s fast-paced and competitive business landscape, innovation and new ideas are constantly being generated. When it comes to implementing innovative ideas and interventions, achieving desirable outcomes can be a daunting task. However, simply coming up with a groundbreaking concept is not enough to ensure success. The true measure of an innovation lies in its implementation and its ability to deliver tangible results. Unfortunately, many well-designed projects fail when implemented at scale.",
+    desc: "Implement for Scale supports organisations in achieving successful implementation, we offer a range of services and tools. These include proof of concepts to test and validate innovative ideas, capacity building programs to equip teams with the necessary skills and knowledge, performance management tools and approaches, technical support, and state-of-the-art technologies.",
     path: "/scale-accelerators/implement-for-scale",
     link: "implementForScale",
   },
@@ -931,17 +979,17 @@ export const notableProjectsData = [
   {
     id: 1,
     iconUrl: "/scaleAccelerators/designForSuccess/icon01.png",
-    desc: "VaxNow - designed as an initiative under the #COVIDActionCollab using our proprietary Impact Canvas Approach, this initiative ultimately helped facilitate over 14 million COVID vaccinations to vulnerable communities",
+    desc: "VaxNow was designed as an initiative under the #Community Action Collab using our proprietary Impact Canvas Approach. This initiative ultimately helped facilitate over 14 million COVID vaccinations in vulnerable communities",
   },
   {
     id: 2,
     iconUrl: "/scaleAccelerators/designForSuccess/icon02.svg",
-    desc: "Creation of National Drug Control Master Plan (NDCMP) 2021-2025 for the Government of Nigeria and UNODC, involving 37 Ministries and Departments",
+    desc: "Creation of the National Drug Control Master Plan (NDCMP) 2021-2025 for the Government of Nigeria and UNODC, involving 37 Ministries and Departments",
   },
   {
     id: 3,
     iconUrl: "/scaleAccelerators/designForSuccess/icon03.svg",
-    desc: "Design of India’s HIV Programme for Global Fund – Rounds 7,8,9 and10",
+    desc: "Design of India’s HIV Programme for the Global Fund—Rounds 7, 8, 9, and 10",
   },
 ]
 
@@ -956,7 +1004,7 @@ export const partneredWithExpertsData = [
   },
   {
     id: 3,
-    title: "Statistics for Sustainable Development (Stats 4SD)",
+    title: "Statistics for Sustainable Development (Stats4SD)",
   },
   {
     id: 4,
@@ -980,7 +1028,7 @@ export const partneredWithExpertsData = [
   },
   {
     id: 9,
-    title: "Indian Statistical Institute, etc.",
+    title: "Indian Statistical Institute",
   },
 ]
 
@@ -988,12 +1036,12 @@ export const workIncludeData = [
   {
     id: 1,
     iconUrl: "/scaleAccelerators/evidenceForChange/icon01.png",
-    desc: "Impact evaluation using experimental design for Breakthrough’s innovative programme utilising mass and community media to address the issue of Early Marriage across three districts in Bihar and Jharkhand",
+    desc: "Impact evaluation using experimental design for Breakthrough’s innovative programme utilising mass and community media to address the issue of early marriage across three districts in Bihar and Jharkhand",
   },
   {
     id: 2,
     iconUrl: "/scaleAccelerators/evidenceForChange/icon02.png",
-    desc: "Literature review of interventions facilitating smallholder farmers’ access to the market in India using the hierarchy of study design. The study aimed to understand the current scenario and also to provide insights into the sustainability of the producer organisations as institutions",
+    desc: "Literature review of interventions facilitating smallholder farmers’ access to the market in India using the hierarchy of study design. The study aimed to understand the current scenario and also provide insights into the sustainability of producer organisations as institutions",
   },
   {
     id: 3,
@@ -1007,13 +1055,13 @@ export const elementsData = [
     id: 1,
     iconUrl: "/scaleAccelerators/implementForScale/element/icon01.png",
     title: "1. Intervention Design",
-    desc: "Effective implementation starts with a well-designed intervention. This involves understanding the target audience, assessing their needs, and tailoring the intervention to address those needs effectively. This also includes ensuring the intervention aligns with the broader goals and objectives of the organization or system in which it will be implemented. Proper planning and preparation lay the foundation for successful execution.",
+    desc: "Effective implementation starts with a well-designed intervention. This involves understanding the target audience, assessing their needs, and tailoring the intervention to address those needs effectively. This also includes ensuring the intervention aligns with the broader goals and objectives of the organisation or system in which it will be implemented. Proper planning and preparation lay the foundation for successful execution.",
   },
   {
     id: 2,
     iconUrl: "/scaleAccelerators/implementForScale/element/icon02.png",
     title: "2. Implementation Arrangements",
-    desc: "The success of implementation heavily depends on the arrangements made for its execution. This includes creating blueprints and action plans that clearly outline the steps to be taken. It also involves building teams and capacities through training and certification. Guided mentoring plays a crucial role in supporting the execution of the intervention. Additionally, establishing enabling cultures and systems that facilitate and repeat processes are essential for sustainable implementation.",
+    desc: "The success of implementation heavily depends on the arrangements made for its execution. This includes creating blueprints and action plans that clearly outline the steps to be taken. It also involves building teams and capacities through training and certification. Guided mentoring plays a crucial role in supporting the execution of the intervention. Additionally, establishing enabling cultures and systems that facilitate and repeat processes is essential for sustainable implementation.",
   },
   {
     id: 3,
@@ -1025,13 +1073,13 @@ export const elementsData = [
     id: 4,
     iconUrl: "/scaleAccelerators/implementForScale/element/icon04.png",
     title: "4. Excellence in Execution",
-    desc: "Execution excellence encompasses aspects such as reach, fidelity, intensity, resource effectiveness, and repeatability. These factors contribute to the overall success of implementation and ensure that the desired results are achieved. Monitoring and evaluating progress at regular intervals help identify gaps and make necessary adjustments. Furthermore, repeatability is crucial to replicate successful implementations and sustain the intervention over time.",
+    desc: "Execution excellence encompasses aspects such as reach, fidelity, intensity, resource effectiveness, and repeatability. These factors contribute to the overall success of implementation and ensure that the desired results are achieved. Monitoring and evaluating progress at regular intervals helps identify gaps and make necessary adjustments. Furthermore, repeatability is crucial to replicate successful implementations and sustain the intervention over time.",
   },
   {
     id: 5,
     iconUrl: "/scaleAccelerators/implementForScale/element/icon05.png",
     title: "5. Results",
-    desc: "Ultimately, the success of implementation is measured by the results achieved. Implementation efforts should focus on delivering tangible outcomes that align with the original goals and objectives. Regular monitoring and reporting enable organizations to track progress and make data-driven decisions to enhance implementation effectiveness. This feedback loop allows for continuous improvement and ensures that the intervention remains relevant and aligned with the evolving needs of the target audience.",
+    desc: "Ultimately, the success of implementation is measured by the results achieved. Implementation efforts should focus on delivering tangible outcomes that align with the original goals and objectives. Regular monitoring and reporting enable organisations to track progress and make data-driven decisions to enhance implementation effectiveness. This feedback loop allows for continuous improvement and ensures that the intervention remains relevant and aligned with the evolving needs of the target audience.",
   },
 ]
 
@@ -1064,52 +1112,59 @@ export const relatedResourcesData = [
 export const faqData = [
   {
     id: 1,
-    title: "What is GSEA?",
+    title: "Inclusive Entrepreneurship Development Fund",
     content1:
-      "The Global Student Entrepreneur Awards (GSEA) is the premier global competition for students who own and operate a business while attending college or university. Nominees compete against their peers from around the world in a series of local and/or national competitions in hopes to qualify for the GSEA Global Finals.",
+      "With the ambition of offering flexible financial products customised for individual small producers, we are in the process of setting up a blended finance facility through the innovative use of philanthropic and debt capital. We will be leveraging guarantee capital to “de-risk” the investment for investors and NBFC partners.",
     content2: "",
     content3: "",
     content4: "",
     content5: "",
     content6: "",
+    content7: "",
   },
   {
     id: 2,
-    title:
-      "Aside from the prize money, how does winning GSEA benefit student entrepreneurs?",
-    content1: "Access to successful entrepreneurs, feedback, mentorship.",
-    content2:
-      "Refined elevator pitches – Going head to head with other business owners and answering tough questions about their business to our judges helps competitors improve their pitch skills and enhance their ability to communicate the value proposition of their business.",
-    content3:
-      "Expanded networks – Competitors will meet other student entrepreneurs from around the world, as well as Entrepreneurs’ Organization (EO) members and our honoured guests.",
-    content4:
-      "Media Exposure. Competitors will receive local and national media attention for themselves and their business.",
-    content5: "",
-    content6: "",
-  },
-  {
-    id: 3,
-    title: "Why does GSEA Exist?",
+    title: "Establishing a Platform for Inclusive Entrepreneurship (PIE)",
     content1:
-      "EO GSEA supports student entrepreneurs who require much-needed mentorship, recognition and connections to take their businesses to the next level of success.",
+      "PIE follows the societal platform principles and leverages open-source technology, knowledge resources and deep hand-holding support from pools of professionals, enabling enterprises to directly access national and global markets and reach scale.",
     content2: "",
     content3: "",
     content4: "",
     content5: "",
     content6: "",
+    content7: "",
+  },
+  {
+    id: 3,
+    title:
+      "Partner for shaping policy, generating knowledge and evidence, and undertaking innovative work",
+    content1:
+      "National Rural Livelihood Mission (NRLM): <a href='https://vruttiimpactcatalysts.org/' target='_blank' style='color: #0000EE;'> Vrutti</a> and CMS are undertaking an impact evaluation of the NRLM (along with 3ie and Stanford University) to determine the impact of the programme using rigorous econometric methods. The study covers about 27,500 households across 9 states in India, about 1,000 village organisations and over 4,000 Self-Help Groups. This is a one-of-a-kind ongoing national programme to be evaluated, and the methodology is being celebrated with high policy relevance and evidence uptake by the government. The Ministry of Rural Development is utilising the findings to course-correct the elements of the NRLP and as design inputs for the NRETP (National Rural Economic Transformation Project).",
+    content2:
+      "Cotton Connect: The Organic Cotton Farmer Training Programme is supporting 16,000 farmers across India to convert to an organic system of production that can be cost-saving and less damaging to the environment. CMS is undertaking an impact evaluation of the programme over 6 years, covering 8,000 farmers across 4 states, to determine whether;",
+    content3:
+      "a) ensuring small producers receive reasonable prices for the risk and effort they take in the value chain",
+    content4:
+      "b) whether farmers can successfully adopt organic cotton production through an extension services programme",
+    content5:
+      "This unique evaluation attempts to determine the profit margins and returns from organic farming. It also provides sectoral inputs on topics including whether going organic for a farmer makes financial sense, if so, how to support it, and if not, how to make it profitable, despite the fact that doing so is both climate-friendly and need-of-the-hour.",
+    content6:
+      "Agri and Climate Smart Agriculture (CSA) Finance Market Assessment in India: The objective of this study is to increase access to agri-finance by building digital agricultural lending platforms with financial institutions (FIs) and agribusinesses and to increase adoption of CSA technologies in the relevant agri-sub-sectors and value chains, contributing to the larger vision of WBG‘s Climate Action Plan 2021–2025. This study is expected to also feed into the climate finance strategy of IFC, which aims to mainstream climate in the agriculture sector and in small and medium enterprises (SMEs). An interesting exploration of agri-finance, this study attempts to bridge the gap in financing for farmers and the other players in the value chain through private sector lending while keeping profitability, technology, gender, climate responsiveness and inclusion in mind. This landscape study will also develop products for the value chain sector, looking at it from both the demand (farmers/value chain-implementing partners) and supply (financial institutions) sides.",
+    content7:
+      "Economic Resilience model: COVID-19 has significantly affected the livelihoods of vulnerable communities. We are developing a scalable model for building economic resilience among vulnerable populations. Currently, piloting with 6,000 vulnerable households at three locations across the country with the Head Held High Foundation, Gopabandhu Seva Parishad (GSP), and Transform Rural India Foundation (TRIF) as partner organisations. The pathways designed to enhance resilience are conservation (cost cutting, risk reduction, etc.), diversification (of income and revenue streams), aggregation (helping the poor save and invest), and risk pooling (formal and informal insurance mechanisms).",
   },
   {
     id: 4,
-    title: "What are the prizes for GSEA at the global level?",
+    title: "Business Catalyst for MSMEs",
     content1:
-      "Prizes are generally a combination of cash and business services and will vary by location.",
+      "MSMEs play a vital role in driving economic growth and development by creating jobs, fostering innovation and driving large-scale societal change. It is crucial to empower MSMEs with the necessary resources and guidance to facilitate their growth.",
     content2:
-      "At the Global Finals, students will compete for a prize package of US$25,000 in cash with a total prize value of over $40,000, which will include a travel/lodging expense paid trip to compete in the Global Finals. Second place will receive prizes worth US$10,000 and third place will receive prizes worth US$5,000.",
-    content3:
-      "Additional awards are given at the Global Finals for Social Impact, Innovation, and Lessons from the Edge.",
-    content4: "Local chapter’s prize money are as follows",
-    content5: "Rs 1 lakh for the winner.",
-    content6: "Rs 50 thousand for the runner-up.",
+      "The goal of Business Catalyst is to partner with MSMEs – to support them to grow and increase their business – by addressing challenges faced by them and offering tailor made solutions. Through a process of one-on-one consultation, Business Catalyst seeks to ensure that an MSME achieves its potential by providing them specific solutions based on its business requirements. The range of solutions offered would be as diverse as assistance in capacity building to providing technical services. The services offered would help an MSME improve profitability and address barriers of growth. <a href='https://cms.org.in/business-catalyst/' target='_blank' style='color: #0000EE;'> Know more.</a>",
+    content3: "",
+    content4: "",
+    content5: "",
+    content6: "",
+    content7: "",
   },
 ]
 

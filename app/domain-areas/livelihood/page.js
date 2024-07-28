@@ -17,8 +17,8 @@ export const tabs = [
   },
   {
     id: 2,
-    tab: "Our Beliefs",
-    link: "ourBeliefs",
+    tab: "Our Ethos",
+    link: "ourEthos",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const tabs = [
   },
   {
     id: 4,
-    tab: "How Do We Work?",
+    tab: "How We Work",
     link: "howDoWeWork",
   },
   {

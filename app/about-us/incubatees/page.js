@@ -26,7 +26,7 @@ const page = () => {
         </h2>
       </div> */}
 
-      <Tab heading="Incubatees" desc={desc} />
+      <Tab heading="Incubation to Impact" desc={desc} />
 
       <div>
         <div className="max-w-screen-xl mx-auto">

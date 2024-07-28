@@ -5,7 +5,6 @@ import { Menu } from "@headlessui/react"
 
 const Tab = ({ tabs }) => {
   const [isActive, setIsActive] = useState(1)
-
   const [isMobile, setIsMobile] = useState(false)
 
   const handleResize = () => {

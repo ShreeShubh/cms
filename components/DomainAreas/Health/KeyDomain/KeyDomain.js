@@ -36,7 +36,7 @@ const KeyDomain = () => {
           <p className="text-[#404040]">
             Other priority domains include Mental Health, Social Determinants of
             Health, Inclusive health systems for special populations, and
-            Innovative Financing & Health Entrepreneurship
+            Innovative Financing & Health Entrepreneurship.
           </p>
           <p className="py-5 text-[#404040]">
             In 2022-23 alone, Health Practice reached and enriched the health of
@@ -49,9 +49,10 @@ const KeyDomain = () => {
           </h4>
           <p className="text-[#1A1A1A]">
             Local to National Governments, Regional Government bodies, UN
-            Agencies, Bilateral <br className="hidden md:block" /> and
-            Multilateral Agencies, Large Civil Society Networks representing the
-            cause of <br className="hidden md:block" /> vulnerable populations
+            Agencies, Bilateral <br className="hidden md:block" />
+            and Multilateral Agencies, Large Civil Society Networks representing
+            the cause of <br className="hidden md:block" />
+            vulnerable populations.
           </p>
         </div>
       </div>

@@ -2,6 +2,7 @@ import Header from "@/components/Header/Header"
 import Tab from "@/components/Tab/Tab"
 import { catalystData } from "@/utils/data"
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const tabs = [
@@ -12,7 +13,7 @@ const tabs = [
   },
   {
     id: 2,
-    tab: "Following are the CLV objectives",
+    tab: "CLV objectives",
     link: "",
   },
 ]
@@ -33,19 +34,19 @@ const page = () => {
 
       <div className="max-w-screen-xl mx-auto px-5 my-10 md:my-16">
         <p className="text-lg text-[#1A1A1A]">
-          The Farmers’ Producer Companies (FPCs) play a pivotal role in
-          aggregating shareholder demand and products. However, the FPCs face
-          significant challenges, such as poor quality of produce, unplanned
-          growth of producer institutions, limited access to enterprise
-          financing and inadequate support through agencies. These issues have
-          impacted the overall reputation of FPCs, making it difficult for them
-          to maintain strong buyer relations and ensure higher returns for
-          farmers. As a result, the confidence of FPC shareholders in these
-          institutions has diminished, leading to reduced engagement.
-          Additionally, smallholder farmers often find themselves indebted to
-          traders and are compelled to sell their produce at unfavourable
-          margins. Moreover, they employ less-than-optimal production
-          techniques, which further impacts their cost of production.
+          Farmer Producer Companies (FPCs) play a pivotal role in aggregating
+          shareholder demand and products. However, the FPCs face significant
+          challenges, such as poor quality of produce, unplanned growth of
+          producer institutions, limited access to enterprise financing, and
+          inadequate support through agencies. These issues have impacted the
+          overall reputation of FPCs, making it difficult for them to maintain
+          strong buyer relations and ensure higher returns for farmers. As a
+          result, the confidence of FPC shareholders in these institutions has
+          diminished, leading to reduced engagement. Additionally, smallholder
+          farmers often find themselves indebted to traders and are compelled to
+          sell their produce at unfavourable margins. Moreover, they employ
+          less-than-optimal production techniques, which further impacts their
+          cost of production.
         </p>
       </div>
 
@@ -62,7 +63,7 @@ const page = () => {
 
         <div className="bg-cms-primary text-white text-lg flex items-center px-4 lg:px-16 py-4 lg:py-8 w-full lg:w-1/2">
           <p>
-            Catalyst Livelihood Ventures CLV Farm is an agri-marketing
+            Catalyst Livelihood Ventures (CLV) Farm is an agri-marketing
             initiative that works with smallholder farmers to improve produce
             quality and procure their commodities, facilitated by the FPC. CLV
             sells these commodities to large buyers and brands at a premium
@@ -110,9 +111,11 @@ const page = () => {
           progress through the value chain, resulting in higher premiums for
           their produce.
         </p>
-        <button className="px-6 py-3 bg-cms-primary text-white text-base sm:text-lg">
-          Partner with us
-        </button>
+        <Link href="/contact-us">
+          <button className="px-6 py-3 bg-cms-primary text-white text-base sm:text-lg">
+            Partner with us
+          </button>
+        </Link>
       </div>
     </>
   )

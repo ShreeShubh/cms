@@ -22,8 +22,13 @@ export const tabs = [
   },
   {
     id: 4,
-    tab: "Workforce Wellbeing",
+    tab: "Wellbeing for Workforce",
     link: "workforceWellbeing",
+  },
+  {
+    id: 5,
+    tab: "ESG",
+    link: "esg",
   },
 ]
 
@@ -39,15 +44,15 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mb-20">
+      <div className="mb-10">
         <Tab tabs={tabs} />
       </div>
 
       <div className="text-center mb-5">
-        <h2 className="text-cms-primary-black text-2xl">
-          We have extensive experience in supporting - enterprises, vulnerable
-          communities <br /> with healthcare and first mile workers with their
-          wellbeing.
+        <h2 className="text-cms-primary-black text-lg md:text-2xl">
+          We have extensive experience in supporting enterprises, vulnerable
+          communities <br className="hidden md:block" /> with healthcare, and
+          first-mile workers with their wellbeing.
         </h2>
       </div>
 

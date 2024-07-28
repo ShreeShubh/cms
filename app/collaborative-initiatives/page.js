@@ -8,12 +8,12 @@ export const tabs = [
   {
     id: 1,
     tab: "Community Action Collab",
-    link: "",
+    link: "communityActionCollab",
   },
   {
     id: 2,
     tab: "Catalysing Social Impact (CSI)",
-    link: "",
+    link: "catalysingSocialImpact",
   },
 ]
 
@@ -36,9 +36,11 @@ const page = () => {
       <div className="py-10 md:py-16">
         <div className="text-center md:mb-5 px-2 sm:px-4 md:px-6 lg:px-8">
           <h2 className="text-cms-primary-black text-base sm:text-lg md:text-xl">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum <br className="hidden sm:block" /> has been
-            the industry’s standard dummy text
+            CMS is committed to aiding vulnerable communities through targeted
+            initiatives that enhance access to essential services and{" "}
+            <br className="hidden md:block" /> foster sustainable development.
+            Their efforts ensure that support reaches those who need it most,
+            promoting social equity and inclusion.
           </h2>
         </div>
 

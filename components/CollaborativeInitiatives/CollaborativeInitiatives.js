@@ -12,7 +12,7 @@ const CollaborativeInitiatives = () => {
     <ul className="flex flex-col gap-8 sm:gap-16 my-10 sm:my-14">
       {collaborativeInitiativesData.map((item) => {
         return (
-          <li key={item.id}>
+          <li key={item.id} id={item.link}>
             <div
               className={`flex flex-col sm:flex-row justify-between items-center w-full sm:w-11/12 ${
                 item.id % 2 === 0 ? "sm:ms-auto" : ""

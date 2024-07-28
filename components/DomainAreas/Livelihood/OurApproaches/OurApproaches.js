@@ -21,7 +21,8 @@ const OurApproaches = () => {
           </h2>
           <p className="text-lg lg:text-2xl text-[#1A1A1A]">
             We ensure that our beliefs are turned into action by employing
-            impactful <br className="hidden lg:block" /> approaches like:
+            impactful <br className="hidden lg:block" />
+            approaches like:
           </p>
           {ourAppData.map((item) => {
             return (

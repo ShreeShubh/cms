@@ -8,7 +8,7 @@ const DomainAreas = () => {
     <ul className="flex flex-col gap-8 sm:gap-16 my-10 sm:my-14">
       {domainAreasData.map((item) => {
         return (
-          <li key={item.id}>
+          <li key={item.id} id={item.link}>
             <div
               className={`flex flex-col sm:flex-row justify-between items-center w-full sm:w-11/12 ${
                 item.id % 2 === 0 ? "sm:ms-auto" : ""
@@ -21,13 +21,13 @@ const DomainAreas = () => {
               >
                 <div className="relative hidden md:block">
                   <Image src={item.imageUrl} height={400} width={600} alt="" />
-                  <div
+                  {/* <div
                     className={`absolute ${
                       item.id % 2 === 0 ? "-left-16" : "-right-16"
                     } top-1/2 bottom-1/2 flex justify-center items-center shadow bg-white`}
                   >
                     <Image src={item.logoUrl} width={125} height={30} alt="" />
-                  </div>
+                  </div> */}
                 </div>
                 <div className="block md:hidden">
                   <Image

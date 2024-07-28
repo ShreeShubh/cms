@@ -10,23 +10,23 @@ export const tabs = [
   {
     id: 1,
     tab: "Overview",
-    link: "",
+    link: "overview",
   },
   {
     id: 2,
     tab: "Our Partners",
-    link: "",
+    link: "ourPartners",
   },
   {
     id: 3,
-    tab: "Our work",
-    link: "",
+    tab: "Our Work",
+    link: "ourWork",
   },
-  {
-    id: 4,
-    tab: "Related Resources",
-    link: "",
-  },
+  // {
+  //   id: 4,
+  //   tab: "Related Resources",
+  //   link: "",
+  // },
 ]
 
 const page = () => {
@@ -58,20 +58,20 @@ const page = () => {
       <div className="max-w-screen-xl mx-auto mt-5 md:mt-14 mb-8 px-5">
         <div className="space-y-4 text-cms-primary-black text-base md:text-lg w-full md:w-4/5">
           <p>
-            In Evidence for Change, we specialize in facilitating theories of
-            change, alternate analysis, results frameworks, and tools, building
-            evidence through pluralistic methodologies, participatory learning,
-            and action, and establishing efficient monitoring, evaluation, and
+            Evidence for Change specialises in facilitating theories of change,
+            alternate analysis, results frameworks, and tools; building evidence
+            through pluralistic methodologies, participatory learning, and
+            action; and establishing efficient monitoring, evaluation, and
             learning systems through a multidisciplinary approach.
           </p>
           <p>
-            We specialize in designing and conducting research and evaluation in
-            multiple domains, with a variety of partners through a collaborative
-            process.
+            We specialise in designing and conducting research and evaluation in
+            multiple domains, with a variety of partners, through a
+            collaborative process.
           </p>
           <p>
             We deliver quality impact evaluations through rigorous experimental,
-            quasi-experimental, mixed-method, and qualitative methods,
+            quasi-experimental, mixed-method, and qualitative methods, both
             nationally and internationally. Our focus areas include conducting
             impact assessments, programme evaluations, summative and performance
             evaluations, action research, exploratory and formative assessments,
@@ -87,7 +87,7 @@ const page = () => {
         <p>
           We have carried out over 100 project/programme evaluations and
           organisational assessments, using methods and approaches that help
-          communities and programme staff to reflect, assess, learn, and apply
+          communities and programme staff reflect, assess, learn, and apply
           strategies. The team has strong experience in using evidence to
           contribute to shaping public and organisational policies and improving
           programme strategies.
@@ -107,20 +107,21 @@ const page = () => {
 
         <div className="w-full md:w-[500px] text-lg text-[#1A1A1A] md:ms-16">
           <p>
-            Recently, the team (CMS and 3ie) working with the Government,
+            Recently, the team (CMS and 3ie), working with the Government,
             concluded the evaluation of the National Rural Livelihood Project’s
-            (NRLP) programme focusing on women empowerment and decision-making
+            (NRLP) programme working on women's empowerment and decision-making
             within the household through access to credit. We studied the impact
             of the programme and the institutional support that SHG provides to
-            women, aiming to provide sustainable livelihood and financial
-            inclusion. We measured the decision-making capacity of women based
-            on responses recorded to 26 questions covering various household
-            scenarios, such as food, children, education, assets, and finance.
+            women with the aim of providing a sustainable livelihood and
+            financial inclusion. We measured the decision-making capacity of
+            women based on the responses recorded to 26 questions that covered a
+            variety of scenarios within households, such as food, children,
+            education, assets, and finance.
           </p>
         </div>
       </div>
 
-      <div className="bg-cms-primary">
+      <div className="bg-cms-primary mb-10">
         <div className="max-w-screen-xl mx-auto px-5 md:px-20 flex flex-col gap-5 items-center py-10">
           <div className="flex flex-col items-center gap-4">
             <h3 className="text-white text-2xl md:text-3xl font-semibold text-center">
@@ -164,7 +165,7 @@ const page = () => {
         </div>
       </div>
 
-      <RelatedResources />
+      {/* <RelatedResources /> */}
     </>
   )
 }

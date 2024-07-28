@@ -8,22 +8,27 @@ export const tabs = [
   {
     id: 1,
     tab: "Catalyst Livelihood Ventures",
-    link: "",
+    link: "catalystLivelihoodVentures",
   },
   {
     id: 2,
     tab: "G1",
-    link: "",
+    link: "g1",
   },
   {
     id: 3,
     tab: "Business Catalyst",
-    link: "",
+    link: "businessCatalyst",
   },
   {
     id: 4,
     tab: "Shoonya",
-    link: "",
+    link: "shoonya",
+  },
+  {
+    id: 5,
+    tab: "SHIP",
+    link: "ship",
   },
 ]
 
@@ -56,7 +61,7 @@ const page = () => {
         <div className="text-center md:mb-5 px-2 sm:px-4 md:px-6 lg:px-8">
           <h2 className="text-cms-primary-black text-base sm:text-lg md:text-xl">
             Many ideas incubated by our team have evolved into full-fledged
-            organizations, <br className="hidden sm:block" /> each becoming a
+            organisations, <br className="hidden sm:block" /> each becoming a
             significant player in the development sector.
           </h2>
         </div>

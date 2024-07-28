@@ -9,18 +9,13 @@ import React from "react"
 export const tabs = [
   {
     id: 1,
-    tab: "Our notable projects include",
-    link: "",
+    tab: "Overview",
+    link: "overview",
   },
   {
     id: 2,
-    tab: "Evidence for Change",
-    link: "",
-  },
-  {
-    id: 3,
-    tab: "Related Resources",
-    link: "",
+    tab: "Design Initiatives",
+    link: "designInitiatives",
   },
 ]
 
@@ -53,7 +48,7 @@ const page = () => {
       <div className="max-w-screen-xl mx-auto my-5 md:my-16 px-5">
         <div className="mb-5">
           <h2 className="text-cms-primary-black text-lg md:text-xl w-full md:w-4/5">
-            The Design 4 Success (D4S) team at Catalyst Management Services
+            The Design for Success team at Catalyst Management Services
             specialises in human-centric design, seamlessly blending agile
             methods with strategic planning to create impactful solutions for
             societal issues. They specialise in designing programs, networks,
@@ -66,7 +61,7 @@ const page = () => {
         <div className="max-w-screen-xl mx-auto px-5 md:px-20 flex flex-col gap-5 items-center py-10">
           <div className="flex flex-col items-center gap-4">
             <h3 className="text-white text-2xl md:text-3xl font-semibold text-center">
-              Following are the CLV objectives
+              Design for Success Objectives
             </h3>
             <div className="border-b border-cms-primary-green w-16 md:w-20" />
           </div>
@@ -114,7 +109,7 @@ const page = () => {
         </div>
       </div>
 
-      <RelatedResources />
+      {/* <RelatedResources /> */}
     </>
   )
 }

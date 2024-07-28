@@ -21,13 +21,13 @@ const ImplementForScale = () => {
           <p className="text-base sm:text-lg">
             It is a common misconception to assume that the effectiveness of an
             innovation guarantees its uptake into routine usage. Countless
-            examples exist where highly effective programs yield poor results
+            examples exist where highly effective programmes yield poor results
             when scaled. This discrepancy between knowledge and action is a
             significant challenge that needs to be addressed. One reason for
             this is the gap between what we know and what we do. Even if an
             innovation or intervention has been proven to be highly effective in
-            small-scale studies or pilot programs, there is no guarantee that it
-            will be successfully implemented when scaled up. Establishing the
+            small-scale studies or pilot programmes, there is no guarantee that
+            it will be successfully implemented when scaled up. Establishing the
             effectiveness of an innovation is not enough; it needs to be
             effectively implemented to achieve the desired outcomes.
           </p>
@@ -46,15 +46,15 @@ const ImplementForScale = () => {
         </h3>
         <p className="text-base sm:text-lg">
           Implementation failure has both direct and indirect costs. It is not
-          just about the money spent on the project, but also about the time and
-          effort that goes into implementation. According to a study by the
+          just about the money spent on the project but also about the time and
+          effort that go into its implementation. According to a study by the
           Harvard Business Review, an average of 27% of projects incur cost
           overruns, and more than 70% incur schedule overruns. These delays and
           cost overruns can have serious consequences for individuals involved
-          in the project, leading to tension and frustration leading to
-          decreased morale and productivity. The consequences of implementation
-          failures can be far-reaching, impacting not only the organization but
-          also the individuals directly involved.
+          in the project, leading to tension and frustration and decreasing
+          morale and productivity. The consequences of implementation failures
+          can be far-reaching, impacting not only the organisation but also the
+          individuals directly involved.
         </p>
       </div>
 
@@ -73,7 +73,7 @@ const ImplementForScale = () => {
             Factors Affecting Successful Implementations
           </h3>
           <p className="text-base sm:text-lg">
-            Implementation is not just about the innovation itself, but also
+            Implementation is not just about the innovation itself but also
             about the arrangements and environment surrounding it. Even if an
             intervention is effective in a controlled setting, its success in
             the real world depends largely on the contextual factors that come
@@ -81,11 +81,11 @@ const ImplementForScale = () => {
             capacities, and the culture and systems in place.
           </p>
           <p className="text-base sm:text-lg">
-            To ensure successful implementation for results, we need to address
+            To ensure successful implementation and results, we need to address
             these factors effectively.
           </p>
           <p className="text-base sm:text-lg">
-            So, what can be done to ensure successful implementation for
+            So, what can be done to ensure successful implementation and
             results? One key aspect is intervention design. The innovation or
             intervention needs to be designed in a way that takes into account
             the contextual factors that influence its implementation. This
@@ -94,8 +94,8 @@ const ImplementForScale = () => {
             Having trained and certified team members, along with guided
             mentoring, can make a significant difference in the success of
             implementation. Additionally, the culture and systems within the
-            organization need to be enabling and promoting the repeat processes
-            that are necessary for successful implementation.
+            organisation need to enable and promote the repeat processes that
+            are necessary for successful implementation.
           </p>
         </div>
       </div>

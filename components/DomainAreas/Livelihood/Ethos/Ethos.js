@@ -12,7 +12,7 @@ const Ethos = () => {
         <p className="text-base lg:text-lg">
           Strengthening small producers and their livelihoods at a national
           scale lies at the heart of our mission, and our work is built on a set
-          of core beliefs and learnings:
+          of core beliefs and learnings.
         </p>
       </div>
       <div className="border-y md:mt-6 lg:mt-0 lg:border-y-0">

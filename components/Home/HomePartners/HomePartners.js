@@ -8,7 +8,7 @@ const HomePartners = () => {
   const [visibleCount, setVisibleCount] = useState(12)
 
   const loadMore = () => {
-    setVisibleCount((prevCount) => prevCount + 12)
+    setVisibleCount(homePartnersData.length)
   }
 
   return (

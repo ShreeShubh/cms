@@ -7,7 +7,7 @@ const WorkforceWellbeing = () => {
       <div className="bg-cms-primary text-white w-full lg:w-auto">
         <div className="w-full lg:w-[400px]">
           <h1 className="text-3xl font-semibold mb-6 ps-4 lg:ps-16 pe-4 lg:pe-10 py-10">
-            Need Heading <br className="hidden md:block" /> Here
+            Our Presence
           </h1>
         </div>
       </div>
@@ -18,16 +18,16 @@ const WorkforceWellbeing = () => {
             and built our presence in over 351 factories across 14 states in
             India. We have also reached 12 countries across Asia and African
             regions through technical support on building capacities,
-            programmes, systems and workplace policies. We have reached over
-            230,000 workers and their families (&gt; than 60% are women).
+            programmes, systems, and workplace policies. We have reached over
+            230,000 workers and their families (more than 60% are women).
           </p>
 
           <p className="text-lg text-[#404040]">
-            Our work on worker wellbeing, gender equality and women workforce
-            empowerment finds mention by International organisations and in
-            alliances, such as the United Nations Foundation, World Benchmarking
-            Alliance, World Bank, Walmart Foundation, ICRW, amongst several
-            others.
+            Our work on worker wellbeing, gender equality, and women's workforce
+            empowerment is mentioned by international organisations and in
+            alliances such as the United Nations Foundation, the World
+            Benchmarking Alliance, the World Bank, the Walmart Foundation, and
+            the ICRW, amongst several others.
           </p>
 
           <Image
@@ -40,21 +40,21 @@ const WorkforceWellbeing = () => {
 
           <p className="text-lg text-[#404040]">
             We are a member of the World Benchmarking Alliance and are on the
-            national consultation on Business and Human rights.
+            national consultation on business and human rights.
           </p>
 
           <p className="text-lg text-[#404040]">
-            To respond to and address the COVID-19 related crisis around health,
-            livelihood and social areas, we are building an Apparel Sector
+            To respond to and address the COVID-19-related crisis around health,
+            livelihood, and social areas, we are building an Apparel Sector
             Response in consultation with key stakeholders from the supply
             chain.
           </p>
 
           <p className="text-lg text-[#404040]">
-            Our core competencies are in developing replicable models on
-            transformation, large-scale implementation, transferring knowledge
-            and best practices that cut across the boundaries and sectors. We
-            have designed and implemented various national and international
+            Our core competencies are in developing replicable models of
+            transformation, large-scale implementation, and transferring
+            knowledge and best practices that cut across boundaries and sectors.
+            We have designed and implemented various national and international
             programmes.
           </p>
 

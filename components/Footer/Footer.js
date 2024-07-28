@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-cms-primary py-4 text-white text-center">
-        <p className="text-xl">Get In Touch: contactus@catalysts.org</p>
+        <p className="text-xl">
+          To learn more about our work: contactus@catalysts.org
+        </p>
       </div>
       <div className="bg-cms-light-black py-14">
         <div className="max-w-screen-xl mx-auto flex flex-col gap-7 text-white px-2">

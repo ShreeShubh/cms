@@ -18,18 +18,18 @@ export const tabs = [
   },
   {
     id: 2,
-    tab: "Our Beliefs",
-    link: "ourBeliefs",
+    tab: "Key Domains",
+    link: "keyDomains",
   },
   {
     id: 3,
-    tab: "Our Approaches",
-    link: "ourApproaches",
+    tab: "Key Initiatives",
+    link: "keyInitiatives",
   },
   {
     id: 4,
-    tab: "How Do We Work?",
-    link: "howDoWeWork",
+    tab: "Alliances and Platforms",
+    link: "alliancesAndPlatforms",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const tabs = [
 
 const page = () => {
   const overviewDesc =
-    "We have 25 years of experience as a global social impact consulting firm and use 360-degree approach that improves the well-being of vulnerable communities. CMS and its sister organisation, Swasti, a global south public health agency, partners with communities at the last mile to help them realise their potential through health and well-being. We work towards achieving Universal Health Care and Global Health Security through a Climate x Health centric approach and ensure our programs are climate-responsive."
+    "We have 25 years of experience as a global social impact consulting firm and use a 360-degree approach that improves the well-being of vulnerable communities. CMS and its sister organisation, Swasti, a global south public health agency, partner with communities at the last mile to help them realise their potential through health and well-being. We work towards achieving Universal Health Care and Global Health Security through a Climate x Health centric approach and ensure our programmes are climate-responsive."
   return (
     <>
       <div className="bg-[url('/domainAreas/health/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">

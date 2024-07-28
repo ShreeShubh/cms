@@ -11,14 +11,22 @@ const KeyInitiatives = () => {
         </div>
       </div>
       <div className="flex-1 border-b">
-        <ul className="flex flex-col gap-5 py-5 px-5 lg:px-16">
+        <ul className="flex flex-col gap-5 py-5 px-5 lg:px-16 bg-cms-secondary-green">
           {keyInitiativesData.map((item) => {
+            const keyInitiativesLength = keyInitiativesData.length
             return (
-              <li key={item.id} className="flex flex-col gap-3">
+              <li
+                key={item.id}
+                className={`pb-3 ${
+                  item.id !== keyInitiativesLength
+                    ? "border-b border-dashed border-cms-primary-green"
+                    : ""
+                } flex flex-col gap-3`}
+              >
                 <div className="flex flex-col lg:flex-row gap-3 lg:gap-5 text-[#404040] text-lg">
                   <p className="lg:w-1/12">{item.no}</p>
                   <div className="flex-1 space-y-5">
-                    <p className="font-semibold">{item.title}</p>
+                    <p className="">{item.title}</p>
                     <Image
                       src={item.imageUrl}
                       width={720}

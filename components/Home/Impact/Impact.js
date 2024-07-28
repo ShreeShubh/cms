@@ -15,11 +15,11 @@ const Impact = () => {
               className="inline-block w-full md:w-[225px] flex-shrink-0"
             >
               <div
-                className="w-full md:w-[225px] h-[300px] bg-cover flex flex-col justify-end p-3"
+                className="w-full md:w-[225px] h-[300px] bg-cover flex flex-col justify-center p-3"
                 style={{ backgroundImage: `url(${item.imageUrl})` }}
               >
                 <div className="space-y-2 text-white text-lg">
-                  <p className="">{item.title}</p>
+                  {/* <p className="">{item.title}</p> */}
                   <h2 className="text-2xl sm:text-3xl md:text-4xl">
                     {item.count}
                   </h2>

@@ -27,7 +27,7 @@ const page = () => {
         </h2>
       </div> */}
 
-      <Tab heading="Partners" desc={desc} />
+      <Tab heading="Collaborating for Change" desc={desc} />
 
       <div className="hidden md:block">
         <Partners />

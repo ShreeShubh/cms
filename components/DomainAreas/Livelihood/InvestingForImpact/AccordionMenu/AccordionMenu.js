@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const AccordionMenu = ({
   title,
   content1,
@@ -6,6 +8,7 @@ const AccordionMenu = ({
   content4,
   content5,
   content6,
+  content7,
   id,
   isExpanded,
   toggleExpand,
@@ -51,12 +54,20 @@ const AccordionMenu = ({
         aria-labelledby={`accordion-collapse-heading-${id}`}
       >
         <div className="p-5">
-          <p className="mb-2 text-[#454545]">{content1}</p>
-          <p className="mb-2 text-[#454545]">{content2}</p>
+          <p
+            className="mb-2 text-[#454545]"
+            dangerouslySetInnerHTML={{ __html: content1 }}
+          ></p>
+          <p
+            className="mb-2 text-[#454545]"
+            dangerouslySetInnerHTML={{ __html: content2 }}
+          ></p>
+
           <p className="mb-2 text-[#454545]">{content3}</p>
-          <p className="mb-2 text-[#454545] pt-5">{content4}</p>
+          <p className="mb-2 text-[#454545]">{content4}</p>
           <p className="mb-2 text-[#454545]">{content5}</p>
           <p className="mb-2 text-[#454545]">{content6}</p>
+          <p className="mb-2 text-[#454545]">{content7}</p>
         </div>
       </div>
     </div>

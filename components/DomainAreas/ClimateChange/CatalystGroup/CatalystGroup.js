@@ -8,9 +8,7 @@ const CatalystGroup = () => {
       <div className="bg-cms-primary text-white w-full lg:w-auto">
         <div className="w-full lg:w-[400px]">
           <h1 className="text-3xl font-semibold mb-6 ps-4 lg:ps-16 pe-4 lg:pe-10 py-10">
-            Why Catalyst <br className="hidden md:block" /> Group and what{" "}
-            <br className="hidden md:block" /> is Unique about{" "}
-            <br className="hidden md:block" /> us?
+            Our Expertise
           </h1>
         </div>
       </div>

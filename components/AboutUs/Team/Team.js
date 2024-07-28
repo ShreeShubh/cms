@@ -30,9 +30,9 @@ const Team = () => {
               <h2 className="text-white text-center bg-cms-primary-green py-4 text-lg md:text-xl">
                 {item.name}
               </h2>
-              <p className="text-[#4E4E4E] text-base md:text-lg flex-grow px-3">
+              {/* <p className="text-[#4E4E4E] text-base md:text-lg flex-grow px-3">
                 {item.desc}
-              </p>
+              </p> */}
               <div className="flex gap-3 p-2">
                 <Link
                   href={item.inUrl}

@@ -20,23 +20,23 @@ export const tabs = [
   },
   {
     id: 2,
-    tab: "Our Beliefs",
-    link: "ourBeliefs",
+    tab: "About Us",
+    link: "aboutUs",
   },
   {
     id: 3,
-    tab: "Our Approaches",
-    link: "ourApproaches",
+    tab: "Our Approach",
+    link: "ourApproach",
   },
   {
     id: 4,
-    tab: "How Do We Work?",
+    tab: "How We Work",
     link: "howDoWeWork",
   },
   {
     id: 5,
-    tab: "Investing for Impact",
-    link: "investingForImpact",
+    tab: "Sectors",
+    link: "sectors",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ export const tabs = [
 
 const page = () => {
   const overviewDesc =
-    "At the Catalyst Group, our Climate Practice integrates closely with our Health and Livelihood practice areas to further our vision of creating “a thriving world powered by resilient communities and carbon-neutral systems.” We believe that we need to bridge systemic gaps in climate ecosystems and promote people-centric models at scale. We are committed to leveraging our three decades of experience, expertise and relationships of working for and with vulnerable communities like small and marginal farmers, sex workers, street vendors, etc."
+    "At the Catalyst Group, our Climate Practice integrates closely with our Health and Livelihood practice areas to further our vision of creating “a thriving world powered by resilient communities and carbon-neutral systems.” We believe that we need to bridge systemic gaps in climate ecosystems and promote people-centric models at scale. We are committed to leveraging our three decades of experience, expertise, and relationships working for and with vulnerable communities like small and marginal farmers, sex workers, street vendors, etc."
   return (
     <>
       {/* <div className="bg-[url('/domainAreas/climate/banner.png')] bg-cover h-[600px]">

@@ -1,5 +1,6 @@
 import { incubateesData } from "@/utils/data"
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const Incubatees = () => {
@@ -41,10 +42,20 @@ const Incubatees = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-start gap-5 w-[400px]">
-                  <p className="text-lg text-[#646464]">{item.desc}</p>
-                  <button className="border border-cms-primary text-cms-primary text-lg px-6 py-2">
-                    Visit website
-                  </button>
+                  <p className="text-lg text-[#646464]">
+                    <span
+                      className="font-semibold"
+                      style={{ color: item.titleColor }}
+                    >
+                      {item.title}
+                    </span>{" "}
+                    {item.desc}
+                  </p>
+                  <Link href={item.websiteUrl} target="_blank">
+                    <button className="border border-cms-primary text-cms-primary text-lg px-6 py-2">
+                      Visit website
+                    </button>
+                  </Link>
                 </div>
               </div>
             </li>
