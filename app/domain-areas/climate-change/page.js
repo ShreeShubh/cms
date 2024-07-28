@@ -20,8 +20,8 @@ export const tabs = [
   },
   {
     id: 2,
-    tab: "About Us",
-    link: "aboutUs",
+    tab: "Our Expertise",
+    link: "ourExpertise",
   },
   {
     id: 3,
