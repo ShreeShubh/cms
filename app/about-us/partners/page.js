@@ -30,11 +30,11 @@ const page = () => {
 
       <Tab heading="Collaborating for Change" desc={desc} />
 
-      <div className="hidden md:block">
+      {/* <div className="hidden md:block">
         <Partners />
-      </div>
+      </div> */}
 
-      <div className="block md:hidden">
+      <div>
         <HomePartners />
       </div>
       <div className="mt-auto">

@@ -18,18 +18,19 @@ const Incubatees = () => {
         {incubateesData.map((item) => {
           return (
             <li key={item.id}>
-              <div className="flex justify-between items-center">
-                <div className={`${item.id % 2 === 0 ? "order-1" : ""}`}>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+                <div className={`${item.id % 2 === 0 ? "md:order-1" : ""}`}>
                   <div className="relative">
                     <Image
                       src={item.imageUrl}
                       height={340}
                       width={460}
                       alt=""
+                      className="w-full md:w-auto"
                     />
                     <div
                       className={`absolute ${
-                        item.id % 2 === 0 ? "-left-20" : "-right-20"
+                        item.id % 2 === 0 ? "md:-left-20" : "md:-right-20"
                       } top-1/4 h-40 w-40 flex justify-center items-center shadow bg-white`}
                     >
                       <Image
@@ -41,7 +42,7 @@ const Incubatees = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col items-start gap-5 w-[400px]">
+                <div className="flex flex-col items-start gap-5 w-full md:w-[400px] mt-5 md:mt-0">
                   <p className="text-lg text-[#646464]">
                     <span
                       className="font-semibold"

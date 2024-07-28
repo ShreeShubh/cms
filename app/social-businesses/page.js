@@ -11,11 +11,11 @@ export const tabs = [
     tab: "Catalyst Livelihood Ventures",
     link: "catalystLivelihoodVentures",
   },
-  {
-    id: 2,
-    tab: "G1",
-    link: "g1",
-  },
+  // {
+  //   id: 2,
+  //   tab: "G1",
+  //   link: "g1",
+  // },
   {
     id: 3,
     tab: "Business Catalyst",

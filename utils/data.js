@@ -48,7 +48,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image01.png",
     name: "Shiv Kumar",
     desc: "Co-Founder, Director",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/shiv-kumar-a288141/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -56,7 +56,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image02.png",
     name: "Raghunathan N",
     desc: "Co-Founder, Director",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/raghunathan-narayanan-495b587/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -64,7 +64,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image03.png",
     name: "Dr Angela Chaudhuri",
     desc: "Lead - Health Practice Area",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/angelachaudhuri/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -72,7 +72,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image04.png",
     name: "Abdul Laheef P",
     desc: "Lead - Community Engagement",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/abhiperne/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -80,7 +80,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image05.png",
     name: "Amit Gupta",
     desc: "Director - Evidence for Change",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/amit-gupta-598b291/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -88,7 +88,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image06.png",
     name: "Arun Sivaramakrishnan",
     desc: "Lead - Livelihood Practice Area",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/arunsivaramakrishnan/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -96,7 +96,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image12.png",
     name: "Atul Kapoor",
     desc: "Director - Private Sector Engagement for Public Health",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -104,7 +104,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image08.png",
     name: "Bhagvath Chandra",
     desc: "Director - Investment Unit",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/bhagvath-chandra-a3756b62/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -112,7 +112,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image09.png",
     name: "Chandran Sudarsanam",
     desc: "Lead - PMO",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/chandran-sudarsanam-4252a19/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -120,7 +120,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image10.png",
     name: "Kedar Jani",
     desc: "Lead - MEAL",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/kedar-jani-41581746/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -128,7 +128,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image11.png",
     name: "Kumar Raman",
     desc: "Lead - Finance",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -136,7 +136,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image12.png",
     name: "Manoj Singh",
     desc: "Lead - HR",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -144,7 +144,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image13.png",
     name: "Nandlal Narayanan",
     desc: "Director - HR",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/nandlal-narayanan-83b8051/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -152,7 +152,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image14.png",
     name: "Nitish Kumar V",
     desc: "Lead - Data Science",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/nitish-kumar-v-6370846a/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -160,7 +160,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image15.png",
     name: "Ritika Gupta",
     desc: "Lead - Evidence for Change",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/ritika-gupta-57529620/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -168,7 +168,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image16.png",
     name: "Sandip Pattanayak",
     desc: "Specialist",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/sandip-pattanayak/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -176,7 +176,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image17.png",
     name: "Shaonli Chakraborty",
     desc: "Lead - Wellbeing 4 Workforce Practice Area",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/shaonli-chakraborty-she-her-58936b7/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -184,7 +184,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image18.png",
     name: "Shreya Dutta",
     desc: "Manager - Marketing Communications",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/shreya-dutta-9180ba180/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -192,7 +192,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image19.png",
     name: "Siddhi Mankad",
     desc: "Specialist - Knowledge Management",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/siddhi-mankad/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -200,7 +200,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image20.png",
     name: "Sujhatha",
     desc: "Lead - Resource Mobilisation",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/sujatha-narasimhan-91511a1/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -208,7 +208,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image21.png",
     name: "Vandana Sharma",
     desc: "Lead - Climate Practice Area",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/vandana-sharmab4991/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -216,7 +216,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image22.png",
     name: "Vinod",
     desc: "Admin",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -224,7 +224,7 @@ export const teamData = [
     imageUrl: "/aboutUs/team/image23.png",
     name: "Vishwanath H S",
     desc: "Director - Social Business",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/hsvishwanath/",
     xurl: "https://x.com/?lang=en",
   },
 ]
@@ -235,7 +235,7 @@ export const advisorsTeamData = [
     imageUrl: "/aboutUs/advisorsTeam/image01.png",
     name: "Mr. Tejinder Singh Sandhu",
     desc: "Advisor",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/tejinder-sandhu-a6b949206/",
     xurl: "https://x.com/?lang=en",
   },
   {
@@ -243,7 +243,7 @@ export const advisorsTeamData = [
     imageUrl: "/aboutUs/advisorsTeam/image02.png",
     name: "Mr. Subhash Misra",
     desc: "Advisor",
-    inUrl: "https://in.linkedin.com/",
+    inUrl: "https://www.linkedin.com/in/subhash-misra-2072737/",
     xurl: "https://x.com/?lang=en",
   },
 ]
@@ -637,7 +637,9 @@ export const keyInitiativesData = [
     title:
       "Multistakeholder health initiative with the aim to transform the City of Bhopal into a “Healthy City” based on WHO’s long-running Healthy Cities framework concentrating on the Social Determinants of Health in the five pillars of Healthy Water, Healthy Food, Healthy Sanitation, Healthy Environment, and Individual and Family Health with support from the National Health Mission, the Government of Madhya Pradesh, and HSTP.",
     desc: "",
-    imageUrl: "/domainAreas/health/keyInitiatives/image01.png",
+    imageUrl: "",
+    videoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/health_video.mp4",
   },
   {
     id: 2,
@@ -646,6 +648,7 @@ export const keyInitiativesData = [
       "Developing effective strategies for COVID-19 vaccination and strengthening and building resilience within the health system in 3 SEAR countries: India, the Philippines, and Cambodia, to deeply understand the health system, Routine Immunization, and Vaccination strategies across these countries to bring an end to future pandemics with support from Rockefeller Foundation",
     desc: "",
     imageUrl: "/domainAreas/health/keyInitiatives/image02.png",
+    videoUrl: "",
   },
 ]
 
@@ -754,17 +757,17 @@ export const socialBusinessesData = [
     path: "/social-businesses/catalyst-livelihood-ventures",
     link: "catalystLivelihoodVentures",
   },
+  // {
+  //   id: 2,
+  //   imageUrl: "/socialBusinesses/image02.png",
+  //   logoUrl: "/socialBusinesses/logo02.png",
+  //   title: "G1",
+  //   desc: "For many, the dream of financial security is hindered by low credit scores, a lack of essential documents, and high interest rates. Through G1 you can help every vulnerable Indian join the path to progress. By lending a portion of your surplus income to families in need, you not only provide them with a lifeline but also receive your contribution back in a year. Together we can break these barriers to financial resilience, one family at a time.",
+  //   path: "/g1",
+  //   link: "g1",
+  // },
   {
     id: 2,
-    imageUrl: "/socialBusinesses/image02.png",
-    logoUrl: "/socialBusinesses/logo02.png",
-    title: "G1",
-    desc: "For many, the dream of financial security is hindered by low credit scores, a lack of essential documents, and high interest rates. Through G1 you can help every vulnerable Indian join the path to progress. By lending a portion of your surplus income to families in need, you not only provide them with a lifeline but also receive your contribution back in a year. Together we can break these barriers to financial resilience, one family at a time.",
-    path: "/g1",
-    link: "g1",
-  },
-  {
-    id: 3,
     imageUrl: "/socialBusinesses/image03.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Business Catalyst",
@@ -773,7 +776,7 @@ export const socialBusinessesData = [
     link: "businessCatalyst",
   },
   {
-    id: 4,
+    id: 3,
     imageUrl: "/socialBusinesses/image04.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Shoonya",
@@ -782,7 +785,7 @@ export const socialBusinessesData = [
     link: "shoonya",
   },
   {
-    id: 5,
+    id: 4,
     imageUrl: "/socialBusinesses/image05.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "SHIP",

@@ -40,7 +40,7 @@ export default function Home() {
       <Solutions />
       <Impact />
       <FocusArea />
-      <HomePartners />
+      {/* <HomePartners /> */}
 
       <div className="mt-auto">
         <Footer />

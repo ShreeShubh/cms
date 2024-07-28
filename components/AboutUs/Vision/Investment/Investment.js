@@ -43,14 +43,27 @@ const Investment = () => {
           The ‘Unlocking Value to Invest in Impact’ framework brings alive{" "}
           <br /> our living intelligence to enhance social equity.
         </p>
-        <div className="w-full flex justify-center bg-cms-secondary-green border border-[#98D5C5] py-16 px-5">
-          <Image
-            src="/aboutUs/vision/investment/banner.png"
-            width={788}
-            height={303}
-            alt=""
-            className="w-full h-auto"
-          />
+        <div
+          style={{
+            position: "relative",
+            paddingBottom: "56.25%",
+            height: "0",
+            overflow: "hidden",
+            width: "100%",
+          }}
+        >
+          <iframe
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/NewCMSVideo.mp4"
+            style={{
+              position: "absolute",
+              top: "0",
+              left: "0",
+              width: "100%",
+              height: "100%",
+              border: "none",
+            }}
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </>

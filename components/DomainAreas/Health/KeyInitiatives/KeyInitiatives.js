@@ -27,13 +27,29 @@ const KeyInitiatives = () => {
                   <p className="lg:w-1/12">{item.no}</p>
                   <div className="flex-1 space-y-5">
                     <p className="">{item.title}</p>
-                    <Image
-                      src={item.imageUrl}
-                      width={720}
-                      height={400}
-                      alt=""
-                      className="w-full h-auto rounded"
-                    />
+                    {item.imageUrl !== "" ? (
+                      <Image
+                        src={item.imageUrl}
+                        width={720}
+                        height={400}
+                        alt=""
+                        className="w-full h-auto rounded"
+                      />
+                    ) : (
+                      ""
+                    )}
+
+                    {item.videoUrl !== "" ? (
+                      <iframe
+                        src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/health_video.mp4"
+                        width="100%"
+                        height="500px"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
+                    ) : (
+                      ""
+                    )}
                     <p>{item.desc}</p>
                   </div>
                 </div>
