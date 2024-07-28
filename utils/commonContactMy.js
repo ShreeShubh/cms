@@ -22,31 +22,14 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
 
   const validateEmail = (email) => {
     const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-    if (!re.test(String(email).toLowerCase())) {
-      return false
-    }
-    const domain = email.split('@')[1].toLowerCase()
-    const typos = {
-      'gamil.com': 'gmail.com',
-      'gmil.com': 'gmail.com',
-      'gmial.com': 'gmail.com',
-      'yaho.com': 'yahoo.com',
-      'yahooo.com': 'yahoo.com',
-      'yhoo.com': 'yahoo.com',
-      'hotnail.com': 'hotmail.com',
-      'hotmails.com': 'hotmail.com',
-      'outlok.com': 'outlook.com',
-    }
-    if (typos[domain]) {
-      return `Did you mean ${typos[domain]}?`
-    }
-    return true
+    return re.test(String(email).toLowerCase())
   }
 
   const handleFormSubmit = async (e) => {
     e.preventDefault()
+    // console.log('clicked')
     const newErrors = {}
-
+    // console.log('clicked-1')
     // Check for empty fields
     Object.keys(formData).forEach((key) => {
       if (!formData[key]) {
@@ -55,20 +38,21 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
     })
 
     // Email validation
-    const emailValidationResult = validateEmail(formData.email)
-    if (formData.email && emailValidationResult !== true) {
-      newErrors.email =
-        typeof emailValidationResult === 'string'
-          ? emailValidationResult
-          : 'Invalid email address'
+    if (formData.email && !validateEmail(formData.email)) {
+      newErrors.email = 'Invalid email address'
     }
+    // if (!formData.phone) {
+    //   newErrors.phone = 'Phone number is required'
+    // } else if (!/^\d+$/.test(formData.phone)) {
+    //   newErrors.phone = 'Phone number must be numeric'
+    // }
 
     // If there are errors, set the errors state
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors)
       return
     }
-
+    // console.log('clicked-2')
     setLoading(true)
     setSuccessMessage('')
 
@@ -123,10 +107,7 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
   }
 
   return (
-    <form
-      className="w-full max-w-screen-lg mx-auto"
-      onSubmit={handleFormSubmit}
-    >
+    <form className="w-full max-w-screen-lg" onSubmit={handleFormSubmit}>
       {successMessage && (
         <div
           class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"

@@ -643,7 +643,7 @@ export const socialBusinessesData = [
     imageUrl: "/socialBusinesses/image01.png",
     logoUrl: "/socialBusinesses/logo01.png",
     title: "Catalyst Livelihood Ventures",
-    desc: "Catalyst Livelihood Ventures CLV Farm is an agri-marketing initiative that works with smallholder farmers to improve produce quality and procure their commodities, facilitated by the FPC. CLV sells these commodities to large buyers and brands at a premium generated through value-added activities, ensuring the farmers receive fair compensation for their risk and effort while generating adequate profits for CMS.",
+    desc: "Catalyst Livelihood Ventures (CLV) Farm is an agri-marketing initiative that works with smallholder farmers to improve produce quality and procure their commodities, facilitated by the FPC. CLV sells these commodities to large buyers and brands at a premium generated through value-added activities, ensuring the farmers receive fair compensation for their risk and effort while generating adequate profits for CMS.",
     path: "/social-businesses/catalyst-livelihood-ventures",
     link: "catalystLivelihoodVentures",
   },
@@ -721,7 +721,7 @@ export const focusAreaData = [
     hoverUrl: "/home/focusArea/hover02.png",
     title: "Climate",
     desc: "Creating a world powered by resilient communities and carbon neutral systems",
-    link: "/domain-areas/climate",
+    link: "/domain-areas/climate-change",
   },
   {
     id: 3,
@@ -1618,49 +1618,6 @@ export const globalImpact = [
   },
 ]
 
-export const sectors = [
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/1.png",
-    title: "National and International Brands/Companies",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/2.png",
-    title: "Value Chain Players- MSMEs",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/3.png",
-    title: "Industry Associations",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/4.png",
-    title: "Industry Coalitions",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/5.png",
-    title: "Service/Solution providers",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/6.png",
-    title: "Government stakeholders",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/7.png",
-    title: "Academic institutions",
-  },
-  {
-    imgUrl:
-      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/8.png",
-    title: "Civil society and Other Industry leaders",
-  },
-]
-
 export const goneCommunity = [
   {
     imagUrl:
@@ -1736,8 +1693,52 @@ export const esgTeam = [
   },
   {
     name: "Vishrut Shivkumar",
-    designation: "Business Lead, Shoonya Net Zero Catalyst",
+    designation: "Business Lead, Shoonya - Net Zero Catalyst",
     profile:
       "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/esg-team/Vishrut-Shivkumar.png",
+  },
+]
+
+export const sectors = [
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/1.png",
+    title: "National and International Brands/Companies",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/2.png",
+    title: "Value Chain Players - MSMEs",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/3.png",
+    title: "Industry Associations",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/8.png",
+    title: "Industry Coalitions",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/4.png",
+
+    title: "Service/Solution Providers",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/5.png",
+    title: "Government Stakeholders",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/6.png",
+    title: "Academic Institutions",
+  },
+  {
+    imgUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/7.png",
+    title: "Civil Society & Other Industry Leaders",
   },
 ]

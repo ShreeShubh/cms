@@ -14,9 +14,6 @@ export default function RootLayout({ children }) {
         <main className="flex flex-col min-h-screen">
           {/* <Header /> */}
           {children}
-          <div className="mt-auto">
-            <Footer />
-          </div>
         </main>
       </body>
     </html>

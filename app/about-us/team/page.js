@@ -1,5 +1,6 @@
 import Tab from "@/components/AboutUs/Tab/Tab"
 import Team from "@/components/AboutUs/Team/Team"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Image from "next/image"
 import React from "react"
@@ -32,6 +33,10 @@ const page = () => {
         <div className="max-w-screen-xl mx-auto">
           <Team />
         </div>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

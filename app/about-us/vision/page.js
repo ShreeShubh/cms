@@ -3,6 +3,7 @@ import Tab from "@/components/AboutUs/Tab/Tab"
 import Investment from "@/components/AboutUs/Vision/Investment/Investment"
 import Values from "@/components/AboutUs/Vision/Values/Values"
 import Vision from "@/components/AboutUs/Vision/Vision"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Image from "next/image"
 import React from "react"
@@ -17,7 +18,7 @@ const page = () => {
         <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
             We create an impact <br /> that is transformational, driving <br />{" "}
-            sustainable and scalable equity.
+            sustainable and scalable equity
           </h1>
         </div>
       </div>
@@ -78,6 +79,10 @@ const page = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

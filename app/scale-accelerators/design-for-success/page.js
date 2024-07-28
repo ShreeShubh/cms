@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import ScaleAccelerators from "@/components/ScaleAccelerators/ScaleAccelerators"
@@ -16,6 +17,12 @@ export const tabs = [
     id: 2,
     tab: "Design Initiatives",
     link: "designInitiatives",
+  },
+
+  {
+    id: 3,
+    tab: "Related Resources",
+    link: "relatedResources",
   },
 ]
 
@@ -43,7 +50,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
 
       <div className="max-w-screen-xl mx-auto my-5 md:my-16 px-5">
         <div className="mb-5">
@@ -109,7 +116,11 @@ const page = () => {
         </div>
       </div>
 
-      {/* <RelatedResources /> */}
+      <RelatedResources />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

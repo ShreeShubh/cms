@@ -1,4 +1,5 @@
 import CollaborativeInitiatives from "@/components/CollaborativeInitiatives/CollaborativeInitiatives"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
@@ -47,6 +48,10 @@ const page = () => {
         <div className="">
           <CollaborativeInitiatives />
         </div>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

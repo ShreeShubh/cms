@@ -1,5 +1,6 @@
 import Overview from "@/components/DomainAreas/Overview/Overview"
 import WorkforceWellbeing from "@/components/DomainAreas/WorkforceWellbeing/WorkforceWellbeing"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import Tab from "@/components/Tab/Tab"
@@ -46,10 +47,14 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
       <Overview desc={overviewDesc} />
       <WorkforceWellbeing />
       <RelatedResources />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

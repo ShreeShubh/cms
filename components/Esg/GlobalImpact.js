@@ -5,19 +5,24 @@ import Image from 'next/image'
 import React from 'react'
 import CountUp from 'react-countup'
 
+// Custom format function for Indian numbering system
+const formatIndianNumber = (value) => {
+  return value.toLocaleString('en-IN') + '+'
+}
+
 const Snapshot = () => {
   return (
     <div className="flex flex-col items-center gap-4 lg:mb-16 mb-10">
-      <div className="text-center lg:w-8/12 py-4 p-6">
+      <div className="text-center lg:w-[80%] py-4 p-6 pt-8">
         <p className="text-lg font-regular" data-aos="fade-down">
-          In a world where the impacts of our actions resonate far beyond
+          In a world where the impact of our actions resonate far beyond
           immediate boundaries, the need for comprehensive sustainability
-          practices becomes crucial. At ESG-One, we understand that it’s no
-          longer sufficient for organisations to focus solely on direct controls
-          within their operations. True sustainability requires a holistic
-          approach, extending responsible business practices throughout the
-          entire value chain by implementing changes in policy and practice that
-          focus on people, the planet, and sustainable outcomes.
+          practices becomes crucial. We understand that it’s no longer
+          sufficient for organisations to focus solely on direct controls within
+          their operations. True sustainability requires a holistic approach,
+          extending responsible business practices throughout the entire value
+          chain. This can be achieved by implementing changes in policy and
+          practice that focus on people, the planet, and sustainable outcomes.
         </p>
       </div>
 
@@ -52,6 +57,7 @@ const Snapshot = () => {
                     end={parseInt(item.count)}
                     duration={2.5}
                     suffix="+"
+                    formattingFn={formatIndianNumber}
                   />
                 </h3>
                 <p className="text-[#5C5C5C] lg:text-xl text-center text-sm">

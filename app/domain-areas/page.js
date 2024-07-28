@@ -1,4 +1,5 @@
 import DomainAreas from "@/components/DomainAreas/DomainAreas"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
@@ -58,6 +59,10 @@ const page = () => {
 
       <div className="">
         <DomainAreas />
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

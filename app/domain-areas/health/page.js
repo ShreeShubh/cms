@@ -4,6 +4,7 @@ import KeyInitiatives from "@/components/DomainAreas/Health/KeyInitiatives/KeyIn
 import KeyInitiatives02 from "@/components/DomainAreas/Health/KeyInitiatives/KeyInitiatives02/KeyInitiatives02"
 
 import Overview from "@/components/DomainAreas/Overview/Overview"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import Tab from "@/components/Tab/Tab"
@@ -65,7 +66,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
       <Overview desc={overviewDesc} />
       <KeyDomain />
       <KeyInitiatives />
@@ -74,6 +75,10 @@ const page = () => {
       </div>
       <AlliancesAndPlatforms />
       <RelatedResources />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

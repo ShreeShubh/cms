@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import ScaleAccelerators from "@/components/ScaleAccelerators/ScaleAccelerators"
 import Tab from "@/components/Tab/Tab"
@@ -51,6 +52,10 @@ const page = () => {
         <div className="">
           <ScaleAccelerators />
         </div>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

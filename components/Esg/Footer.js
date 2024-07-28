@@ -8,7 +8,7 @@ export default function Page() {
       <div className="flex gap-2 items-center justify-center">
         <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/phone.svg" />
         <Link className="text-xl" href="tel:+919590245050">
-          +91 9590 245 050
+          +91-9590245050
         </Link>
       </div>
       <div className="flex gap-2 items-center justify-center">

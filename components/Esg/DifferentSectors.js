@@ -33,13 +33,16 @@ function Insights() {
           className="text-ce-purple lg:text-3xl lg:py-6 text-xl px-4 lg:p-0 lg:px-0"
           data-aos="fade-down"
         >
-          We help different sectors achieve their ESG requirements.
+          We help different sectors achieve their ESG requirements
         </h2>
       </div>
       <div className="w-[90%] mx-auto pb-20">
         <Carousel
           responsive={responsive}
           showDots={true}
+          autoPlay={true}
+          autoPlaySpeed={1500}
+          infinite={true}
           //   customTransition="all .5"
           //   dotListClass="border-red-500 border"
           removeArrowOnDeviceType={['tablet', 'mobile', 'desktop']}

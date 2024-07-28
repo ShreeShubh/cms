@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import PartneredWithExperts from "@/components/ScaleAccelerators/EvidenceForChange/PartneredWithExperts/PartneredWithExperts"
@@ -22,11 +23,11 @@ export const tabs = [
     tab: "Our Work",
     link: "ourWork",
   },
-  // {
-  //   id: 4,
-  //   tab: "Related Resources",
-  //   link: "",
-  // },
+  {
+    id: 4,
+    tab: "Related Resources",
+    link: "",
+  },
 ]
 
 const page = () => {
@@ -53,7 +54,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
 
       <div className="max-w-screen-xl mx-auto mt-5 md:mt-14 mb-8 px-5">
         <div className="space-y-4 text-cms-primary-black text-base md:text-lg w-full md:w-4/5">
@@ -165,7 +166,11 @@ const page = () => {
         </div>
       </div>
 
-      {/* <RelatedResources /> */}
+      <RelatedResources />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

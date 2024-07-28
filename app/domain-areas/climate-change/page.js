@@ -6,6 +6,7 @@ import ThreeSectors02 from "@/components/DomainAreas/ClimateChange/ThreeSectors0
 import ThreeSectors03 from "@/components/DomainAreas/ClimateChange/ThreeSectors03/ThreeSectors03"
 
 import Overview from "@/components/DomainAreas/Overview/Overview"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import Tab from "@/components/Tab/Tab"
@@ -81,7 +82,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
       <Overview desc={overviewDesc} />
       <CatalystGroup />
       <OurApproach />
@@ -103,6 +104,10 @@ const page = () => {
         <ThreeSectors03 />
       </div>
       <RelatedResources />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

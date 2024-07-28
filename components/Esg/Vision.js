@@ -30,12 +30,12 @@ export default function Home() {
       <div className="w-10/12 py-8 lg:hidden" data-aos="fade-down">
         <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/scalable-mobile.png" />
       </div>
-      <div className="w-10/12 py-8 lg:hidden" data-aos="fade-down">
-        <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/brand-mobile.png" />
+      <div className="w-12/12 py-8 lg:hidden" data-aos="fade-down">
+        <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/well-being-mobil.png" />
       </div>
 
-      <div className="w-10/12 hidden lg:block" data-aos="fade-up">
-        <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/brands.png" />
+      <div className="w-12/12 hidden lg:block" data-aos="fade-up">
+        <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/well-being.png" />
       </div>
     </div>
   )

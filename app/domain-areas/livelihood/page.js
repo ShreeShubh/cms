@@ -8,6 +8,7 @@ import Tab from "@/components/Tab/Tab"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import InvestingForImpact from "@/components/DomainAreas/Livelihood/InvestingForImpact/InvestingForImpact"
+import Footer from "@/components/Footer/Footer"
 
 export const tabs = [
   {
@@ -63,7 +64,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
       <Overview desc={overviewDesc} />
       <Ethos />
       <OurApproaches />
@@ -94,16 +95,20 @@ const page = () => {
             height={122}
             alt=""
           />
-          <p className="text-[#404040] text-lg">
+          {/* <p className="text-[#404040] text-lg">
             To learn more about the work we do, contact us at:
           </p>
           <button className="bg-cms-primary px-6 py-3 text-white self-start">
             contactus@catalysts.org
-          </button>
+          </button> */}
         </div>
       </div>
 
       <RelatedResources />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

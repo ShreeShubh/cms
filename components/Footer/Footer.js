@@ -107,6 +107,11 @@ const Footer = () => {
                   Wellbeing For Workforce
                 </Link>
               </li>
+              <li>
+                <Link href="/esg" className="hover:underline">
+                  ESG
+                </Link>
+              </li>
             </ul>
 
             <ul className="text-[#CBCBCB] space-y-3">
@@ -121,13 +126,21 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline">
+                <Link
+                  href="https://cms.org.in/business-catalyst/"
+                  className="hover:underline"
+                >
                   Business Catalyst
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline">
+                <Link href="/shoonya" className="hover:underline">
                   Shoonya
+                </Link>
+              </li>
+              <li>
+                <Link href="/ship" className="hover:underline">
+                  SHIP
                 </Link>
               </li>
             </ul>
@@ -184,7 +197,7 @@ const Footer = () => {
               <li className="mt-3 md:mt-0">Follow Us:</li>
               <li>
                 <Link
-                  href="https://in.linkedin.com/"
+                  href="https://www.linkedin.com/company/solvists/"
                   target="_blank"
                   className="text-2xl"
                 >
@@ -193,7 +206,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://x.com/?lang=en"
+                  href="https://x.com/Solvists?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                   target="_blank"
                   className="text-2xl"
                 >

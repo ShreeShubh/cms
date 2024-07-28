@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Tab from "@/components/Tab/Tab"
 import { catalystData } from "@/utils/data"
@@ -30,7 +31,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
 
       <div className="max-w-screen-xl mx-auto px-5 my-10 md:my-16">
         <p className="text-lg text-[#1A1A1A]">
@@ -116,6 +117,10 @@ const page = () => {
             Partner with us
           </button>
         </Link>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

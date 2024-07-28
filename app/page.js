@@ -5,6 +5,7 @@ import FocusArea from "@/components/Home/FocusArea/FocusArea"
 import Impact from "@/components/Home/Impact/Impact"
 import Solutions from "@/components/Home/Solutions/Solutions"
 import HomePartners from "@/components/Home/HomePartners/HomePartners"
+import Footer from "@/components/Footer/Footer"
 
 export default function Home() {
   return (
@@ -40,6 +41,10 @@ export default function Home() {
       <Impact />
       <FocusArea />
       <HomePartners />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

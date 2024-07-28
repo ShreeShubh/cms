@@ -1,5 +1,6 @@
 "use client"
 
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Image from "next/image"
 import React, { useState } from "react"
@@ -115,6 +116,10 @@ const page = () => {
             </button>
           </form>
         </div>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

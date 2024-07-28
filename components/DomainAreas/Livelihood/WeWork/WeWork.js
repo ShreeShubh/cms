@@ -26,9 +26,8 @@ const WeWork = () => {
               )
             })}
             <h3 className="text-lg lg:text-2xl text-[#1A1A1A] mt-4">
-              To address the various levers of impact, we work with a{" "}
-              <br className="hidden lg:block" />
-              number of organisations like:
+              To address the various levers of impact, we work with a number of{" "}
+              <br className="hidden lg:block" /> organisations like:
             </h3>
             <ul className="flex flex-wrap gap-3 mt-4">
               {weWorkImpactData.map((item) => {

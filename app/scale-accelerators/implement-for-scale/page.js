@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import ImplementForScale from "@/components/ScaleAccelerators/ImplementForScale/ImplementForScale"
 import OurOffers from "@/components/ScaleAccelerators/OurOffers/OurOffers"
@@ -59,7 +60,7 @@ const page = () => {
         </div>
       </div>
 
-      <Tab tabs={tabs} />
+      {/* <Tab tabs={tabs} /> */}
 
       <div className="flex flex-col items-center space-y-3 mt-14">
         <h2 className="text-3xl font-semibold text-center text-cms-primary">
@@ -149,6 +150,10 @@ const page = () => {
       </div>
 
       <OurOffers />
+
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </>
   )
 }

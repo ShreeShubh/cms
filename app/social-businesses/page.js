@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import SocialBusinesses from "@/components/SocialBusinesses/SocialBusinesses"
 import Tab from "@/components/Tab/Tab"
@@ -69,6 +70,10 @@ const page = () => {
         <div className="">
           <SocialBusinesses />
         </div>
+      </div>
+
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )

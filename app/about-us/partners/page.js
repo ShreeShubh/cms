@@ -1,5 +1,6 @@
 import Partners from "@/components/AboutUs/Partners/Partners"
 import Tab from "@/components/AboutUs/Tab/Tab"
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import HomePartners from "@/components/Home/HomePartners/HomePartners"
 import Image from "next/image"
@@ -35,6 +36,9 @@ const page = () => {
 
       <div className="block md:hidden">
         <HomePartners />
+      </div>
+      <div className="mt-auto">
+        <Footer />
       </div>
     </>
   )
