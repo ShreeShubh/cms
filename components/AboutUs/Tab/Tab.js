@@ -12,11 +12,11 @@ const Tab = ({ heading, desc }) => {
       <div className="text-center mt-10 mb-5">
         <p className="text-cms-secondary-black text-lg">About Us</p>
       </div>
-      <ul className="max-w-screen-xl mx-auto flex flex-row justify-center items-center gap-2 sm:gap-5 mb-10 text-cms-secondary-black text-lg">
+      <ul className="max-w-screen-xl mx-auto flex flex-wrap justify-center items-center gap-2 sm:gap-5 mb-10 text-cms-secondary-black text-lg">
         {tabs.map((item) => {
           const isActive = pathname.includes(item.url)
           return (
-            <li key={item.id} className="w-full sm:w-auto">
+            <li key={item.id} className="flex-1 sm:flex-none">
               <Link href={item.url}>
                 <button
                   className={`py-3 px-6 w-full sm:w-auto ${
@@ -32,6 +32,7 @@ const Tab = ({ heading, desc }) => {
           )
         })}
       </ul>
+
       <div>
         <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between md:my-5 px-5 md:px-0">
           <div className="flex flex-col gap-5 mb-5 lg:mb-0">
