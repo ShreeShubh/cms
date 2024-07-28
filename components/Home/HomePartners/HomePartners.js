@@ -21,7 +21,7 @@ const HomePartners = () => {
         <ul className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
           {homePartnersData.slice(0, visibleCount).map((item) => (
             <li key={item.id}>
-              <div>
+              <div className="border border-slate-200 rounded px-2">
                 <Image
                   src={item.imageUrl}
                   width={150}

@@ -186,11 +186,11 @@ const Footer = () => {
                   Privacy Policy
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="hover:underline">
                   Sitemap
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
             <ul className="flex items-center gap-5">
@@ -216,14 +216,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="space-y-3 px-2">
+          {/* <div className="space-y-3 px-2">
             <p className="text-white">Office Address:</p>
             <p className="text-[#CBCBCB]">
               Catalyst Management Services Pvt. Ltd., #25, 4th Floor, AECS
               Layout, <br className="hidden md:block" />
               RMV 2nd Stage, Ashwathnagar, Bangalore – 560 094.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="bg-[#000000] py-4 text-white text-center">

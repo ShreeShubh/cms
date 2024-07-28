@@ -1,3 +1,4 @@
+import AdvisorsTeam from "@/components/AboutUs/AdvisorsTeam/AdvisorsTeam"
 import Tab from "@/components/AboutUs/Tab/Tab"
 import Team from "@/components/AboutUs/Team/Team"
 import Footer from "@/components/Footer/Footer"
@@ -33,6 +34,21 @@ const page = () => {
         <div className="max-w-screen-xl mx-auto">
           <Team />
         </div>
+      </div>
+
+      <div className="mb-10">
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between md:my-5 px-5 md:px-0">
+          <div className="flex flex-col gap-5 mb-5 lg:mb-0">
+            <h1 className="text-[#171717] text-2xl sm:text-3xl md:text-4xl font-semibold">
+              Advisors
+            </h1>
+            <div className="border border-[#707070] w-60" />
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row justify-between px-5 md:px-24">
+        <AdvisorsTeam />
       </div>
 
       <div className="mt-auto">

@@ -1,12 +1,12 @@
-'use client'
-import Image from 'next/image'
-import Link from 'next/link'
-import React, { useRef, useEffect } from 'react'
-import Carousel from 'react-multi-carousel'
-import 'react-multi-carousel/lib/styles.css'
-import { Accordion } from 'flowbite-react'
-import { goneCommunity } from '../../utils/data'
-import Contact from '../../components/G1Components/Contact'
+"use client"
+import Image from "next/image"
+import Link from "next/link"
+import React, { useRef, useEffect } from "react"
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+import { Accordion } from "flowbite-react"
+import { goneCommunity } from "../../utils/data"
+import Contact from "../../components/G1Components/Contact"
 
 const G1Content = React.forwardRef((props, ref) => {
   const responsive = {
@@ -51,8 +51,8 @@ const G1Content = React.forwardRef((props, ref) => {
 
   const section1Ref = useRef(null)
   const scrollToSection1 = () => {
-    console.log('hello')
-    section1Ref.current.scrollIntoView({ behavior: 'smooth' })
+    console.log("hello")
+    section1Ref.current.scrollIntoView({ behavior: "smooth" })
   }
 
   return (
@@ -132,7 +132,7 @@ const G1Content = React.forwardRef((props, ref) => {
             </div>
 
             <p className="text-lg text-[#5c5c5c] mt-3" data-aos="fade-down">
-              Each investment enables families to start businesses, clear debts,{' '}
+              Each investment enables families to start businesses, clear debts,{" "}
               <br className="lg:block hidden" />
               and build sustainable futures.
             </p>
@@ -221,7 +221,7 @@ const G1Content = React.forwardRef((props, ref) => {
             autoPlaySpeed={1800}
             //   customTransition="all .5"
             //   dotListClass="border-red-500 border"
-            removeArrowOnDeviceType={['tablet', 'mobile', 'desktop']}
+            removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
             className="lg:h-[490px] w-50"
           >
             {goneCommunity.map((items, index) => (
@@ -370,10 +370,10 @@ const G1Content = React.forwardRef((props, ref) => {
         </div>
       </div>
 
-      <div className="text-center p-16 w-10/12">
+      <div className="text-center p-16 w-10/12 mx-auto">
         <p className="text-4xl text-[#5C5C5C] font-bold">Get in touch</p>
         <p className="text-black text-[24px] mt-2">
-          <span className="text-[#00AF8B] text-[24px]"> Email:</span>
+          <span className="text-[#00AF8B] text-[24px]"> Email: </span>
           <Link href="mailto:contactus@catalysts.org">
             contactus@catalysts.org
           </Link>

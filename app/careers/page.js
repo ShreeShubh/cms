@@ -1,6 +1,31 @@
+import JobListing from "@/components/Careers/JobListing"
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Image from "next/image"
+
+const jobPositions = [
+  {
+    id: 1,
+    title: "Marketing and Communications Lead",
+    bgColor: "bg-cms-primary",
+    points: [
+      "Develop and promote branding initiatives consistent with corporate business goals and objectives",
+      "Creating and managing all marketing materials and collateral in line with brand direction",
+      "Implementing online marketing activities including social media, SEO/SEM, demand generation, lead generation, etc.",
+    ],
+    link: "https://catalyst.keka.com/careers/jobdetails/36543",
+  },
+  {
+    id: 2,
+    title: "QUANTITATIVE RESEARCH ASSOCIATE",
+    bgColor: "bg-[#9250AC]",
+    points: [
+      "Selecting appropriate research design for impact evaluations. Such design may include experimental, quasi-experimental, or other techniques. They may be short-, medium-, or long-term.",
+      "Designing questionnaires for primary data collection, incorporating feedback from...",
+    ],
+    link: "https://catalyst.keka.com/careers/JobDetails/9666",
+  },
+]
 
 const page = () => {
   return (
@@ -12,9 +37,9 @@ const page = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-xl mx-auto mt-14 mb-10">
-        <div className="space-y-4 text-cms-primary-black text-lg w-4/5">
-          <p className="">
+      <div className="max-w-screen-xl mx-auto mt-14 mb-10 px-4 md:px-8">
+        <div className="space-y-4 text-cms-primary-black text-base md:text-lg w-full md:w-4/5">
+          <p>
             We at CMS know that reaching scale, impact and sustainability of
             social initiatives requires the operation of an eco-system that
             integrates four elements–the capacities of the communities; the
@@ -37,79 +62,7 @@ const page = () => {
         Current Openings
       </h2>
 
-      <div className="flex bg-white shadow-lg">
-        <div className="bg-cms-primary text-white p-6 w-1/3 relative">
-          <h3 className="text-xl font-semibold">
-            Marketing and Communications Lead
-          </h3>
-          <div className="absolute right-[-10px] top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[20px] border-t-transparent border-b-[20px] border-b-transparent border-l-[10px] border-l-cms-primary"></div>
-        </div>
-        <div className="flex px-16 py-10 flex-col gap-4">
-          <div className="flex w-3/4">
-            <div className="flex flex-col items-start space-y-2">
-              <div className="w-7 border-b-2 border-cms-primary-green" />
-              <p>
-                Develop and promote branding initiatives consistent with
-                corporate business goals and objectives
-              </p>
-            </div>
-            <div className="flex flex-col items-start space-y-2">
-              <div className="w-7 border-b-2 border-cms-primary-green" />
-              <p>
-                Develop and promote branding initiatives consistent with
-                corporate business goals and objectives
-              </p>
-            </div>
-            <div className="flex flex-col items-start space-y-2">
-              <div className="w-7 border-b-2 border-cms-primary-green" />
-              <p>
-                Develop and promote branding initiatives consistent with
-                corporate business goals and objectives
-              </p>
-            </div>
-          </div>
-          <button className="mt-4 px-4 py-2 self-start border border-cms-primary text-cms-primary hover:bg-purple-100">
-            More Details
-          </button>
-        </div>
-      </div>
-
-      <div className="flex bg-white shadow-lg">
-        <div className="bg-[#9250AC] text-white p-6 w-1/3 relative">
-          <h3 className="text-xl font-semibold">
-            Marketing and Communications Lead
-          </h3>
-          <div className="absolute right-[-10px] top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[20px] border-t-transparent border-b-[20px] border-b-transparent border-l-[10px] border-l-[#9250AC]"></div>
-        </div>
-        <div className="flex px-16 py-10 flex-col gap-4">
-          <div className="flex w-3/4">
-            <div className="flex flex-col items-start space-y-2">
-              <div className="w-7 border-b-2 border-cms-primary-green" />
-              <p>
-                Develop and promote branding initiatives consistent with
-                corporate business goals and objectives
-              </p>
-            </div>
-            <div className="flex flex-col items-start space-y-2">
-              <div className="w-7 border-b-2 border-cms-primary-green" />
-              <p>
-                Develop and promote branding initiatives consistent with
-                corporate business goals and objectives
-              </p>
-            </div>
-            <div className="flex flex-col items-start space-y-2">
-              <div className="w-7 border-b-2 border-cms-primary-green" />
-              <p>
-                Develop and promote branding initiatives consistent with
-                corporate business goals and objectives
-              </p>
-            </div>
-          </div>
-          <button className="mt-4 px-4 py-2 self-start border border-cms-primary text-cms-primary hover:bg-purple-100">
-            More Details
-          </button>
-        </div>
-      </div>
+      <JobListing data={jobPositions} />
 
       <div className="mt-auto">
         <Footer />

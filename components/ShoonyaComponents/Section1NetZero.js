@@ -82,8 +82,12 @@ const Section1NetZero = () => {
           Group’s Net Zero Initiative
         </h1>
         <div className="lg:w-[1140px] flex flex-col items-center w-full ">
-          <div className=" lg:grid grid-cols-1 lg:grid-cols-12 items-center justify-center relative w-full  hidden">
+          <div className="hidden lg:block">
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Shoonya+infographic+V2.png" />
+          </div>
+          <div className="items-center justify-center relative w-full  hidden">
             {/* grid 1 carbon sequestration */}
+
             <div
               className="lg:col-span-4 h-[100%] relative mt-32 flex flex-col items-center "
               data-aos="fade-up"
@@ -139,7 +143,7 @@ const Section1NetZero = () => {
           </div>
 
           <div
-            className=" h-[100%] relative pt-14  flex-col items-center justify-center w-[50%] lg:flex hidden"
+            className=" h-[100%] relative pt-14  flex-col items-center justify-center w-[50%] hidden"
             data-aos="fade-up"
           >
             <img
