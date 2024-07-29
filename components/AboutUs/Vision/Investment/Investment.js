@@ -1,6 +1,7 @@
 import { investmentData } from "@/utils/data"
 import Image from "next/image"
 import React from "react"
+import VideoPlayer from "./video"
 
 const Investment = () => {
   return (
@@ -59,7 +60,7 @@ const Investment = () => {
             width: "100%",
           }}
         >
-          <iframe
+          {/* <iframe
             src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/NewCMSVideo.mp4"
             style={{
               position: "absolute",
@@ -70,7 +71,8 @@ const Investment = () => {
               border: "none",
             }}
             allowfullscreen
-          ></iframe>
+          ></iframe> */}
+          <VideoPlayer />
         </div>
       </div>
     </>

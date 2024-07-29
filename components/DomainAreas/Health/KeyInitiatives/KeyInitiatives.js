@@ -1,6 +1,7 @@
 import { keyInitiativesData } from "@/utils/data"
 import Image from "next/image"
 import React from "react"
+import VideoPlayer from "./video"
 
 const KeyInitiatives = () => {
   return (
@@ -40,13 +41,14 @@ const KeyInitiatives = () => {
                     )}
 
                     {item.videoUrl !== "" ? (
-                      <iframe
-                        src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/health_video.mp4"
-                        width="100%"
-                        height="500px"
-                        frameborder="0"
-                        allowfullscreen
-                      ></iframe>
+                      // <iframe
+                      //   src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/health_video.mp4"
+                      //   width="100%"
+                      //   height="500px"
+                      //   frameborder="0"
+                      //   allowfullscreen
+                      // ></iframe>
+                      <VideoPlayer />
                     ) : (
                       ""
                     )}

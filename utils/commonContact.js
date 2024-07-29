@@ -1,15 +1,15 @@
-'use client'
+"use client"
 
-import React, { useState } from 'react'
-import InputField from './InputField' // Importing reusable input field component
-import TextAreaField from './TextAreaField' // Importing reusable textarea field component
-import axios from 'axios'
+import React, { useState } from "react"
+import InputField from "./InputField" // Importing reusable input field component
+import TextAreaField from "./TextAreaField" // Importing reusable textarea field component
+import axios from "axios"
 
 export default function ContactForm({ fields, form, type, btn, bg }) {
   const [formData, setFormData] = useState(
     fields.reduce(
       (acc, field) => {
-        acc[field.id] = ''
+        acc[field.id] = ""
         return acc
       },
       { formType: type }
@@ -17,7 +17,7 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
   )
 
   const [errors, setErrors] = useState({})
-  const [successMessage, setSuccessMessage] = useState('')
+  const [successMessage, setSuccessMessage] = useState("")
   const [loading, setLoading] = useState(false)
 
   const validateEmail = (email) => {
@@ -25,17 +25,17 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
     if (!re.test(String(email).toLowerCase())) {
       return false
     }
-    const domain = email.split('@')[1].toLowerCase()
+    const domain = email.split("@")[1].toLowerCase()
     const typos = {
-      'gamil.com': 'gmail.com',
-      'gmil.com': 'gmail.com',
-      'gmial.com': 'gmail.com',
-      'yaho.com': 'yahoo.com',
-      'yahooo.com': 'yahoo.com',
-      'yhoo.com': 'yahoo.com',
-      'hotnail.com': 'hotmail.com',
-      'hotmails.com': 'hotmail.com',
-      'outlok.com': 'outlook.com',
+      "gamil.com": "gmail.com",
+      "gmil.com": "gmail.com",
+      "gmial.com": "gmail.com",
+      "yaho.com": "yahoo.com",
+      "yahooo.com": "yahoo.com",
+      "yhoo.com": "yahoo.com",
+      "hotnail.com": "hotmail.com",
+      "hotmails.com": "hotmail.com",
+      "outlok.com": "outlook.com",
     }
     if (typos[domain]) {
       return `Did you mean ${typos[domain]}?`
@@ -58,9 +58,9 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
     const emailValidationResult = validateEmail(formData.email)
     if (formData.email && emailValidationResult !== true) {
       newErrors.email =
-        typeof emailValidationResult === 'string'
+        typeof emailValidationResult === "string"
           ? emailValidationResult
-          : 'Invalid email address'
+          : "Invalid email address"
     }
 
     // If there are errors, set the errors state
@@ -70,7 +70,7 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
     }
 
     setLoading(true)
-    setSuccessMessage('')
+    setSuccessMessage("")
 
     try {
       const formDataToSend = new FormData()
@@ -79,30 +79,30 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
       })
 
       const response = await axios.post(
-        'https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/10383/feedback',
+        "https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/10383/feedback",
         formDataToSend,
         {
           headers: {
-            'Content-Type': 'multipart/form-data',
+            "Content-Type": "multipart/form-data",
           },
         }
       )
 
-      console.log('Form data sent:', formDataToSend)
-      setSuccessMessage('Thank you for contacting us')
+      console.log("Form data sent:", formDataToSend)
+      setSuccessMessage("Thank you for contacting us")
       setFormData(
         fields.reduce(
           (acc, field) => {
-            acc[field.id] = ''
+            acc[field.id] = ""
             return acc
           },
           { formType: type }
         )
       )
       setErrors({})
-      console.log('Form submitted successfully', response.data)
+      console.log("Form submitted successfully", response.data)
     } catch (error) {
-      console.error('Error submitting form', error)
+      console.error("Error submitting form", error)
     } finally {
       setLoading(false)
     }
@@ -129,7 +129,7 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
     >
       {successMessage && (
         <div
-          class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+          class="mb-4 text-lg text-white rounded-lg  dark:bg-gray-800 dark:text-green-400"
           role="alert"
         >
           <span class="font-medium">Submitted!</span> {successMessage}
@@ -140,15 +140,15 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
           <div
             key={field.id}
             className={`${
-              field.type === 'textarea'
+              field.type === "textarea"
                 ? `col-span-${form} text-black`
-                : 'flex flex-col w-full '
+                : "flex flex-col w-full "
             }`}
           >
             <label htmlFor={field.id} className="text-white">
               {field.label}
             </label>
-            {field.type === 'textarea' ? (
+            {field.type === "textarea" ? (
               <TextAreaField
                 id={field.id}
                 value={formData[field.id]}
@@ -171,7 +171,7 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
         <button
           type="submit"
           className={`${
-            form === '2'
+            form === "2"
               ? `px-4 py-2 ${bg} rounded ${btn} text-lg sm:text-xl`
               : `px-4 py-2 ${bg} rounded ${btn} text-lg sm:text-xl`
           }`}

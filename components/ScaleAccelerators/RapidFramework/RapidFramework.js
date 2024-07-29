@@ -21,7 +21,15 @@ const RapidFramework = () => {
         width={904}
         height={488}
         alt="RAPID Framework"
-        className="mt-5 w-full h-auto"
+        className="mt-5 w-full h-auto hidden md:block"
+      />
+
+      <Image
+        src="/scaleAccelerators/implementForScale/rapidFramework/image02.png"
+        width={354}
+        height={788}
+        alt="RAPID Framework"
+        className="mt-5 w-full h-auto block md:hidden"
       />
     </div>
   )

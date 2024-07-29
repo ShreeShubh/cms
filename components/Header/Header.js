@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { searchIcon } from "@/utils/icon"
 import Image from "next/image"
+import CurrentPath from "../CurrentPath/CurrentPath"
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -199,6 +200,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      <CurrentPath />
     </>
   )
 }

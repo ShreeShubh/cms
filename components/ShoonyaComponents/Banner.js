@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
 
 const Banner = () => {
   return (
     <>
       <div
-        className=" lg:bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/shoonya_banner.png')] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/shoonya-mobile-banner.png')] lg:h-[140vh] h-[110vh] bg-cover  bg-no-repeat bg-center flex p-10"
+        className=" lg:bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/shoonya_banner.png')] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/shoonya-mobile-banner.png')] lg:h-[160vh] h-[110vh] bg-cover  bg-no-repeat bg-center flex p-10"
         data-aos="zoom-in"
       >
         {/* <div className='lg:w-[1140px] flex justify-center lg:justify-start w-full'> */}

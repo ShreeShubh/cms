@@ -1,24 +1,24 @@
-"use client";
-import React, { useRef, useEffect } from "react";
-import Link from "next/link";
-import Contact from "../../components/ShipComponent/Contact";
-import AOS from "aos";
-import "aos/dist/aos.css";
+"use client"
+import React, { useRef, useEffect } from "react"
+import Link from "next/link"
+import Contact from "../../components/ShipComponent/Contact"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 // import ShipForm from '../../utils/ShipForm'
 const Ship = () => {
-  const formRef = useRef(null);
+  const formRef = useRef(null)
 
   const handleJoinUsClick = () => {
-    formRef.current.scrollIntoView({ behavior: "smooth" });
-  };
+    formRef.current.scrollIntoView({ behavior: "smooth" })
+  }
   useEffect(() => {
     AOS.init({
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 400, // values from 0 to 3000, with step 50ms
       easing: "ease",
-    });
-  });
+    })
+  })
 
   return (
     <>
@@ -85,7 +85,7 @@ const Ship = () => {
               data-aos="fade-right"
             />
           </div>
-          <div className="flex flex-col items-start p-5 ps-0 lg:ps-28 w-full lg:w-full">
+          <div className="flex flex-col items-start p-5 ps-0 lg:ps-28 w-full lg:w-full overflow-hidden">
             <p
               className="text-lg lg:text-[22px] lg:text-left lg:pb-5 p-3 leading-relaxed lg:w-[650px] lg:px-0 px-7 text-center"
               data-aos="fade-left"
@@ -107,10 +107,10 @@ const Ship = () => {
       </div>
 
       {/* With our help, healthcare enterprises */}
-      <div className="flex flex-col lg:flex-row bg-[#C7EDE6] w-full mx-auto">
-        <div className="flex flex-col items-center justify-center p-3 flex-grow lg:w-3/4">
+      <div className="flex flex-col lg:flex-row bg-[#C7EDE6] w-full mx-auto  overflow-hidden">
+        <div className="flex flex-col items-center justify-center p-3 flex-grow  lg:w-3/4">
           <p
-            className="text-lg lg:text-[22px] lg:text-justify lg:p-32 container  mx-auto px-5 text-center"
+            className="text-lg lg:text-[22px] lg:text-justify lg:p-32 container leading-relaxed mx-auto px-5 text-center"
             data-aos="fade-right"
           >
             With our help, healthcare enterprises will be able to access the
@@ -419,7 +419,7 @@ const Ship = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Ship;
+export default Ship
