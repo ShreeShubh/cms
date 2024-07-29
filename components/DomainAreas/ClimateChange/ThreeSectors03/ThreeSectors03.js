@@ -2,12 +2,12 @@ import React from "react"
 
 const ThreeSectors03 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-10 pb-10 flex flex-col gap-7">
+    <div className="max-w-screen-xl mx-auto px-4 py-10 flex flex-col gap-7">
       <div className="flex gap-3 text-cms-primary text-2xl">
         <p>03.</p>
         <p>Health system:</p>
       </div>
-      <ul className="flex flex-col gap-5 list-disc ps-10 text-lg text-[#404040]">
+      <ul className="flex flex-col gap-5 list-disc ps-4 text-lg text-[#404040]">
         <li>
           <p>
             Challenges: Climate change has a profound impact on people’s
@@ -33,7 +33,7 @@ const ThreeSectors03 = () => {
         <p className="font-semibold text-cms-primary text-2xl mt-5">
           For example:
         </p>
-        <ul className="flex flex-col gap-5 list-square ps-10 text-lg text-[#404040]">
+        <ul className="flex flex-col gap-5 list-square ps-4 text-lg text-[#404040]">
           <li>
             <p>
               Our work is through the Green Health Alliance (GHA), which

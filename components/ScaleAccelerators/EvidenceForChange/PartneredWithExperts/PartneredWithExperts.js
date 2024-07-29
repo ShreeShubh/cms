@@ -12,7 +12,7 @@ const PartneredWithExperts = () => {
           return (
             <li
               key={item.id}
-              className="w-full sm:w-1/2 md:w-64 h-20 flex justify-center items-center bg-cms-primary text-white text-lg text-center"
+              className="w-full sm:w-1/2 md:w-64 h-20 flex justify-center items-center bg-cms-primary text-white text-lg text-center px-2"
             >
               <p>{item.title}</p>
             </li>

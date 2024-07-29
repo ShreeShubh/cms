@@ -58,7 +58,7 @@ const page = () => {
             The Design for Success team at Catalyst Management Services
             specialises in human-centric design, seamlessly blending agile
             methods with strategic planning to create impactful solutions for
-            societal issues. They specialise in designing programs, networks,
+            societal issues. They specialise in designing programmes, networks,
             and theories of change to address complex challenges.
           </h2>
         </div>
@@ -103,15 +103,15 @@ const page = () => {
             continuous learning and refinement. We collaborate closely with
             partners and communities, co-creating purpose-driven solutions that
             empower and transform. We aim to shape a future where innovation
-            catalyzes enduring impact, ensuring each project contributes
+            catalyses enduring impact, ensuring each project contributes
             meaningfully to positive change.
           </p>
 
           <p className="text-cms-primary-black text-base md:text-lg">
             Connect with us to transform your ideas into a tailored roadmap for
             impactful change, develop prototypes for real-world testing, or
-            design strategic shifts to enhance the impact of your programs. Your
-            vision is our priority!
+            design strategic shifts to enhance the impact of your programmes.
+            Your vision is our priority!
           </p>
         </div>
       </div>

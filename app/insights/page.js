@@ -88,9 +88,11 @@ const page = () => {
                         className="text-lg text-cms-primary"
                         dangerouslySetInnerHTML={{ __html: item.title }}
                       />
-                      <p className="text-lg text-[#1A1A1A] flex-grow">
-                        {item.desc}
-                      </p>
+                      <p
+                        className="text-lg text-[#1A1A1A] flex-grow"
+                        dangerouslySetInnerHTML={{ __html: item.desc }}
+                      ></p>
+
                       <Link
                         href={`insights/${item.slug}`}
                         className="underline text-lg text-cms-primary self-start flex items-center gap-2"

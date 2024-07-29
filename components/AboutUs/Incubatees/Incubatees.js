@@ -17,8 +17,8 @@ const Incubatees = () => {
       <ul className="flex flex-col gap-10 my-14">
         {incubateesData.map((item) => {
           return (
-            <li key={item.id}>
-              <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+            <li key={item.id} className="md:mb-10">
+              <div className="flex flex-col md:flex-row md:justify-evenly md:items-center">
                 <div className={`${item.id % 2 === 0 ? "md:order-1" : ""}`}>
                   <div className="relative">
                     <Image

@@ -45,14 +45,14 @@ const OurApproaches = () => {
               We use multiple levers to achieve our vision, such as:
             </h3>
             <ul className="flex flex-col px-5 list-disc text-base lg:text-lg text-white">
-              <li>Building programmatic models and approaches.</li>
-              <li>Engaging and shaping investments and policies.</li>
+              <li>Building programmatic models and approaches</li>
+              <li>Engaging and shaping investments and policies</li>
               <li>
-                Providing technical and strategic support to organisations.
+                Providing technical and strategic support to organisations
               </li>
               <li>
                 Leveraging technology-enabled platforms and directly
-                implementing programmes at scale.
+                implementing programmes at scale
               </li>
             </ul>
           </div>

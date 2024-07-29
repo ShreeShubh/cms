@@ -9,7 +9,7 @@ const Mission = () => {
         <ul className="flex flex-col gap-5 py-10 lg:py-16 px-5 lg:px-16">
           {missionData.map((item) => (
             <li key={item.id}>
-              <div className="flex items-center gap-3">
+              <div className="flex gap-3">
                 <div className="h-[76px] w-[76px] flex-shrink-0">
                   <Image
                     src={item.iconUrl}
@@ -24,7 +24,7 @@ const Mission = () => {
                     {item.title}
                   </h2>
                   <p
-                    className="text-white text-base lg:text-lg mt-3"
+                    className="text-white text-base"
                     dangerouslySetInnerHTML={{ __html: item.desc }}
                   ></p>
                 </div>

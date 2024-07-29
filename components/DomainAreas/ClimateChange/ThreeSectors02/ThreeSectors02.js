@@ -2,12 +2,12 @@ import React from "react"
 
 const ThreeSectors02 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-10 flex flex-col gap-7">
+    <div className="max-w-screen-xl mx-auto py-10 px-4 flex flex-col gap-7">
       <div className="flex gap-3 text-cms-primary text-2xl">
         <p>02.</p>
         <p>ESG (Environment, Social and Governance) Services:</p>
       </div>
-      <ul className="flex flex-col gap-5 list-disc ps-10 text-lg text-[#404040]">
+      <ul className="flex flex-col gap-5 list-disc ps-4 text-lg text-[#404040]">
         <li>
           <p>
             Challenges: Industries and Micro, Small, and Medium Enterprises
@@ -28,7 +28,7 @@ const ThreeSectors02 = () => {
             For example:
           </p>
         </li>
-        <ul className="flex flex-col gap-5 list-square ps-10 text-lg text-[#404040]">
+        <ul className="flex flex-col gap-5 list-square ps-4 text-lg text-[#404040]">
           <li>
             <p>
               Our work through Shoonya Net Zero Catalyst is a service that

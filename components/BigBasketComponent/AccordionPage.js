@@ -26,24 +26,25 @@ const Accordion = ({ children }) => {
 
 const AccordionPanel = ({ title, children, isOpen, onToggle }) => {
   return (
-    <div className="border-b border-gray-200 py-3">
-      <button
-        className="w-full p-6 flex justify-between items-center text-2xl bg-[#E1D0E8] text-[#7F3F97] hover:text-[#1C1C1C] focus:outline-none "
-        onClick={onToggle}
-      >
-        <span>{title}</span>
-        <span className="flex items-center justify-center w-6 h-6 bg-[#7F3F97] hover:bg-[#1C1C1C] rounded-full text-white text-xs">
-          {isOpen ? <FaTimes /> : <FaArrowDown />}
-        </span>
-      </button>
-      <div
-        className={`transition-max-height duration-500 ease-in-out overflow-hidden ${
-          isOpen ? 'max-h-screen' : 'max-h-0'
-        }`}
-      >
-        <div className="p-4 bg-white text-gray-700 text-lg">{children}</div>
-      </div>
-    </div>
+<div className="border-b border-gray-200 py-3">
+  <button
+    className="w-full p-6 flex justify-between items-center text-2xl bg-[#E1D0E8] text-[#7F3F97] hover:text-[#1C1C1C] focus:outline-none text-left"
+    onClick={onToggle}
+  >
+    <span className="flex-grow">{title}</span>
+    <span className="flex items-center justify-center w-6 h-6 bg-[#7F3F97] hover:bg-[#1C1C1C] rounded-full text-white text-xs p-2 m-2">
+      {isOpen ? <FaTimes /> : <FaArrowDown />}
+    </span>
+  </button>
+  <div
+    className={`transition-max-height duration-500 ease-in-out overflow-hidden ${
+      isOpen ? 'max-h-screen' : 'max-h-0'
+    }`}
+  >
+    <div className="p-4 bg-white text-gray-700 text-lg">{children}</div>
+  </div>
+</div>
+
   )
 }
 

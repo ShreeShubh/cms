@@ -18,11 +18,11 @@ const jobPositions = [
   },
   {
     id: 2,
-    title: "QUANTITATIVE RESEARCH ASSOCIATE",
+    title: "Quantitative Research Associate",
     bgColor: "bg-[#9250AC]",
     points: [
-      "Selecting appropriate research design for impact evaluations. Such design may include experimental, quasi-experimental, or other techniques. They may be short-, medium-, or long-term.",
-      "Designing questionnaires for primary data collection, incorporating feedback from...",
+      "Selecting appropriate research design for impact evaluations. Such design may include experimental, quasi-experimental, or other techniques. They may be short-, medium-, or long-term",
+      "Designing questionnaires for primary data collection, incorporating feedback from various stakeholders",
     ],
     link: "https://catalyst.keka.com/careers/JobDetails/9666",
   },
@@ -62,7 +62,7 @@ const page = () => {
           </p>
         </div>
       </div> */}
-      <div className="mb-10">
+      <div className="mt-10 mb-5">
         <h2 className="text-3xl text-cms-primary font-semibold ps-24 mb-5">
           Current Openings
         </h2>

@@ -45,7 +45,7 @@ const DomainAreas = () => {
                 <p className="text-base sm:text-lg text-[#646464]">
                   {item.desc}
                 </p>
-                <Link href={item.path}>
+                <Link href={item.path} target={item.target}>
                   <button className="border border-cms-primary bg-cms-primary text-white text-base sm:text-lg rounded px-4 sm:px-6 py-2">
                     Know more
                   </button>

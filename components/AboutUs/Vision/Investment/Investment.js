@@ -11,9 +11,10 @@ const Investment = () => {
         </h3>
         <p className="text-[#4E4E4E] text-2xl text-center sm:text-left">
           We like to see ourselves as solution-focused activists—‘Solvists’.
-          Working closely with <br /> partners, we incubate and invest with a
-          rare mix of resources, deep expertise, and <br /> on-ground
-          experience, shaping social equity while working across SDG goals. We:
+          Working closely with partners, we incubate and invest with a rare mix
+          of resources, deep expertise, and on-ground experience, shaping social
+          equity while working across <br className="hidden md:block" /> SDG
+          goals. We:
         </p>
         <ul className="flex flex-wrap gap-5 justify-center">
           {investmentData.map((item) => (
@@ -22,7 +23,13 @@ const Investment = () => {
               className="bg-cms-primary-green w-full sm:w-auto p-5"
             >
               <div className="flex flex-col items-center gap-4 text-white py-7 px-5">
-                <Image src={item.iconUrl} width={65} height={65} alt="" />
+                <Image
+                  src={item.iconUrl}
+                  width={65}
+                  height={65}
+                  alt=""
+                  className="w-[65px] h-[65px]"
+                />
                 <h4
                   className="text-2xl text-center"
                   dangerouslySetInnerHTML={{ __html: item.title }}

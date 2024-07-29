@@ -47,7 +47,7 @@ function Insights() {
             responsive={responsive}
             showDots={false}
             autoPlay={true}
-            autoPlaySpeed={1500}
+            autoPlaySpeed={2000}
             infinite={true}
             //   customTransition="all .5"
             //   dotListClass="border-red-500 border"
@@ -55,8 +55,8 @@ function Insights() {
             className=""
           >
             {focusAreaData.map((item, index) => (
-              <li key={item.id}>
-                <div className="flex flex-col items-center gap-3 w-full  h-full">
+              <li key={item.id} className="flex flex-col items-center h-full">
+                <div className="flex flex-col items-center gap-3 flex-grow w-full">
                   <div className="relative group">
                     <Image
                       src={item.imageUrl}
@@ -76,20 +76,20 @@ function Insights() {
                     </div>
                   </div>
 
-                  <div className="flex flex-col items-center flex-grow w-full">
+                  <div className="flex flex-col gap-3 items-center flex-grow w-full">
                     <h5 className="text-lg sm:text-xl text-cms-primary font-semibold text-center">
                       {item.title}
                     </h5>
-                    <p className="text-base text-[#171717] text-center">
+                    <p className="text-base text-[#171717] text-center w-4/6">
                       {item.desc}
                     </p>
                   </div>
-                  <Link href={item.link}>
-                    <button className="px-3 py-2 bg-cms-primary text-white">
-                      Know more
-                    </button>
-                  </Link>
                 </div>
+                <Link href={item.link}>
+                  <button className="px-3 py-2 bg-cms-primary text-white mt-3">
+                    Know more
+                  </button>
+                </Link>
               </li>
             ))}
           </Carousel>

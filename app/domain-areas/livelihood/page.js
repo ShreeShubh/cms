@@ -86,7 +86,7 @@ const page = () => {
         <div className="flex flex-col gap-6 px-4">
           <p className="text-[#404040] text-lg w-full md:w-10/12">
             We work towards the holistic development of small producers and to
-            pave the way to a brighter future. All of our work is geared towards
+            pave the way to a brighter future. All our work is geared towards
             achieving the UN SDGs, specifically Goals 1, 2, 5, 10, 11, and 17.
           </p>
           <Image

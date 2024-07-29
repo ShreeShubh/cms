@@ -8,7 +8,7 @@ const HowDoWeWork = () => {
       <div className="bg-cms-primary text-white w-full lg:w-auto">
         <div className="w-full lg:w-[400px]">
           <h1 className="text-3xl font-semibold mb-6 ps-4 lg:ps-16 pe-4 lg:pe-10 py-10">
-            How do <br /> we work?
+            How We Work
           </h1>
         </div>
       </div>

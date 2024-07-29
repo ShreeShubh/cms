@@ -12,7 +12,7 @@ const KeyInitiatives02 = () => {
               key={item.id}
               className="border-b border-dashed border-cms-primary-green py-5"
             >
-              <div className="flex flex-col md:flex-row gap-3 items-center">
+              <div className="flex flex-col md:flex-row gap-3 md:items-center">
                 <Image
                   src={item.logoUrl}
                   width={100}

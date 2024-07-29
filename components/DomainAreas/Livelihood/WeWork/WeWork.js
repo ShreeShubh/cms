@@ -12,12 +12,12 @@ const WeWork = () => {
     <div className="flex flex-col lg:flex-row lg:me-16">
       <div className="bg-cms-primary text-white p-6 lg:ps-16 lg:pe-10 lg:py-10 lg:w-[69%]">
         <h1 className="text-2xl lg:text-3xl font-semibold mb-4 lg:mb-6">
-          How Do <br className="hidden md:block" /> We Work?
+          How We Work
         </h1>
       </div>
       <div className="w-full lg:w-auto">
         <div className="border-b">
-          <ul className="flex flex-col list-disc justify-center h-full py-5 gap-3 sm:gap-5 px-4 sm:py-7 sm:ps-10 sm:pe-8 lg:ps-20 lg:pe-16">
+          <ul className="flex flex-col list-disc justify-center h-full ps-7 py-5 gap-3 sm:gap-5 px-4 sm:py-7 sm:ps-10 sm:pe-8 lg:ps-20 lg:pe-16">
             {weWorkData.map((item) => {
               return (
                 <li key={item.id}>

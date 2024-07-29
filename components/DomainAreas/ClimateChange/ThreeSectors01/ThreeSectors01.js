@@ -18,10 +18,10 @@ const ThreeSectors01 = () => {
           <p>Agriculture & Food Systems:</p>
         </div>
         <p className="text-lg text-[#404040]">
-          <span className="text-cms-primary-green">Challenges: </span>{" "}
-          Agricultural systems are on the front lines of climate change, both
-          creating and affected by it, contributing significantly to water usage
-          and livestock carbon emissions. With increased weather variability,
+          <span className="text-[#404040]">Challenges: </span> Agricultural
+          systems are on the front lines of climate change, both creating and
+          affected by it, contributing significantly to water usage and
+          livestock carbon emissions. With increased weather variability,
           shifting growing seasons, and changing precipitation patterns, small
           and marginal farmers are disproportionately affected. They are the
           backbone of a country’s agriculture, and climate change endangers both
@@ -29,13 +29,13 @@ const ThreeSectors01 = () => {
         </p>
 
         <p className="text-lg text-[#404040]">
-          <span className="text-cms-primary-green">Our Approach: </span> We work
-          closely with small and marginal farmers to adopt climate-smart
-          agricultural practices and sustainable farming techniques. We also
-          support the creation of resilient food supply chains and value-added
-          processes to reduce post-harvest losses. The practices that are
-          promoted are planned in such a way that there is biodiversity
-          conservation and resource regeneration.
+          <span className="text-[#404040]">Our Approach: </span> We work closely
+          with small and marginal farmers to adopt climate-smart agricultural
+          practices and sustainable farming techniques. We also support the
+          creation of resilient food supply chains and value-added processes to
+          reduce post-harvest losses. The practices that are promoted are
+          planned in such a way that there is biodiversity conservation and
+          resource regeneration.
         </p>
 
         {/* <p className="text-lg text-cms-primary">For example,</p> */}

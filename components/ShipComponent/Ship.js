@@ -1,24 +1,24 @@
-'use client'
-import React, { useRef, useEffect } from 'react'
-import Link from 'next/link'
-import Contact from '../../components/ShipComponent/Contact'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+"use client";
+import React, { useRef, useEffect } from "react";
+import Link from "next/link";
+import Contact from "../../components/ShipComponent/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // import ShipForm from '../../utils/ShipForm'
 const Ship = () => {
-  const formRef = useRef(null)
+  const formRef = useRef(null);
 
   const handleJoinUsClick = () => {
-    formRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
+    formRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   useEffect(() => {
     AOS.init({
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 400, // values from 0 to 3000, with step 50ms
-      easing: 'ease',
-    })
-  })
+      easing: "ease",
+    });
+  });
 
   return (
     <>
@@ -115,13 +115,13 @@ const Ship = () => {
           >
             With our help, healthcare enterprises will be able to access the
             resources they need to focus on what is most important: patient care
-            and outcomes. SHIP leverages the collective experience of the{' '}
+            and outcomes. SHIP leverages the collective experience of the{" "}
             <Link
               className="text-fuchsia-800"
-              href={'https://catalysts.global/'}
+              href={"https://catalysts.global/"}
             >
               Catalyst Group
-            </Link>{' '}
+            </Link>{" "}
             in developing efficient enterprises. Catalyst Group learnings from
             the health system strengthening programs have given us deeper
             insight and understanding of the workings of small and medium-sized
@@ -364,7 +364,7 @@ const Ship = () => {
       </div>
 
       {/* Impact on the Healthcare Sector */}
-      <div className="w-full lg:h-auto flex justify-center bg-[#00AE8E]">
+      <div className="w-full lg:h-auto flex justify-center bg-[#00AE8E] p-5">
         <div className="text-center text-white">
           <p
             className="lg:text-4xl font-bold py-10 text-lg"
@@ -377,9 +377,15 @@ const Ship = () => {
             the health systems across the country.
           </p>
           <img
-            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ship/healthcare_sector.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/SHE+WEbsite-01.jpg"
             alt=""
-            className="lg:h-auto lg:w-[1200px] mx-auto py-5"
+            className="lg:h-auto lg:w-[1200px] mx-auto py-5 hidden lg:block"
+            data-aos="zoom-in"
+          />
+          <img
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/SHE+WEbsite-02.jpg"
+            alt=""
+            className="mx-auto py-5 block lg:hidden"
             data-aos="zoom-in"
           />
         </div>
@@ -392,8 +398,8 @@ const Ship = () => {
       {/* footer */}
       <div className="w-full bg-[#D8D8D8]">
         <div className="flex lg:flex-row justify-between items-center lg:w-[1140px] p-5 mx-auto">
-          <p className="text-left">Copyright © 2023, Inc.</p>
-          <div className="flex space-x-4">
+          <p className="text-center mx-auto">Copyright © 2024, Inc.</p>
+          {/* <div className="flex space-x-4">
             <i class="bi bi-twitter"></i>
             <div className="rounded-full bg-gray-100 p-3">
               <img
@@ -409,11 +415,11 @@ const Ship = () => {
                 alt="LinkedIn Logo"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Ship
+export default Ship;

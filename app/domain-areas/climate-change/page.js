@@ -101,8 +101,8 @@ const page = () => {
 
       <div className="bg-cms-secondary-green">
         <ThreeSectors02 />
-        <ThreeSectors03 />
       </div>
+      <ThreeSectors03 />
       <RelatedResources />
 
       <div className="mt-auto">

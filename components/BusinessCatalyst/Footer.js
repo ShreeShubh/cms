@@ -65,8 +65,8 @@ export default function page() {
       </div>
       <div className="mx-auto w-full text-center bg-[#713289] py-4">
         <p className="text-white ">
-          &copy; 2024 Catalyst Management Services Pvt. Ltd. All rights
-          reserved.
+          &copy; 2024 Catalyst Management Services Pvt. Ltd.{" "}
+          <br className="block md:hidden" /> All rights reserved.
         </p>
       </div>
     </div>

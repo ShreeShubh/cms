@@ -3,6 +3,7 @@
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Image from "next/image"
+import Link from "next/link"
 import React, { useState } from "react"
 
 const page = () => {
@@ -40,9 +41,9 @@ const page = () => {
       <div className="flex flex-col lg:flex-row w-full h-auto lg:h-[700px]">
         <div className="bg-cms-primary w-full lg:w-1/2 flex flex-col text-white py-12 lg:py-24 px-6 lg:px-20">
           <h3 className="text-xl lg:text-2xl font-semibold">Head Office</h3>
-          <p className="text-base lg:text-lg mt-4">
+          {/* <p className="text-base lg:text-lg mt-4">
             Catalyst Management Services Pvt. Ltd.,
-          </p>
+          </p> */}
 
           <p className="text-base lg:text-lg mt-8">
             Catalyst Management Services Pvt. Ltd., #25, 4th Floor, AECS Layout,
@@ -105,7 +106,11 @@ const page = () => {
                 I consent to having this website store my submitted information
                 so they can respond to my enquiry.
                 <br />
-                See our privacy policy to learn more about how we use data.
+                See our{" "}
+                <Link href="/privacy-policy" className="text-cms-primary">
+                  privacy policy
+                </Link>{" "}
+                to learn more about how we use data.
               </label>
             </div>
             <button

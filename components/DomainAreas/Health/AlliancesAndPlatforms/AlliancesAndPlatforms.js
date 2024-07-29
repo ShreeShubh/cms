@@ -63,9 +63,9 @@ const AlliancesAndPlatforms = () => {
             </li>
           </ul>
 
-          <div className="space-y-2 w-full">
+          <div className="space-y-3 w-full">
             <p className="text-lg text-[#404040]">
-              The practice area has representation under some of the most <br />
+              The practice area has representation under some of the most
               prestigious boards and panels:
             </p>
 

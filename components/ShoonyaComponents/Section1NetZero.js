@@ -1,19 +1,18 @@
-'use client'
-import React from 'react'
-import Carousel from 'react-multi-carousel'
-import 'react-multi-carousel/lib/styles.css'
-import { shoonyaServices } from '../../utils/data'
+"use client";
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { shoonyaServices } from "../../utils/data";
 
 const Section1NetZero = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 4,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -23,7 +22,7 @@ const Section1NetZero = () => {
       breakpoint: { max: 464, min: 0 },
       items: 1,
     },
-  }
+  };
 
   return (
     <>
@@ -119,7 +118,7 @@ const Section1NetZero = () => {
             </div>
 
             {/* grid 2 circularity */}
-            <div
+            {/* <div
               className="lg:col-span-4 h-[100%] relative mt-32 flex flex-col items-center justify-center "
               data-aos="fade-up"
             >
@@ -128,10 +127,9 @@ const Section1NetZero = () => {
                 className="object-contain  mb-4"
               />
               <p className="text-center">
-                Our Tree Growth Programme aims at growing native-variety forests
-                in collaboration with farmers, the government, and other
-                institutions to ensure high survival rates, carbon
-                sequestration, and healthy ecosystems.
+                Shoonya brings years of experience and expertise in the field of
+                deploying innovative plastic circularity initiatives in the
+                value chains of apparel factories, brands, and other players.
               </p>
               <div className="flex absolute  -start-8 top-32">
                 <img
@@ -139,10 +137,10 @@ const Section1NetZero = () => {
                   className="object-cover"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <div
+          {/* <div
             className=" h-[100%] relative pt-14  flex-col items-center justify-center w-[50%] hidden"
             data-aos="fade-up"
           >
@@ -151,10 +149,10 @@ const Section1NetZero = () => {
               className="object-contain  mb-4"
             />
             <p className="text-center">
-              Our Tree Growth Programme aims at growing native-variety forests
-              in collaboration with farmers, the government, and other
-              institutions to ensure high survival rates, carbon sequestration,
-              and healthy ecosystems.
+              Leveraging on our experience, partnerships, and on-the-ground
+              expertise, we offer Net Zero services to MSMEs, apparel
+              factories, and hospitals to ensure end-to-end compliance via
+              responsible supply chains.
             </p>
 
             <p className="text-center mt-10">
@@ -167,7 +165,7 @@ const Section1NetZero = () => {
                 className="object-cover"
               />
             </div>
-          </div>
+          </div> */}
 
           {/* Mobile  */}
           <div
@@ -224,6 +222,13 @@ const Section1NetZero = () => {
           </div>
 
           {/* People Planet Prosperity */}
+          <p
+            className="text-black text-xl text-center lg:text-center mt-10 mb-8 lg:flex hidden"
+            data-aos="fade-left"
+          >
+            We are a strategic, knowledge-based, implementation-focused, <br />
+            and investing partner in the Net Zero journey.
+          </p>
           <div
             className="flex lg:flex-row flex-col justify-center items-center gap-5"
             data-aos="zoom-in"
@@ -282,45 +287,45 @@ const Section1NetZero = () => {
             className="grid grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center mt-10"
             data-aos="fade-up"
           >
-            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/zero_initative_icon_1.svg" />
-            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/zero_initative_icon_2.svg" />
-            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/zero_initative_icon_3.svg" />
-            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/zero_initative_icon_4.svg" />
-            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/zero_initative_icon_5.svg" />
-            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/zero_initative_icon_6.svg" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Catalyst-Group-Net-Zero/Group+51341.svg" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Catalyst-Group-Net-Zero/Group+51337.svg" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Catalyst-Group-Net-Zero/Group+51336.svg" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Catalyst-Group-Net-Zero/Group+51342.svg" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Catalyst-Group-Net-Zero/Group+51344.svg" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/Catalyst-Group-Net-Zero/Group+51346.svg" />
           </div>
         </div>
       </div>
 
       {/* section 3 */}
-      <div className=" py-10 bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/our_services_bg.png')] bg-cover bg-no-repeat">
-        <Carousel
-          responsive={responsive}
-          showDots={false}
-          // infinite={true}
-          autoPlay={true}
-          // autoPlaySpeed={1800}
-          //   customTransition="all .5"
-          //   dotListClass="border-red-500 border"
-          // removeArrowOnDeviceType={['tablet', 'mobile', 'desktop']}
-          className="h-[400px]"
-        >
-          {shoonyaServices.map((items, index) => (
-            <div className="h-full ">
-              <div className="mx-auto text-center border border-[#d0eae2] py-4 relative h-[300px] flex flex-col justify-center items-center bg-white ">
-                <img
-                  src={items.icon}
-                  className="h-[100px] absolute -top-[50px] z-50 "
-                />
-                <h2 className="text-xl font-bold pt-16 pb-4 text-[#7F3F97] mt-50">
-                  {items.title}
-                </h2>
-                <p className="text-lg h-[200px]">{items.desc}</p>
-              </div>
+      <div className="py-10 bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/our_services_bg.png')] bg-cover bg-no-repeat">
+      <Carousel
+        responsive={responsive}
+        showDots={true}
+        infinite={true}
+        autoPlay={true}
+        removeArrowOnDeviceType={["tablet","desktop"]}
+        autoPlaySpeed={1800}
+        className="h-[400px] lg:w-[1200px] mx-auto"
+      >
+        {shoonyaServices.map((item, index) => (
+          <div key={index} className="h-full px-2 flex justify-center items-center">
+            <div className="mx-auto text-center border border-[#d0eae2] py-4 relative h-[300px] flex flex-col justify-center items-center bg-white p-4">
+              <img
+                src={item.icon}
+                className="h-[100px] absolute -top-[50px] z-50"
+                alt={`Service icon ${index}`}
+              />
+              <h2 className="text-xl font-bold pt-16 pb-4 text-[#7F3F97] mt-50">
+                {item.title}
+              </h2>
+              <p className="text-lg h-[200px]">{item.desc}</p>
             </div>
-          ))}
-        </Carousel>
-      </div>
+          </div>
+        ))}
+      </Carousel>
+    </div>
+      
 
       {/* section 3 */}
       <div className="flex flex-col justify-center items-center bg-[#7F3F97] py-10 ">
@@ -342,7 +347,7 @@ const Section1NetZero = () => {
                 width={100}
                 className="-mt-12 bg-[#7F3F97]"
               />
-              <p className="mt-6 text-white text-center text-xl font-semibold">
+              <p className="mt-6 text-white text-center text-xl font-semibold mb-0">
                 Aspiring MSMEs need to be ahead of the curve
               </p>
 
@@ -360,6 +365,8 @@ const Section1NetZero = () => {
               />
               <p className="mt-6 text-white text-center text-xl font-semibold">
                 Costs
+                <br />
+                <br />
               </p>
 
               <p className="mt-6 text-[#DCD0E5] text-center">
@@ -375,6 +382,8 @@ const Section1NetZero = () => {
               />
               <p className="mt-6 text-white text-center text-xl font-semibold">
                 Access to standardised solutions
+                <br />
+                <br />
               </p>
 
               <p className="mt-6 text-[#DCD0E5] text-center">
@@ -536,7 +545,7 @@ const Section1NetZero = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Section1NetZero
+export default Section1NetZero;

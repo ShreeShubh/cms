@@ -38,15 +38,19 @@ const Team = () => {
               </div>
 
               <div className="flex gap-3 mb-2">
-                <Link
-                  href={item.inUrl}
-                  target="_blank"
-                  className="p-1 bg-cms-secondary-gray"
-                >
-                  <span className="text-cms-primary text-2xl">
-                    {linkedInIcon}
-                  </span>
-                </Link>
+                {item.imageUrl !== "/aboutUs/team/image12.png" ? (
+                  <Link
+                    href={item.inUrl}
+                    target="_blank"
+                    className="p-1 bg-cms-secondary-gray"
+                  >
+                    <span className="text-cms-primary text-2xl">
+                      {linkedInIcon}
+                    </span>
+                  </Link>
+                ) : (
+                  ""
+                )}
                 {/* <Link
                   href={item.xurl}
                   target="_blank"

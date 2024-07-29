@@ -18,7 +18,7 @@ const AccordionMenu = ({
       <h2 id={`accordion-collapse-heading-${id}`}>
         <button
           type="button"
-          className={`flex items-center justify-between border border-[#98D5C5] w-full bg-white px-5 py-2 font-medium text-[#454545] gap-3 ${
+          className={`flex items-center justify-between text-start border border-[#98D5C5] w-full bg-white px-5 py-2 font-medium text-[#454545] gap-3 ${
             isExpanded ? "rounded-b-none" : ""
           }`}
           onClick={() => toggleExpand(id)}

@@ -68,6 +68,39 @@ const page = () => {
 
       {/* <Tab tabs={tabs} /> */}
       <Overview desc={overviewDesc} />
+
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-5 md:gap-10 px-3">
+        <div className="flex">
+          <div className="bg-cms-primary w-24 h-24 flex items-center justify-center">
+            <Image
+              src="/domainAreas/health/icon01.png"
+              width={56}
+              height={57}
+              alt=""
+            />
+          </div>
+          <div className="bg-cms-secondary text-center flex flex-col items-center justify-center px-5">
+            <p className="font-semibold">Community System Strengthening:</p>
+            <p>People-centric outcomes through Swasti.</p>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="bg-cms-primary w-24 h-24 flex items-center justify-center">
+            <Image
+              src="/domainAreas/health/icon02.png"
+              width={56}
+              height={57}
+              alt=""
+            />
+          </div>
+          <div className="bg-cms-secondary text-center flex flex-col items-center justify-center px-5">
+            <p className="font-semibold">Health System Strengthening:</p>
+            <p>Institution and policy outcomes through CMS.</p>
+          </div>
+        </div>
+      </div>
+
       <KeyDomain />
       <KeyInitiatives />
       <div className="bg-cms-secondary-green">

@@ -27,6 +27,7 @@ const Values = () => {
                 width={50}
                 height={50}
                 alt={item.title}
+                className="w-[55px] h-[60px]"
               />
               <p className="text-[#E5D9EA] text-lg text-center md:text-start">
                 {item.desc}

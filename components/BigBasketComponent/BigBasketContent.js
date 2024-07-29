@@ -1,7 +1,8 @@
-import React from 'react'
-import Banner from './Banner'
-import AccordionPage from './AccordionPage'
-import AboutShoonya from './AboutShoonya'
+import React from "react";
+import Banner from "./Banner";
+import AccordionPage from "./AccordionPage";
+import AboutShoonya from "./AboutShoonya";
+import Link from "next/link";
 
 const BigBasketContent = () => {
   return (
@@ -16,8 +17,8 @@ const BigBasketContent = () => {
             className="text-2xl lg:text-4xl font-semibold text-center lg:pt-24 py-10"
             data-aos="fade-up"
           >
-            Shoonya NetZero: <br />
-            Transforming Tomorrow, One Tree at a Time
+            Shoonya Net Zero: <br />
+            Transforming Tomorrow,<br /> One Tree at a Time
           </p>
 
           <p className="text-lg text-center lg:py-10 p-5" data-aos="fade-down">
@@ -115,25 +116,36 @@ const BigBasketContent = () => {
           <div className="text-center md:text-end">
             <h2 className="text-xl font-semibold">Share on Social Media</h2>
             <p className="text-gray-600 mt-2">
-              Encourage users to share their contributions
+              We encourage you to share your contributions
             </p>
-            <p className="text-gray-600 mt-2">on social media.</p>
+            <p className="text-gray-600 mt-2">on social media and tag us.</p>
             <div className="flex justify-center md:justify-end space-x-4 mt-4">
-              <img
-                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/linkedin.svg"
-                alt="LinkedIn"
-                className="w-6 h-6"
-              />
-              <img
-                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/x.svg"
-                alt="X"
-                className="w-6 h-6"
-              />
+              <Link
+                className=""
+                href="https://www.linkedin.com/company/solvists/?originalSubdomain=in"
+              >
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/linkedin.svg"
+                  alt="LinkedIn"
+                  className="w-6 h-6"
+                />
+              </Link>
+
+              <Link
+                className=""
+                href="https://x.com/i/flow/login?redirect_after_login=%2FSolvists"
+              >
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/x.svg"
+                  alt="X"
+                  className="w-6 h-6"
+                />
+              </Link>
             </div>
           </div>
           <div className="relative w-48 md:w-96 md:h-96 rounded-full overflow-hidden">
             <img
-              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/social_media.png"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/big_basket/photo_2024-07-29+14.42.04.jpeg"
               alt="Social Media"
               className="w-full h-full object-cover"
             />
@@ -141,7 +153,7 @@ const BigBasketContent = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BigBasketContent
+export default BigBasketContent;
