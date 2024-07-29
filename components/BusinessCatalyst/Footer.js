@@ -1,6 +1,6 @@
-import React from 'react'
-import { globe, envelope, phone } from '../../utils/icon'
-import Link from 'next/link'
+import React from "react"
+import { globe, envelope, phone } from "../../utils/icon"
+import Link from "next/link"
 
 export default function page() {
   return (
@@ -62,6 +62,12 @@ export default function page() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="mx-auto w-full text-center bg-[#713289] py-4">
+        <p className="text-white ">
+          &copy; 2024 Catalyst Management Services Pvt. Ltd. All rights
+          reserved.
+        </p>
       </div>
     </div>
   )
