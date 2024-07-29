@@ -35,17 +35,18 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mb-20">
+      <div className="mb-10 md:mb-16">
         <Tab tabs={tabs} />
       </div>
 
       <div className="">
-        <div className="text-center mb-5">
-          <h2 className="text-cms-primary-black text-2xl">
-            Collaborate with change agents to drive impactful, scalable, and
-            sustainable development. <br /> We address complex issues with
-            integrated solutions, fostering partnerships that enhance social
-            equity and growth.
+        <div className="text-center mb-5 px-4 sm:px-6 lg:px-8">
+          <h2 className="text-cms-primary-black text-lg sm:text-xl md:text-2xl">
+            Collaborate with change agents to drive impactful, scalable, and{" "}
+            <br className="hidden md:block" />
+            sustainable development. We address complex issues with integrated
+            solutions, <br className="hidden md:block" /> fostering partnerships
+            that enhance social equity and growth.
           </h2>
         </div>
 

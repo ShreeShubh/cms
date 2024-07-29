@@ -23,7 +23,20 @@ const ScaleAccelerators = () => {
                 }`}
               >
                 <div className="">
-                  <Image src={item.imageUrl} height={400} width={600} alt="" />
+                  <Image
+                    src={item.imageUrl}
+                    height={400}
+                    width={600}
+                    alt=""
+                    className="hidden md:block"
+                  />
+                  <Image
+                    src={item.mobImageUrl}
+                    height={328}
+                    width={279}
+                    alt=""
+                    className="w-full md:w-auto block md:hidden"
+                  />
                 </div>
               </div>
               <div className="flex flex-col items-start gap-5 w-full sm:w-[500px] mt-6 sm:mt-0 px-3 md:px-0">

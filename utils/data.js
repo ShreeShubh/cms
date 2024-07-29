@@ -253,6 +253,7 @@ export const incubateesData = [
     id: 1,
     imageUrl: "/aboutUs/incubatees/image01.png",
     logoUrl: "/aboutUs/incubatees/logo01.png",
+    mobImageUrl: "/aboutUs/incubatees/mImage01.png",
     titleColor: "#EB0A6E",
     title: "Swasti",
     desc: "is a health resource centre that achieves public health outcomes for the marginalised through end-to-end solutions as well as short and long-term support and facilitation, combining research and practice. The organisation has supported governments, donors, and development partners to design solutions for public health.",
@@ -262,6 +263,7 @@ export const incubateesData = [
     id: 2,
     imageUrl: "/aboutUs/incubatees/image02.png",
     logoUrl: "/aboutUs/incubatees/logo02.png",
+    mobImageUrl: "/aboutUs/incubatees/mImage02.png",
     titleColor: "#045642",
     title: "Vrutti",
     desc: "is a Livelihood Impact Partner that enhances people’s well-being through knowledge, innovation, and transformative actions and brings about solutions at a scale that eliminates inequities and creates wealth for marginalised communities. The social organisation works through result-based planning tools, performance measurement metrics, impact and value for money assessments, and using technology as an augmenter.",
@@ -271,6 +273,7 @@ export const incubateesData = [
     id: 3,
     imageUrl: "/aboutUs/incubatees/image03.png",
     logoUrl: "/aboutUs/incubatees/logo03.png",
+    mobImageUrl: "/aboutUs/incubatees/mImage03.png",
     titleColor: "#6F190D",
     title: "Fuzhio",
     desc: "promotes impact products directly to customers on behalf of small farmers and vulnerable groups, and allows them to maximise yields and provide customers with safe, responsible products.",
@@ -1167,6 +1170,7 @@ export const scaleAcceleratorsData = [
   {
     id: 1,
     imageUrl: "/scaleAccelerators/image01.png",
+    mobImageUrl: "/scaleAccelerators/mImage01.png",
     logoUrl: "",
     title: "Design for Success",
     desc: "The Design for Success team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programmes, networks, and theories of change to address complex challenges.",
@@ -1176,6 +1180,7 @@ export const scaleAcceleratorsData = [
   {
     id: 2,
     imageUrl: "/scaleAccelerators/image02.png",
+    mobImageUrl: "/scaleAccelerators/mImage02.png",
     logoUrl: "",
     title: "Evidence for Change",
     desc: "Evidence for Change specialises in facilitating theories of change, alternate analysis, results frameworks, and tools; building evidence through pluralistic methodologies, participatory learning, and action; and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
@@ -1185,6 +1190,7 @@ export const scaleAcceleratorsData = [
   {
     id: 3,
     imageUrl: "/scaleAccelerators/image03.png",
+    mobImageUrl: "/scaleAccelerators/mImage03.png",
     logoUrl: "",
     title: "Implement for Scale",
     desc: "Implement for Scale supports organisations in achieving successful implementation, we offer a range of services and tools. These include proof of concepts to test and validate innovative ideas, capacity building programs to equip teams with the necessary skills and knowledge, performance management tools and approaches, technical support, and state-of-the-art technologies.",

@@ -26,9 +26,16 @@ const Incubatees = () => {
                       height={340}
                       width={460}
                       alt=""
-                      className="w-full md:w-auto"
+                      className="w-full md:w-auto hidden md:block"
                     />
-                    <div
+                    <Image
+                      src={item.mobImageUrl}
+                      height={328}
+                      width={279}
+                      alt=""
+                      className="w-full md:w-auto block md:hidden"
+                    />
+                    {/* <div
                       className={`absolute ${
                         item.id % 2 === 0 ? "md:-left-20" : "md:-right-20"
                       } top-1/4 h-40 w-40 flex justify-center items-center shadow bg-white`}
@@ -39,10 +46,10 @@ const Incubatees = () => {
                         height={30}
                         alt=""
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
-                <div className="flex flex-col items-start gap-5 w-full md:w-[400px] mt-5 md:mt-0">
+                <div className="flex flex-col items-start gap-5 w-full md:w-[400px] mt-5 md:mt-0 px-3">
                   <p className="text-lg text-[#646464]">
                     <span
                       className="font-semibold"
