@@ -69,7 +69,7 @@ const page = () => {
           <div className="flex flex-col gap-10 py-12 w-full border border-cms-primary">
             <h2 className="text-cms-primary text-2xl lg:text-3xl text-center">
               We are committed to forging transformative partnerships{" "}
-              <br className="hidden md:block" /> to invest in equity.
+              <br className="hidden md:block" /> to invest in equity
             </h2>
             <p className="text-base lg:text-lg text-[#4E4E4E] text-center">
               Established in 1994, CMS, based in India, works in 25 other

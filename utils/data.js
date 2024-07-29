@@ -19,6 +19,11 @@ export const tabs = [
     tab: "Partners",
     url: "/about-us/partners",
   },
+  {
+    id: 5,
+    tab: "Careers",
+    url: "/careers",
+  },
 ]
 
 export const missionData = [
@@ -399,19 +404,19 @@ export const investmentData = [
     id: 1,
     iconUrl: "/aboutUs/vision/investment/icon01.png",
     title: "Co-Invest in the success <br /> of key change agents",
-    desc: "Leverage resources for effective action <br /> while addressing complex issues.",
+    desc: "Leverage resources for effective action <br /> while addressing complex issues",
   },
   {
     id: 2,
     iconUrl: "/aboutUs/vision/investment/icon02.png",
     title: "Raise and shape <br /> investments",
-    desc: "Secure higher value for investments <br /> made through growth-driven solutions.",
+    desc: "Secure higher value for investments <br /> made through growth-driven solutions",
   },
   {
     id: 3,
     iconUrl: "/aboutUs/vision/investment/icon03.png",
     title: "Invest in scalable <br /> solutions",
-    desc: "Incubate and scale sectoral solutions <br /> that deliver value and returns.",
+    desc: "Incubate and scale sectoral solutions <br /> that deliver value and returns",
   },
 ]
 
@@ -803,19 +808,19 @@ export const solutionsData = [
     id: 1,
     logoUrl: "/home/logo/logo01.png",
     title: "Solutions",
-    desc: "We co-solve with change agents by forging partnerships to blend expertise and experience, providing expert guidance and strategic insights.",
+    desc: "We co-solve with change agents by forging partnerships to blend expertise and experience, providing expert guidance and strategic insights",
   },
   {
     id: 2,
     logoUrl: "/home/logo/logo02.png",
     title: "Investments",
-    desc: "We raise and shape investments for social businesses, social impact organisations, networks, and collaboratives using various instruments to reduce inequity.",
+    desc: "We raise and shape investments for social businesses, social impact organisations, networks, and collaboratives using various instruments to reduce inequity",
   },
   {
     id: 3,
     logoUrl: "/home/logo/logo03.png",
     title: "Social Businesses",
-    desc: "Incubate and scale social enterprises to solve complex problems using market forces as a critical lever.",
+    desc: "Incubate and scale social enterprises to solve complex problems using market forces as a critical lever",
   },
 ]
 

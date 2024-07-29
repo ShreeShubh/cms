@@ -28,7 +28,7 @@ const Values = () => {
                 height={50}
                 alt={item.title}
               />
-              <p className="text-[#E5D9EA] text-base text-center md:text-start">
+              <p className="text-[#E5D9EA] text-lg text-center md:text-start">
                 {item.desc}
               </p>
             </div>
