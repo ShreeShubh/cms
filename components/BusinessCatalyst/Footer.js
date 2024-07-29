@@ -1,5 +1,6 @@
 import React from 'react'
 import { globe, envelope, phone } from '../../utils/icon'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -13,23 +14,28 @@ export default function page() {
           alt="Arrow"
           className="mb-6"
         />
-        <div className="flex flex-col md:flex-row gap-4 text-lg md:text-xl w-10/12 mx-auto justify-between">
+        <div className="flex flex-col md:flex-row gap-4 text-lg md:text-xl w-10/12 mx-auto justify-evenly">
           <div className="flex flex-col items-center">
-            <p className="flex gap-2 items-center">{phone} +91-9945972835</p>
+            <Link className="flex gap-2 items-center" href="tel:+91-9945972835">
+              {phone} +91-9945972835
+            </Link>
             <hr className="bg-cms-primary-green h-1 my-4 w-3/4 md:w-full" />
           </div>
           <div className="flex flex-col items-center">
-            <p className="flex gap-2 items-center">
+            <Link
+              className="flex gap-2 items-center"
+              href="mailto:business.catalyst@catalysts.org"
+            >
               {envelope} business.catalyst@catalysts.org
-            </p>
+            </Link>
             <hr className="bg-cms-primary-green h-1 my-4 w-3/4 md:w-full" />
           </div>
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <p className="flex gap-2 items-center">
               {globe} www.cms.org.in/business-catalyst/
             </p>
             <hr className="bg-cms-primary-green h-1 my-4 w-3/4 md:w-full" />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -41,12 +47,19 @@ export default function page() {
           <div className="p-4 text-white">
             <p className="text-lg md:text-xl font-semibold">Bengaluru:</p>
             <hr className="py-1 my-2" />
-            <p>#25, 1st Main, AECS Layout, Ashwath Nagar, Bengaluru, 560094</p>
+            <p>
+              #25, 1st Main, AECS Layout,&nbsp;
+              <br className="lg:hidden block" />
+              Ashwath Nagar, Bengaluru, 560094
+            </p>
           </div>
           <div className="p-4 text-white">
             <p className="text-lg md:text-xl font-semibold">Delhi:</p>
             <hr className="py-1 my-2" />
-            <p>A-10, Second Floor, Green Park, New Delhi, 110016</p>
+            <p>
+              A-10, Second Floor, Green Park, <br className="lg:hidden block" />
+              New Delhi, 110016
+            </p>
           </div>
         </div>
       </div>
