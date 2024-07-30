@@ -10,9 +10,9 @@ const page = () => {
     "Some of our incubated ideas have become full-fledged organisations, which operate as our sister organisations, but have grown to be significant development players in their own right."
   return (
     <>
-      <div className="bg-[url('/banner/banner03.png')] h-[420px] md:h-[480px] w-full bg-center bg-cover py-5">
+      <div className="bg-[url('/banner/banner03.png')] flex flex-col justify-center md:justify-end h-[420px] md:h-[480px] w-full bg-center bg-cover py-10 md:py-16">
         <Header />
-        <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+        <div className="ps-2 md:ps-24">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
             Incubatees
           </h1>

@@ -10,7 +10,7 @@ import Footer from "@/components/Footer/Footer"
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('/home/banner.png')] flex flex-col justify-end h-[420px] md:[720px] bg-center bg-cover py-10 md:py-16 sm:h-[500px] md:h-[600px] lg:h-[720px]">
+      <div className="bg-[url('/home/banner.png')] flex flex-col justify-center md:justify-end h-[420px] md:[720px] bg-center bg-cover py-10 md:py-16 sm:h-[500px] md:h-[600px] lg:h-[720px]">
         <Header />
         <div className="ps-2 md:ps-24">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
