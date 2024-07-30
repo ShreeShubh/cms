@@ -48,7 +48,9 @@ const Page = ({ params }) => {
                   backgroundImage: `url(${item.imageUrl})`,
                 }}
               >
-                <Header />
+                <div className="relative z-50">
+                  <Header />
+                </div>
                 <div className="absolute inset-0 bg-black/40"></div>
                 <div className="relative max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
                   <h1
