@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
 const Banner = () => {
   return (
     <>
-      <div className="w-full bg-[#7F3F97]" data-aos="fade-up">
+      <div className="w-full lg:mt-28 mt-28 bg-[#7F3F97]" data-aos="fade-up">
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="p-8 flex flex-col justify-center items-center">
             <div data-aos="fade-right">

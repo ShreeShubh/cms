@@ -1,7 +1,7 @@
-'use client'
-import Link from 'next/link'
-import React from 'react'
-import CountUp from 'react-countup'
+"use client"
+import Link from "next/link"
+import React from "react"
+import CountUp from "react-countup"
 
 const NoblePlastics = ({ onClick }) => {
   return (
@@ -23,7 +23,7 @@ const NoblePlastics = ({ onClick }) => {
             </div>
 
             <div
-              className="col-span-6 flex flex-col justify-center "
+              className="col-span-6 flex flex-col justify-center overflow-hidden"
               data-aos="fade-left"
             >
               <p className="text-[40px] text-[#7F3F97]">Noble Plastics</p>
@@ -69,7 +69,7 @@ const NoblePlastics = ({ onClick }) => {
               className="lg:text-[18px] mt-6 leading-6 text-center text-lg"
               data-aos="fade-down"
             >
-              The well-being of people, the planet and prosperity of all our{' '}
+              The well-being of people, the planet and prosperity of all our{" "}
               <br className="lg:flex hidden" />
               stakeholders lie at the heart of everything we do.
             </p>
@@ -88,6 +88,15 @@ const NoblePlastics = ({ onClick }) => {
                   equity and awareness of environmental protection methods, and
                   better health.
                 </p>
+
+                <div
+                  className="grid grid-cols-1 lg:gap-10 gap-5 mt-10"
+                  data-aos="fade-up"
+                >
+                  <div className="col-span-4 flex flex-col justify-center items-center">
+                    <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/people-img.png" />
+                  </div>
+                </div>
               </div>
               <div className="col-span-4 flex flex-col justify-center items-center">
                 <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/planet.png" />
@@ -99,6 +108,15 @@ const NoblePlastics = ({ onClick }) => {
                   waste and carbon footprint, while ameliorating waste
                   management.
                 </p>
+
+                <div
+                  className="grid grid-cols-1 lg:gap-10 gap-5 mt-16"
+                  data-aos="fade-up"
+                >
+                  <div className="col-span-4 flex flex-col justify-center items-center">
+                    <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/planet-img.png" />
+                  </div>
+                </div>
               </div>
               <div className="col-span-4 flex flex-col justify-center items-center">
                 <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/prosperity.png" />
@@ -111,10 +129,19 @@ const NoblePlastics = ({ onClick }) => {
                   sustainability.
                   <br /> <br />
                 </p>
+
+                <div
+                  className="grid grid-cols-1 lg:gap-10 gap-5 mt-10"
+                  data-aos="fade-up"
+                >
+                  <div className="col-span-4 flex flex-col justify-center items-center">
+                    <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/prosperity-img.png" />
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div
+            {/* <div
               className="grid lg:grid-cols-12 grid-cols-1 lg:gap-10 gap-5 mt-10"
               data-aos="fade-up"
             >
@@ -127,7 +154,7 @@ const NoblePlastics = ({ onClick }) => {
               <div className="col-span-4 flex flex-col justify-center items-center">
                 <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/prosperity-img.png" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

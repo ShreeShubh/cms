@@ -1,7 +1,7 @@
 //import NoblePlasticForm from '@/utils/NoblePlasticForm'
-import Link from 'next/link'
-import React from 'react'
-import Contact from '../../components/NoblePlasticComponents/Contact'
+import Link from "next/link"
+import React from "react"
+import Contact from "../../components/NoblePlasticComponents/Contact"
 
 const Footer = React.forwardRef((props, ref) => {
   return (
@@ -50,7 +50,7 @@ const Footer = React.forwardRef((props, ref) => {
               />
 
               <p className="lg:text-[18px] text-white text-start text-lg">
-                This initiative has been supported by an Impact Investors and
+                This initiative has been supported by Impact Investors and
                 fashion retailers.
               </p>
               <p className="lg:text-[18px] text-white text-start text-lg">
@@ -64,7 +64,7 @@ const Footer = React.forwardRef((props, ref) => {
                 </p>
                 <p className="text-[18px] text-white text-start ">
                   <Link href="tel:+91 937981 5394" target="_blank">
-                    +91 937981 5394
+                    +91 93798 15394
                   </Link>
                 </p>
                 <p className="text-[18px] text-white text-start ">
@@ -78,7 +78,7 @@ const Footer = React.forwardRef((props, ref) => {
               className="col-span-6"
               id="contact"
               ref={ref}
-              data-aos="fade-left"
+              data-aos="fade-up"
             >
               <Contact />
             </div>

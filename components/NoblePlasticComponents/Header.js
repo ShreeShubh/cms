@@ -1,12 +1,12 @@
-'use client'
-import React, { useState, useEffect } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import { usePathname } from 'next/navigation'
-import Link from 'next/link'
+"use client"
+import React, { useState, useEffect } from "react"
+import { FaBars, FaTimes } from "react-icons/fa"
+import { usePathname } from "next/navigation"
+import Link from "next/link"
 
 const Header = ({ onClick }) => {
   const [isOpen, setIsOpen] = useState(false)
-  const [activeLink, setActiveLink] = useState('')
+  const [activeLink, setActiveLink] = useState("")
   const pathname = usePathname()
 
   useEffect(() => {
@@ -15,17 +15,43 @@ const Header = ({ onClick }) => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
-    document.body.style.overflow = isOpen ? 'auto' : 'hidden'
+    document.body.style.overflow = isOpen ? "auto" : "hidden"
   }
 
   const handleLinkClick = (link) => {
     setActiveLink(link)
     setIsOpen(false)
-    document.body.style.overflow = 'auto'
+    document.body.style.overflow = "auto"
   }
 
+  // Header Scroll animation
+  const [scrollDown, setScrollDown] = useState(false)
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY
+
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setScrollDown(true)
+      } else {
+        setScrollDown(false)
+      }
+      lastScrollY = window.scrollY
+    }
+
+    window.addEventListener("scroll", handleScroll)
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
   return (
-    <nav className="bg-white shadow-lg" data-aos="fade-down">
+    <nav
+      className={`shadow-xl border-gray-200 fixed top-0 left-0 right-0 z-50 ${
+        scrollDown ? "bg-[#C7EDE6]" : "bg-white"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center p-6">
           <div className="flex items-center">
@@ -41,23 +67,23 @@ const Header = ({ onClick }) => {
             <a
               href="/shoonya/noble-plastics/about/"
               className={`text-gray-700 hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/about/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/about/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
-              onClick={() => handleLinkClick('/shoonya/noble-plastics/about/')}
+              onClick={() => handleLinkClick("/shoonya/noble-plastics/about/")}
             >
               About
             </a>
             <a
               href="/shoonya/noble-plastics/approach/"
               className={`text-gray-700 hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/approach/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/approach/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
               onClick={() =>
-                handleLinkClick('/shoonya/noble-plastics/approach/')
+                handleLinkClick("/shoonya/noble-plastics/approach/")
               }
             >
               Approach
@@ -65,22 +91,22 @@ const Header = ({ onClick }) => {
             <a
               href="/shoonya/noble-plastics/work/"
               className={`text-gray-700 hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/work/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/work/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
-              onClick={() => handleLinkClick('/shoonya/noble-plastics/work/')}
+              onClick={() => handleLinkClick("/shoonya/noble-plastics/work/")}
             >
               Work
             </a>
             <a
               href="/shoonya/noble-plastics/impact/"
               className={`text-gray-700 hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/impact/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/impact/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
-              onClick={() => handleLinkClick('/shoonya/noble-plastics/impact/')}
+              onClick={() => handleLinkClick("/shoonya/noble-plastics/impact/")}
             >
               Impact
             </a>
@@ -107,23 +133,23 @@ const Header = ({ onClick }) => {
             <a
               href="/shoonya/noble-plastics/about/"
               className={`text-gray-700 block px-3 py-2 rounded-md text-base font-medium hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/about/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/about/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
-              onClick={() => handleLinkClick('/shoonya/noble-plastics/about/')}
+              onClick={() => handleLinkClick("/shoonya/noble-plastics/about/")}
             >
               About
             </a>
             <a
               href="/shoonya/noble-plastics/approach/"
               className={`text-gray-700 block px-3 py-2 rounded-md text-base font-medium hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/approach/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/approach/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
               onClick={() =>
-                handleLinkClick('/shoonya/noble-plastics/approach/')
+                handleLinkClick("/shoonya/noble-plastics/approach/")
               }
             >
               Approach
@@ -131,29 +157,29 @@ const Header = ({ onClick }) => {
             <a
               href="/shoonya/noble-plastics/work/"
               className={`text-gray-700 block px-3 py-2 rounded-md text-base font-medium hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/work/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/work/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
-              onClick={() => handleLinkClick('/shoonya/noble-plastics/work/')}
+              onClick={() => handleLinkClick("/shoonya/noble-plastics/work/")}
             >
               Work
             </a>
             <a
               href="/shoonya/noble-plastics/impact/"
               className={`text-gray-700 block px-3 py-2 rounded-md text-base font-medium hover:text-[#7F3F97] ${
-                activeLink === '/shoonya/noble-plastics/impact/'
-                  ? 'text-[#7F3F97]'
-                  : ''
+                activeLink === "/shoonya/noble-plastics/impact/"
+                  ? "text-[#7F3F97]"
+                  : ""
               }`}
-              onClick={() => handleLinkClick('/shoonya/noble-plastics/impact/')}
+              onClick={() => handleLinkClick("/shoonya/noble-plastics/impact/")}
             >
               Impact
             </a>
             <a
               href="#contact"
               className="bg-purple-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-700"
-              onClick={() => handleLinkClick('#contact')}
+              onClick={() => handleLinkClick("#contact")}
             >
               Contact
             </a>

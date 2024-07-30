@@ -1,5 +1,5 @@
 "use client"
-import React, { useRef, useEffect } from "react"
+import React, { useState, useRef, useEffect } from "react"
 import Link from "next/link"
 import Contact from "../../components/ShipComponent/Contact"
 import AOS from "aos"
@@ -20,11 +20,39 @@ const Ship = () => {
     })
   })
 
+  // Header Scroll animation
+
+  const [scrollDown, setScrollDown] = useState(false)
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY
+
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setScrollDown(true)
+      } else {
+        setScrollDown(false)
+      }
+      lastScrollY = window.scrollY
+    }
+
+    window.addEventListener("scroll", handleScroll)
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
   return (
     <>
       {/* Header */}
       <div className="w-full">
-        <div className="border-b border-gray-200" data-aos="fade-down">
+        <div
+          className={`border-b border-gray-200 fixed top-0 left-0 right-0 z-50 ${
+            scrollDown ? "bg-[#C7EDE6]" : "bg-white"
+          }`}
+          data-aos="fade-down"
+        >
           <div className="flex lg:flex-row justify-between items-center lg:w-[1140px] lg:p-6 mx-auto p-4">
             <img
               className="lg:h-auto lg:w-auto h-[40px] lg:mb-0"
