@@ -1,5 +1,5 @@
 import React from "react"
-import { globe, envelope, phone } from "../../utils/icon"
+import { envelope, phone } from "../../utils/icon"
 import Link from "next/link"
 
 export default function page() {

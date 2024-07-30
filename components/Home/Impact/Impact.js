@@ -3,7 +3,7 @@ import React from "react"
 
 const Impact = () => {
   return (
-    <div className="bg-cms-primary py-10 flex flex-col items-center justify-center gap-4">
+    <div className="bg-cms-primary py-10 flex flex-col items-center justify-center gap-4 -z-20">
       <h3 className="text-3xl sm:text-4xl md:text-5xl text-white">Impact</h3>
       <div className="border-b border-cms-primary-green w-8" />
 

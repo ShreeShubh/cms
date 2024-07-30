@@ -9,6 +9,7 @@ export default function Page() {
     controls: true,
     responsive: true,
     fluid: true,
+    poster: "/aboutUs/vision/investment/banner.png",
     sources: [
       {
         src: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/NewCMSVideo.mp4",
