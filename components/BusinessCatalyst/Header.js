@@ -1,10 +1,10 @@
-'use client'
-import React, { useRef } from 'react'
-import Link from 'next/link'
+"use client"
+import React, { useRef } from "react"
+import Link from "next/link"
 
 export default function page({ onClick }) {
   return (
-    <div className="bg-cms-primary-green z-50">
+    <div className="bg-cms-primary-green z-50 fixed top-0 right-0 left-0">
       <div className="flex justify-between relative lg:w-10/12 mx-auto">
         <div className="top-0 absolute ">
           <Link href="/business-catalyst">

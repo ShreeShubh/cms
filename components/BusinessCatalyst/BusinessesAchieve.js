@@ -1,10 +1,10 @@
-import React from 'react'
-import Link from 'next/link'
-import { businesses, growthServices } from '../../utils/data'
+import React from "react"
+import Link from "next/link"
+import { businesses, growthServices } from "../../utils/data"
 
 export default function page() {
   return (
-    <div className="">
+    <div className="pt-[68px] md:pt-20">
       <img
         src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/business-catalyst/business-catalysts-banner.png"
         className="w-full "
