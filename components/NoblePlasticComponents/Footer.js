@@ -55,8 +55,9 @@ const Footer = React.forwardRef((props, ref) => {
               </p>
               <p className="lg:text-[18px] text-white text-start text-lg">
                 Fuzhio Health and Business Services Pvt. Ltd. No. 25, RMV 2nd
-                Stage, AECS Layout, 1st Main Road, Ashwathnagar, Bangalore –
-                560094
+                Stage, AECS Layout, <br className="block md:hidden" /> 1st Main
+                Road, Ashwathnagar, <br className="block md:hidden" /> Bangalore
+                – 560094
               </p>
               <div className="flex flex-col gap-1">
                 <p className="text-[18px] text-white text-start font-semibold">
