@@ -1,4 +1,5 @@
 import Tab from "@/components/AboutUs/Tab/Tab"
+import CareersForm from "@/components/Careers/CareersForm"
 import JobListing from "@/components/Careers/JobListing"
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
@@ -72,6 +73,8 @@ const page = () => {
       </div>
 
       <JobListing data={jobPositions} />
+
+      <CareersForm />
 
       <div className="mt-auto">
         <Footer />

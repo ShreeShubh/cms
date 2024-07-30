@@ -28,7 +28,7 @@ const SocialBusinesses = () => {
                 <p className="text-base sm:text-lg text-[#646464]">
                   {item.desc}
                 </p>
-                <Link href={item.path} target="_blank">
+                <Link href={item.path} target={item.target}>
                   <button className="border border-cms-primary text-[#1A1A1A] text-base sm:text-lg rounded px-4 sm:px-6 py-2">
                     Know more
                   </button>

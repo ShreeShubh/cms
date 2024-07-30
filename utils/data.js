@@ -720,7 +720,7 @@ export const keyInitiatives02Data = [
     logoUrl: "/domainAreas/health/keyInitiatives/logo08.png",
     no: "10.",
     title:
-      "Together with Swasti, they raised over one billion USD from the Global Fund for AIDS, TB, and Malaria.",
+      "Together with Swasti, we raised over one billion USD from the Global Fund for AIDS, TB, and Malaria.",
   },
 ]
 
@@ -766,6 +766,7 @@ export const socialBusinessesData = [
     imageUrl: "/socialBusinesses/image01.png",
     logoUrl: "/socialBusinesses/logo01.png",
     title: "Catalyst Livelihood Ventures",
+    target: "_self",
     desc: "Catalyst Livelihood Ventures (CLV) Farm is an agri-marketing initiative that works with smallholder farmers to improve produce quality and procure their commodities, facilitated by the FPC. CLV sells these commodities to large buyers and brands at a premium generated through value-added activities, ensuring the farmers receive fair compensation for their risk and effort while generating adequate profits for CMS.",
     path: "/social-businesses/catalyst-livelihood-ventures",
     link: "catalystLivelihoodVentures",
@@ -775,6 +776,7 @@ export const socialBusinessesData = [
   //   imageUrl: "/socialBusinesses/image02.png",
   //   logoUrl: "/socialBusinesses/logo02.png",
   //   title: "G1",
+  //   target: "_self",
   //   desc: "For many, the dream of financial security is hindered by low credit scores, a lack of essential documents, and high interest rates. Through G1 you can help every vulnerable Indian join the path to progress. By lending a portion of your surplus income to families in need, you not only provide them with a lifeline but also receive your contribution back in a year. Together we can break these barriers to financial resilience, one family at a time.",
   //   path: "/g1",
   //   link: "g1",
@@ -784,6 +786,7 @@ export const socialBusinessesData = [
     imageUrl: "/socialBusinesses/image03.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Business Catalyst",
+    target: "_blank",
     desc: "We aim to help businesses, particularly MSMEs, achieve growth and profitability by increasing turnover and creating a sustainable expansion strategy. Our approach includes reducing costs through minimised credit expenses, leveraging government schemes, and risk mitigation; improving supply chains by enhancing processes and making strategic investments in materials and production; and supporting steady income and secure livelihoods by focusing on workforce wellbeing. These efforts are designed to foster not only business growth but also a stable financial future for the communities we serve.",
     path: "/business-catalyst",
     link: "businessCatalyst",
@@ -793,6 +796,7 @@ export const socialBusinessesData = [
     imageUrl: "/socialBusinesses/image04.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "Shoonya",
+    target: "_blank",
     desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The programme focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns and an enhanced brand image, further boosted by gamification and promotional strategies.",
     path: "/shoonya",
     link: "shoonya",
@@ -802,6 +806,7 @@ export const socialBusinessesData = [
     imageUrl: "/socialBusinesses/image05.png",
     logoUrl: "/socialBusinesses/logo02.png",
     title: "SHIP",
+    target: "_blank",
     desc: "SHIP is an integrated solution that enables healthcare facilities to access non-clinical services like financing, aggregated procurement, equipment & facility maintenance, technology solutions, medical waste management, and legal and advisory services, which leads to efficient cost management and clinical outcomes, ultimately enhancing the quality of healthcare.",
     path: "/ship",
     link: "ship",
@@ -885,10 +890,10 @@ export const homePartnersData = [
     id: 3,
     imageUrl: "/aboutUs/partners/aiaca.png",
   },
-  {
-    id: 4,
-    imageUrl: "/aboutUs/partners/azim-premji-foundation.png",
-  },
+  // {
+  //   id: 4,
+  //   imageUrl: "/aboutUs/partners/azim-premji-foundation.png",
+  // },
   {
     id: 5,
     imageUrl: "/aboutUs/partners/basix.png",
@@ -981,10 +986,10 @@ export const homePartnersData = [
     id: 27,
     imageUrl: "/aboutUs/partners/laudes.png",
   },
-  {
-    id: 28,
-    imageUrl: "/aboutUs/partners/ms.png",
-  },
+  // {
+  //   id: 28,
+  //   imageUrl: "/aboutUs/partners/ms.png",
+  // },
   {
     id: 29,
     imageUrl: "/aboutUs/partners/mindtree.png",
@@ -1097,6 +1102,46 @@ export const homePartnersData = [
     id: 56,
     imageUrl: "/aboutUs/partners/wba.png",
   },
+  {
+    id: 57,
+    imageUrl: "/aboutUs/partners/msd.png",
+  },
+  {
+    id: 58,
+    imageUrl: "/aboutUs/partners/amazon.png",
+  },
+  {
+    id: 59,
+    imageUrl: "/aboutUs/partners/elder.png",
+  },
+  {
+    id: 60,
+    imageUrl: "/aboutUs/partners/bb.png",
+  },
+  {
+    id: 61,
+    imageUrl: "/aboutUs/partners/dhwani.png",
+  },
+  {
+    id: 62,
+    imageUrl: "/aboutUs/partners/saath.png",
+  },
+  {
+    id: 63,
+    imageUrl: "/aboutUs/partners/seva.png",
+  },
+  {
+    id: 64,
+    imageUrl: "/aboutUs/partners/med.png",
+  },
+  {
+    id: 65,
+    imageUrl: "/aboutUs/partners/bio.png",
+  },
+  {
+    id: 66,
+    imageUrl: "/aboutUs/partners/garam.png",
+  },
 ]
 
 export const impactData = [
@@ -1110,9 +1155,9 @@ export const impactData = [
   {
     id: 2,
     imageUrl: "/home/impact/image02.png",
-    title: "",
+    title: "Experience in",
     count: "25",
-    desc: "Countries Reached",
+    desc: "Countries",
   },
   {
     id: 3,

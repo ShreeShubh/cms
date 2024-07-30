@@ -21,6 +21,7 @@ const Impact = () => {
                 <div className="bg-black/40 inset-0 absolute"></div>
                 <div className="relative space-y-2 text-white text-lg">
                   {/* <p className="">{item.title}</p> */}
+                  <h2 className="">{item.title}</h2>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl">
                     {item.count}
                   </h2>
