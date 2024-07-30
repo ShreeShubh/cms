@@ -46,7 +46,7 @@ const Ship = () => {
   return (
     <>
       {/* Header */}
-      <div className="w-full">
+      <div className="w-full lg:mt-28 mt-28">
         <div
           className={`border-b border-gray-200 fixed top-0 left-0 right-0 z-50 ${
             scrollDown ? "bg-[#C7EDE6]" : "bg-white"

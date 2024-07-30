@@ -21,9 +21,9 @@ const Investment = () => {
           {investmentData.map((item) => (
             <li
               key={item.id}
-              className="bg-cms-primary-green w-full sm:w-auto p-5"
+              className="bg-cms-primary-green p-5 w-full h-[320px] md:w-[400px] md:h-[400px]"
             >
-              <div className="flex flex-col items-center gap-4 text-white py-7 px-5">
+              <div className="flex flex-col items-center gap-4 text-white pt-7 pb-24 px-5 h-full">
                 <Image
                   src={item.iconUrl}
                   width={65}
@@ -37,7 +37,7 @@ const Investment = () => {
                 />
                 <div className="border border-cms-primary w-16" />
                 <p
-                  className="text-lg text-center"
+                  className="text-lg text-center mt-auto"
                   dangerouslySetInnerHTML={{ __html: item.desc }}
                 ></p>
               </div>

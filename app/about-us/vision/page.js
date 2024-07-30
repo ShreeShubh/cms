@@ -67,7 +67,7 @@ const page = () => {
         </div>
 
         <div className="max-w-screen-xl mx-auto px-5 mt-10">
-          <div className="flex flex-col gap-10 py-12 w-full border border-cms-primary">
+          <div className="flex flex-col gap-10 py-12 w-full border border-cms-primary px-3">
             <h2 className="text-cms-primary text-2xl lg:text-3xl text-center">
               We are committed to forging transformative partnerships{" "}
               <br className="hidden md:block" /> to invest in equity

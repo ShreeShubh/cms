@@ -408,20 +408,20 @@ export const investmentData = [
   {
     id: 1,
     iconUrl: "/aboutUs/vision/investment/icon01.png",
-    title: "Co-Invest in the success <br /> of key change agents",
-    desc: "Leverage resources for effective action <br /> while addressing complex issues",
+    title: "Co-Invest in the success of key change agents",
+    desc: "Leverage resources for effective action while addressing complex issues",
   },
   {
     id: 2,
     iconUrl: "/aboutUs/vision/investment/icon02.png",
-    title: "Raise and shape <br /> investments",
-    desc: "Secure higher value for investments <br /> made through growth-driven solutions",
+    title: "Raise and shape investments",
+    desc: "Secure higher value for investments made through growth-driven solutions",
   },
   {
     id: 3,
     iconUrl: "/aboutUs/vision/investment/icon03.png",
-    title: "Invest in scalable <br /> solutions",
-    desc: "Incubate and scale sectoral solutions <br /> that deliver value and returns",
+    title: "Invest in scalable solutions",
+    desc: "Incubate and scale sectoral solutions that deliver value and returns",
   },
 ]
 
@@ -1229,7 +1229,7 @@ export const scaleAcceleratorsData = [
     logoUrl: "",
     title: "Design for Success",
     desc: "The Design for Success team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programmes, networks, and theories of change to address complex challenges.",
-    path: "/scale-accelerators/design-for-success",
+    path: "/solutions/design-for-success",
     link: "designForSuccess",
   },
   {
@@ -1239,7 +1239,7 @@ export const scaleAcceleratorsData = [
     logoUrl: "",
     title: "Evidence for Change",
     desc: "Evidence for Change specialises in facilitating theories of change, alternate analysis, results frameworks, and tools; building evidence through pluralistic methodologies, participatory learning, and action; and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
-    path: "/scale-accelerators/evidence-for-change",
+    path: "/solutions/evidence-for-change",
     link: "evidenceForChange",
   },
   {
@@ -1249,7 +1249,7 @@ export const scaleAcceleratorsData = [
     logoUrl: "",
     title: "Implement for Scale",
     desc: "Implement for Scale supports organisations in achieving successful implementation, we offer a range of services and tools. These include proof of concepts to test and validate innovative ideas, capacity building programmes to equip teams with the necessary skills and knowledge, performance management tools and approaches, technical support, and state-of-the-art technologies.",
-    path: "/scale-accelerators/implement-for-scale",
+    path: "/solutions/implement-for-scale",
     link: "implementForScale",
   },
 ]
