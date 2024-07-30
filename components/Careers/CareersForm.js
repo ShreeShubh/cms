@@ -48,6 +48,13 @@ const CareersForm = () => {
     const formErrors = validateForm()
     if (Object.keys(formErrors).length === 0) {
       console.log("Form Data:", formData)
+      setFormData({
+        name: "",
+        position: "",
+        email: "",
+        file: null,
+        consent: false,
+      })
     } else {
       setErrors(formErrors)
     }
