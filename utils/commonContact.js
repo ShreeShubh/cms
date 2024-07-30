@@ -89,7 +89,7 @@ export default function ContactForm({ fields, form, type, btn, bg }) {
       )
 
       console.log("Form data sent:", formDataToSend)
-      setSuccessMessage("Thank you for contacting us")
+      setSuccessMessage("Thank you for contacting us.")
       setFormData(
         fields.reduce(
           (acc, field) => {

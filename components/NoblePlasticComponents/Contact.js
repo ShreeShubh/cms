@@ -1,18 +1,18 @@
-import React from 'react'
-import ContactForm from '../../utils/commonContact'
+import React from "react"
+import ContactForm from "../../utils/commonContact"
 
 const Contact = React.forwardRef((props, ref) => {
   const fields = {
-    formid: '2',
-    formType: 'noblePlasticfrom',
-    formBtn: 'text-[#05AC8D]',
-    formBtnBg: 'bg-white',
+    formid: "2",
+    formType: "noblePlasticfrom",
+    formBtn: "text-[#05AC8D]",
+    formBtnBg: "bg-white",
     fields: [
-      { id: 'firstname', label: 'First Name', type: 'text' },
-      { id: 'lastname', label: 'Last Name', type: 'text' },
-      { id: 'email', label: 'Email ID', type: 'email' },
-      { id: 'organisationName', label: 'Organisation', type: 'text' },
-      { id: 'messageBox', label: 'Message', type: 'textarea' },
+      { id: "firstname", label: "First Name", type: "text" },
+      { id: "lastname", label: "Last Name", type: "text" },
+      { id: "email", label: "Email ID", type: "email" },
+      { id: "organisationName", label: "Organisation", type: "text" },
+      { id: "messageBox", label: "Message", type: "textarea" },
     ],
   }
 
@@ -20,7 +20,7 @@ const Contact = React.forwardRef((props, ref) => {
     <div className=" bg-[#05AC8D] py-8 my-4" ref={ref}>
       <div className="flex flex-col">
         <div className="text-start ml-4">
-          <p className="text-white text-2xl">Send Us a Message</p>
+          <p className="text-white text-2xl">Send us a message</p>
         </div>
         <div className="p-4 text-start">
           <ContactForm
