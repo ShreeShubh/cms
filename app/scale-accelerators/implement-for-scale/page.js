@@ -43,13 +43,16 @@ const page = () => {
         <div className="w-full">
           <Header />
         </div>
-        <div className="md:ps-24 flex justify-center md:justify-start mt-14 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
+        {/* <div className="md:ps-24 flex justify-center md:justify-start mt-14 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white">
             Implement for Scale
           </h1>
-        </div>
-        <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
-          <div className="flex justify-center items-center">
+        </div> */}
+        <div className="md:ps-24 flex flex-col items-center md:items-start justify-end h-full gap-10 md:gap-20">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white">
+            Implement for Scale
+          </h1>
+          <div className="">
             <Image
               src="/scaleAccelerators/implementForScale/logo.png"
               height={142}
