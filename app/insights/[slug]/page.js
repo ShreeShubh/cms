@@ -20,12 +20,14 @@ const Page = ({ params }) => {
 
         const formattedData = response.data.map((item) => ({
           id: item.id,
-          imageUrl: item._embedded["wp:featuredmedia"][0].source_url,
+          imageUrl: item["acf"]["post_desktop_images"]["url"],
           category: item.categories.includes(1) ? "Blog" : "Blog", // Adjust based on actual categories
           title: item.title.rendered,
           content: item.content.rendered,
           desc: item.excerpt.rendered.replace(/<[^>]+>/g, ""), // Remove HTML tags
         }))
+
+        //console.log(formattedData)
 
         setInsightsData(formattedData) // No need to append, just set the data directly
       } catch (error) {
