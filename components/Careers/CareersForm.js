@@ -79,15 +79,15 @@ const CareersForm = () => {
           </h3>
 
           <p className="text-lg mt-2 text-[#404040]">
-            Please send in your CVs to{" "}
+            Please send in your CV to{" "}
             <a href="mailto:hr@catalysts.org" className="text-[#617FC8]">
               hr@catalysts.org
             </a>
           </p>
 
           <p className="text-lg text-[#404040]">
-            We will revert to you as soon as we have any suitable openings that
-            might arise at CMS.
+            We will get back to you as soon as we have any suitable openings
+            that might arise at CMS.
           </p>
 
           <form
@@ -216,8 +216,11 @@ const CareersForm = () => {
               <div>
                 <label className="text-sm">
                   I consent to having this website store my submitted
-                  information so they can respond to my inquiry. See our privacy
-                  policy to learn more about how we use data.
+                  information so they can respond to my inquiry. See our{" "}
+                  <Link href="/privacy-policy" className="text-blue-500">
+                    privacy policy
+                  </Link>{" "}
+                  to learn more about how we use data.
                 </label>
                 {errors.consent && (
                   <p className="text-red-500 text-sm">{errors.consent}</p>
