@@ -65,7 +65,7 @@ const page = () => {
         </div>
       </div> */}
 
-      <div className="bg-[url('/domainAreas/climate/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/climate/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
         <div className="w-full">
           <Header />
         </div>
@@ -88,7 +88,7 @@ const page = () => {
       <OurApproach />
       <div>
         <Image
-          src="/domainAreas/climate/banner01.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/climate/banner01.png"
           width={1366}
           height={420}
           alt=""

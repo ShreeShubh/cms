@@ -35,7 +35,7 @@ const Mission = () => {
       </div>
       <div className="w-full lg:w-1/2 relative lg:mt-0">
         <Image
-          src="/aboutUs/vision/missionBanner.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/vision/missionBanner.png"
           width={683}
           height={500}
           alt="Mission Banner"

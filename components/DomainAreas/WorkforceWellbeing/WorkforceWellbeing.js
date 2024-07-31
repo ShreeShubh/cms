@@ -31,7 +31,7 @@ const WorkforceWellbeing = () => {
           </p>
 
           <Image
-            src="/domainAreas/workforce/image.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/workforce/image.png"
             width={720}
             height={400}
             alt=""

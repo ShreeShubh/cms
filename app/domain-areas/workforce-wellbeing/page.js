@@ -30,14 +30,14 @@ const page = () => {
     "Our Wellbeing for Workforce practice strives to make wellbeing a reality for first-mile workers and reach 100 million workers by 2030. We are committed to the Wellbeing of the Workforce, their families, and communities."
   return (
     <>
-      <div className="bg-[url('/domainAreas/workforce/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/workforce/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
         <div className="w-full">
           <Header />
         </div>
         <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
           <div className="flex justify-center items-center h-40 w-44  md:h-44 md:w-64 bg-white">
             <Image
-              src="/domainAreas/workforce/logo.png"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/workforce/logo.png"
               height={256}
               width={170}
               alt="logo"

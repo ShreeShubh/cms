@@ -50,7 +50,8 @@ export const missionData = [
 export const teamData = [
   {
     id: 1,
-    imageUrl: "/aboutUs/team/image01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image01.png",
     name: "Shiv Kumar",
     desc: "Co-Founder, Director",
     inUrl: "https://www.linkedin.com/in/shiv-kumar-a288141/",
@@ -58,7 +59,8 @@ export const teamData = [
   },
   {
     id: 2,
-    imageUrl: "/aboutUs/team/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image02.png",
     name: "Raghunathan N",
     desc: "Co-Founder, Director",
     inUrl: "https://www.linkedin.com/in/raghunathan-narayanan-495b587/",
@@ -66,7 +68,8 @@ export const teamData = [
   },
   {
     id: 3,
-    imageUrl: "/aboutUs/team/image03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image03.png",
     name: "Dr Angela Chaudhuri",
     desc: "Lead - Health Practice Area",
     inUrl: "https://www.linkedin.com/in/angelachaudhuri/",
@@ -74,7 +77,8 @@ export const teamData = [
   },
   {
     id: 4,
-    imageUrl: "/aboutUs/team/image04.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image04.png",
     name: "Abdul Laheef P",
     desc: "Lead - Community Engagement",
     inUrl: "https://www.linkedin.com/in/abhiperne/",
@@ -82,7 +86,8 @@ export const teamData = [
   },
   {
     id: 5,
-    imageUrl: "/aboutUs/team/image05.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image05.png",
     name: "Amit Gupta",
     desc: "Director - Evidence for Change",
     inUrl: "https://www.linkedin.com/in/amit-gupta-598b291/",
@@ -90,7 +95,8 @@ export const teamData = [
   },
   {
     id: 6,
-    imageUrl: "/aboutUs/team/image06.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image06.png",
     name: "Arun Sivaramakrishnan",
     desc: "Lead - Livelihood Practice Area",
     inUrl: "https://www.linkedin.com/in/arunsivaramakrishnan/",
@@ -98,7 +104,8 @@ export const teamData = [
   },
   {
     id: 7,
-    imageUrl: "/aboutUs/team/image12.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image12.png",
     name: "Atul Kapoor",
     desc: "Director - Private Sector Engagement for Public Health",
     inUrl: "",
@@ -106,7 +113,8 @@ export const teamData = [
   },
   {
     id: 8,
-    imageUrl: "/aboutUs/team/image08.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image08.png",
     name: "Bhagvath Chandra",
     desc: "Director - Investment Unit",
     inUrl: "https://www.linkedin.com/in/bhagvath-chandra-a3756b62/",
@@ -114,7 +122,8 @@ export const teamData = [
   },
   {
     id: 9,
-    imageUrl: "/aboutUs/team/image09.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image09.png",
     name: "Chandran Sudarsanam",
     desc: "Lead - PMO",
     inUrl: "https://www.linkedin.com/in/chandran-sudarsanam-4252a19/",
@@ -122,7 +131,8 @@ export const teamData = [
   },
   {
     id: 10,
-    imageUrl: "/aboutUs/team/image10.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image10.png",
     name: "Kedar Jani",
     desc: "Lead - MEAL",
     inUrl: "https://www.linkedin.com/in/kedar-jani-41581746/",
@@ -130,7 +140,8 @@ export const teamData = [
   },
   {
     id: 11,
-    imageUrl: "/aboutUs/team/image12.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image12.png",
     name: "Kumar Raman",
     desc: "Lead - Finance",
     inUrl: "",
@@ -138,7 +149,8 @@ export const teamData = [
   },
   {
     id: 12,
-    imageUrl: "/aboutUs/team/image12.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image12.png",
     name: "Manoj Singh",
     desc: "Lead - HR",
     inUrl: "",
@@ -146,7 +158,8 @@ export const teamData = [
   },
   {
     id: 13,
-    imageUrl: "/aboutUs/team/image13.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image13.png",
     name: "Nandlal Narayanan",
     desc: "Director - HR",
     inUrl: "https://www.linkedin.com/in/nandlal-narayanan-83b8051/",
@@ -154,7 +167,8 @@ export const teamData = [
   },
   {
     id: 14,
-    imageUrl: "/aboutUs/team/image14.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image14.png",
     name: "Nitish Kumar V",
     desc: "Lead - Data Science",
     inUrl: "https://www.linkedin.com/in/nitish-kumar-v-6370846a/",
@@ -162,7 +176,8 @@ export const teamData = [
   },
   {
     id: 16,
-    imageUrl: "/aboutUs/team/image15.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image15.png",
     name: "Ritika Gupta",
     desc: "Lead - Evidence for Change",
     inUrl: "https://www.linkedin.com/in/ritika-gupta-57529620/",
@@ -170,7 +185,8 @@ export const teamData = [
   },
   {
     id: 17,
-    imageUrl: "/aboutUs/team/sandeep.jpeg",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/sandeep.jpeg",
     name: "Sandip Pattanayak",
     desc: "Specialist",
     inUrl: "https://www.linkedin.com/in/sandip-pattanayak/",
@@ -178,7 +194,8 @@ export const teamData = [
   },
   {
     id: 18,
-    imageUrl: "/aboutUs/team/image17.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image17.png",
     name: "Shaonli Chakraborty",
     desc: "Lead - Wellbeing 4 Workforce Practice Area",
     inUrl: "https://www.linkedin.com/in/shaonli-chakraborty-she-her-58936b7/",
@@ -186,7 +203,8 @@ export const teamData = [
   },
   {
     id: 19,
-    imageUrl: "/aboutUs/team/image18.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image18.png",
     name: "Shreya Dutta",
     desc: "Manager - Marketing Communications",
     inUrl: "https://www.linkedin.com/in/shreya-dutta-9180ba180/",
@@ -194,7 +212,8 @@ export const teamData = [
   },
   {
     id: 20,
-    imageUrl: "/aboutUs/team/image19.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image19.png",
     name: "Siddhi Mankad",
     desc: "Specialist - Knowledge Management",
     inUrl: "https://www.linkedin.com/in/siddhi-mankad/",
@@ -202,7 +221,8 @@ export const teamData = [
   },
   {
     id: 21,
-    imageUrl: "/aboutUs/team/image20.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image20.png",
     name: "Sujatha",
     desc: "Lead - Resource Mobilisation",
     inUrl: "https://www.linkedin.com/in/sujatha-narasimhan-91511a1/",
@@ -210,7 +230,8 @@ export const teamData = [
   },
   {
     id: 22,
-    imageUrl: "/aboutUs/team/image21.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image21.png",
     name: "Vandana Sharma",
     desc: "Lead - Climate Practice Area",
     inUrl: "https://www.linkedin.com/in/vandana-sharmab4991/",
@@ -218,7 +239,8 @@ export const teamData = [
   },
   {
     id: 23,
-    imageUrl: "/aboutUs/team/image12.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image12.png",
     name: "Vinod",
     desc: "Admin",
     inUrl: "",
@@ -226,7 +248,8 @@ export const teamData = [
   },
   {
     id: 24,
-    imageUrl: "/aboutUs/team/image23.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/team/image23.png",
     name: "Vishwanath H S",
     desc: "Director - Social Business",
     inUrl: "https://www.linkedin.com/in/hsvishwanath/",
@@ -237,7 +260,8 @@ export const teamData = [
 export const advisorsTeamData = [
   {
     id: 1,
-    imageUrl: "/aboutUs/advisorsTeam/image01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/advisorsTeam/image01.png",
     name: "Mr. Tejinder Singh Sandhu",
     desc: "Advisor",
     inUrl: "https://www.linkedin.com/in/tejinder-sandhu-a6b949206/",
@@ -245,7 +269,8 @@ export const advisorsTeamData = [
   },
   {
     id: 2,
-    imageUrl: "/aboutUs/advisorsTeam/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/advisorsTeam/image02.png",
     name: "Mr. Subhash Misra",
     desc: "Advisor",
     inUrl: "https://www.linkedin.com/in/subhash-misra-2072737/",
@@ -256,9 +281,12 @@ export const advisorsTeamData = [
 export const incubateesData = [
   {
     id: 1,
-    imageUrl: "/aboutUs/incubatees/image01.png",
-    logoUrl: "/aboutUs/incubatees/logo01.png",
-    mobImageUrl: "/aboutUs/incubatees/mImage01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/image01.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/logo01.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/mImage01.png",
     titleColor: "#EB0A6E",
     title: "Swasti",
     desc: "is a health resource centre that achieves public health outcomes for the marginalised through end-to-end solutions as well as short and long-term support and facilitation, combining research and practice. The organisation has supported governments, donors, and development partners to design solutions for public health.",
@@ -266,9 +294,12 @@ export const incubateesData = [
   },
   {
     id: 2,
-    imageUrl: "/aboutUs/incubatees/image02.png",
-    logoUrl: "/aboutUs/incubatees/logo02.png",
-    mobImageUrl: "/aboutUs/incubatees/mImage02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/image02.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/logo02.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/mImage02.png",
     titleColor: "#045642",
     title: "Vrutti",
     desc: "is a Livelihood Impact Partner that enhances people’s well-being through knowledge, innovation, and transformative actions and brings about solutions at a scale that eliminates inequities and creates wealth for marginalised communities. The social organisation works through result-based planning tools, performance measurement metrics, impact and value for money assessments, and using technology as an augmenter.",
@@ -276,9 +307,12 @@ export const incubateesData = [
   },
   {
     id: 3,
-    imageUrl: "/aboutUs/incubatees/image03.png",
-    logoUrl: "/aboutUs/incubatees/logo03.png",
-    mobImageUrl: "/aboutUs/incubatees/mImage03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/image03.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/logo03.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/incubatees/mImage03.png",
     titleColor: "#6F190D",
     title: "Fuzhio",
     desc: "promotes impact products directly to customers on behalf of small farmers and vulnerable groups, and allows them to maximise yields and provide customers with safe, responsible products.",
@@ -349,9 +383,12 @@ export const partnersData = [
 export const domainAreasData = [
   {
     id: 1,
-    imageUrl: "/domainAreas/image01.png",
-    mobImageUrl: "/domainAreas/mImage01.png",
-    logoUrl: "/domainAreas/logo01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/image01.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/mImage01.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/logo01.png",
     title: "Livelihood",
     target: "_self",
     desc: "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries, and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient, and responsible small producers on a national scale through inclusive entrepreneurship. Our approach to building wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers.",
@@ -360,9 +397,12 @@ export const domainAreasData = [
   },
   {
     id: 2,
-    imageUrl: "/domainAreas/image02.png",
-    mobImageUrl: "/domainAreas/mImage02.png",
-    logoUrl: "/domainAreas/logo02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/image02.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/mImage02.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/logo02.png",
     title: "Health",
     target: "_self",
     desc: "We have 25 years of experience as a global social impact consulting firm and use a 360-degree approach that improves the well-being of vulnerable communities. Along with our sister organisation, Swasti, a global south public health agency, we partner with communities at the last mile to help them realise their potential through health and well-being. We work to achieve Universal Health Care and Global Health Security.",
@@ -371,9 +411,12 @@ export const domainAreasData = [
   },
   {
     id: 3,
-    imageUrl: "/domainAreas/image03.png",
-    mobImageUrl: "/domainAreas/mImage03.png",
-    logoUrl: "/domainAreas/logo03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/image03.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/mImage03.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/logo03.png",
     title: "Climate Change",
     target: "_self",
     desc: "The Climate Practice at the Catalyst Group believes in a vision to build ‘a thriving world powered by resilient communities and carbon-neutral systems.’ Given the imperative to address systemic gaps in climate ecosystems and promote people-centric models at scale, the Catalyst Group intends to build on our expertise and relationships with vulnerable groups to strengthen climate action.",
@@ -382,9 +425,12 @@ export const domainAreasData = [
   },
   {
     id: 4,
-    imageUrl: "/domainAreas/image04.png",
-    mobImageUrl: "/domainAreas/mImage04.png",
-    logoUrl: "/domainAreas/logo04.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/image04.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/mImage04.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/logo04.png",
     title: "Wellbeing for Workforce",
     target: "_self",
     desc: "Our Wellbeing for Workforce practice strives to make wellbeing a reality for first-mile workers and reach 100 million workers by 2030. We are committed to the wellbeing of workers, their families, and communities.",
@@ -393,9 +439,12 @@ export const domainAreasData = [
   },
   {
     id: 5,
-    imageUrl: "/domainAreas/image05.png",
-    mobImageUrl: "/domainAreas/mImage05.png",
-    logoUrl: "/domainAreas/logo04.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/image05.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/mImage05.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/logo04.png",
     title: "ESG",
     target: "_blank",
     desc: "In a world where the impacts of our actions resonate far beyond immediate boundaries, the need for comprehensive sustainability practices becomes crucial. We understand that it’s no longer sufficient for organisations to focus solely on direct controls within their operations. True sustainability requires a holistic approach, extending responsible business practices throughout the entire value chain. This can be achieved by implementing changes in policy and practice that focus on people, the planet, and sustainable outcomes.",
@@ -451,17 +500,20 @@ export const valuesData = [
 export const ethosData = [
   {
     id: 1,
-    iconUrl: "/domainAreas/livelihood/icon01.svg",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon01.svg",
     desc: "We believe that market-driven and market-led supply chain development is beneficial for small producers given the volume and value of operations rather than production-based work",
   },
   {
     id: 2,
-    iconUrl: "/domainAreas/livelihood/icon02.svg",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon02.svg",
     desc: "Commodity-specific and end-to-end operations are the best pathways to maximise returns",
   },
   {
     id: 3,
-    iconUrl: "/domainAreas/livelihood/icon03.svg",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon03.svg",
     desc: "Small producers, on their own, find it difficult to access and thrive in the marketplace, given the scale, quality, investment, skills, and expertise required. Therefore, a business service organisation partnership with entities like Vrutti and Fuzhio is critical for their betterment",
   },
 ]
@@ -469,27 +521,32 @@ export const ethosData = [
 export const ourAppData = [
   {
     id: 1,
-    iconUrl: "/domainAreas/livelihood/icon.png",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon.png",
     desc: "Ensuring small producers receive reasonable prices for the risk and effort they put into the value chain",
   },
   {
     id: 2,
-    iconUrl: "/domainAreas/livelihood/icon.png",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon.png",
     desc: "Maximising the proportion of the consumer pie and reaching small producers",
   },
   {
     id: 3,
-    iconUrl: "/domainAreas/livelihood/icon.png",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon.png",
     desc: "Calibrating bundled services (market channel, capital, and capacity building) and addressing their interdependencies to make it work for the entrepreneur",
   },
   {
     id: 4,
-    iconUrl: "/domainAreas/livelihood/icon.png",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon.png",
     desc: "Working through collectives or clusters to bring power—collective agency—to deal with the ecosystem",
   },
   {
     id: 5,
-    iconUrl: "/domainAreas/livelihood/icon.png",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/icon.png",
     desc: "Working with established market players and engaging with them as supply chain partners through co-investment is an effective way",
   },
 ]
@@ -607,37 +664,43 @@ export const howDoWeWorkData = [
 export const keyDomainData = [
   {
     id: 1,
-    imageUrl: "/domainAreas/health/keyDomain/image01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyDomain/image01.png",
     title: "Comprehensive Primary Health",
     desc: "The domain is based on the core understanding that, unless we address how the health system is experienced, a life of well-being may remain a distant dream for the marginalised. Sector-shaping work through Invest4Wellness (i4We), a system innovation in primary healthcare, and the Comprehensive Primary Health Care (CPHC) Alliance to help propel the agenda of strengthening primary health care.",
   },
   {
     id: 2,
-    imageUrl: "/domainAreas/health/keyDomain/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyDomain/image02.png",
     title: "Early Diagnosis",
     desc: "The domain focuses on detecting and monitoring symptoms, health concerns, and disease trends as early as possible using point-of-care devices and building the capacities of the communities to take control of their own health. Sector-shaping work through self-testing initiatives, screening and testing, and integrated disease surveillance for community health.",
   },
   {
     id: 3,
-    imageUrl: "/domainAreas/health/keyDomain/image03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyDomain/image03.png",
     title: "Technology & Digital Health",
     desc: "Through this domain, we focus on using and providing the appropriate technology solutions to enable vulnerable groups to achieve health and well-being. Sector-shaping work through Call4Svasth, telecare for the vulnerable, using point-of-care diagnostics in our community health interventions, and DICEFlow for our primary healthcare work.",
   },
   {
     id: 4,
-    imageUrl: "/domainAreas/health/keyDomain/image04.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyDomain/image04.png",
     title: "SRHR & Maternal Health",
     desc: "Our initiatives under this domain empower adolescent girls, women, and sexual minorities to protect their health and rights. Sector-shaping work through the SHE Platform to scale up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 and membership in the Asia-Pacific Alliance for SRHR.",
   },
   {
     id: 5,
-    imageUrl: "/domainAreas/health/keyDomain/image05.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyDomain/image05.png",
     title: "One Health + Planetary Health",
     desc: "The ‘One Health’ approach requires the coordination of human, animal, and environmental health partners for successful public health interventions. We can no longer ignore the impact of climate change on human health, and we need to make all health programmes more climate-responsive. Sector-shaping work through the Precision Health Platform, surveillance using environmental tools, and the Green Health Alliance.",
   },
   {
     id: 6,
-    imageUrl: "/domainAreas/health/keyDomain/image06.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyDomain/image06.png",
     title: "Global Health Security & Pandemic Response",
     desc: "The domain focuses on building systems and finances that are located and secured towards improving global health security, particularly preparedness. Sector-shaping work early warning systems for COVID surveillance, COVID response, and the Global Vaccine Initiative.",
   },
@@ -660,7 +723,8 @@ export const keyInitiativesData = [
     title:
       "Developing effective strategies for COVID-19 vaccination and strengthening and building resilience within the health system in 3 SEAR countries: India, the Philippines, and Cambodia, to deeply understand the health system, Routine Immunization, and Vaccination strategies across these countries to bring an end to future pandemics with support from Rockefeller Foundation.",
     desc: "",
-    imageUrl: "/domainAreas/health/keyInitiatives/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/image02.png",
     videoUrl: "",
   },
 ]
@@ -668,56 +732,64 @@ export const keyInitiativesData = [
 export const keyInitiatives02Data = [
   {
     id: 1,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo01.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo01.png",
     no: "03.",
     title:
       "National QI Coordinating Agency and Technology Agency for Manyata 4.0, with the aim of scaling up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 with support from MSD for Mothers.",
   },
   {
     id: 2,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo02.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo02.png",
     no: "04.",
     title:
       "Building resilience among workers and businesses of factories against COVID-19 and future crises with the aim of protecting the lives and livelihoods of over 40,000 workers from 14 RMG factories of Amazon Supply Chains located in Dhaka, Gazipur, Chittagong, Mymensingh, and Comilla districts of Bangladesh with support from Amazon.",
   },
   {
     id: 3,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo03.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo03.png",
     no: "05.",
     title:
       "Launching India’s first city-wide environmental surveillance system in 5 cities with the aim of developing a comprehensive yet decentralised environmental surveillance system coupled with geospatial intelligence and intelligence gathering through community participation in 25 cities with support from the Skoll Foundation.",
   },
   {
     id: 4,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo04.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo04.png",
     no: "06.",
     title:
       "Facilitating the Learning for Impact (L4I) knowledge collaborative by the USAID India Health Office provides insights and evidence to maximise the impact of USAID health investments in India.",
   },
   {
     id: 5,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo05.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo05.png",
     no: "07.",
     title:
       "Conducting a process evaluation of India’s first health-focused ‘development impact bond’ (DIB) to generate insights on the prospective role of performance-based financing mechanisms in global health programming.",
   },
   {
     id: 6,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo06.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo06.png",
     no: "08.",
     title:
       "Designing the National Drug Control Master Plan (NDCMP) II for the Government of Nigeria to combat the challenges of addiction and trafficking and providing monitoring and evaluation support to relevant government agencies.",
   },
   {
     id: 7,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo07.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo07.png",
     no: "09.",
     title:
       "Conducting an evaluation of the World Health Organisation’s Regional Office for South East Asia’s (WHO SEARO) Collaborating Centres to assess the effectiveness of the partnership and identify influencing factors.",
   },
   {
     id: 8,
-    logoUrl: "/domainAreas/health/keyInitiatives/logo08.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/keyInitiatives/logo08.png",
     no: "10.",
     title:
       "Together with Swasti, we raised over one billion USD from the Global Fund for AIDS, TB, and Malaria.",
@@ -763,8 +835,10 @@ export const alliancesAndPlatformsData = [
 export const socialBusinessesData = [
   {
     id: 1,
-    imageUrl: "/socialBusinesses/image01.png",
-    logoUrl: "/socialBusinesses/logo01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/image01.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/logo01.png",
     title: "Catalyst Livelihood Ventures",
     target: "_self",
     desc: "Catalyst Livelihood Ventures (CLV) Farm is an agri-marketing initiative that works with smallholder farmers to improve produce quality and procure their commodities, facilitated by the FPC. CLV sells these commodities to large buyers and brands at a premium generated through value-added activities, ensuring the farmers receive fair compensation for their risk and effort while generating adequate profits for CMS.",
@@ -783,8 +857,10 @@ export const socialBusinessesData = [
   // },
   {
     id: 2,
-    imageUrl: "/socialBusinesses/image03.png",
-    logoUrl: "/socialBusinesses/logo02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/image03.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/logo02.png",
     title: "Business Catalyst",
     target: "_blank",
     desc: "We aim to help businesses, particularly MSMEs, achieve growth and profitability by increasing turnover and creating a sustainable expansion strategy. Our approach includes reducing costs through minimised credit expenses, leveraging government schemes, and risk mitigation; improving supply chains by enhancing processes and making strategic investments in materials and production; and supporting steady income and secure livelihoods by focusing on workforce wellbeing. These efforts are designed to foster not only business growth but also a stable financial future for the communities we serve.",
@@ -793,8 +869,10 @@ export const socialBusinessesData = [
   },
   {
     id: 3,
-    imageUrl: "/socialBusinesses/image04.png",
-    logoUrl: "/socialBusinesses/logo02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/image04.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/logo02.png",
     title: "Shoonya",
     target: "_blank",
     desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The programme focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns and an enhanced brand image, further boosted by gamification and promotional strategies.",
@@ -803,8 +881,10 @@ export const socialBusinessesData = [
   },
   {
     id: 4,
-    imageUrl: "/socialBusinesses/image05.png",
-    logoUrl: "/socialBusinesses/logo02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/image05.png",
+    logoUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/logo02.png",
     title: "SHIP",
     target: "_blank",
     desc: "SHIP is an integrated solution that enables healthcare facilities to access non-clinical services like financing, aggregated procurement, equipment & facility maintenance, technology solutions, medical waste management, and legal and advisory services, which leads to efficient cost management and clinical outcomes, ultimately enhancing the quality of healthcare.",
@@ -880,267 +960,331 @@ export const focusAreaData = [
 export const homePartnersData = [
   {
     id: 1,
-    imageUrl: "/aboutUs/partners/fuzhio.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/fuzhio.png",
   },
   {
     id: 2,
-    imageUrl: "/aboutUs/partners/adb.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/adb.png",
   },
   {
     id: 3,
-    imageUrl: "/aboutUs/partners/aiaca.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/aiaca.png",
   },
   // {
   //   id: 4,
-  //   imageUrl: "/aboutUs/partners/azim-premji-foundation.png",
+  //   imageUrl: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/azim-premji-foundation.png",
   // },
   {
     id: 5,
-    imageUrl: "/aboutUs/partners/basix.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/basix.png",
   },
   {
     id: 6,
-    imageUrl: "/aboutUs/partners/boston.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/boston.png",
   },
   {
     id: 7,
-    imageUrl: "/aboutUs/partners/breakthrough.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/breakthrough.png",
   },
   {
     id: 8,
-    imageUrl: "/aboutUs/partners/bsr.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/bsr.png",
   },
   {
     id: 9,
-    imageUrl: "/aboutUs/partners/catalyst.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/catalyst.png",
   },
   {
     id: 10,
-    imageUrl: "/aboutUs/partners/ceew.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/ceew.png",
   },
   {
     id: 11,
-    imageUrl: "/aboutUs/partners/child-fund.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/child-fund.png",
   },
   {
     id: 12,
-    imageUrl: "/aboutUs/partners/ciff.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/ciff.png",
   },
   {
     id: 13,
-    imageUrl: "/aboutUs/partners/cimsme.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/cimsme.png",
   },
   {
     id: 14,
-    imageUrl: "/aboutUs/partners/cotton-connect.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/cotton-connect.png",
   },
   {
     id: 15,
-    imageUrl: "/aboutUs/partners/edel-give.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/edel-give.png",
   },
   {
     id: 16,
-    imageUrl: "/aboutUs/partners/iiie.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/iiie.png",
   },
   {
     id: 17,
-    imageUrl: "/aboutUs/partners/gain.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/gain.png",
   },
   {
     id: 18,
-    imageUrl: "/aboutUs/partners/bill-foundation.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/bill-foundation.png",
   },
   {
     id: 19,
-    imageUrl: "/aboutUs/partners/green-foundation.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/green-foundation.png",
   },
   {
     id: 20,
-    imageUrl: "/aboutUs/partners/heifer.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/heifer.png",
   },
   {
     id: 21,
-    imageUrl: "/aboutUs/partners/hivos.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/hivos.png",
   },
   {
     id: 22,
-    imageUrl: "/aboutUs/partners/idh.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/idh.png",
   },
   {
     id: 23,
-    imageUrl: "/aboutUs/partners/ifc.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/ifc.png",
   },
   {
     id: 24,
-    imageUrl: "/aboutUs/partners/iihs.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/iihs.png",
   },
   {
     id: 25,
-    imageUrl: "/aboutUs/partners/irma.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/irma.png",
   },
   {
     id: 26,
-    imageUrl: "/aboutUs/partners/labour-net.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/labour-net.png",
   },
   {
     id: 27,
-    imageUrl: "/aboutUs/partners/laudes.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/laudes.png",
   },
   // {
   //   id: 28,
-  //   imageUrl: "/aboutUs/partners/ms.png",
+  //   imageUrl: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/ms.png",
   // },
   {
     id: 29,
-    imageUrl: "/aboutUs/partners/mindtree.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/mindtree.png",
   },
   {
     id: 30,
-    imageUrl: "/aboutUs/partners/ministry-health.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/ministry-health.png",
   },
   {
     id: 31,
-    imageUrl: "/aboutUs/partners/nri.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/nri.png",
   },
   {
     id: 32,
-    imageUrl: "/aboutUs/partners/osu.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/osu.png",
   },
   {
     id: 33,
-    imageUrl: "/aboutUs/partners/iit.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/iit.png",
   },
   {
     id: 34,
-    imageUrl: "/aboutUs/partners/penn.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/penn.png",
   },
   {
     id: 35,
-    imageUrl: "/aboutUs/partners/pratham-books.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/pratham-books.png",
   },
   {
     id: 36,
-    imageUrl: "/aboutUs/partners/rrra.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/rrra.png",
   },
   {
     id: 37,
-    imageUrl: "/aboutUs/partners/mrd.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/mrd.png",
   },
   {
     id: 38,
-    imageUrl: "/aboutUs/partners/selco.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/selco.png",
   },
   {
     id: 39,
-    imageUrl: "/aboutUs/partners/sfac.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/sfac.png",
   },
   {
     id: 40,
-    imageUrl: "/aboutUs/partners/skll.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/skll.png",
   },
   {
     id: 41,
-    imageUrl: "/aboutUs/partners/societal.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/societal.png",
   },
   {
     id: 42,
-    imageUrl: "/aboutUs/partners/stanford.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/stanford.png",
   },
   {
     id: 43,
-    imageUrl: "/aboutUs/partners/us.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/us.png",
   },
   {
     id: 44,
-    imageUrl: "/aboutUs/partners/swasti.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/swasti.png",
   },
   {
     id: 45,
-    imageUrl: "/aboutUs/partners/traidcraft.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/traidcraft.png",
   },
   {
     id: 46,
-    imageUrl: "/aboutUs/partners/tufts.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/tufts.png",
   },
   {
     id: 47,
-    imageUrl: "/aboutUs/partners/govuk.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/govuk.png",
   },
   {
     id: 48,
-    imageUrl: "/aboutUs/partners/undp.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/undp.png",
   },
   {
     id: 49,
-    imageUrl: "/aboutUs/partners/unicef.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/unicef.png",
   },
   {
     id: 50,
-    imageUrl: "/aboutUs/partners/uog.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/uog.png",
   },
   {
     id: 51,
-    imageUrl: "/aboutUs/partners/usaid.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/usaid.png",
   },
   {
     id: 52,
-    imageUrl: "/aboutUs/partners/vrutti.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/vrutti.png",
   },
   {
     id: 53,
-    imageUrl: "/aboutUs/partners/wateraid.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/wateraid.png",
   },
   {
     id: 54,
-    imageUrl: "/aboutUs/partners/world-bank.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/world-bank.png",
   },
   {
     id: 55,
-    imageUrl: "/aboutUs/partners/who.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/who.png",
   },
   {
     id: 56,
-    imageUrl: "/aboutUs/partners/wba.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/wba.png",
   },
   {
     id: 57,
-    imageUrl: "/aboutUs/partners/msd.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/msd.png",
   },
   {
     id: 58,
-    imageUrl: "/aboutUs/partners/amazon.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/amazon.png",
   },
   {
     id: 59,
-    imageUrl: "/aboutUs/partners/elder.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/elder.png",
   },
   {
     id: 60,
-    imageUrl: "/aboutUs/partners/bb.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/bb.png",
   },
   {
     id: 61,
-    imageUrl: "/aboutUs/partners/dhwani.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/dhwani.png",
   },
   {
     id: 62,
-    imageUrl: "/aboutUs/partners/saath.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/saath.png",
   },
   {
     id: 63,
-    imageUrl: "/aboutUs/partners/seva.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/seva.png",
   },
   {
     id: 64,
-    imageUrl: "/aboutUs/partners/med.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/med.png",
   },
   {
     id: 65,
-    imageUrl: "/aboutUs/partners/bio.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/bio.png",
   },
   {
     id: 66,
-    imageUrl: "/aboutUs/partners/garam.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/partners/garam.png",
   },
 ]
 
@@ -1185,17 +1329,20 @@ export const impactData = [
 export const catalystData = [
   {
     id: 1,
-    iconUrl: "/socialBusinesses/catalyst/icon01.svg",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/catalyst/icon01.svg",
     desc: "Double the net income of small and marginal farmers in five years through cost reductions in cultivation, consolidated sourcing of seeds and bio inputs, and driving efficiencies of scale and value creation through processed products",
   },
   {
     id: 2,
-    iconUrl: "/socialBusinesses/catalyst/icon02.svg",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/catalyst/icon02.svg",
     desc: "Increase the number of small and marginal farmers transacting through the FPCs from 25% to 65% over 5–6 years",
   },
   {
     id: 3,
-    iconUrl: "/socialBusinesses/catalyst/icon03.svg",
+    iconUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/catalyst/icon03.svg",
     desc: "Increase the share of the consumer pie reaching small farmers",
   },
 ]
@@ -1203,7 +1350,8 @@ export const catalystData = [
 export const collaborativeInitiativesData = [
   {
     id: 1,
-    imageUrl: "/collaborativeInitiatives/image01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/collaborativeInitiatives/image01.png",
     logoUrl: "",
     title: "Community Action Collab",
     desc: "The Community Action Collab incubated by the Catalyst Group, aims to create a world that is resilient enough to survive and thrive during humanitarian crises. Our mission focuses on synergising resource access and allocating efforts in an adaptive and urgent manner, augmenting collaboration and connections within a vast network at multiple levels, and accelerating transformative impact to meet the evolving needs of vulnerable communities. We partner with organisations that share our belief in the resilience of communities, recognising that such communities can better prepare, adapt, and strengthen in response to pressures, ultimately enhancing their environment, social, and economic health and wellbeing.",
@@ -1212,7 +1360,8 @@ export const collaborativeInitiativesData = [
   },
   {
     id: 2,
-    imageUrl: "/collaborativeInitiatives/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/collaborativeInitiatives/image02.png",
     logoUrl: "",
     title: "Catalysing Social Impact (CSI)",
     desc: "Catalysing Social Impact (CSI) is a dynamic forum hosted by the Catalyst Group, uniting thinkers, doers, and investors dedicated to fostering social change through strategic initiatives. Originating in 2019 in Bengaluru with the Solutions Circle approach, CSI evolved during the COVID-19 pandemic into the #COVIDActionCollab, focusing on pandemic response from 2020–2022. This collaboration transitioned in 2022 into the #CommunityActionCollab, emphasising pandemic preparedness and resilience. In 2024, CSI reconvenes on August 1-2 in New Delhi to outline a progressive agenda for India’s centenary of independence in 2047, under the theme ‘Viksit Bharat @ 2047.’",
@@ -1224,8 +1373,10 @@ export const collaborativeInitiativesData = [
 export const scaleAcceleratorsData = [
   {
     id: 1,
-    imageUrl: "/scaleAccelerators/image01.png",
-    mobImageUrl: "/scaleAccelerators/mImage01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/scaleAccelerators/image01.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/scaleAccelerators/mImage01.png",
     logoUrl: "",
     title: "Design for Success",
     desc: "The Design for Success team at Catalyst Management Services specialises in human-centric design, seamlessly blending agile methods with strategic planning to create impactful solutions for societal issues. They specialise in designing programmes, networks, and theories of change to address complex challenges.",
@@ -1234,8 +1385,10 @@ export const scaleAcceleratorsData = [
   },
   {
     id: 2,
-    imageUrl: "/scaleAccelerators/image02.png",
-    mobImageUrl: "/scaleAccelerators/mImage02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/scaleAccelerators/image02.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/scaleAccelerators/mImage02.png",
     logoUrl: "",
     title: "Evidence for Change",
     desc: "Evidence for Change specialises in facilitating theories of change, alternate analysis, results frameworks, and tools; building evidence through pluralistic methodologies, participatory learning, and action; and establishing efficient monitoring, evaluation, and learning systems through a multidisciplinary approach.",
@@ -1244,8 +1397,10 @@ export const scaleAcceleratorsData = [
   },
   {
     id: 3,
-    imageUrl: "/scaleAccelerators/image03.png",
-    mobImageUrl: "/scaleAccelerators/mImage03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/scaleAccelerators/image03.png",
+    mobImageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/scaleAccelerators/mImage03.png",
     logoUrl: "",
     title: "Implement for Scale",
     desc: "Implement for Scale supports organisations in achieving successful implementation, we offer a range of services and tools. These include proof of concepts to test and validate innovative ideas, capacity building programmes to equip teams with the necessary skills and knowledge, performance management tools and approaches, technical support, and state-of-the-art technologies.",

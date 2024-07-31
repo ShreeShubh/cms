@@ -65,7 +65,7 @@ const CareersForm = () => {
       <div className="flex flex-col lg:flex-row w-full h-auto mt-10">
         <div className="w-full lg:w-1/4">
           <Image
-            src="/careers/image01.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/careers/image01.png"
             width={399}
             height={500}
             alt=""

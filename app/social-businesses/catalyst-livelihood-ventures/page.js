@@ -22,7 +22,7 @@ const tabs = [
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/socialBusinesses/catalyst/banner01.png')] md:bg-[url('/socialBusinesses/catalyst/banner.png')] flex flex-col justify-center md:justify-end h-[420px] md:h-[640px] bg-center bg-cover py-10 md:py-16">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/catalyst/banner01.png')] md:bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/catalyst/banner.png')] flex flex-col justify-center md:justify-end h-[420px] md:h-[640px] bg-center bg-cover py-10 md:py-16">
         <Header />
         <div className="ps-2 md:ps-24">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
@@ -54,7 +54,7 @@ const page = () => {
       <div className="flex flex-col lg:flex-row w-full gap-3">
         <div className="w-full lg:w-1/2">
           <Image
-            src="/socialBusinesses/catalyst/image01.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/socialBusinesses/catalyst/image01.png"
             width={675}
             height={420}
             alt=""

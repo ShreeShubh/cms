@@ -22,40 +22,40 @@ const AlliancesAndPlatforms = () => {
 
           <ul className="flex flex-wrap gap-5 w-full lg:w-10/12 lg:justify-start">
             <li>
-              <img
-                src="/domainAreas/health/alliances/image01.png"
+              <Image
+                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/alliances/image01.png"
                 width={180}
                 height={90}
                 alt=""
               />
             </li>
             <li>
-              <img
-                src="/domainAreas/health/alliances/image02.png"
+              <Image
+                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/alliances/image02.png"
                 width={180}
                 height={90}
                 alt=""
               />
             </li>
             <li>
-              <img
-                src="/domainAreas/health/alliances/image03.png"
+              <Image
+                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/alliances/image03.png"
                 width={180}
                 height={90}
                 alt=""
               />
             </li>
             <li>
-              <img
-                src="/domainAreas/health/alliances/image04.png"
+              <Image
+                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/alliances/image04.png"
                 width={180}
                 height={90}
                 alt=""
               />
             </li>
             <li>
-              <img
-                src="/domainAreas/health/alliances/image05.png"
+              <Image
+                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/alliances/image05.png"
                 width={180}
                 height={90}
                 alt=""

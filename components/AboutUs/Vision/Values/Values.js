@@ -7,7 +7,7 @@ const Values = () => {
     <div className="flex flex-col lg:flex-row items-center gap-5 mt-16 mb-16 px-5">
       <div className="relative w-full lg:w-1/2">
         <Image
-          src="/aboutUs/vision/valuesBanner.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/aboutUs/vision/valuesBanner.png"
           width={500}
           height={500}
           alt="Values Banner"

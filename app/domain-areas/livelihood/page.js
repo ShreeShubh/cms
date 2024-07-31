@@ -48,14 +48,14 @@ const page = () => {
     "We work with vulnerable people who operate as small producers (farms, forests, allied industries, fisheries and MSMEs) to enhance their livelihoods. Our overall objective is to promote wealthy, resilient and responsible small producers at a national scale through inclusive entrepreneurship. Our approach to build wealth for small producers focuses on having effective market engagement and co-creating business solutions that benefit both businesses and small producers."
   return (
     <>
-      <div className="bg-[url('/domainAreas/livelihood/banner.png')] h-[420px] md:h-[640px] bg-cover bg-center pt-5 flex flex-col">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/banner.png')] h-[420px] md:h-[640px] bg-cover bg-center pt-5 flex flex-col">
         <div className="w-full">
           <Header />
         </div>
         <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
           <div className="flex justify-center items-center h-40 w-44  md:h-44 md:w-64 bg-white">
             <Image
-              src="/domainAreas/livelihood/logo.png"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/logo.png"
               height={142}
               width={153}
               alt="logo"
@@ -72,7 +72,7 @@ const page = () => {
 
       <div className="w-full">
         <Image
-          src="/domainAreas/livelihood/banner02.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/banner02.png"
           width={1366}
           height={360}
           alt="banner"
@@ -90,7 +90,7 @@ const page = () => {
             achieving the UN SDGs, specifically Goals 1, 2, 5, 10, 11, and 17.
           </p>
           <Image
-            src="/domainAreas/livelihood/sdg.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/sdg.png"
             width={720}
             height={122}
             alt=""

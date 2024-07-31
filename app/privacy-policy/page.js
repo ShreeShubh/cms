@@ -28,7 +28,7 @@ const page = () => {
   }
   return (
     <>
-      <div className="bg-[url('/privacyPolicy/banner.png')] h-[420px] md:h-[480px] bg-cover bg-center pt-5 pb-14">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/privacyPolicy/banner.png')] h-[420px] md:h-[480px] bg-cover bg-center pt-5 pb-14">
         <Header />
         <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">

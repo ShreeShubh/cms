@@ -3,7 +3,7 @@ import React from "react"
 const EmpoweringChange = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full mb-12">
-      <div className="bg-[url('/home/empoweringChange/banner.png')] bg-cover w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[520px] flex items-center">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/home/empoweringChange/banner.png')] bg-cover w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[520px] flex items-center">
         <div className="px-4 sm:px-8 md:px-12 lg:px-16 space-y-4">
           <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-semibold">
             Empowering <br className="hidden sm:block" /> Change Agents

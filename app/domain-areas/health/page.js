@@ -49,14 +49,14 @@ const page = () => {
     "We have 25 years of experience as a global social impact consulting firm and use a 360-degree approach that improves the well-being of vulnerable communities. CMS and its sister organisation, Swasti, a global south public health agency, partner with communities at the last mile to help them realise their potential through health and well-being. We work towards achieving Universal Health Care and Global Health Security through a Climate x Health centric approach and ensure our programmes are climate-responsive."
   return (
     <>
-      <div className="bg-[url('/domainAreas/health/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
         <div className="w-full">
           <Header />
         </div>
         <div className="md:ps-24 flex justify-center md:justify-start items-end h-full">
           <div className="flex justify-center items-center h-40 w-44  md:h-44 md:w-64 bg-white">
             <Image
-              src="/domainAreas/health/logo.png"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/logo.png"
               height={256}
               width={170}
               alt="logo"
@@ -73,7 +73,7 @@ const page = () => {
         <div className="flex">
           <div className="bg-cms-primary w-24 h-24 flex items-center justify-center">
             <Image
-              src="/domainAreas/health/icon01.png"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/icon01.png"
               width={56}
               height={57}
               alt=""
@@ -88,7 +88,7 @@ const page = () => {
         <div className="flex">
           <div className="bg-cms-primary w-24 h-24 flex items-center justify-center">
             <Image
-              src="/domainAreas/health/icon02.png"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/health/icon02.png"
               width={56}
               height={57}
               alt=""

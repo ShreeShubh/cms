@@ -7,7 +7,7 @@ const OurApproaches = () => {
     <div className="flex flex-col lg:flex-row lg:me-16">
       <div className="w-full lg:w-[488px]">
         <Image
-          src="/domainAreas/livelihood/ourApp.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/domainAreas/livelihood/ourApp.png"
           height={780}
           width={400}
           alt=""
