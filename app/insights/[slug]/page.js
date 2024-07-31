@@ -41,7 +41,22 @@ const Page = ({ params }) => {
       {insightsData.map((item) => {
         return (
           <>
-            <div className="relative">
+            <div
+              className="flex flex-col justify-end h-[420px] md:h-[480px] w-full bg-center bg-cover py-10 md:py-16"
+              style={{
+                backgroundImage: `url(${item.imageUrl})`,
+              }}
+            >
+              <Header />
+              <div className="ps-2 md:ps-24">
+                <h1
+                  className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left"
+                  dangerouslySetInnerHTML={{ __html: item.title }}
+                />
+              </div>
+            </div>
+
+            {/* <div className="relative">
               <div
                 className={`h-[420px] md:h-[480px] bg-cover bg-center pt-5 pb-14`}
                 style={{
@@ -59,7 +74,7 @@ const Page = ({ params }) => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="">
               <div className="w-10/12 mx-auto py-12">
