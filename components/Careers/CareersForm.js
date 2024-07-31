@@ -78,12 +78,12 @@ const CareersForm = () => {
             Apply Now
           </h3>
 
-          <p className="text-lg mt-2 text-[#404040]">
+          {/* <p className="text-lg mt-2 text-[#404040]">
             Please send in your CV to{" "}
             <a href="mailto:hr@catalysts.org" className="text-[#617FC8]">
               hr@catalysts.org
             </a>
-          </p>
+          </p> */}
 
           <p className="text-lg text-[#404040]">
             We will get back to you as soon as we have any suitable openings
