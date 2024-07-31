@@ -77,7 +77,7 @@ const page = () => {
                       width={450}
                       height={260}
                       alt=""
-                      className="flex-shrink-0 w-full sm:w-[450px] h-[260px]"
+                      className="flex-shrink-0 w-full sm:w-[400px] h-[225px]"
                     />
 
                     <p className="px-2">{item.category}</p>
