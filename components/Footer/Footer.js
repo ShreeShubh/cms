@@ -51,11 +51,11 @@ const Footer = () => {
               </ul>
 
               <ul className="text-[#CBCBCB] space-y-3">
-                <h5 className="text-white text-lg">Scale Accelerators</h5>
+                <h5 className="text-white text-lg">Solutions</h5>
                 <div className="border-b border-[#98D5C5] w-28 sm:w-52 mb-3" />
                 <li>
                   <Link
-                    href="/scale-accelerators/design-for-success"
+                    href="/solutions/design-for-success"
                     className="hover:underline"
                   >
                     Design for Success
@@ -63,7 +63,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/scale-accelerators/evidence-for-change"
+                    href="/solutions/evidence-for-change"
                     className="hover:underline"
                   >
                     Evidence for Change
@@ -71,7 +71,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/scale-accelerators/implement-for-scale"
+                    href="/solutions/implement-for-scale"
                     className="hover:underline"
                   >
                     Implement for Scale
