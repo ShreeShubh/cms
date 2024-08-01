@@ -1,16 +1,21 @@
-import React from 'react'
+'use client'
+import React, { useRef } from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
 import Banner from './Banner'
 import ImpactContent from './ImpactContent'
 
 const index = () => {
+    const section1Ref = useRef(null);
+    const scrollToSection1 = () => {
+      section1Ref.current.scrollIntoView({ behavior: "smooth" });
+    };
     return (
         <div>
-            <Header />
+            <Header onClick={scrollToSection1}/>
             <Banner />
             <ImpactContent />
-            <Footer />
+            <Footer ref={section1Ref}/>
         </div>
     )
 }

@@ -2,9 +2,9 @@
 
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
-import Image from "next/image"
 import Link from "next/link"
 import React, { useState } from "react"
+import axios from "axios"
 
 const page = () => {
   const [formData, setFormData] = useState({
@@ -14,6 +14,10 @@ const page = () => {
     consent: false,
   })
 
+  const [errors, setErrors] = useState({})
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitMessage, setSubmitMessage] = useState("")
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target
     setFormData({
@@ -22,11 +26,55 @@ const page = () => {
     })
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Handle form submission logic here
-    console.log(formData)
+  const validate = () => {
+    let formErrors = {}
+
+    if (!formData.name) formErrors.name = "Name is required"
+    if (!formData.email) {
+      formErrors.email = "Email is required"
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      formErrors.email = "Email address is invalid"
+    }
+    if (!formData.message) formErrors.message = "Message is required"
+    if (!formData.consent) formErrors.consent = "Consent is required"
+
+    setErrors(formErrors)
+    return Object.keys(formErrors).length === 0
   }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    if (!validate()) return
+
+    setIsSubmitting(true)
+
+    try {
+      const response = await axios.post(
+        "https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/10427/feedback",
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      )
+      setSubmitMessage(
+        "Thank you for your message. We will get back to you soon."
+      )
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+        consent: false,
+      })
+      setErrors({})
+    } catch (error) {
+      setSubmitMessage("An error occurred. Please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
   return (
     <>
       <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/contactUs/banner.png')] flex flex-col justify-center md:justify-end h-[420px] md:h-[480px] bg-cover bg-center py-10 md:py-16">
@@ -41,18 +89,10 @@ const page = () => {
       <div className="flex flex-col lg:flex-row w-full h-auto lg:h-[700px]">
         <div className="bg-cms-primary w-full lg:w-1/2 flex flex-col text-white py-12 lg:py-24 px-6 lg:px-20">
           <h3 className="text-xl lg:text-2xl font-semibold">Head Office</h3>
-          {/* <p className="text-base lg:text-lg mt-4">
-            Catalyst Management Services Pvt. Ltd.,
-          </p> */}
-
           <p className="text-base lg:text-lg mt-8">
             Catalyst Management Services Pvt. Ltd., #25, 4th Floor, AECS Layout,
             RMV 2nd Stage, Ashwathnagar, Bangalore – 560 094
           </p>
-          {/* <p className="text-base lg:text-lg mt-5">
-            Email: contactus@catalysts.org
-          </p>
-          <p className="text-base lg:text-lg">Phone: 0123456789</p> */}
         </div>
 
         <div className="bg-cms-secondary-green w-full lg:w-1/2 flex flex-col text-white py-12 lg:py-24 px-6 lg:px-20">
@@ -73,6 +113,7 @@ const page = () => {
                 onChange={handleChange}
                 className="w-full p-2 border border-gray-300 rounded"
               />
+              {errors.name && <p className="text-red-500">{errors.name}</p>}
             </div>
             <div className="mb-4">
               <input
@@ -83,6 +124,7 @@ const page = () => {
                 onChange={handleChange}
                 className="w-full p-2 border border-gray-300 rounded"
               />
+              {errors.email && <p className="text-red-500">{errors.email}</p>}
             </div>
             <div className="mb-4">
               <textarea
@@ -93,6 +135,9 @@ const page = () => {
                 className="w-full p-2 border border-gray-300 rounded"
                 rows="4"
               />
+              {errors.message && (
+                <p className="text-red-500">{errors.message}</p>
+              )}
             </div>
             <div className="mb-4 flex items-start">
               <input
@@ -112,13 +157,18 @@ const page = () => {
                 </Link>{" "}
                 to learn more about how we use data.
               </label>
+              {errors.consent && (
+                <p className="text-red-500">{errors.consent}</p>
+              )}
             </div>
             <button
               type="submit"
               className="px-6 lg:px-10 py-2 lg:py-3 border border-[#646464] text-[#404040] rounded"
+              disabled={isSubmitting}
             >
-              Send
+              {isSubmitting ? "Sending..." : "Send"}
             </button>
+            {submitMessage && <p className="mt-4">{submitMessage}</p>}
           </form>
         </div>
       </div>

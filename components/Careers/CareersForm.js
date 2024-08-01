@@ -6,6 +6,7 @@ import { uploadIcon } from "@/utils/icon"
 import Image from "next/image"
 import Link from "next/link"
 import React, { useState } from "react"
+import axios from "axios"
 
 const CareersForm = () => {
   const [formData, setFormData] = useState({
@@ -21,9 +22,6 @@ const CareersForm = () => {
   const validateForm = () => {
     let formErrors = {}
     if (!formData.name) formErrors.name = "Name is required"
-    // if (!formData.contactNumber)
-    //   formErrors.contactNumber = "Contact Number is required"
-    // if (!formData.location) formErrors.location = "Location is required"
     if (!formData.position) formErrors.position = "Position is required"
     if (!formData.email) {
       formErrors.email = "Email is required"
@@ -43,18 +41,44 @@ const CareersForm = () => {
     })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     const formErrors = validateForm()
     if (Object.keys(formErrors).length === 0) {
-      console.log("Form Data:", formData)
-      setFormData({
-        name: "",
-        position: "",
-        email: "",
-        file: null,
-        consent: false,
-      })
+      try {
+        const data = new FormData()
+        data.append("name", formData.name)
+        data.append("position", formData.position)
+        data.append("email", formData.email)
+        data.append("file", formData.file)
+        data.append("consent", formData.consent)
+
+        const response = await axios.post(
+          "https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/10426/feedback",
+          data,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+          }
+        )
+
+        console.log("Form Data Submitted:", response.data)
+        setFormData({
+          name: "",
+          position: "",
+          email: "",
+          file: null,
+          consent: false,
+        })
+        setErrors({})
+      } catch (error) {
+        console.error("There was an error submitting the form:", error)
+        setErrors({
+          submit:
+            "There was an error submitting the form. Please try again later.",
+        })
+      }
     } else {
       setErrors(formErrors)
     }
@@ -77,13 +101,6 @@ const CareersForm = () => {
           <h3 className="text-xl lg:text-2xl font-semibold text-cms-primary">
             Apply Now
           </h3>
-
-          {/* <p className="text-lg mt-2 text-[#404040]">
-            Please send in your CV to{" "}
-            <a href="mailto:hr@catalysts.org" className="text-[#617FC8]">
-              hr@catalysts.org
-            </a>
-          </p> */}
 
           <p className="text-lg text-[#404040]">
             We will get back to you as soon as we have any suitable openings
@@ -121,34 +138,6 @@ const CareersForm = () => {
                 <p className="text-red-500 text-sm">{errors.email}</p>
               )}
             </div>
-
-            {/* <div>
-              <input
-                type="text"
-                name="contactNumber"
-                placeholder="Contact Number"
-                className="p-2 border border-gray-300 rounded w-full"
-                value={formData.contactNumber}
-                onChange={handleChange}
-              />
-              {errors.contactNumber && (
-                <p className="text-red-500 text-sm">{errors.contactNumber}</p>
-              )}
-            </div> */}
-
-            {/* <div>
-              <input
-                type="text"
-                name="location"
-                placeholder="Location"
-                className="p-2 border border-gray-300 rounded w-full"
-                value={formData.location}
-                onChange={handleChange}
-              />
-              {errors.location && (
-                <p className="text-red-500 text-sm">{errors.location}</p>
-              )}
-            </div> */}
 
             <div>
               <select
