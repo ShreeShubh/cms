@@ -29,7 +29,7 @@ function Insights() {
 
   return (
     <>
-      <div className="bg-[url('/home/focusArea/focusAreaBg.png')] bg-cover bg-center flex flex-col justify-center items-center w-full h-auto md:h-[800px] py-10">
+      <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/home/focusArea/focusAreaBg.png')] bg-cover bg-center flex flex-col justify-center items-center w-full h-auto md:h-[800px] py-10">
         <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-4">
           <h3 className="text-3xl sm:text-4xl md:text-5xl text-cms-primary">
             Domain Areas
