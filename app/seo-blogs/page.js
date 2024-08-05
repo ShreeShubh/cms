@@ -65,7 +65,7 @@ const page = () => {
         <Header />
         <div className="ps-2 md:ps-24">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center sm:text-left">
-            Insights
+            SEO Blogs
           </h1>
         </div>
       </div>
