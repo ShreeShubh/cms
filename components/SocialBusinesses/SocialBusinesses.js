@@ -32,7 +32,7 @@ const SocialBusinesses = () => {
 
                 <p
                   dangerouslySetInnerHTML={{ __html: item.desc2 }}
-                  className="text-lg sm:text-lg font-semibold text-[#646464]"
+                  className="text-sm sm:text-lg font-semibold text-[#646464]"
                 ></p>
 
                 <Link href={item.path} target={item.target}>
