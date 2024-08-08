@@ -11,13 +11,13 @@ import Brands from "../../components/BusinessCatalyst/Brands"
 import Stories from "../../components/BusinessCatalyst/Stories"
 
 export default function page() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     delay: 0, // values from 0 to 3000, with step 50ms
-  //     duration: 400, // values from 0 to 3000, with step 50ms
-  //     easing: "ease",
-  //   })
-  // })
+  useEffect(() => {
+    AOS.init({
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+    })
+  })
 
   const section1Ref = useRef(null)
   const scrollToSection1 = () => {
