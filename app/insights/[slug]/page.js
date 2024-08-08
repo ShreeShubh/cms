@@ -88,12 +88,12 @@ const Page = ({ params }) => {
               </div>
             </div>
 
-            <div className="ps-24">
+            {/* <div className="ps-24">
               <ShareSocial
                 url={`https://cms.org.in//insights/${myUrl}`}
                 socialTypes={["facebook", "twitter", "reddit", "linkedin"]}
               />
-            </div>
+            </div> */}
 
             <div className="mt-auto">
               <Footer />
