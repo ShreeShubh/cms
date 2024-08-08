@@ -46,7 +46,7 @@ const DomainAreas = () => {
                   {item.desc}
                 </p>
                 <Link href={item.path} target={item.target}>
-                  <button className="border border-cms-primary bg-cms-primary text-white text-base sm:text-lg rounded px-4 sm:px-6 py-2">
+                  <button className="border border-cms-primary text-[#1A1A1A] text-base sm:text-lg rounded px-4 sm:px-6 py-2 transition duration-300 ease-in-out hover:bg-cms-primary hover:text-white">
                     Know more
                   </button>
                 </Link>
