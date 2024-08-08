@@ -25,9 +25,11 @@ const SocialBusinesses = () => {
                 <h2 className="text-2xl sm:text-3xl text-cms-primary font-semibold">
                   {item.title}
                 </h2>
-                <p className="text-base sm:text-lg text-[#646464]">
-                  {item.desc}
-                </p>
+                <p
+                  dangerouslySetInnerHTML={{ __html: item.desc }}
+                  className="text-base sm:text-lg text-[#646464]"
+                ></p>
+
                 <Link href={item.path} target={item.target}>
                   <button className="border border-cms-primary text-[#1A1A1A] text-base sm:text-lg rounded px-4 sm:px-6 py-2">
                     Know more
