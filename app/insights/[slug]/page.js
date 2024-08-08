@@ -7,7 +7,6 @@ import Image from "next/image"
 import { useEffect, useState } from "react"
 import axios from "axios"
 import Footer from "@/components/Footer/Footer"
-import { ShareSocial } from "react-share-social"
 
 const Page = ({ params }) => {
   const [insightsData, setInsightsData] = useState([])
