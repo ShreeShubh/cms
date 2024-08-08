@@ -6,9 +6,13 @@ import { rightArrow } from "@/utils/icon"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import axios from "axios"
+import Footer from "@/components/Footer/Footer"
+import { ShareSocial } from "react-share-social"
 
 const Page = ({ params }) => {
   const [insightsData, setInsightsData] = useState([])
+
+  const myUrl = params.slug
 
   useEffect(() => {
     const fetchData = async () => {
@@ -82,6 +86,17 @@ const Page = ({ params }) => {
               <div className="w-10/12 mx-auto py-12">
                 <p dangerouslySetInnerHTML={{ __html: item.content }} />
               </div>
+            </div>
+
+            <div className="ps-24">
+              <ShareSocial
+                url={`https://cms.org.in//insights/${myUrl}`}
+                socialTypes={["facebook", "twitter", "reddit", "linkedin"]}
+              />
+            </div>
+
+            <div className="mt-auto">
+              <Footer />
             </div>
           </>
         )
