@@ -12,9 +12,9 @@ const Banner = () => {
               </h1>
               <p className="lg:text-[18px] mt-4 leading-6 text-white">
                 The Noble Plastics Approach Successful action stems from
-                innovative approaches, and Noble Plastics is a proof of that. We
-                work to provide practical solutions that are backed by
-                quantifiable results.
+                innovative approaches, and Noble Plastics is proof of that. We
+                strive to offer pragmatic solutions supported by measurable
+                outcomes.
               </p>
             </div>
 

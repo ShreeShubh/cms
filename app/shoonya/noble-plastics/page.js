@@ -1,28 +1,22 @@
-'use client'
-import React, { useRef, useEffect } from 'react'
-import Header from '../../../components/NoblePlasticComponents/Header'
-import Footer from '../../../components/NoblePlasticComponents/Footer'
-import AboutUs from '../../../components/NoblePlasticComponents/AboutUsComponents'
-import Approach from '../../../components/NoblePlasticComponents/ApproachComponents'
-import Home from '../../../components/NoblePlasticComponents/HomeComponents'
-import Impact from '../../../components/NoblePlasticComponents/ImpactComponents'
-import Work from '../../../components/NoblePlasticComponents/WorkComponents'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+"use client"
+import React, { useEffect } from "react"
+import Home from "../../../components/NoblePlasticComponents/HomeComponents"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function page() {
   const title =
-    'Eco-social initiative promoting sustainable management of plastic'
+    "Eco-social initiative promoting sustainable management of plastic"
   const desc =
-    'Noble Plastic champions the effective use of plastic waste and plastic recycling while promoting the well-being of the people and the planet. Learn more'
+    "Noble Plastic champions the effective use of plastic waste and plastic recycling while promoting the well-being of the people and the planet. Learn more"
   const image =
-    'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/home-banner.png'
+    "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/home-banner.png"
 
   useEffect(() => {
     AOS.init({
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 400, // values from 0 to 3000, with step 50ms
-      easing: 'ease',
+      easing: "ease",
     })
   })
 
