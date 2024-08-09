@@ -61,7 +61,7 @@ const ImpactContent = () => {
                 <div className="col-span-3  mt-16 bg-[#F0EAF5D9] pb-4 rounded-md flex flex-col justify-center">
                   <div className="flex items-center justify-center w-auto">
                     <img
-                      src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/our-impact-planet.png"
+                      src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/healthcare-outcome.png"
                       className="-mt-12"
                       width={100}
                     />
@@ -86,7 +86,7 @@ const ImpactContent = () => {
                 <div className="col-span-3  mt-16 bg-[#F0EAF5D9] pb-4 rounded-md flex flex-col justify-center">
                   <div className="flex items-center justify-center w-auto">
                     <img
-                      src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/our-impact-planet.png"
+                      src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/tonnes-of-plastics.png"
                       className="-mt-12"
                       width={100}
                     />

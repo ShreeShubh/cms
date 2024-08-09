@@ -1,7 +1,7 @@
-"use client"
-import Link from "next/link"
-import React from "react"
-import CountUp from "react-countup"
+"use client";
+import Link from "next/link";
+import React from "react";
+import CountUp from "react-countup";
 
 const NoblePlastics = ({ onClick }) => {
   return (
@@ -26,11 +26,11 @@ const NoblePlastics = ({ onClick }) => {
               className="col-span-6 flex flex-col justify-center overflow-hidden"
               data-aos="fade-left"
             >
-              <p className="text-[40px] text-[#7F3F97]">Noble Plastics</p>
+              <p className="text-[40px] text-[#7F3F97]">About Us</p>
 
               <p className="lg:text-[18px] mt-4 leading-6 text-lg">
                 An eco-social initiative by the Catalyst Group that champions
-                the effective use of plastic waste, while promoting the
+                the effective use of plastic waste while promoting the
                 well-being of people and the planet.
               </p>
 
@@ -38,7 +38,7 @@ const NoblePlastics = ({ onClick }) => {
                 An incubation of the Catalyst Group, Noble Plastics works in
                 line with the UN SDGs by integrating sustainability and social
                 responsibility into supply chains across the apparel industry,
-                while benefiting people and the planet.
+                benefiting people and the planet.
               </p>
               <div>
                 <button
@@ -69,8 +69,8 @@ const NoblePlastics = ({ onClick }) => {
               className="lg:text-[18px] mt-6 leading-6 text-center text-lg"
               data-aos="fade-down"
             >
-              The well-being of people, the planet and prosperity of all our{" "}
-              <br className="lg:flex hidden" />
+              The well-being of people, the planet, and the prosperity of all
+              our <br className="lg:flex hidden" />
               stakeholders lie at the heart of everything we do.
             </p>
 
@@ -85,8 +85,8 @@ const NoblePlastics = ({ onClick }) => {
                 </p>
                 <p className="lg:text-[18px] leading-6 text-center text-lg">
                   We provide communities with increased employment, social
-                  equity and awareness of environmental protection methods, and
-                  better health.
+                  equity, awareness of environmental protection methods, and
+                  better health.{" "}
                 </p>
 
                 <div
@@ -125,7 +125,7 @@ const NoblePlastics = ({ onClick }) => {
                 </p>
                 <p className="lg:text-[18px] leading-6 text-center text-lg">
                   We enable companies to significantly reduce their costs,
-                  increase profits, improve reputation and contribute to
+                  increase profits, improve their reputation, and contribute to
                   sustainability.
                   <br /> <br />
                 </p>
@@ -216,7 +216,7 @@ const NoblePlastics = ({ onClick }) => {
             <div className="col-span-3  mt-16 bg-[#F0EAF5D9] pb-4 rounded-md flex flex-col justify-center">
               <div className="flex items-center justify-center w-auto">
                 <img
-                  src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/our-impact-planet.png"
+                  src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/healthcare-outcome.png"
                   className="-mt-12"
                   width={100}
                 />
@@ -236,7 +236,7 @@ const NoblePlastics = ({ onClick }) => {
             <div className="col-span-3  mt-16 bg-[#F0EAF5D9] pb-4 rounded-md flex flex-col justify-center">
               <div className="flex items-center justify-center w-auto">
                 <img
-                  src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/our-impact-planet.png"
+                  src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/tonnes-of-plastics.png"
                   className="-mt-12"
                   width={100}
                 />
@@ -255,7 +255,7 @@ const NoblePlastics = ({ onClick }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NoblePlastics
+export default NoblePlastics;

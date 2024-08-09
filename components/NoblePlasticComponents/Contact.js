@@ -17,7 +17,7 @@ const Contact = React.forwardRef((props, ref) => {
   }
 
   return (
-    <div className=" bg-[#05AC8D] py-8 my-4" ref={ref}>
+    <div className=" bg-[#05AC8D] py-8 my-4 rounded-lg" ref={ref}>
       <div className="flex flex-col">
         <div className="text-start ml-4">
           <p className="text-white text-2xl">Send us a message</p>

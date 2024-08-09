@@ -111,7 +111,7 @@ const Header = ({ onClick }) => {
               Impact
             </a>
             <button
-              className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700"
+              className="bg-[#7F3F97] text-white px-4 py-2 rounded-md hover:bg-[#7F3F97]"
               onClick={onClick}
             >
               Contact
@@ -178,7 +178,7 @@ const Header = ({ onClick }) => {
             </a>
             <a
               href="#contact"
-              className="bg-purple-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-700"
+              className="bg-[#7F3F97] text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-[#7F3F97]"
               onClick={() => handleLinkClick("#contact")}
             >
               Contact

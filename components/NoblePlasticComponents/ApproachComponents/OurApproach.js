@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const OurApproach = () => {
   return (
@@ -27,10 +27,10 @@ const OurApproach = () => {
             </div>
             <div className="lg:col-span-7 col-span-6 flex flex-col justify-center">
               <p className="lg:text-[18px] mt-4 leading-6 text-white lg:p-10 p-8">
-                Our model provides multiple benefits to People—by creating jobs
-                and a sustainable livelihood; Planet—through reduced plastic use
-                and tree plantation; and Stakeholders—by ensuring prosperity of
-                everybody involved in the whole process.
+                Our model provides multiple benefits to people—by creating jobs
+                and a sustainable livelihood; the planet—through reduced plastic
+                use and tree plantation; and stakeholders—by ensuring the
+                prosperity of everybody involved in the whole process.
               </p>
             </div>
           </div>
@@ -38,8 +38,8 @@ const OurApproach = () => {
           <div className="grid lg:grid-cols-12 grid-cols-1 bg-[#05AC8D]">
             <div className="lg:col-span-7 col-span-6 flex flex-col justify-center lg:order-1 order-2">
               <p className="lg:text-[18px] mt-4 leading-6 text-white lg:p-10 p-8">
-                Right from partnership formats, virtual platforms and training
-                materials to workflows, quality assurance, accounting and
+                From partnership formats, virtual platforms, and training
+                materials to workflows, quality assurance, accounting, and
                 sharing methods, all the resources can be used by any of our
                 stakeholders, so they can succeed in adopting circularity.
               </p>
@@ -129,7 +129,7 @@ const OurApproach = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurApproach
+export default OurApproach;

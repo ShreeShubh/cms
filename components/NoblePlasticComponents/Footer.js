@@ -1,7 +1,7 @@
 //import NoblePlasticForm from '@/utils/NoblePlasticForm'
-import Link from "next/link"
-import React from "react"
-import Contact from "../../components/NoblePlasticComponents/Contact"
+import Link from "next/link";
+import React from "react";
+import Contact from "../../components/NoblePlasticComponents/Contact";
 
 const Footer = React.forwardRef((props, ref) => {
   return (
@@ -20,19 +20,19 @@ const Footer = React.forwardRef((props, ref) => {
             data-aos="fade-up"
           >
             <div className="col-span-2 flex justify-center">
-              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/cms-logo.png" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/partners-logo/CMS.png" className="w-44"/>
             </div>
             <div className="col-span-2 flex justify-center">
-              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/swasti-logo.png" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/partners-logo/Swasti.png" className="w-44"/>
             </div>
             <div className="lg:col-span-3 col-span-2 flex justify-center">
-              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/tam-logo.png" />
+            <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/partners-logo/TAM.png" className="w-44"/>
             </div>
             <div className="lg:col-span-3 col-span-2 flex justify-center">
-              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/the-logo.png" />
+              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/partners-logo/TIN.png" className="w-44"/>
             </div>
             <div className="col-span-2 flex justify-center">
-              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/home/fuzio-logo.png" />
+              <img src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/partners-logo/Fuzhio.png" className="w-52"/>
             </div>
           </div>
         </div>
@@ -55,9 +55,9 @@ const Footer = React.forwardRef((props, ref) => {
               </p>
               <p className="lg:text-[18px] text-white text-start text-lg">
                 Fuzhio Health and Business Services Pvt. Ltd. No. 25, RMV 2nd
-                Stage, AECS Layout, <br className="block md:hidden" /> 1st Main
-                Road, Ashwathnagar, <br className="block md:hidden" /> Bangalore
-                – 560094
+                Stage, AECS Layout,
+                <br className="block md:hidden" /> 1st Main Road, Ashwathnagar,{" "}
+                <br className="block md:hidden" /> Bangalore – 560094. 
               </p>
               <div className="flex flex-col gap-1">
                 <p className="text-[18px] text-white text-start font-semibold">
@@ -109,7 +109,7 @@ const Footer = React.forwardRef((props, ref) => {
         </div>
       </div>
     </>
-  )
-})
+  );
+});
 
-export default Footer
+export default Footer;
