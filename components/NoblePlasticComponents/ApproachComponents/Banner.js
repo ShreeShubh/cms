@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 
 const Banner = () => {
   return (
     <>
-      <div className="lg:bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/approach-banner.png')] bg-[#7F3F97] lg:min-h-[680px] bg-center bg-cover bg-no-repeat flex justify-center lg:mt-28 mt-28">
+      <div className="lg:bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/nobleplasics/approach-banner.png')] bg-[#7F3F97] lg:min-h-[500px] bg-center bg-cover bg-no-repeat flex justify-center lg:mt-28 mt-28">
         <div className="lg:w-[1140px] w-full p-0 flex flex-col justify-center items-center">
           <div className="grid lg:grid-cols-12 grid-cols-1">
             <div className="lg:col-span-5 lg:pr-6 col-span-6 lg:order-1 order-2 flex flex-col justify-center lg:p-0 p-5">
@@ -28,7 +28,7 @@ const Banner = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
