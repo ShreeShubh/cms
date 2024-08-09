@@ -879,7 +879,7 @@ export const socialBusinessesData = [
     target: "_blank",
     desc: "Shoonya, led by Fuzhio, is an initiative aimed at helping businesses achieve Net Zero and ESG goals by reshaping their value chains for enhanced sustainability and fair value distribution. The programme focuses on improving ESG outcomes and transparency, reducing costs associated with energy, water, and waste, and lowering carbon footprints through solutions that include offset activities like tree planting and soil protection. Participating businesses benefit from financial and social returns and an enhanced brand image, further boosted by gamification and promotional strategies.",
     desc2:
-      "Our initiatives: <a href='https://nobleplastics.org/' target='_blank' class='text-[#00A0E3]'>Noble Plastics</a> | <a href='https://cms.org.in/shoonya/collaboration-with-bigbasket' target='_blank' class='text-[#04AD8E]'>Collaboration with bigbasket</a>",
+      "Our initiatives: <a href='https://cms.org.in/shoonya/noble-plastics' target='_blank' class='text-[#00A0E3]'>Noble Plastics</a> | <a href='https://cms.org.in/shoonya/collaboration-with-bigbasket' target='_blank' class='text-[#04AD8E]'>Collaboration with bigbasket</a>",
     path: "/shoonya",
     link: "shoonya",
   },
