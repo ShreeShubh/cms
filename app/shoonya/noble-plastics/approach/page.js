@@ -1,11 +1,21 @@
 import React from "react"
 import ApproachComponents from "../../../../components/NoblePlasticComponents/ApproachComponents"
+import NextSeo from "@/components/Seo/Seo"
 
 const page = () => {
   return (
-    <div>
-      <ApproachComponents />
-    </div>
+    <>
+      <NextSeo
+        title="Providing practical solutions backed by quantifiable results"
+        description="Our approach towards bringing an environmental change is by adopting innovative solutions that are practical and  ensure quantifiable results."
+        path=""
+        metaImage=""
+      />
+
+      <div>
+        <ApproachComponents />
+      </div>
+    </>
   )
 }
 

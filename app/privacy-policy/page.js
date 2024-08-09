@@ -2,6 +2,7 @@
 
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
+import NextSeo from "@/components/Seo/Seo"
 import Image from "next/image"
 import React, { useState } from "react"
 
@@ -28,6 +29,13 @@ const page = () => {
   }
   return (
     <>
+      <NextSeo
+        title="Privacy Policy"
+        description="Our Privacy Policy for legal obligations"
+        path=""
+        metaImage=""
+      />
+
       <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/privacyPolicy/banner.png')] h-[420px] md:h-[480px] bg-cover bg-center pt-5 pb-14">
         <Header />
         <div className="max-w-screen-xl mx-auto mt-20 sm:mt-24 md:mt-32 lg:mt-48 px-2 md:px-0">

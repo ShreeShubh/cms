@@ -2,6 +2,7 @@ import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import ScaleAccelerators from "@/components/ScaleAccelerators/ScaleAccelerators"
+import NextSeo from "@/components/Seo/Seo"
 import Tab from "@/components/Tab/Tab"
 import { notableProjectsData } from "@/utils/data"
 import Image from "next/image"
@@ -29,6 +30,12 @@ export const tabs = [
 const page = () => {
   return (
     <>
+      <NextSeo
+        title="Designing sustainable development interventions | Design for Success"
+        description="We design sustainable development interventions using human centred design and participatory approaches"
+        path="https://cms.org.in/solutions/design-for-success"
+        metaImage=""
+      />
       <div className="bg-[url('/scaleAccelerators/designForSuccess/banner.png')] flex flex-col h-[420px] md:h-[640px] pt-5 bg-center bg-cover">
         <div className="w-full">
           <Header />

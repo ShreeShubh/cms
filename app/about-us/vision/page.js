@@ -6,6 +6,7 @@ import Vision from "@/components/AboutUs/Vision/Vision"
 import CurrentPath from "@/components/CurrentPath/CurrentPath"
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
+import NextSeo from "@/components/Seo/Seo"
 import Image from "next/image"
 import React from "react"
 
@@ -14,6 +15,7 @@ const page = () => {
     "A future where holistic and well-orchestrated partnerships and investments create an impact that is transformational, driving sustainable and scalable equity."
   return (
     <>
+      {/* <NextSeo title="" description="" path="" metaImage="" /> */}
       <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/banner/banner01.png')] flex flex-col justify-center md:justify-end h-[420px] md:[720px] w-full bg-cover bg-center py-10 md:py-16 sm:h-[500px] md:h-[600px] lg:h-[720px]">
         <Header />
         <div className="ps-2 md:ps-24">

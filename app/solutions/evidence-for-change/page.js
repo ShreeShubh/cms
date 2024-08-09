@@ -2,6 +2,7 @@ import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
 import PartneredWithExperts from "@/components/ScaleAccelerators/EvidenceForChange/PartneredWithExperts/PartneredWithExperts"
+import NextSeo from "@/components/Seo/Seo"
 import Tab from "@/components/Tab/Tab"
 import { notableProjectsData, workIncludeData } from "@/utils/data"
 import Image from "next/image"
@@ -33,6 +34,12 @@ export const tabs = [
 const page = () => {
   return (
     <>
+      <NextSeo
+        title="Transforming investment through impact evaluations | Evidence for Change"
+        description="We do research and evaluation by conducting impact assessments in multiple domains, with a variety of partners, using multidisciplinary learning systems"
+        path="https://cms.org.in/solutions/evidence-for-change"
+        metaImage=""
+      />
       <div className="bg-[url('/scaleAccelerators/evidenceForChange/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
         <div className="w-full">
           <Header />

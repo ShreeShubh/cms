@@ -9,6 +9,7 @@ import Overview from "@/components/DomainAreas/Overview/Overview"
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import RelatedResources from "@/components/RelatedResources/RelatedResources"
+import NextSeo from "@/components/Seo/Seo"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
 import React from "react"
@@ -51,6 +52,7 @@ const page = () => {
     "At the Catalyst Group, our Climate Practice integrates closely with our Health and Livelihood practice areas to further our vision of creating “a thriving world powered by resilient communities and carbon-neutral systems.” We believe that we need to bridge systemic gaps in climate ecosystems and promote people-centric models at scale. We are committed to leveraging our three decades of experience, expertise, and relationships working for and with vulnerable communities like small and marginal farmers, sex workers, street vendors, etc."
   return (
     <>
+      <NextSeo title="" description="" path="" metaImage="" />
       {/* <div className="bg-[url('/domainAreas/climate/banner.png')] bg-cover h-[600px]">
         <div className="max-w-screen-xl mx-auto flex items-end h-full">
           <div className="flex justify-center items-center h-44 w-64 bg-white">

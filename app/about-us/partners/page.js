@@ -3,6 +3,7 @@ import Tab from "@/components/AboutUs/Tab/Tab"
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import HomePartners from "@/components/Home/HomePartners/HomePartners"
+import NextSeo from "@/components/Seo/Seo"
 import Image from "next/image"
 import React from "react"
 
@@ -11,6 +12,7 @@ const page = () => {
     "Over the last two decades, we have worked with a range of stakeholders, like CSOs, banks, corporate foundations, academic institutions, funding agencies, community organisations, multilateral and bilateral agencies, networks, governments, and non-profits."
   return (
     <>
+      <NextSeo title="" description="" path="" metaImage="" />
       <div className="bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/cms-origin/cms-website/public/banner/banner04.png')] flex flex-col justify-center md:justify-end h-[420px] md:h-[480px] w-full bg-center bg-cover py-10 md:py-16">
         <Header />
         <div className="ps-2 md:ps-24">

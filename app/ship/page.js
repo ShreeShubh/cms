@@ -1,13 +1,13 @@
-import React from 'react'
-import Ship from '../../components/ShipComponent/Ship'
+import React from "react"
+import Ship from "../../components/ShipComponent/Ship"
 
 export default function page() {
   const title =
-    'One-Stop Solution for Social Healthcare Enterprises | Saarthi Health Platform'
+    "One-Stop Solution for Social Healthcare Enterprises | Saarthi Health Platform"
   const desc =
-    'Saarthi Health Platform offers an integrated solution for social healthcare enterprises to access non-clinical services like financing, procurement, maintenance, technology etc.'
+    "Saarthi Health Platform offers an integrated solution for social healthcare enterprises to access non-clinical services like financing, procurement, maintenance, technology etc."
   const image =
-    'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ship/health-care.png'
+    "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ship/health-care.png"
 
   return (
     <>
@@ -19,10 +19,7 @@ export default function page() {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
-        <meta
-          property="og:url"
-          content="https://cms.org.in/business-catalyst/"
-        />
+        <meta property="og:url" content="https://cms.org.in/ship" />
         <meta property="og:site_name" content="CMS.ORG.IN" />
         <meta
           property="article:modified_time"

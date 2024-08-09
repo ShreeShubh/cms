@@ -1,35 +1,35 @@
-'use client'
-import React, { useRef, useEffect } from 'react'
-import Header from '../../components/Esg/Header'
-import Banner from '../../components/Esg/Banner'
-import Footer from '../../components/Esg/Footer'
-import GlobalImpact from '../../components/Esg/GlobalImpact'
-import Outcome from '../../components/Esg/Outcome'
-import DifferentSectors from '../../components/Esg/DifferentSectors'
-import Vision from '../../components/Esg/Vision'
-import ContactUs from '../../components/Esg/Contact'
-import OurTeam from '../../components/Esg/OurTeam'
+"use client"
+import React, { useRef, useEffect } from "react"
+import Header from "../../components/Esg/Header"
+import Banner from "../../components/Esg/Banner"
+import Footer from "../../components/Esg/Footer"
+import GlobalImpact from "../../components/Esg/GlobalImpact"
+import Outcome from "../../components/Esg/Outcome"
+import DifferentSectors from "../../components/Esg/DifferentSectors"
+import Vision from "../../components/Esg/Vision"
+import ContactUs from "../../components/Esg/Contact"
+import OurTeam from "../../components/Esg/OurTeam"
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function Home() {
   const title =
-    'Empowering People, Enhancing Planet, Ensuring Prosperity | ESG-One'
+    "Empowering People, Enhancing Planet, Ensuring Prosperity | ESG-One"
   const desc =
-    'Discover how ESG-One drives holistic sustainability by integrating responsible business practices across entire value chains through comprehensive ESG solutions.'
+    "Discover how ESG-One drives holistic sustainability by integrating responsible business practices across entire value chains through comprehensive ESG solutions."
   const image =
-    'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/1.png'
+    "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/esg/blogs/1.png"
 
   const section1Ref = useRef(null)
   const scrollToSection1 = () => {
-    section1Ref.current.scrollIntoView({ behavior: 'smooth' })
+    section1Ref.current.scrollIntoView({ behavior: "smooth" })
   }
   useEffect(() => {
     AOS.init({
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 400, // values from 0 to 3000, with step 50ms
-      easing: 'ease',
+      easing: "ease",
     })
   })
 
@@ -43,10 +43,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
-        <meta
-          property="og:url"
-          content="https://cms.org.in/business-catalyst/"
-        />
+        <meta property="og:url" content="https://cms.org.in/esg" />
         <meta property="og:site_name" content="CMS.ORG.IN" />
         <meta
           property="article:modified_time"

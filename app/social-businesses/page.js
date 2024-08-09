@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
+import NextSeo from "@/components/Seo/Seo"
 import SocialBusinesses from "@/components/SocialBusinesses/SocialBusinesses"
 import Tab from "@/components/Tab/Tab"
 import Image from "next/image"
@@ -36,6 +37,7 @@ export const tabs = [
 const page = () => {
   return (
     <>
+      <NextSeo title="" description="" path="" metaImage="" />
       {/* <div className="">
         <Image
           src="/socialBusinesses/banner.png"

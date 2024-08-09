@@ -3,6 +3,7 @@ import Header from "@/components/Header/Header"
 import ImplementForScale from "@/components/ScaleAccelerators/ImplementForScale/ImplementForScale"
 import OurOffers from "@/components/ScaleAccelerators/OurOffers/OurOffers"
 import RapidFramework from "@/components/ScaleAccelerators/RapidFramework/RapidFramework"
+import NextSeo from "@/components/Seo/Seo"
 import Tab from "@/components/Tab/Tab"
 import { elementsData } from "@/utils/data"
 import Image from "next/image"
@@ -39,6 +40,7 @@ export const tabs = [
 const page = () => {
   return (
     <>
+      <NextSeo title="" description="" path="" metaImage="" />
       <div className="bg-[url('/scaleAccelerators/implementForScale/banner.png')] h-[420px] md:h-[640px] bg-center bg-cover pt-5 flex flex-col">
         <div className="w-full">
           <Header />
